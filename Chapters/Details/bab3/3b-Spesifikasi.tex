@@ -1,0 +1,104 @@
+\section{Spesifikasi Kebutuhan dan Pengguna}
+   
+  \subsection{Deskripsi Umum}
+  
+  Pada bagian ini membahas garis besar aplikasi secara umum, menjabarkan fitur-fitur penting yang dijelaskan dari subbab sebelumnya.\\
+  
+  \begin{enumerate}
+  \vspace{-5mm}
+  \item \textbf{Registrasi ke dalam sistem}
+    \item \textbf{Login ke dalam sistem}
+    \item \textbf{Mendaftarkan barang untuk dilelang} \\
+        Pengguna dapat mendaftarkan barangnya untuk dijual dan dilelang. Selain itu, pengguna dapat menentukan harga awal dan batas waktu lelang pada saat mendaftarkan barangnya.
+    \item \textbf{Memperbarui barang yang dilelang} \\
+        Pengguna dapat memperbarui informasi mengenai barang yang dilelang, seperti nama barang, menambah foto deskripsi barang, atau menambah waktu lelang.
+    \item \textbf{Melihat informasi barang yang dilelang} \\
+        Pengguna dapat melihat detail informasi barang yang sedang dilelang – seperti foto barang, riwayat penawaran harga barang lelang, sisa waktu penawaran, deskripsi barang, dsb.
+    \item \textbf{Melihat informasi riwayat lelang} ( Siapa saja yang sudah mengajukan penawaran dan harga yang ditawarkan )
+    \item \textbf{Mengajukan penawaran harga untuk barang yang dilelang / Menjadi auctioneer} \\
+        Selain menjadi auctioneer, pengguna juga dapat menawarkan harga terhadap barang-barang yang didaftarkan oleh pengguna lain.
+    \item \textbf{Mendapatkan pemberitahuan jika penawaran harga dikalahkan dengan harga lebih tinggi} \\
+        Pengguna mendapatkan pemberitahuan jika pengguna sedang mengikuti pelelangan barang, dan ada penawaran harga yang lebih tinggi dari penawaran oleh pengguna tersebut, sehingga pengguna dapat mengikuti perkembangan harga dari barang yang dilelang.
+    \item \textbf{Mengikuti / follow barang yang sedang dilelang dan mendapatkan pemberitahuan jika barang tersebut }\\
+        Jika pengguna sedang tidak ingin melelang barang namun ingin tetap mengetahui informasi dari suatu barang lelang, pengguna dapat mengikuti feed/berita dari barang tersebut.
+    \item \textbf{Mendapatkan pemberitahuan jika memenangkan lelang atau tidak.}\\
+        Jika pengguna mengajukan penawaran harga terhadap suatu barang, maka pengguna akan mendapatkan pemberitahuan pada saat batas waktu lelang selesai, apakah pengguna tersebut memenangkan proses lelang tersebut atau tidak.
+    \item \textbf{Saling berkirim pesan singkat/chat kepada auctioneer/penawar harga }\\
+        Untuk saling bertukar informasi mengenai barang yang sedang dilelang, auctioneer dan penawar harga dapat saling berkirim pesan singkat.
+    \item \textbf{Melihat riwayat penawaran harga lelang }\\
+        Pengguna dapat melihat barang riwayat penawaran harga yang diberikan oleh pengguna tersebut terhadap semua barang yang pernah dia lelang.
+    \item \textbf{Melihat riwayat barang yang dilelang }\\
+        Pengguna dapat melihat riwayat barang yang pernah ditawar harganya/diberikan penawaran harga.
+    \item \textbf{Memberi review tentang pengguna lain sebagai auctioneer dan atau sebagai penawar harga }\\
+        Pengguna dapat memberikan komentar/testimoni berdasarkan pengalaman bertransaksi/penawaran harga dengan pengguna lainnya, baik pengalaman memuaskan ataupun pengalaman buruk.
+    \item\textbf{ Melihat review mengenai seorang pengguna }\\
+        Selain memberikan review, pengguna dapat melihat review seorang pengguna.
+    \item \textbf{Memblok pengguna sebagai auctioneer }\\
+        Auctioneer dapat memblok pengguna agar pengguna tersebut tidak memberikan penawaran harga terhadap barang yang sedang ia lelang. Hal ini bisa saja karena review/testimoni pengguna tersebut buruk atau karena alasan lainnya.
+    \item \textbf{Mencari barang yang dilelang dengan keyword tertentu} \\
+  \end{enumerate}
+  
+  
+  \subsection{Spesifikasi Kebutuhan Fungsional}
+  Berdasarkan deskripsi umum aplikasi, kebutuhan fungsional dari aplikasi dijabarkan seperti berikut .
+\begin{table}[H]
+\centering
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{|p{0.1\columnwidth}|p{0.3\columnwidth}|p{0.6\columnwidth}|}
+\hline
+\multicolumn{1}{|c|}{\textbf{No.}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Kebutuhan \\ Fungsional\end{tabular}}} & \multicolumn{1}{c|}{\textbf{Deskripsi}} \\ \hline
+1 & Manajemen Akun & Pengguna :Memperbarui dan mengubah informasi pengguna dalam akun \\ \hline
+2 & Memanajemen penawaran terhadap barang lelang & Pengguna :Menawar barang, mendapat informasi barang, mencari barang yang diinginkan, dan fitur-fitur yang mempermudah pengguna dalam penawaran barang \\ \hline
+3 & Memanajemen barang yang dilelang & Pengguna :Mendaftarkan barang untuk dilelang, melihat progress kemajuan lelang, membatalkan lelang dari pengguna tertentu \\ \hline
+4 & Memanajemen Laporan Pengguna & Pengelola : Melihat daftar laporan dari pengguna, memblokir pengguna yang melanggar ketentuan \\ \hline
+5 & Memanajemen Kupon & Pengelola : Membuat kupon, melihat daftar kupon, melihat riwayat penggunaan kupon \\ \hline
+\end{tabular}%
+}
+\caption{Kebutuhan Fungsional Aplikasi Lelang Online}
+\label{tabel-fungsional}
+\end{table}
+  
+  \subsection{Spesifikasi Kebutuhan Non-Fungsional}
+  
+  Kebutuhan non-fungsiona yang harus dipeuhi oleh aplikasi ini berhubungan dengan faktor-faktor sebagai berikut :
+
+\begin{table}[H]
+\centering
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{|p{0.1\columnwidth}|p{0.3\columnwidth}|p{0.6\columnwidth}|}
+\hline
+\textbf{No} & \multicolumn{1}{c|}{\textbf{Parameter}} & \multicolumn{1}{c|}{\textbf{Ketersediaan}}                             \\ \hline
+ 1  & Ketersediaan & Aplikasi harus dapat berjalan pada browser , tanpa dibatasi waktu dan tempat selama browser tersebut tersambung ke jaringan internet. \\ \hline
+ 2 & Bahasa & Bahasa yang digunakan pada antarmuka merupakan bahasa Indonesia \\ \hline
+3 & Otorisasi & Setiap pengguna dilengkapi dengan akses \\ \hline
+4 & Portabilitas & Aplikasi dapat diakses pada semua platform selama platform tersebut terinstall web browser \\ \hline
+\end{tabular}
+}
+\caption{Kebutuhan Non-Fungsional Aplikasi Lelang Online}
+\label{tabel-non-fung}
+\end{table}
+  
+  \newpage
+  
+  \subsection{Identifikasi Pengguna}
+  Pengertian pengguna adalah pihak-pihak, baik manusia maupun sistem atau perangkat lain yang terlibat dan berinteraksi secara langsung dengan sistem. Pada aplikasi lelang online ini, terdapat dua pengguna yaitu pengguna dan pengelola / \textit{administrator}. Detail tugas dan hak akses pengguna dapat dilihat pada Tabel \ref{tugas-hak-akses} berikut.
+  
+\begin{table}[H]
+\centering
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}
+{|p{0.1\columnwidth}|p{0.3\columnwidth}|p{0.3\columnwidth}|p{0.3\columnwidth}|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Kategori Pengguna}} & \multicolumn{1}{c|}{\textbf{Tugas}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Hak Akses\\ ke Aplikasi\end{tabular}}}                                 
+
+& \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Kemampuan yang\\ Harus Dimiliki\end{tabular}}}                         \\ \hline
+Pengguna                                         & Pelaku lelang & Fitur-fitur lelang & Pengetahuan dasar lelang, pengetahuan dasar untuk mengakses aplikasi berbasis web \\ \hline
+Pengelola & Pengawas jalannya lelang & Fitur-fitur administrator seperti menambahkan kupon, memblokir pengguna, melihat daftar laporan pengguna  & Pengetahuan dasar lelang                                     
+\\ \hline
+\end{tabular}
+}
+\caption{Detail Tugas dan Hak Akses Pengguna}
+\label{tugas-hak-akses}
+\end{table}
+  
+  

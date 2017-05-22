@@ -1,0 +1,41 @@
+\documentclass{ta-its}
+\usepackage{hyperref}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{etoolbox}
+\usepackage{listings}
+\usepackage{float}
+\usepackage{booktabs}% http://ctan.org/pkg/booktabs
+
+\newcommand{\mychapter}[2]{
+    \setcounter{chapter}{#1}
+    \setcounter{section}{0}
+    \chapter*{#2}
+    \addcontentsline{toc}{chapter}{#2}
+}
+
+\include{Metadata}
+\begin{document}
+    \pagenumbering{roman}
+    \legalityPaper
+    \include{Chapters/Main/Bab0-Abstrak}
+    \include{Chapters/Main/Bab0-Abstract}
+    \include{Chapters/Main/Bab0-KataPengantar}
+    \tableofcontents % Daftar isi
+    \listoftables % Daftar tabel
+    \listoffigures % Daftar gambar
+
+  \mainmatter % Halaman utama, dengan judul BAB X
+    \include{Chapters/Main/Bab1-Pendahuluan}
+    \include{Chapters/Main/Bab2-DasarTeori}
+    \include{Chapters/Main/Bab3-DesainDanPerancangan}
+    \include{Chapters/Main/Bab4-Implementasi}
+    \include{Chapters/Main/Bab5-PengujianDanEvaluasi}
+    %\include{Contoh}
+    \include{Chapters/Main/Bab6-Penutup}
+    \appendix % Halaman lampiran, dengan judul LAMPIRAN X
+  \backmatter % Lampiran tanpa judul LAMPIRAN X, untuk BIODATA PENULIS
+\end{document}
