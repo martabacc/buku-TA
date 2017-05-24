@@ -163,16 +163,22 @@
     \titleformat{\chapter}[display]{\filcenter\fontsize{11}{11}\bfseries}{\chaptername \ \thechapter}{11pt}{\filcenter\fontsize{11}{11}\bfseries\uppercase}
 %     {left}{before}{after}{right}
    	\titlespacing*{\chapter}{0pt}{-50pt}{20pt}
+    
+    \titleformat*{\section}{\fontsize{11}{11}\bfseries}
+    \titleformat*{\subsection}{\fontsize{11}{11}\bfseries}
+    \titleformat*{\subsubsection}{\fontsize{11}{11}\bfseries}
+    
 %     \titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip}
-    \titlespacing*{\subsection}{0pt}{1.0\baselineskip}{\baselineskip}
-    \titlespacing*{\subsubsection}{0pt}{1.1\baselineskip}{\baselineskip}
+    \titlespacing*{\section}
+    {0pt}{5ex}{2ex}
+    \titlespacing*{\subsection}
+    {0pt}{3ex}{1.5ex}
+    \titlespacing*{\subsubsection}
+    {0pt}{1.5ex}{1.25ex}
 %     \titlespacing*{\subsubsection}{0pt}{1.1\baselineskip}{\baselineskip}
 %     \titlespacing*{\section}{0pt}{3pt}{0pt}
 %     \titlespacing*{\subsection}{0pt}{\baselineskip}{0pt}
 %     \titlespacing*{\subsubsection}{0pt}{3pt}{0pt}
-    \titleformat*{\section}{\fontsize{11}{11}\bfseries}
-    \titleformat*{\subsection}{\fontsize{11}{11}\bfseries}
-    \titleformat*{\subsubsection}{\fontsize{11}{11}\bfseries}
 
 \addto\captionsbahasa{%
 	\renewcommand\bibname{DAFTAR PUSTAKA}%
@@ -184,7 +190,8 @@
 }%
 
 
-%\renewcommand*\thechapter{\arabic{chapter}}
+
+\renewcommand*\thechapter{\arabic{chapter}}
 \newcommand{\pic}{Gambar}
 \newcommand{\tab}{Tabel}
 \newcommand{\code}{Kode}
