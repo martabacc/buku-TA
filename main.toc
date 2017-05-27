@@ -1,0 +1,87 @@
+\select@language {bahasa}
+\contentsline {chapter}{ABSTRAK}{iii}{Doc-Start}
+\contentsline {chapter}{ABSTRACT}{iv}{Doc-Start}
+\contentsline {chapter}{KATA PENGANTAR}{v}{chapter*.1}
+\contentsline {chapter}{DAFTAR ISI}{vii}{chapter*.2}
+\contentsline {chapter}{DAFTAR TABEL}{xi}{chapter*.3}
+\contentsline {chapter}{DAFTAR GAMBAR}{xiii}{chapter*.4}
+\contentsline {chapter}{\numberline {I}PENDAHULUAN}{1}{chapter.1}
+\contentsline {section}{\numberline {I.1}Latar Belakang}{1}{section.1.1}
+\contentsline {section}{\numberline {I.2}Rumusan Masalah}{2}{section.1.2}
+\contentsline {section}{\numberline {I.3}Batasan Masalah}{2}{section.1.3}
+\contentsline {section}{\numberline {I.4}Tujuan}{2}{section.1.4}
+\contentsline {chapter}{\numberline {II}LANDASAN TEORI}{3}{chapter.2}
+\contentsline {section}{\numberline {II.1}Lelang Daring / Lelang \textit {Online}}{3}{section.2.1}
+\contentsline {section}{\numberline {II.2}PostgreSQL}{3}{section.2.2}
+\contentsline {section}{\numberline {II.3}Redis}{4}{section.2.3}
+\contentsline {section}{\numberline {II.4}Node.js}{4}{section.2.4}
+\contentsline {section}{\numberline {II.5}Socket.io}{5}{section.2.5}
+\contentsline {section}{\numberline {II.6}Laravel}{5}{section.2.6}
+\contentsline {section}{\numberline {II.7}Protokol SMTP}{6}{section.2.7}
+\contentsline {section}{\numberline {II.8}JSON Web Token}{6}{section.2.8}
+\contentsline {section}{\numberline {II.9}Service Worker}{6}{section.2.9}
+\contentsline {section}{\numberline {II.10}Repository Pattern}{6}{section.2.10}
+\contentsline {section}{\numberline {II.11}Concurrency}{6}{section.2.11}
+\contentsline {section}{\numberline {II.12}Transaction Isolation}{6}{section.2.12}
+\contentsline {section}{\numberline {II.13}Script Testing}{6}{section.2.13}
+\contentsline {section}{\numberline {II.14}Laravel Dusk}{6}{section.2.14}
+\contentsline {chapter}{\numberline {III}DESAIN DAN PERANCANGAN}{7}{chapter.3}
+\contentsline {section}{\numberline {III.1}Analisa}{7}{section.3.1}
+\contentsline {subsection}{\numberline {III.1.1}Analisa Paper Rujukan}{7}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {III.1.2}Analisa \textit {User Experience} dari E-Commerce di Indonesia}{11}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {III.1.3}Analisa Keamanan pada koneksi Soket}{12}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {III.1.4}Analisa \textit {Best Practice} dalam Struktur Perangkat Lunak}{12}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {III.1.5}Analisa Aplikasi Serupa}{13}{subsection.3.1.5}
+\contentsline {section}{\numberline {III.2}Spesifikasi Kebutuhan dan Pengguna}{15}{section.3.2}
+\contentsline {subsection}{\numberline {III.2.1}Deskripsi Umum}{15}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {III.2.2}Spesifikasi Kebutuhan Fungsional}{17}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {III.2.3}Spesifikasi Kebutuhan Non-Fungsional}{18}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {III.2.4}Identifikasi Pengguna}{20}{subsection.3.2.4}
+\contentsline {section}{\numberline {III.3}Perancangan Sistem}{21}{section.3.3}
+\contentsline {subsection}{\numberline {III.3.1}Perancangan \textit {Data Sources dan Data Storage}}{21}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {III.3.2}Perancangan Skema \textit {Database}}{23}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {III.3.3}Perancangan Arsitektur Aplikasi}{24}{subsection.3.3.3}
+\contentsline {subsubsection}{\numberline {III.3.3.1}\textbf {\textsc {Nginx} sebagai WebServer dan Proxy Server}}{25}{subsubsection.3.3.3.1}
+\contentsline {subsubsection}{\numberline {III.3.3.2}\textbf {Laravel dan Logika Aplikasi}}{25}{subsubsection.3.3.3.2}
+\contentsline {subsubsection}{\numberline {III.3.3.3}\textbf {Vue.js sebagai \textit {View Renderer} }}{26}{subsubsection.3.3.3.3}
+\contentsline {subsubsection}{\numberline {III.3.3.4}\textbf {PostgreSQL sebagai DBMS Transaksional}}{26}{subsubsection.3.3.3.4}
+\contentsline {subsubsection}{\numberline {III.3.3.5}\textbf {MongoDB} sebagai DBMS Non-Transaksional - NOSQL}{26}{subsubsection.3.3.3.5}
+\contentsline {subsubsection}{\numberline {III.3.3.6}\textbf {Node.js} sebagai Asynchronous-Request Server}{27}{subsubsection.3.3.3.6}
+\contentsline {subsubsection}{\numberline {III.3.3.7}\textbf {SendGrid} sebagai SMTP Service}{27}{subsubsection.3.3.3.7}
+\contentsline {subsubsection}{\numberline {III.3.3.8}\textbf {Amazon S3} sebagai Data Storage Service}{27}{subsubsection.3.3.3.8}
+\contentsline {subsection}{\numberline {III.3.4}Kasus Penggunaan}{28}{subsection.3.3.4}
+\contentsline {subsubsection}{\numberline {III.3.4.1}KP01. Manajemen Authentikasi Pengguna}{28}{subsubsection.3.3.4.1}
+\contentsline {subsubsection}{\numberline {III.3.4.2}KP02. Manajemen Transaksi Lelang}{31}{subsubsection.3.3.4.2}
+\contentsline {subsubsection}{\numberline {III.3.4.3}KP03. Manajemen Barang Lelang}{31}{subsubsection.3.3.4.3}
+\contentsline {subsubsection}{\numberline {III.3.4.4}KP04. Manajemen Interaksi Antarpengguna}{31}{subsubsection.3.3.4.4}
+\contentsline {subsubsection}{\numberline {III.3.4.5}KP05. \textit {Monitoring} Proses Lelang}{31}{subsubsection.3.3.4.5}
+\contentsline {subsubsection}{\numberline {III.3.4.6}KP05. \textit {Monitoring} Proses Lelang}{31}{subsubsection.3.3.4.6}
+\contentsline {subsection}{\numberline {III.3.5}Kamus Data}{32}{subsection.3.3.5}
+\contentsline {chapter}{\numberline {IV}IMPLEMENTASI}{35}{chapter.4}
+\contentsline {section}{\numberline {IV.1}Lingkungan Implementasi}{35}{section.4.1}
+\contentsline {subsection}{\numberline {IV.1.1}Lingkungan Pembangun Perangkat Keras}{35}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {IV.1.2}Lingkungan Pembangun Perangkat Lunak}{36}{subsection.4.1.2}
+\contentsline {section}{\numberline {IV.2}Implementasi Antarmuka}{36}{section.4.2}
+\contentsline {subsection}{\numberline {IV.2.1}Antarmuka Registrasi}{36}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {IV.2.2}Antarmuka Halaman B}{37}{subsection.4.2.2}
+\contentsline {section}{\numberline {IV.3}Pemasangan Proyek}{38}{section.4.3}
+\contentsline {subsection}{\numberline {IV.3.1}Konfigurasi Domain}{38}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {IV.3.2}Konfigurasi VPS}{39}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {IV.3.3}Konfigurasi PostgreSQL}{39}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {IV.3.4}Konfigurasi Node.js}{39}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {IV.3.5}Konfigurasi MongoDB}{39}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {IV.3.6}Konfigurasi SMTP Service}{40}{subsection.4.3.6}
+\contentsline {chapter}{\numberline {V}PENGUJIAN DAN EVALUASI}{41}{chapter.5}
+\contentsline {section}{\numberline {V.1}Lingkungan Uji Coba}{41}{section.5.1}
+\contentsline {section}{\numberline {V.2}Pengujian}{41}{section.5.2}
+\contentsline {subsection}{\numberline {V.2.1}Pengujian Fungsionalitas}{41}{subsection.5.2.1}
+\contentsline {subsubsection}{\numberline {V.2.1.1}Pengujian Fitur A}{42}{subsubsection.5.2.1.1}
+\contentsline {subsection}{\numberline {V.2.2}Pengujian Statistik}{42}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {V.2.3}Ringkasan Pengguna Aplikasi}{43}{subsection.5.2.3}
+\contentsline {section}{\numberline {V.3}Evaluasi Pengujian}{44}{section.5.3}
+\contentsline {subsection}{\numberline {V.3.1}Evaluasi Pengujian Fungsionalitas}{44}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {V.3.2}Evaluasi Pengujian Statistik}{45}{subsection.5.3.2}
+\contentsline {chapter}{\numberline {VI}PENUTUP}{47}{chapter.6}
+\contentsline {section}{\numberline {VI.1}Kesimpulan}{47}{section.6.1}
+\contentsline {section}{\numberline {VI.2}Saran}{47}{section.6.2}
+\contentsline {chapter}{DAFTAR PUSTAKA}{49}{chapter*.21}
