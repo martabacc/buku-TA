@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2017.5.23)  1 JUN 2017 20:27
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2017.5.23)  1 JUN 2017 21:20
 entering extended mode
 **./main.tex
 (main.tex
@@ -1434,22 +1434,15 @@ LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/m/it' will be
 
 
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8]
+] [8]
 File: images/bab3/Solusi-Perbaikan-Ketidakpuasan.png Graphic file (type QTm)
 
-<use  "images/bab3/Solusi-Perbaikan-Ketidakpuasan.png" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9]
-[10]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11]
-[12]) [13] (Chapters/Details/bab3/3b-Spesifikasi.tex
+<use  "images/bab3/Solusi-Perbaikan-Ketidakpuasan.png" > [9] [10] [11])
+[12] (Chapters/Details/bab3/3b-Spesifikasi.tex
 Underfull \vbox (badness 1917) has occurred while \output is active []
+
+ [13]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1458,10 +1451,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [17]
-[18]
+[17]
 Overfull \hbox (14.95636pt too wide) in paragraph at lines 100--100
 []|\EU1/TimesNewRoman(0)/m/n/10.95 Pengguna| 
  []
@@ -1474,22 +1464,28 @@ Overfull \hbox (14.95088pt too wide) in paragraph at lines 100--100
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19]
+ [18]
 (Chapters/Details/bab3/3c-Rancangan.tex
 (Chapters/Details/bab3/3cx/3cx-DataStorage.tex
 LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/bx/sc' will be
 (Font)              scaled to size 11.22368pt on input line 23.
- [20])
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [21]
+ [19])
 (Chapters/Details/bab3/3cx/3cx-SkemaDatabase.tex
 File: images/bab3/db/pdm-awal.png Graphic file (type QTm)
 
 <use  "images/bab3/db/pdm-awal.png" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
 File: images/bab3/db/pdm-nosql-awal.png Graphic file (type QTm)
 
 <use  "images/bab3/db/pdm-nosql-awal.png" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
+File: images/no-image.png Graphic file (type QTm)
+
+<use  "images/no-image.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22]
@@ -1499,12 +1495,6 @@ File: images/no-image.png Graphic file (type QTm)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23]
-File: images/no-image.png Graphic file (type QTm)
-
-<use  "images/no-image.png" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [24]
 Overfull \hbox (11.29436pt too wide) in paragraph at lines 43--56
  [][] 
  []
@@ -1512,7 +1502,7 @@ Overfull \hbox (11.29436pt too wide) in paragraph at lines 43--56
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25]
+ [24]
 Overfull \hbox (11.29436pt too wide) in paragraph at lines 65--78
  [][] 
  []
@@ -1520,14 +1510,14 @@ Overfull \hbox (11.29436pt too wide) in paragraph at lines 65--78
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26])
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [27]
+ [25])
 (Chapters/Details/bab3/3cx/3cx-ArsitekturApp.tex
 File: images/bab3/arsitektur-app-pl_2.png Graphic file (type QTm)
 
 <use  "images/bab3/arsitektur-app-pl_2.png" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
 LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/bx/sc' will be
 (Font)              scaled to size 11.27493pt on input line 12.
 LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/m/sc' will be
@@ -1535,18 +1525,18 @@ LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/m/sc' will be
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28]
+ [27]
 
-LaTeX Warning: Reference `alasan-ux-ecommerce-indonesia' on page 29 undefined o
+LaTeX Warning: Reference `alasan-ux-ecommerce-indonesia' on page 28 undefined o
 n input line 32.
 
-[29]
+[28]
 Underfull \vbox (badness 3907) has occurred while \output is active []
 
- [30]
+ [29]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31])
+ [30])
 (Chapters/Details/bab3/3cx/3cx-KasusPenggunaan.tex
 (Chapters/Details/bab3/3cxx/KP01.tex (Chapters/Details/bab3/3cxx/01/01.tex
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 3--35
@@ -1556,7 +1546,7 @@ Overfull \hbox (23.36862pt too wide) in paragraph at lines 3--35
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32]
+ [31]
 (Chapters/Details/bab3/3cxx/01/02.tex
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 3--35
  [][] 
@@ -1565,7 +1555,7 @@ Overfull \hbox (23.36862pt too wide) in paragraph at lines 3--35
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33]
+ [32]
 (Chapters/Details/bab3/3cxx/01/03.tex
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 3--31
  [][] 
@@ -1574,11 +1564,11 @@ Overfull \hbox (23.36862pt too wide) in paragraph at lines 3--31
 ))
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34]
+ [33]
 (Chapters/Details/bab3/3cxx/KP02.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35]
+ [34]
 (Chapters/Details/bab3/3cxx/02/01.tex
 Overfull \hbox (28.67905pt too wide) in paragraph at lines 5--38
  [][] 
@@ -1592,11 +1582,11 @@ Overfull \hbox (28.67905pt too wide) in paragraph at lines 5--54
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36]
+ [35]
 Overfull \vbox (48.94183pt too high) has occurred while \output is active []
 
 
-[37] (Chapters/Details/bab3/3cxx/02/03.tex
+[36] (Chapters/Details/bab3/3cxx/02/03.tex
 Overfull \hbox (28.67905pt too wide) in paragraph at lines 5--54
  [][] 
  []
@@ -1605,12 +1595,12 @@ Overfull \hbox (28.67905pt too wide) in paragraph at lines 5--54
 Overfull \vbox (48.94183pt too high) has occurred while \output is active []
 
 
-[38]) (Chapters/Details/bab3/3cxx/02/04.tex
+[37]) (Chapters/Details/bab3/3cxx/02/04.tex
 Overfull \hbox (28.67905pt too wide) in paragraph at lines 5--48
  [][] 
  []
 
-)) (Chapters/Details/bab3/3cxx/KP03.tex [39]
+)) (Chapters/Details/bab3/3cxx/KP03.tex [38]
 (Chapters/Details/bab3/3cxx/03/01.tex
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 5--41
  [][] 
@@ -1619,13 +1609,13 @@ Overfull \hbox (23.36862pt too wide) in paragraph at lines 5--41
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40]
+ [39]
 Overfull \vbox (48.94183pt too high) has occurred while \output is active []
 
 
-[41] (Chapters/Details/bab3/3cxx/03/02.tex
+[40] (Chapters/Details/bab3/3cxx/03/02.tex
 
-LaTeX Warning: Reference `uc0301-show2page' on page 42 undefined on input line 
+LaTeX Warning: Reference `uc0301-show2page' on page 41 undefined on input line 
 48.
 
 
@@ -1637,7 +1627,7 @@ Overfull \hbox (23.36862pt too wide) in paragraph at lines 5--52
 Overfull \vbox (207.13486pt too high) has occurred while \output is active []
 
 
-[42] (Chapters/Details/bab3/3cxx/03/03.tex
+[41] (Chapters/Details/bab3/3cxx/03/03.tex
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 5--31
  [][] 
  []
@@ -1650,13 +1640,13 @@ Overfull \hbox (23.36862pt too wide) in paragraph at lines 5--35
 ))
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43]
+ [42]
 (Chapters/Details/bab3/3cxx/KP04.tex (Chapters/Details/bab3/3cxx/04/01.tex
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 5--47
  [][] 
  []
 
-[44]) (Chapters/Details/bab3/3cxx/04/02.tex
+[43]) (Chapters/Details/bab3/3cxx/04/02.tex
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 6--82
  [][] 
  []
@@ -1664,11 +1654,11 @@ Overfull \hbox (23.36862pt too wide) in paragraph at lines 6--82
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45]
+ [44]
 Overfull \vbox (397.53494pt too high) has occurred while \output is active []
 
 
-[46] (Chapters/Details/bab3/3cxx/04/03.tex
+[45] (Chapters/Details/bab3/3cxx/04/03.tex
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 6--59
  [][] 
  []
@@ -1677,7 +1667,7 @@ Overfull \hbox (23.36862pt too wide) in paragraph at lines 6--59
 Overfull \vbox (103.34186pt too high) has occurred while \output is active []
 
 
-[47] (Chapters/Details/bab3/3cxx/04/04.tex
+[46] (Chapters/Details/bab3/3cxx/04/04.tex
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 6--58
  [][] 
  []
@@ -1686,7 +1676,7 @@ Overfull \hbox (23.36862pt too wide) in paragraph at lines 6--58
 Overfull \vbox (144.14735pt too high) has occurred while \output is active []
 
 
-[48] (Chapters/Details/bab3/3cxx/04/05.tex
+[47] (Chapters/Details/bab3/3cxx/04/05.tex
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 6--54
  [][] 
  []
@@ -1695,37 +1685,26 @@ Overfull \hbox (23.36862pt too wide) in paragraph at lines 6--54
 Overfull \vbox (103.34186pt too high) has occurred while \output is active []
 
 
-[49] (Chapters/Details/bab3/3cxx/04/06.tex
-
-LaTeX Warning: Reference `al-0x0x-a' on page 50 undefined on input line 52.
-
-
-LaTeX Warning: Reference `al-0x0x-a' on page 50 undefined on input line 53.
-
-
-Overfull \hbox (23.36862pt too wide) in paragraph at lines 5--57
+[48] (Chapters/Details/bab3/3cxx/04/06.tex
+Overfull \hbox (23.36862pt too wide) in paragraph at lines 5--51
  [][] 
  []
 
 ))
-Overfull \vbox (89.55005pt too high) has occurred while \output is active []
+Overfull \vbox (40.74886pt too high) has occurred while \output is active []
 
 
-[50] (Chapters/Details/bab3/3cxx/KP05.tex (Chapters/Details/bab3/3cxx/05/01.tex
+[49] (Chapters/Details/bab3/3cxx/KP05.tex (Chapters/Details/bab3/3cxx/05/01.tex
 ) (Chapters/Details/bab3/3cxx/05/02.tex) (Chapters/Details/bab3/3cxx/05/03.tex)
 ) (Chapters/Details/bab3/3cxx/KP06.tex (Chapters/Details/bab3/3cxx/06/01.tex)
 (Chapters/Details/bab3/3cxx/06/02.tex) (Chapters/Details/bab3/3cxx/06/03.tex)))
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [51]
-(Chapters/Details/bab3/3cx/3cx-KamusData.tex))) [52]
+(Chapters/Details/bab3/3cx/3cx-KamusData.tex))) [50]
 \openout2 = `Chapters/Main/Bab4-Implementasi.aux'.
 
 
 (Chapters/Main/Bab4-Implementasi.tex
 BAB IV.
-(Chapters/Details/bab4/4a-ImplementasiPK.tex [53
+(Chapters/Details/bab4/4a-ImplementasiPK.tex [51
 
 
 
@@ -1739,7 +1718,7 @@ BAB IV.
 (Chapters/Details/bab4/4c-ImplementasiUI.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [54]
+ [52]
 File: images/bab4/smpso_code.png Graphic file (type QTm)
 
 <use  "images/bab4/smpso_code.png" >
@@ -1747,8 +1726,8 @@ File: images/bab4/smpso_code.png Graphic file (type QTm)
  <use  "images/bab4/smpso_code.png" >))
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [55]
-[56]
+ [53]
+[54]
 \openout2 = `Chapters/Main/Bab5-PengujianDanEvaluasi.aux'.
 
  (Chapters/Main/Bab5-PengujianDanEvaluasi.tex
@@ -1756,23 +1735,23 @@ BAB V.
 (Chapters/Details/bab5/5a-Pengujian.tex
 Underfull \vbox (badness 1122) has occurred while \output is active []
 
- [57
+ [55
 
 
 
 ])
-(Chapters/Details/bab5/5b-Evaluasi.tex)) [58]
+(Chapters/Details/bab5/5b-Evaluasi.tex)) [56]
 \openout2 = `Chapters/Main/Bab6-Penutup.aux'.
 
  (Chapters/Main/Bab6-Penutup.tex
 BAB VI.
-(main.bbl [59
+(main.bbl [57
 
 
 
-] [60
+] [58
 
-])) [61] [62
+])) [59] [60
 
 
 ]
@@ -1798,12 +1777,12 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 28840 strings out of 428410
- 509462 string characters out of 3156958
+ 28839 strings out of 428410
+ 509451 string characters out of 3156958
  698830 words of memory out of 3000000
- 31744 multiletter control sequences out of 15000+200000
+ 31743 multiletter control sequences out of 15000+200000
  7059 words of font info for 64 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  55i,15n,63p,10398b,14452s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (82 pages).
+Output written on main.pdf (80 pages).
