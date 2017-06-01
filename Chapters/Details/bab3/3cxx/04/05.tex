@@ -1,0 +1,56 @@
+	% Melihat dan membaca pesan
+	
+	
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{|r|p{8cm}|}
+			\hline
+			\textbf{Kode}
+			& UC-04.05
+			\\ \hline
+			\textbf{Nama}
+			& \textbf{Melihat dan Membaca Pesan} 
+			\\ \hline
+			\textbf{Aktor}    
+			& Pengguna 
+			\\ \hline
+			\textbf{Deskripsi}
+			& Pengguna ingin melihat daftar percakapan/ daftar perpesanan yang pernah dilakukan pengguna
+			\\ \hline
+			\textbf{Tipe}
+			& Fungsional 
+			\\ \hline
+			\textbf{\textit{Precondition}}
+			& Daftar percakapan/ daftar perpesanan belum ditampilkan
+			\\ \hline
+			\textbf{\textit{Postcondition}} 
+			& Daftar percakapan/ daftar perpesanan berhasil ditampilkan
+			\\ \hline
+			\multicolumn{2}{|c|}
+			{\textbf{Alur Kejadian Normal}}
+			\\ \hline
+			\multicolumn{1}{|l|}{} & 
+			\begin{enumerate}
+				\item Pengguna mengklik tombol 'Conversations' di \textit{navbar} aplikasi
+				\item \label{al-0405-a} Sistem menampilkan halaman daftar percakapan pengguna
+				\item Sistem memanggil fungsi AJAX untuk meminta data-data percakapan terakhir pengguna
+				\item Balasan dari fungsi AJAX di \textit{load} oleh \textit{browser} untuk selanjutnya di\textit{parse} ke dalam HTML
+				\item Sistem menampilkan daftar percakapan pengguna
+				\item Pengguna mengklik percakapan yang ingin dilihat/dibaca
+				\item Sistem menampilkan etail percakapan pengguna dengan pengguna tujuan
+			\end{enumerate}
+			\\ \hline
+			\multicolumn{2}{|c|}{\textbf{Alur Kejadian Alternatif}} \\ \hline
+			\multicolumn{1}{|l|}{}                   
+			& \textbf{Koneksi terhadap soket \textit{chat} tidak dapat dibangun/bermasalah}
+			\\ \hline
+			\multicolumn{1}{|l|}{}& 
+			\begin{itemize}
+					\item[\ref{al-0404-a}a.] Sistem mendapatkan \textit{exception} dari fungsi AJAX, bahwa daftar perpesanan/percakapan tidak dapat di\textit{load}
+					\item[\ref{al-0404-a}b.] Sistem menampilkan kembali halaman pada poin \cref{al-0404-ex}, dengan \textit{modal} berisikan \textit{error message}
+			\end{itemize}
+			\\ \hline
+		\end{tabular}
+		\caption{Spesifikasi Kasus Penggunaan : Melihat \& Membaca Pesan}
+		\label{uc04.05-tab}
+	\end{table}

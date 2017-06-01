@@ -1,0 +1,33 @@
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|r|p{8cm}|}
+		\hline
+		\textbf{Kode}                                                    & 	UC-01.03                                                     \\ \hline
+		\textbf{Nama}                                                    & \textbf{Konfirmasi Email}                                         \\ \hline
+		\textbf{Aktor}
+			& Pengguna                                                    \\ \hline
+		\textbf{Deskripsi}                                               & Pengguna melakukan konfirmasi email agar status akun pengguna menjadi teraktivasi \\ \hline
+		\textbf{Tipe}
+			& Fungsional                                                  \\ \hline
+		\textbf{\textit{Precondition}}
+			& Status akun pengguna masih belum terverifikasi \\ \hline
+		\textbf{\textit{Postcondition}} 
+			&  Status akun pengguna masih sudah	 terverifikasi \\ \hline
+		\multicolumn{2}{|c|}{\textbf{Alur Kejadian Normal}}                                                                            \\ \hline
+		\multicolumn{1}{|l|}{}                                           & 
+			\begin{enumerate}
+				\item Pengguna membuka halaman \textit{inbox} email pengguna di \textit{sistem email service} yang mereka gunakan.
+				\item pengguna mencari dan membuka email konfirmasi yang dikirimkan oleh Lelangapa
+				\item Sistem \textit{email service} pengguna menampilkan isi email konfirmasi, beserta sebuah tombol "Konfirmasi email"
+				\item Pengguna mengklik tombol "Konfirmasi Email"
+				\item Halaman \textit{browser} akan di\textit{redirect} ke URL konfirmasi email
+				\item Sistem menampilkan halaman \textit{landing page} dimana status akun pengguna sudah terverifikasi.
+			\end{enumerate}
+		\\ \hline
+		\multicolumn{2}{|c|}{\textbf{Alur Kejadian Alternatif}}                                                         \\ \hline
+		\multicolumn{1}{|l|}{}                                           & -
+		\\ \hline
+	\end{tabular}
+	\caption{Spesifikasi Kasus Penggunaan: Konfirmasi Email}
+	\label{uc0103-tab}
+\end{table}

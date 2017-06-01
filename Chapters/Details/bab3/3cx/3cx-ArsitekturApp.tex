@@ -1,17 +1,13 @@
-
 \subsection{Perancangan Arsitektur Aplikasi}
-
-	Arsitektur aplikasi dapat dilihat dari diagram berikut.
+	
       \begin{figure}[H]
         \centering
-        \includegraphics[width=\textwidth]{images/bab3/arsitektur-app.png}
+        \includegraphics[height=0.6\paperheight]{images/bab3/arsitektur-app-pl_2.png}
         \caption{Arsitektur Aplikasi Lelang Online 
         		\newline
                 \textit{External Services} artinya adalah menggunakan \textit{service} dari luar, tidak dibangun sendiri.}
         \label{arsitektur-app}
       \end{figure}
-      
-    \pagebreak
     
     \subsubsection{\textbf{\textsc{Nginx} sebagai WebServer dan Proxy Server}}
     {\scshape Nginx} adalah web server multifungsi - dimana selain berfungsi sebagai Webserver, namun juga bisa berfungsi sebagai Load Balancer. Dalam awal pembuatan aplikasi, \textsc{Nginx} hanya digunakan sebagai \textit{web server} untuk melayani permintaan halaman Web dari pengguna.
@@ -38,7 +34,8 @@
     
     
     \subsubsection{\textbf{PostgreSQL sebagai DBMS Transaksional}}
-    PostgreSQL bertugas menyimpan data-data yang bersifat transaksional, seperti data \textit{master} : data pengguna, data barang yang terdaftar, data riwayat lelang, data \textit{rating} dan \textit{review}, dan lain-lain.    
+    PostgreSQL bertugas menyimpan data-data yang bersifat transaksional, seperti data \textit{master} : data pengguna, data barang yang terdaftar, data riwayat lelang, data \textit{rating} dan \textit{review}, dan lain-lain.
+    
     \subsubsection{\textbf{MongoDB} sebagai DBMS Non-Transaksional - NOSQL}
     MongoDB akan digunakan untuk menyimpan :
 	    \begin{itemize}[noitemsep,topsep=0pt]
@@ -57,6 +54,8 @@
     \subsubsection{\textbf{Amazon S3} sebagai Data Storage Service}
     Untuk menyimpan gambar-gambar dari barang yang di\textit{upload} pada saat mendaftarkan barang.
 
+	\subsubsection{\textbf{Laravel Dusk}}
+	Untuk ini, akan dibahas lebih lanjut pada bagian pengujian, karena ini adalah bagian dari perangkat lunak yang digunakan sebagai \textit{testing} dalam arsitektur tersebut.
       
    \pagebreak
    

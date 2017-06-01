@@ -1,0 +1,84 @@
+	% Menambahkan Review Pengguna
+	
+	
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{|r|p{8cm}|}
+			\hline
+			\textbf{Kode}                                                    
+			& UC-04.02
+			\\ \hline
+			\textbf{Nama}                                                    
+			& \textbf{ Menambahkan Review Pengguna } 
+			\\ \hline
+			\textbf{Aktor}                                                   
+			& Pengguna 
+			\\ \hline
+			\textbf{Deskripsi}                                               
+			& Pengguna ingin menambahkan review dari \textit{transaksi} yang pernah dilakukan.
+			\\ \hline
+			\textbf{Tipe}
+			& Fungsional 
+			\\ \hline
+			
+			\textbf{\textit{Precondition}}
+			& Review dari pengguna belum tercatat/tersimpan dalam sistem
+
+			\\ \hline
+			
+			\textbf{\textit{Postcondition}} 
+			& Review dari pengguna berhasil tercatat dalam sistem
+			\\ \hline
+			
+			\multicolumn{2}{|c|}
+			{\textbf{Alur Kejadian Normal}}                                                                            
+			\\ \hline
+			\multicolumn{1}{|l|}{} & 
+			\begin{enumerate}
+				\item Pengguna mengklik halaman 'Riwayat Transaksi'
+				\item Sistem menampilkan halaman Riwayat Transaksi yang pernah dilakukan pengguna
+				\item Pengguna mengklik \textit{tab} jenis transaksi yang pernah dilakukan (Beli atau Lelang)
+				\item \label{uc0402-show1page}Sistem menampilkan riwayat transaksi sesuai dengan jenis transaksi yang dipilih pengguna
+				\item Pengguna mengklik transaksi yang ingin diberikan \textit{review}
+				\item \label{al-0402-a}Sistem mengecek apakah \textit{review} sudah pernah diberikan sebelumnya
+				\item Sistem menampilkan \textit{modal} berisi \textit{field input} jumlah \textit{rating}
+				\item Pengguna mengisi \textit{field} tersebut sesuai jumlah rating yang ingin diberikan
+				\item Setelah selesai, pengguna klik 'Next'
+				\item Sistem menampilkan \textit{modal} kedua, berisikan \textit{field input} untuk deskripsi \textit{review}
+				\item Pengguna mengisikan \textit{field input} sesuai dengan deskripsi yang ingin diberikan
+				\item Setelah selesai, pengguna mengklik tombol 'Simpan Review'
+				\item \label{al-0402-b}Sistem memvalidasi masukan dari pengguna
+				\item Jika tervalidasi, sistem menampilkan modal berisi informasi sukses menyimpan review
+				\item Pengguna klik tombol 'Oke'
+				\item Sistem menutup \textit{modal} dan kembali ke halaman di poin \cref{uc0402-show1page}
+				
+				% \item \label{uc0301-show1page}Sistem menampilkan halaman yang berisi form pendaftaran barang
+				% \item \label{al-0301-a} Sistem memvalidasi data yang dimasukkan pengguna
+			\end{enumerate}
+			\\ \hline
+			\multicolumn{2}{|c|}{\textbf{Alur Kejadian Alternatif}} \\ \hline
+			\multicolumn{1}{|l|}{}                                   \pagebreak        
+			& \textbf{Review untuk transaksi yang dipilih sudah pernah diberikan}
+			\\ \hline
+			\multicolumn{1}{|l|}{}& 
+			\begin{itemize}
+				\item[\ref{al-0402-a}a.] Sistem mendeteksi bahwa review untuk transaksi tersebut sudah pernah dilakukan
+				\item[\ref{al-0402-a}b.] Sistem menampilkan modal berisi informasi bahwa review sudah pernah diberikan, dan \textit{auto-close modal} setelah 4 detik
+				\item[\ref{al-0402-a}c.] Sistem menampilkan halaman di poin \cref{uc0402-show1page}
+			\end{itemize}
+			\\ \hline
+			
+			\multicolumn{1}{|l|}{}      
+			& \textbf{Data masukan pengguna tidak valid}
+			\\ \hline
+			\multicolumn{1}{|l|}{}& 
+			\begin{itemize}
+				\item[\ref{al-0402-b}a.] Sistem mendeteksi masukan pengguna tidak valid.
+				\item[\ref{al-0402-b}b.] Sistem menampilkan pesan Error berisi \textit{error message}
+				\item[\ref{al-0402-b}c.] Sistem menampilkan halaman di poin \cref{uc0402-show1page}
+			\end{itemize}
+			\\ \hline
+		\end{tabular}
+		\caption{Spesifikasi Kasus Penggunaan : Memberikan Review Pengguna}
+		\label{uc0x.0x-tab}
+	\end{table}

@@ -1,0 +1,60 @@
+	% Mengirim pesan
+	
+	
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{|r|p{8cm}|}
+			\hline
+			\textbf{Kode}
+			& UC-04.04
+			\\ \hline
+			\textbf{Nama}
+			& \textbf{ Mengirim Pesan } 
+			\\ \hline
+			\textbf{Aktor}    
+			& Pengguna 
+			\\ \hline
+			\textbf{Deskripsi}
+			& Pengguna akan mengirimkan pesan kepada pengguna lainnya
+			\\ \hline
+			\textbf{Tipe}
+			& Fungsional 
+			\\ \hline
+			\textbf{\textit{Precondition}}
+			& Pesan yang dikirimkan pengguna belum tersimpan pada sistem
+			\\ \hline
+			\textbf{\textit{Postcondition}} 
+			& Pesan yang dikirimkan pengguna berhasil tersimpan pada sistem
+			\\ \hline
+			\multicolumn{2}{|c|}
+			{\textbf{Alur Kejadian Normal}}
+			\\ \hline
+			\multicolumn{1}{|l|}{} & 
+			\begin{enumerate}
+				\item Pengguna mengklik \textit{URL} pengguna tujuan yang ingin dikirimi pesan
+				\item Sistem menampilkan halaman profil pengguna tujuan
+				\item Pengguna mengklik tombol "Kirim Pesan"
+				\item Sistem menampilkan halaman percakapan pengguna terhadap tujuan beserta riwayat percakapan pengguna dengan pengguna tujuan
+				\item \label{al-0404-ex} Pengguna memasukkan pesan yang ingin dikirimkan pada \textit{field input} yang disediakan
+				\item Setelah selesai, pengguna mengklik tombol 'Kirim'
+				\item \label{al-0404-a}Sistem mengirim kepada koneksi soket
+				\item Jika proses pengiriman kepada soket berhasil dan tidak ada gangguan, sistem kembali menampilkan halaman pengguna dengan informasi pesan yang sudah terkirim muncul di riwayat percakapan pengguna dengan pengguna tujuan
+				
+				% \item \label{uc0301-show1page}Sistem menampilkan halaman yang berisi form pendaftaran barang
+				% \item \label{al-0301-a} Sistem memvalidasi data yang dimasukkan pengguna
+			\end{enumerate}
+			\\ \hline
+			\multicolumn{2}{|c|}{\textbf{Alur Kejadian Alternatif}} \\ \hline
+			\multicolumn{1}{|l|}{}                   
+			& \textbf{Terjadi masalah teknis sehingga pesan tidak dapat terkirim}
+			\\ \hline
+			\multicolumn{1}{|l|}{}& 
+			\begin{itemize}
+				\item[\ref{al-0404-a}a.] Sistem mendapatkan \textit{exception} dari koneksi soket, bahwa pesan tidak dapat tersimpan
+				\item[\ref{al-0404-a}b.] Sistem menampilkan kembali halaman pada poin \cref{al-0404-ex}, dengan \textit{modal} berisikan \textit{error message}
+			\end{itemize}
+			\\ \hline
+		\end{tabular}
+		\caption{Spesifikasi Kasus Penggunaan : Mengirimkan Pesan}
+		\label{uc04.04-tab}
+	\end{table}
