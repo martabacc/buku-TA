@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2017.5.23)  4 JUN 2017 22:57
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2017.5.23)  7 JUN 2017 02:24
 entering extended mode
 **./main.tex
 (main.tex
@@ -967,6 +967,10 @@ LaTeX Info: Redefining \slshape on input line 45.
 LaTeX Info: Redefining \itshape on input line 55.
 LaTeX Info: Redefining \scshape on input line 65.
 )
+("C:\Users\rona\AppData\Local\Programs\MiKTeX 2.9\tex\latex\carlisle\ltxtable.s
+ty"
+Package: ltxtable 1995/12/11 v0.2 longtable/tabularx merge (DPC)
+)
 ("C:\Users\rona\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count170
@@ -1083,30 +1087,30 @@ LaTeX Warning: Label `pdm@cref' multiply defined.
 ))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 38.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 39.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 39.
  ("C:\Users\rona\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tipa\t3cmr.fd"
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
 
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1148,68 +1152,68 @@ LaTeX Font Info:    ... okay on input line 38.
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 38.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 38.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 38.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 38.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 38.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 38.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 38.
-LaTeX Font Info:    Redeclaring math accent \check on input line 38.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 38.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 38.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 38.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 38.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 39.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 39.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 39.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 39.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 39.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 39.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 39.
+LaTeX Font Info:    Redeclaring math accent \check on input line 39.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 39.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 39.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 39.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 39.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 38.
+(Font)              `operators' in the math version `normal' on input line 39.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> EU1/TimesNewRoman(0)/m/n on input line 
-38.
+39.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 38.
+(Font)              `operators' in the math version `bold' on input line 39.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> EU1/TimesNewRoman(0)/m/n on input line
- 38.
+ 39.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  EU1/TimesNewRoman(0)/m/n --> EU1/TimesNewRoman(0)/m/n o
-n input line 38.
+n input line 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> EU1/TimesNewRoman(0)/m/it on input lin
-e 38.
+e 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> EU1/TimesNewRoman(0)/bx/n on input lin
-e 38.
+e 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> EU1/TrebuchetMS(0)/m/n on input line 3
-8.
+9.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU1/CourierNew(0)/m/n on input line 38
+(Font)                  OT1/cmtt/m/n --> EU1/CourierNew(0)/m/n on input line 39
 .
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  EU1/TimesNewRoman(0)/m/n --> EU1/TimesNewRoman(0)/bx/n 
-on input line 38.
+on input line 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> EU1/TimesNewRoman(0)/bx/it on input l
-ine 38.
+ine 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> EU1/TrebuchetMS(0)/bx/n on input line
- 38.
+ 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> EU1/CourierNew(0)/bx/n on input line 3
-8.
+9.
 \AtBeginShipoutBox=\box62
 \c@lstlisting=\count189
 Package caption Info: Begin \AtBeginDocument code.
@@ -1218,10 +1222,10 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
 Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 38.
-LaTeX Info: Redefining \ref on input line 38.
-LaTeX Info: Redefining \pageref on input line 38.
-LaTeX Info: Redefining \nameref on input line 38.
+Package hyperref Info: Link coloring OFF on input line 39.
+LaTeX Info: Redefining \ref on input line 39.
+LaTeX Info: Redefining \pageref on input line 39.
+LaTeX Info: Redefining \nameref on input line 39.
 (main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -1271,7 +1275,7 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 ]
 LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/m/it' will be
-(Font)              scaled to size 11.22368pt on input line 40.
+(Font)              scaled to size 11.22368pt on input line 42.
  [0
 
 
@@ -1356,12 +1360,12 @@ File: images/cover/sampulWhite.png Graphic file (type QTm)
 
 ]
 LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/bx/n' will be
-(Font)              scaled to size 11.22368pt on input line 41.
+(Font)              scaled to size 11.22368pt on input line 42.
 LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/bx/n' will be
-(Font)              scaled to size 12.29993pt on input line 41.
+(Font)              scaled to size 12.29993pt on input line 42.
 LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/bx/it' will be
-(Font)              scaled to size 11.22368pt on input line 41.
- [1] [2
+(Font)              scaled to size 11.22368pt on input line 42.
+ [5] [6
 
 ]
 \openout2 = `Chapters/Main/Bab0-Abstrak.aux'.
@@ -1386,13 +1390,13 @@ Overfull \hbox (3.65033pt too wide) in paragraph at lines 1--1
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3
+ [7
 
 ]
 \openout2 = `Chapters/Main/Bab0-Abstract.aux'.
 
 
-(Chapters/Main/Bab0-Abstract.tex) [4
+(Chapters/Main/Bab0-Abstract.tex) [8
 
 
 ]
@@ -1402,32 +1406,32 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/bx/n' will be
 (Font)              scaled to size 11.27493pt on input line 1.
 
-[5
+[9
 
 
 
-] [6]) (main.toc [7
+] [10]) (main.toc [11
 
 
 
-] [8])
+] [12])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [9] [10
+ [13] [14
 
 ] (main.lot)
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
- [11] [12] (main.lof)
+ [15] [16] (main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [13
 
-]
-[14
+[17
+
+] [18
 
 ]
 \openout2 = `Chapters/Main/Bab1-Pendahuluan.aux'.
@@ -1450,7 +1454,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  (Chapters/Main/Bab2-DasarTeori.tex
 BAB II.
 LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/bx/it' will be
-(Font)              scaled to size 11.27493pt on input line 2.
+(Font)              scaled to size 11.27493pt on input line 9.
 [3
 
 
@@ -1459,74 +1463,88 @@ LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/bx/it' will be
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4]
+[5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Citation `a' on page 5 undefined on input line 42.
+ [6]
+[7]
+Underfull \vbox (badness 2478) has occurred while \output is active []
 
-) [5] [6]
+ [8]
+[9]
+Underfull \vbox (badness 1215) has occurred while \output is active []
+
+ [10]
+Underfull \vbox (badness 2671) has occurred while \output is active []
+
+ [11])
+[12]
 \openout2 = `Chapters/Main/Bab3-DesainDanPerancangan.aux'.
 
  (Chapters/Main/Bab3-DesainDanPerancangan.tex
 BAB III.
-(Chapters/Details/bab3/3a-Analisa.tex
+(Chapters/Details/bab3/3a-Analisa.tex [13
+
+
+
+]
 File: images/bab3/Fatalitas-Kegagalan-Ecommerce.png Graphic file (type QTm)
 
 <use  "images/bab3/Fatalitas-Kegagalan-Ecommerce.png" >
 LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 9.22495pt on input line 10.
+(Font)              scaled to size 9.22495pt on input line 11.
 LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/bx/n' will be
-(Font)              scaled to size 9.22495pt on input line 10.
+(Font)              scaled to size 9.22495pt on input line 11.
 LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/m/it' will be
-(Font)              scaled to size 9.22495pt on input line 10.
- [7
-
-
-
-] [8]
+(Font)              scaled to size 9.22495pt on input line 11.
+ [14]
 File: images/bab3/Solusi-Perbaikan-Ketidakpuasan.png Graphic file (type QTm)
 
-<use  "images/bab3/Solusi-Perbaikan-Ketidakpuasan.png" > [9] [10] [11])
-[12] (Chapters/Details/bab3/3b-Spesifikasi.tex
-Underfull \vbox (badness 1515) has occurred while \output is active []
-
- [13]
+<use  "images/bab3/Solusi-Perbaikan-Ketidakpuasan.png" > [15] [16] [17])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14]
-Underfull \vbox (badness 1019) has occurred while \output is active []
+ [18]
+(Chapters/Details/bab3/3b-Spesifikasi.tex
+Underfull \vbox (badness 1515) has occurred while \output is active []
 
- [15]
-[16]
-Overfull \hbox (14.95636pt too wide) in paragraph at lines 98--98
+ [19]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+(tables/03/functional.tex) (tables/03/functional.tex) (tables/03/functional.tex
+[21]) (tables/03/nonfunctional.tex) (tables/03/nonfunctional.tex)
+(tables/03/nonfunctional.tex [22]) [23]
+Overfull \hbox (14.95636pt too wide) in paragraph at lines 70--70
 []|\EU1/TimesNewRoman(0)/m/n/10.95 Pengguna| 
  []
 
 
-Overfull \hbox (14.95088pt too wide) in paragraph at lines 98--98
+Overfull \hbox (14.95088pt too wide) in paragraph at lines 70--70
 []|\EU1/TimesNewRoman(0)/m/n/10.95 Pengelola| 
  []
 
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17]
+ [24]
 (Chapters/Details/bab3/3c-Rancangan.tex
 (Chapters/Details/bab3/3cx/3cx-DataStorage.tex
 LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/bx/sc' will be
 (Font)              scaled to size 11.22368pt on input line 23.
- [18])
+ [25])
 (Chapters/Details/bab3/3cx/3cx-SkemaDatabase.tex
 File: images/bab3/db/pdm-awal.png Graphic file (type QTm)
 
 <use  "images/bab3/db/pdm-awal.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19]
+ [26]
 File: images/bab3/db/pdm-nosql-awal.png Graphic file (type QTm)
 
 <use  "images/bab3/db/pdm-nosql-awal.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20]
+ [27]
 File: images/no-image.png Graphic file (type QTm)
 
 <use  "images/no-image.png" >
@@ -1534,7 +1552,7 @@ File: images/no-image.png Graphic file (type QTm)
  <use  "images/no-image.png" >
 Underfull \vbox (badness 4886) has occurred while \output is active []
 
- [21]
+ [28]
 Overfull \hbox (11.29436pt too wide) in paragraph at lines 43--56
  [][] 
  []
@@ -1542,7 +1560,7 @@ Overfull \hbox (11.29436pt too wide) in paragraph at lines 43--56
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22]
+ [29]
 Overfull \hbox (11.29436pt too wide) in paragraph at lines 65--78
  [][] 
  []
@@ -1550,31 +1568,31 @@ Overfull \hbox (11.29436pt too wide) in paragraph at lines 65--78
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23])
+ [30])
 (Chapters/Details/bab3/3cx/3cx-ArsitekturApp.tex
 File: images/bab3/diagram/arsitektur-awal.png Graphic file (type QTm)
 
 <use  "images/bab3/diagram/arsitektur-awal.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24]
+ [31]
 LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/bx/sc' will be
 (Font)              scaled to size 11.27493pt on input line 12.
 LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/m/sc' will be
 (Font)              scaled to size 11.22368pt on input line 13.
 
-[25]
+[32]
 
-LaTeX Warning: Reference `alasan-ux-ecommerce-indonesia' on page 26 undefined o
+LaTeX Warning: Reference `alasan-ux-ecommerce-indonesia' on page 33 undefined o
 n input line 32.
 
-[26]
+[33]
 Underfull \vbox (badness 4217) has occurred while \output is active []
 
- [27]
+ [34]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28])
+ [35])
 (Chapters/Details/bab3/3cx/3cx-KasusPenggunaan.tex
 (Chapters/Details/bab3/3cxx/KP01.tex (Chapters/Details/bab3/3cxx/01/01.tex
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 3--35
@@ -1584,7 +1602,7 @@ Overfull \hbox (23.36862pt too wide) in paragraph at lines 3--35
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29]
+ [36]
 (Chapters/Details/bab3/3cxx/01/02.tex
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 3--35
  [][] 
@@ -1593,7 +1611,7 @@ Overfull \hbox (23.36862pt too wide) in paragraph at lines 3--35
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30]
+ [37]
 (Chapters/Details/bab3/3cxx/01/03.tex
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 3--31
  [][] 
@@ -1602,11 +1620,11 @@ Overfull \hbox (23.36862pt too wide) in paragraph at lines 3--31
 ))
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31]
+ [38]
 (Chapters/Details/bab3/3cxx/KP02.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32]
+ [39]
 (Chapters/Details/bab3/3cxx/02/01.tex
 Overfull \hbox (28.67905pt too wide) in paragraph at lines 5--38
  [][] 
@@ -1620,11 +1638,11 @@ Overfull \hbox (28.67905pt too wide) in paragraph at lines 5--54
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33]
+ [40]
 Overfull \vbox (48.94183pt too high) has occurred while \output is active []
 
 
-[34] (Chapters/Details/bab3/3cxx/02/03.tex
+[41] (Chapters/Details/bab3/3cxx/02/03.tex
 Overfull \hbox (28.67905pt too wide) in paragraph at lines 5--54
  [][] 
  []
@@ -1633,12 +1651,12 @@ Overfull \hbox (28.67905pt too wide) in paragraph at lines 5--54
 Overfull \vbox (48.94183pt too high) has occurred while \output is active []
 
 
-[35]) (Chapters/Details/bab3/3cxx/02/04.tex
+[42]) (Chapters/Details/bab3/3cxx/02/04.tex
 Overfull \hbox (28.67905pt too wide) in paragraph at lines 5--48
  [][] 
  []
 
-)) (Chapters/Details/bab3/3cxx/KP03.tex [36]
+)) (Chapters/Details/bab3/3cxx/KP03.tex [43]
 (Chapters/Details/bab3/3cxx/03/01.tex
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 5--41
  [][] 
@@ -1647,13 +1665,13 @@ Overfull \hbox (23.36862pt too wide) in paragraph at lines 5--41
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37]
+ [44]
 Overfull \vbox (48.94183pt too high) has occurred while \output is active []
 
 
-[38] (Chapters/Details/bab3/3cxx/03/02.tex
+[45] (Chapters/Details/bab3/3cxx/03/02.tex
 
-LaTeX Warning: Reference `uc0301-show2page' on page 39 undefined on input line 
+LaTeX Warning: Reference `uc0301-show2page' on page 46 undefined on input line 
 48.
 
 
@@ -1665,7 +1683,7 @@ Overfull \hbox (23.36862pt too wide) in paragraph at lines 5--52
 Overfull \vbox (207.13486pt too high) has occurred while \output is active []
 
 
-[39] (Chapters/Details/bab3/3cxx/03/03.tex
+[46] (Chapters/Details/bab3/3cxx/03/03.tex
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 5--31
  [][] 
  []
@@ -1678,13 +1696,13 @@ Overfull \hbox (23.36862pt too wide) in paragraph at lines 5--35
 ))
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40]
+ [47]
 (Chapters/Details/bab3/3cxx/KP04.tex (Chapters/Details/bab3/3cxx/04/01.tex
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 5--47
  [][] 
  []
 
-[41]) (Chapters/Details/bab3/3cxx/04/02.tex
+[48]) (Chapters/Details/bab3/3cxx/04/02.tex
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 6--82
  [][] 
  []
@@ -1692,11 +1710,11 @@ Overfull \hbox (23.36862pt too wide) in paragraph at lines 6--82
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42]
+ [49]
 Overfull \vbox (397.53494pt too high) has occurred while \output is active []
 
 
-[43] (Chapters/Details/bab3/3cxx/04/03.tex
+[50] (Chapters/Details/bab3/3cxx/04/03.tex
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 6--59
  [][] 
  []
@@ -1705,7 +1723,7 @@ Overfull \hbox (23.36862pt too wide) in paragraph at lines 6--59
 Overfull \vbox (103.34186pt too high) has occurred while \output is active []
 
 
-[44] (Chapters/Details/bab3/3cxx/04/04.tex
+[51] (Chapters/Details/bab3/3cxx/04/04.tex
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 6--58
  [][] 
  []
@@ -1714,7 +1732,7 @@ Overfull \hbox (23.36862pt too wide) in paragraph at lines 6--58
 Overfull \vbox (144.14735pt too high) has occurred while \output is active []
 
 
-[45] (Chapters/Details/bab3/3cxx/04/05.tex
+[52] (Chapters/Details/bab3/3cxx/04/05.tex
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 6--54
  [][] 
  []
@@ -1723,7 +1741,7 @@ Overfull \hbox (23.36862pt too wide) in paragraph at lines 6--54
 Overfull \vbox (103.34186pt too high) has occurred while \output is active []
 
 
-[46] (Chapters/Details/bab3/3cxx/04/06.tex
+[53] (Chapters/Details/bab3/3cxx/04/06.tex
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 5--51
  [][] 
  []
@@ -1732,36 +1750,36 @@ Overfull \hbox (23.36862pt too wide) in paragraph at lines 5--51
 Overfull \vbox (40.74886pt too high) has occurred while \output is active []
 
 
-[47] (Chapters/Details/bab3/3cxx/KP05.tex (Chapters/Details/bab3/3cxx/05/01.tex
+[54] (Chapters/Details/bab3/3cxx/KP05.tex (Chapters/Details/bab3/3cxx/05/01.tex
 ) (Chapters/Details/bab3/3cxx/05/02.tex) (Chapters/Details/bab3/3cxx/05/03.tex)
 ) (Chapters/Details/bab3/3cxx/KP06.tex (Chapters/Details/bab3/3cxx/06/01.tex)
 (Chapters/Details/bab3/3cxx/06/02.tex) (Chapters/Details/bab3/3cxx/06/03.tex)))
-(Chapters/Details/bab3/3cx/3cx-KamusData.tex))) [48]
+(Chapters/Details/bab3/3cx/3cx-KamusData.tex))) [55]
 \openout2 = `Chapters/Main/Bab4-Implementasi.aux'.
 
 
-(Chapters/Main/Bab4-Implementasi.tex
+(Chapters/Main/Bab4-Implementasi.tex [56
+
+
+
+]
 BAB IV.
-(Chapters/Details/bab4/4a-ImplementasiPK.tex [49
-
-
-
-])
+(Chapters/Details/bab4/4a-ImplementasiPK.tex [57])
 (Chapters/Details/bab4/4b-ImplementasiPL.tex
 File: images/bab3/diagram/arsitektur-colorized.png Graphic file (type QTm)
 
 <use  "images/bab3/diagram/arsitektur-colorized.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50]
+ [58]
 
-LaTeX Warning: Reference `arsitektur-pl-final-subbab' on page 51 undefined on i
+LaTeX Warning: Reference `arsitektur-pl-final-subbab' on page 59 undefined on i
 nput line 18.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [51]
+ [59]
 (Chapters/Details/bab4/4b/nginx.tex
 File: images/no-image.png Graphic file (type QTm)
  <use  "images/no-image.png" >
@@ -1770,12 +1788,12 @@ File: images/no-image.png Graphic file (type QTm)
 <use  "images/no-image.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52]
+ [60]
 File: images/no-image.png Graphic file (type QTm)
 
 <use  "images/no-image.png" >
 File: images/no-image.png Graphic file (type QTm)
- <use  "images/no-image.png" > [53])
+ <use  "images/no-image.png" > [61])
 (Chapters/Details/bab4/4b/laravel.tex) (Chapters/Details/bab4/4b/postgre.tex)
 (Chapters/Details/bab4/4b/mongo.tex) (Chapters/Details/bab4/4b/vue.tex)
 (Chapters/Details/bab4/4b/node.tex) (Chapters/Details/bab4/4b/socketio.tex)
@@ -1785,18 +1803,18 @@ File: images/no-image.png Graphic file (type QTm)
  <use  "images/no-image.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [54]
+ [62]
 File: images/no-image.png Graphic file (type QTm)
 
 <use  "images/no-image.png" >
 File: images/no-image.png Graphic file (type QTm)
- <use  "images/no-image.png" > [55]
+ <use  "images/no-image.png" > [63]
 File: images/no-image.png Graphic file (type QTm)
 
 <use  "images/no-image.png" >)) (Chapters/Details/bab4/4c-ImplementasiUI.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [56]
+ [64]
 File: images/bab4/smpso_code.png Graphic file (type QTm)
 
 <use  "images/bab4/smpso_code.png" >
@@ -1804,45 +1822,52 @@ File: images/bab4/smpso_code.png Graphic file (type QTm)
  <use  "images/bab4/smpso_code.png" >))
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [57]
-[58]
+ [65]
+[66]
 \openout2 = `Chapters/Main/Bab5-PengujianDanEvaluasi.aux'.
 
  (Chapters/Main/Bab5-PengujianDanEvaluasi.tex
 BAB V.
 (Chapters/Details/bab5/5a-Pengujian.tex
-Underfull \vbox (badness 1122) has occurred while \output is active []
+Overfull \hbox (1365.1639pt too wide) in paragraph at lines 3--1
+[]\EU1/TimesNewRoman(0)/m/n/10.95 Pada.ab.ni.kan.ibahas.engenai.engujian.an.val
+uasi.ada.plikasi..engujian.ang.ilakukan.erdiri.ari.ua.engujian.aitu.engujian.un
+gsionalitas.istem.an.engujian.tatistik..engujian.ungsionalitas.engacu.ada.aftar
+.ungsionalitas.ada.ab.II.Desain.an.erancangan).edangkan.engujian.tatistik.ilaku
+kan.ntuk.embuktikan.ahwa.plikasi.enar.elah.encapai.ujuan.ang.ipaparkan.ada.ab.I
+.oin..
+ []
 
- [59
+)
+Underfull \vbox (badness 1515) has occurred while \output is active []
+
+ [67
 
 
 
-])
-(Chapters/Details/bab5/5b-Evaluasi.tex)) [60]
+]
+(Chapters/Details/bab5/5b-Evaluasi.tex)) [68]
 \openout2 = `Chapters/Main/Bab6-Penutup.aux'.
 
  (Chapters/Main/Bab6-Penutup.tex
 BAB VI.
-(main.bbl [61
+(main.bbl [69
 
 
 
-] [62
+] [70
 
-])) [63] [64
-
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 60.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 60.
+] [71])) [72]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
  (main.aux (Chapters/Main/Bab0-Abstrak.aux)
 (Chapters/Main/Bab0-Abstract.aux) (Chapters/Main/Bab0-KataPengantar.aux)
 (Chapters/Main/Bab1-Pendahuluan.aux) (Chapters/Main/Bab2-DasarTeori.aux)
 (Chapters/Main/Bab3-DesainDanPerancangan.aux)
 (Chapters/Main/Bab4-Implementasi.aux)
 (Chapters/Main/Bab5-PengujianDanEvaluasi.aux) (Chapters/Main/Bab6-Penutup.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 60.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 60.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 61.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 61.
 
 LaTeX Warning: There were undefined references.
 
@@ -1855,12 +1880,12 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 28843 strings out of 428410
- 509585 string characters out of 3156958
- 699437 words of memory out of 3000000
- 31745 multiletter control sequences out of 15000+200000
+ 28887 strings out of 428410
+ 510575 string characters out of 3156958
+ 701376 words of memory out of 3000000
+ 31771 multiletter control sequences out of 15000+200000
  7059 words of font info for 64 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 55i,15n,63p,10398b,14528s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,15n,63p,10398b,14588s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (84 pages).
+Output written on main.pdf (92 pages).
