@@ -1,0 +1,54 @@
+\subsubsection{\textsc{Vue.js}}
+	% todo inline numbering
+	
+\begin{enumerate}\bfseries
+\item \textbf{Package Dependencies} \\
+    \indentenum Pada versi terbaru Laravel (5.4*), Laravel secara \textit{default} menyertakan \textit{package} Laravel Mix - yaitu fitur untuk \textit{compiling assets} dengan Webpack, dengan hasil akhir \textit{compiled assets} (terutama \textit{script} Javascript) yang eksekusinya jauh lebih cepat, karena menggunakan V8 -- sebuah \textit{engine} Javascript yang telah dioptimasi yang bersifat \textit{just-in-time} (JIT) yang memproduksi \textit{machine code} dari sebuah \textit{script} Javascript lalu dieksekusi.\\
+  
+  \textbf{\textit{Main Problem}} \\
+  \indentenum Masalah muncul saat versi Laravel yang digunakan untuk membangun aplikasi adalah versi (5.3) -- dan jika Laravelnya di\textit{upgrade}, tidak ada jaminan bahwa \textit{deprecated dependencies} (keadaan dimana sebuah \textit{package} tidak di\textit{support} oleh versi terbaru) -- yang berarti harus \textit{refactoring code} yang pasti memakan waktu lama.\\			  
+
+	\textbf{\textit{Insights}} \\
+	  \indentenum Penulis menganalisa perbedaan mendasar package.json antara Laravel 5.3 dan 5.4 adalah sebagai berikut:
+	\begin{enumerate}
+  	  	\item Basis : Perubahan basis yang awalnya Gulp menjadi Webpack
+  	  	\item \textit{Dependencies} : Webpack ternyata menggunakan beberapa plugin tambahan yang tidak diakomodasi dalam package.json di versi 5.3
+  	  	\item \textit{Run Script} : Terdapat beberapa perubahan signifikan terhadap \textit{run script alias} di versi 5.4 - dibandingkan pada versi 5.3.
+  	  	\item \textit{Additional Files} : Terdapat beberapa file konfigurasi tambahan agar proses kompilasi aset dapat berjalan dengan baik.
+	\end{enumerate}
+	\ \\
+  
+  \textbf{\textit{Solution}} \\
+    \indentenum Penulis lalu mengoreksi dan \textit{update package.json} dengan pendekatan \textit{trial and error}, dan bisa terselesaikan dengan script berikut :
+		  	
+\begin{lstlisting}[language=json]
+{
+	"private": true,
+	"scripts": 	{
+		"_comment" : "Lists of running npm commands defined here"
+	},
+	"devDependencies": {
+		"axios": "^0.15.3",
+		"bootstrap-sass": "^3.3.7",
+		"cross-env": "^3.2.3",
+		"jquery": "^3.1.1",
+		"laravel-mix": "0.*",
+		"lodash": "^4.17.4",
+		"vue": "^2.1.10"
+	},
+	"dependencies": {
+		"vue-resource": "^1.3.1"
+	}
+}
+ 	\end{lstlisting}
+			  	
+			  
+\item \textbf{\textit{Package Dependencies Optimization}}
+		\\ \indent
+		Langkah-langkah untuk \textit{compiling assets} adalah sebagai berikut :
+		\begin{enumerate}
+			\item 
+		\end{enumerate}
+		Masalah optimasi muncul saat beberapa \textit{script} Vue.js ternyata menggunakan \textit{dependencies} yang sama, yaitu axios, vue dan http.
+		\\ \indentenum
+	 \end{enumerate}

@@ -7,21 +7,21 @@
     \begin{enumerate}
     \item \textbf{Data Transaksional disimpan di DBMS SQL - \textit{Relational}}
     \newline
-    Data yang sifatnya \textit{transaksional}, seperti data \textit{bidding}, data pengguna, dan lain sebagainya.
-    Untuk data ini, lebih baik jika menggunakan database Postgre, untuk menjaga integritas data dan \textit{integrity checking} juga  menjadi lebih mudah.
+    \indent Data yang sifatnya \textit{transaksional}, seperti data \textit{bidding}, data pengguna, dan lain sebagainya.
+    Untuk data ini, lebih baik jika menggunakan database Postgre, untuk menjaga integritas data dan \textit{integrity checking} juga  menjadi lebih baik.
     \newline
     
     \item 
     \textbf{Data Non-Transaksional disimpan di DBMS NoSQL}
     \newline
-    Seperti data \textit{chatting}, data \textit{joined rooms} tidak cocok dimasukkan kedalam database transaksional karena sifat pertambahan datanya yang sangat cepat dan urgensi integritas data tidak terlalu diprioritaskan (dibanding dengan data transaksional pada poin sebelumnya.
+    \indent Data \textit{chatting}, data \textit{joined rooms} tidak cocok dimasukkan kedalam database transaksional karena sifat pertambahan datanya yang sangat cepat, masif dan urgensi integritas data tidak terlalu diprioritaskan (dibanding dengan data transaksional pada poin sebelumnya.
     \newline
-    Oleh karena itu, baiknya data ini disimpan pada database NoSQL - pada rancang bangun aplikasi ini, DBMS NoSQL yang digunakan adalah MongoDB.
+    \indent Oleh karena itu, baiknya data ini disimpan pada database NoSQL - pada rancang bangun aplikasi ini, DBMS NoSQL yang digunakan adalah MongoDB.
     \newline
     
     
     \item \textbf{Data Citra/Gambar disimpan di \textsc{Amazon Web Services}} \newline
-    Gambar-gambar barang yang didaftarkan untuk dilelang, disimpan di \textit{cloud} dengan menggunakan \textit{Amazon Web Services}. Alasan-alasan menggunakan AWS sebagai data storage untuk gambar adalah sebagai berikut :
+    \indent Gambar-gambar barang yang didaftarkan untuk dilelang, disimpan di \textit{cloud} dengan menggunakan \textit{Amazon Web Services}. Alasan-alasan menggunakan AWS sebagai data storage untuk gambar adalah sebagai berikut :
         \begin{enumerate}[noitemsep,topsep=0pt]
         \item Skalabilitas aplikasi lebih terjaga. 
         \newline Dengan memisahkan penyimpanan antara gambar dan server sehingga lebih mudah me\textit{maintain} perkembangan aplikasi, dan lebih fokus terhadap pengembangan aplikasi.
@@ -31,7 +31,7 @@
         
     \item \textbf{Data \textit{Assets} Website}
     \newline
-    Untuk data \textit{assets} yang dibutuhkan untuk website, terdapat beberapa kriteria penyimpanan berikut
+    \indent Untuk data \textit{assets} yang dibutuhkan untuk website, terdapat beberapa kriteria penyimpanan berikut
     
       \begin{itemize}[noitemsep,topsep=0pt]
       \item Jika file tersebut sudah umum digunakan dan terdapat file CDNnya, maka akan akses CDNnya
@@ -41,3 +41,5 @@
       \end{itemize}
     
     \end{enumerate}
+    
+    \pagebreak

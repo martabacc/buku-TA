@@ -1,42 +1,30 @@
-\subsubsection{Instalasi \& Konfigurasi \textbf{Nginx}}
+\subsubsection{\textsc{Nginx}}
 
-	\begin{enumerate}[label={}]
-		
-		\item \textbf{Instalasi \textbf{Nginx}} 
-			\\Tahap-tahap untuk instalasi adalah sebagai berikut
-			\begin{enumerate}[label=\roman*]				\item \mylipsum
-					\begin{figure}[H]
-						\centering
-						\includegraphics[width=0.4\textheight]{images/no-image.png}
-						\caption{Skrinsut Tahap 1 Instalasi \textbf{Nginx}}
-						\label{pdm-final}
-					\end{figure}				\item \mylipsum
-					\begin{figure}[H]
-						\centering
-						\includegraphics[width=0.4\textheight]{images/no-image.png}
-						\caption{Skrinsut Tahap 2 Instalasi \textbf{Nginx}}
-						\label{pdm-final}
-					\end{figure}		
-						
-			\end{enumerate}
-		\item 
-		\textbf{Konfigurasi \textbf{Nginx}}
-		\begin{enumerate}[label=\roman*]	
-			\item \mylipsum
-			\begin{figure}[H]
-				\centering
-				\includegraphics[width=0.4\textheight]{images/no-image.png}
-				\caption{Skrinsut Tahap 1 Konfigurasi \textbf{Nginx}}
-				\label{pdm-final}
-			\end{figure}					
-			\item \mylipsum
-			\begin{figure}[H]
-				\centering
-				\includegraphics[width=0.4\textheight]{images/no-image.png}
-				\caption{Skrinsut Tahap 1 Konfigurasi Nginx \textbf{Nginx}}
-				\label{pdm-final}
-			\end{figure}	
-	 	
-	 	
-		 \end{enumerate}
-	 \end{enumerate}
+\begin{enumerate}
+	\item CORS (\textit{Cross Origin Resource Sharing})
+	\\
+	\indentenum CORS adalah sebuah mekanisme yang memungkinkan  sebuah \textit{website} menggunakan \textit{resources}(seperti skrip Javascript, \textit{fonts}, dll) untuk diakses dari sumber lain selain \textit{domain origin}nya.\\ 
+	\indentenum Secara teknis, CORS mendefinisikan \textit{protokol}/cara browser dan server untuk berinteraksi otorisasi permintaan \textit{resource} dari domain lain, dan juga lebih aman karena \textit{developer} dapat mengkontrol otorisasi tersebut (daripada mengizinkan semua permintaan).\\
+	
+	% todo cite wikipedia
+	\textbf{\textit{The Problem}} \\
+	\indentenum  Masalah koneksi ke server lelang (yang berjalan pada domain yang sama, namun port yang berbeda) tidak dapat tersambung karena \textit{error} berikut :
+	\begin{lstlisting}[style=htmlcssjs]
+		No ‘Access-Control-Allow-Origin’ header is present on the requested resource.
+	\end{lstlisting}
+	
+	
+	\textbf{\textit{Insight}} \\
+	\indentenum Selama 2 minggu kurang lebih penulis mencoba cara yang ditemukan penulis dalam situs stackoverflow untuk mengkonfigurasi \textit{server} lelang agar otorisasi CORS dapat dilakukan, namun tidak ada hasil.\\
+	\indent Masalah ini terselesaikan setelah menggunakan fitur \textit{reverse proxy} dari Nginx.\\
+	
+	
+	\textbf{\textit{Solution}} \\
+	\indentenum Strateginya adalah sebagai berikut :
+	\begin{enumerate}
+		\item \label{nginx-a} Server Lelang berjalan pada localhost port 3000.
+		\item \label{nginx-b} Kita mengatur sebuah subdomain khusus -- misalkan A.domain.com
+		\item Dalam \textsc{Nginx} , kita konfigurasi agar semua \textit{requests} menuju A.domain.com ke aplikasi localhost yang kita maksud di poin \ref{nginx-a}
+		\item Selain meneruskan \textit{requests}, \textsc{Nginx} juga akan meneruskan \textit{reply} dari server lelang tersebut kepada \textit{client}/\textit{origin} yang meminta \textit{request} tersebut.				
+	\end{enumerate}
+\end{enumerate}

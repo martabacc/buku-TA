@@ -15,12 +15,17 @@
 \usepackage{slantsc}
 \usepackage{booktabs}% http://ctan.org/pkg/booktabs
 
-
 \usepackage{ltxtable} %for long table
 
-\usepackage{lipsum} 
-\usepackage{blindtext}
-%end any lorem ipsum matters
+\usepackage{lipsum} %for lorem ipsum
+\usepackage{blindtext} %for lorem ipsum
+
+%start packages for colored code listing
+\usepackage{xcolor}
+\usepackage{upquote}
+
+\usepackage{enumitem}
+%end packages for colored code listing
 
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
@@ -35,6 +40,11 @@
 \newcommand{\mylipsum}
 {Dolore blandit mus ultricies justo ultrices, a vel wisi aenean integer lacus vitae, metus lorem nulla, tempor sed odio lacus sit nostra.}
 
+\newcommand{\indentenum}{
+	\hspace{\labelwidth}\phantom{\texttt{type}-}
+}
+
+\include{languangeConf}
 \include{Metadata}
 \begin{document}
     \maketitle

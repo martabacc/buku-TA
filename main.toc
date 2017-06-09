@@ -48,37 +48,36 @@
 \contentsline {subsection}{\numberline {III.2.4}Identifikasi Pengguna}{24}{subsection.3.2.4}
 \contentsline {section}{\numberline {III.3}Perancangan Sistem}{25}{section.3.3}
 \contentsline {subsection}{\numberline {III.3.1}Perancangan \textit {Data Sources dan Data Storage}}{25}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {III.3.2}Perancangan Skema \textit {Database}}{26}{subsection.3.3.2}
-\contentsline {subsubsection}{\numberline {III.3.2.1}Spesifikasi Tabel User}{30}{subsubsection.3.3.2.1}
-\contentsline {subsubsection}{\numberline {III.3.2.2}Spesifikasi Tabel User}{31}{subsubsection.3.3.2.2}
-\contentsline {subsection}{\numberline {III.3.3}Perancangan Arsitektur Aplikasi}{32}{subsection.3.3.3}
-\contentsline {subsubsection}{\numberline {III.3.3.1}\textbf {\textsc {Nginx} sebagai WebServer dan Proxy Server}}{32}{subsubsection.3.3.3.1}
-\contentsline {subsubsection}{\numberline {III.3.3.2}\textbf {Laravel dan Logika Aplikasi}}{33}{subsubsection.3.3.3.2}
-\contentsline {subsubsection}{\numberline {III.3.3.3}\textbf {Vue.js sebagai \textit {View Renderer} }}{33}{subsubsection.3.3.3.3}
-\contentsline {subsubsection}{\numberline {III.3.3.4}\textbf {PostgreSQL sebagai DBMS Transaksional}}{34}{subsubsection.3.3.3.4}
-\contentsline {subsubsection}{\numberline {III.3.3.5}\textbf {MongoDB} sebagai DBMS Non-Transaksional - NOSQL}{34}{subsubsection.3.3.3.5}
-\contentsline {subsubsection}{\numberline {III.3.3.6}\textbf {Node.js} sebagai Asynchronous-Request Server}{34}{subsubsection.3.3.3.6}
-\contentsline {subsubsection}{\numberline {III.3.3.7}\textbf {SendGrid} sebagai SMTP Service}{34}{subsubsection.3.3.3.7}
-\contentsline {subsubsection}{\numberline {III.3.3.8}\textbf {Amazon S3} sebagai Data Storage Service}{35}{subsubsection.3.3.3.8}
-\contentsline {subsubsection}{\numberline {III.3.3.9}\textbf {Laravel Dusk}}{35}{subsubsection.3.3.3.9}
-\contentsline {subsection}{\numberline {III.3.4}Kasus Penggunaan}{36}{subsection.3.3.4}
-\contentsline {subsubsection}{\numberline {III.3.4.1}KP01. Manajemen Authentikasi Pengguna}{36}{subsubsection.3.3.4.1}
-\contentsline {subsubsection}{\numberline {III.3.4.2}KP02. Manajemen Transaksi Lelang}{40}{subsubsection.3.3.4.2}
-\contentsline {subsubsection}{\numberline {III.3.4.3}KP03. Manajemen Barang Lelang}{43}{subsubsection.3.3.4.3}
-\contentsline {subsubsection}{\numberline {III.3.4.4}KP04. Manajemen Interaksi \& Kepuasan Pengguna}{48}{subsubsection.3.3.4.4}
-\contentsline {subsubsection}{\numberline {III.3.4.5}KP05. \textit {Monitoring} Proses Lelang}{55}{subsubsection.3.3.4.5}
-\contentsline {subsubsection}{\numberline {III.3.4.6}KP05. Manajemen Voucher}{55}{subsubsection.3.3.4.6}
-\contentsline {subsection}{\numberline {III.3.5}Kamus Data}{55}{subsection.3.3.5}
-\contentsline {chapter}{\numberline {IV}IMPLEMENTASI}{57}{chapter.4}
-\contentsline {section}{\numberline {IV.1}Implementasi Perangkat Keras/ \textit {Deployment}}{57}{section.4.1}
-\contentsline {section}{\numberline {IV.2}Implementasi Perangkat Lunak}{58}{section.4.2}
-\contentsline {subsection}{\numberline {IV.2.1}Arsitektur Perangkat Lunak}{58}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {IV.2.2}Pemasangan \& Konfigurasi Perangkat Lunak}{60}{subsection.4.2.2}
-\contentsline {subsubsection}{\numberline {IV.2.2.1}Instalasi \& Konfigurasi \textbf {Nginx}}{60}{subsubsection.4.2.2.1}
-\contentsline {subsubsection}{\numberline {IV.2.2.2}Instalasi \& Konfigurasi \textbf {Amazon Web Service S3}}{62}{subsubsection.4.2.2.2}
-\contentsline {section}{\numberline {IV.3}Implementasi Antarmuka / \textit {User Interface}}{65}{section.4.3}
-\contentsline {subsection}{\numberline {IV.3.1}Antarmuka Registrasi}{65}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {IV.3.2}Antarmuka Halaman B}{65}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {III.3.2}Perancangan Skema \textit {Database}}{27}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {III.3.3}Perancangan Arsitektur Aplikasi}{30}{subsection.3.3.3}
+\contentsline {subsubsection}{\numberline {III.3.3.1}\textbf {\textsc {Nginx} sebagai WebServer dan Proxy Server}}{30}{subsubsection.3.3.3.1}
+\contentsline {subsubsection}{\numberline {III.3.3.2}\textbf {Laravel dan Logika Aplikasi}}{31}{subsubsection.3.3.3.2}
+\contentsline {subsubsection}{\numberline {III.3.3.3}\textbf {Vue.js sebagai \textit {View Renderer} }}{31}{subsubsection.3.3.3.3}
+\contentsline {subsubsection}{\numberline {III.3.3.4}\textbf {PostgreSQL sebagai DBMS Transaksional}}{32}{subsubsection.3.3.3.4}
+\contentsline {subsubsection}{\numberline {III.3.3.5}\textbf {MongoDB} sebagai DBMS Non-Transaksional - NOSQL}{32}{subsubsection.3.3.3.5}
+\contentsline {subsubsection}{\numberline {III.3.3.6}\textbf {Node.js} sebagai Asynchronous-Request Server}{32}{subsubsection.3.3.3.6}
+\contentsline {subsubsection}{\numberline {III.3.3.7}\textbf {SendGrid} sebagai SMTP Service}{32}{subsubsection.3.3.3.7}
+\contentsline {subsubsection}{\numberline {III.3.3.8}\textbf {Amazon S3} sebagai Data Storage Service}{33}{subsubsection.3.3.3.8}
+\contentsline {subsubsection}{\numberline {III.3.3.9}\textbf {Laravel Dusk}}{33}{subsubsection.3.3.3.9}
+\contentsline {subsection}{\numberline {III.3.4}Kasus Penggunaan}{33}{subsection.3.3.4}
+\contentsline {subsubsection}{\numberline {III.3.4.1}KP01. Manajemen Authentikasi Pengguna}{34}{subsubsection.3.3.4.1}
+\contentsline {subsubsection}{\numberline {III.3.4.2}KP02. Manajemen Transaksi Lelang}{38}{subsubsection.3.3.4.2}
+\contentsline {subsubsection}{\numberline {III.3.4.3}KP03. Manajemen Barang Lelang}{41}{subsubsection.3.3.4.3}
+\contentsline {subsubsection}{\numberline {III.3.4.4}KP04. Manajemen Interaksi \& Kepuasan Pengguna}{46}{subsubsection.3.3.4.4}
+\contentsline {subsubsection}{\numberline {III.3.4.5}KP05. \textit {Monitoring} Proses Lelang}{53}{subsubsection.3.3.4.5}
+\contentsline {subsubsection}{\numberline {III.3.4.6}KP05. Manajemen Voucher}{53}{subsubsection.3.3.4.6}
+\contentsline {subsection}{\numberline {III.3.5}Kamus Data}{53}{subsection.3.3.5}
+\contentsline {chapter}{\numberline {IV}IMPLEMENTASI}{55}{chapter.4}
+\contentsline {section}{\numberline {IV.1}Implementasi Perangkat Keras/ \textit {Deployment}}{55}{section.4.1}
+\contentsline {section}{\numberline {IV.2}Implementasi Perangkat Lunak}{56}{section.4.2}
+\contentsline {subsection}{\numberline {IV.2.1}Arsitektur Perangkat Lunak}{56}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {IV.2.2}Strategi \textit {Deployment}}{58}{subsection.4.2.2}
+\contentsline {subsubsection}{\numberline {IV.2.2.1}\textsc {Nginx}}{58}{subsubsection.4.2.2.1}
+\contentsline {subsubsection}{\numberline {IV.2.2.2}\textsc {Vue.js}}{59}{subsubsection.4.2.2.2}
+\contentsline {subsubsection}{\numberline {IV.2.2.3}Instalasi \& Konfigurasi \textbf {Amazon Web Service S3}}{61}{subsubsection.4.2.2.3}
+\contentsline {section}{\numberline {IV.3}Implementasi Antarmuka / \textit {User Interface}}{64}{section.4.3}
+\contentsline {subsection}{\numberline {IV.3.1}Antarmuka Registrasi}{64}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {IV.3.2}Antarmuka Halaman B}{64}{subsection.4.3.2}
 \contentsline {chapter}{\numberline {V}PENGUJIAN.AN.VALUASI}{67}{chapter.5}
 \contentsline {section}{\numberline {V.1}Pengujian}{67}{section.5.1}
 \contentsline {subsection}{\numberline {V.1.1}Pengujian Fungsionalitas Lelang}{67}{subsection.5.1.1}
@@ -92,4 +91,4 @@
 \contentsline {chapter}{\numberline {VI}PENUTUP}{69}{chapter.6}
 \contentsline {section}{\numberline {VI.1}Kesimpulan}{69}{section.6.1}
 \contentsline {section}{\numberline {VI.2}Saran}{69}{section.6.2}
-\contentsline {chapter}{DAFTAR PUSTAKA}{71}{chapter*.44}
+\contentsline {chapter}{DAFTAR PUSTAKA}{71}{chapter*.37}
