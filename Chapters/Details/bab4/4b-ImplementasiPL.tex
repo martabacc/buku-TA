@@ -1,29 +1,28 @@
 
-  \section{Implementasi Perangkat Lunak}
-  Pada subbab ini, penulis akan memaparkan mengenai spesifikasi dan pemasangan perangkat lunak yang dibutuhkan dalam rancang bangun aplikasi lelang online ini.
+\section{Implementasi Perangkat Lunak}
+Pada subbab ini, penulis akan memaparkan mengenai spesifikasi dan pemasangan perangkat lunak yang dibutuhkan dalam rancang bangun aplikasi lelang online ini.
   
-  \subsection{Arsitektur Perangkat Lunak}
-  \label{arsitektur-pl-final}
-	  Sesuai dengan analisa yang penulis paparkan pada 
-	  
-	  \begin{figure}[H]
-	  	\centering
-	  	\includegraphics[height=0.6\paperheight]{images/bab3/diagram/arsitektur-colorized.png}
-	  	\caption{Arsitektur Aplikasi Lelang Online Ter\textit{Update} \\
-	  		\textit{External Services} artinya adalah menggunakan \textit{service} dari luar, tidak dibangun sendiri. }
-	  	\label{arsitektur-app}
-	  \end{figure}
+\subsection{Teknologi Penyusun Perangkat Lunak}
+\label{arsitektur-pl-final}
+Sesuai dengan analisa yang penulis paparkan pada subbab \ref{alasan-paper-rujukan}, penulis mempelajari kebutuhan-kebutuhan tersebut dan mencocokkan dengan pilihan teknologi yang ada pada saat ini. 
+\begin{figure}[H]
+  	\centering
+  	\includegraphics[height=0.8\paperheight]{images/bab3/diagram/arsitektur-colorized.png}
+  	\caption{Diagram Penggunaan Teknologi \\
+  		\textit{External Services} artinya adalah menggunakan \textit{services} dari luar, \textit{services}nya tidak di sendiri.}
+  	\label{arsitektur-app}
+\end{figure}
   
-  \subsection{Strategi \textit{Deployment}}
-	  Pada saat instalasi dan konfigurasi beberapa komponen perangkat lunak, tidak tentu berjalan dengan baik dalam sekali percobaan. Pada subbab berikutnya, penulis memaparkan beberapa kesulitan dan penyelesaiannya.
+\subsection{Strategi \textit{Deployment}}
+Pada saat instalasi dan konfigurasi beberapa komponen perangkat lunak, tidak tidak keseluruhan prosesnya berjalan dengan baik dalam sekali percobaan. Berikut paparan beberapa kesulitan dan penyelesaiannya.
 	  
 	\input{Chapters/Details/bab4/4b/nginx}
 %	\input{Chapters/Details/bab4/4b/laravel}
 %	\input{Chapters/Details/bab4/4b/postgre}
 %	\input{Chapters/Details/bab4/4b/mongo}
 	\input{Chapters/Details/bab4/4b/vue}
-	\input{Chapters/Details/bab4/4b/node}
-	\input{Chapters/Details/bab4/4b/socketio}
+%	\input{Chapters/Details/bab4/4b/node}
+%	\input{Chapters/Details/bab4/4b/socketio}
 	\input{Chapters/Details/bab4/4b/jwt}
 	\input{Chapters/Details/bab4/4b/sendgrid}
 	\input{Chapters/Details/bab4/4b/aws}

@@ -10,12 +10,8 @@
 \contentsline {figure}{\numberline {III.6}{\ignorespaces PDM Ter\textit {Update} Database Non-Relasional\relax }}{29}{figure.caption.11}
 \contentsline {figure}{\numberline {III.7}{\ignorespaces Arsitektur Aplikasi Lelang Online \textit {External Services} artinya adalah menggunakan \textit {service} dari luar, tidak dibangun sendiri. \relax }}{30}{figure.caption.12}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {IV.1}{\ignorespaces Arsitektur Aplikasi Lelang Online Ter\textit {Update} \textit {External Services} artinya adalah menggunakan \textit {service} dari luar, tidak dibangun sendiri. \relax }}{57}{figure.caption.30}
-\contentsline {figure}{\numberline {IV.2}{\ignorespaces Skrinsut Tahap 1 Instalasi \textbf {AWS}\relax }}{62}{figure.caption.31}
-\contentsline {figure}{\numberline {IV.3}{\ignorespaces Skrinsut Tahap 2 Instalasi \textbf {AWS}\relax }}{62}{figure.caption.32}
-\contentsline {figure}{\numberline {IV.4}{\ignorespaces Skrinsut Tahap 1 Konfigurasi \textbf {AWS}\relax }}{63}{figure.caption.33}
-\contentsline {figure}{\numberline {IV.5}{\ignorespaces Skrinsut Tahap 1 Konfigurasi Nginx \textbf {AWS}\relax }}{63}{figure.caption.34}
-\contentsline {figure}{\numberline {IV.6}{\ignorespaces Pseudocode Controller untuk Menampilkan Antarmuka A \relax }}{64}{figure.caption.35}
-\contentsline {figure}{\numberline {IV.7}{\ignorespaces Pseudocode Controller untuk Menampilkan Antarmuka B \relax }}{65}{figure.caption.36}
+\contentsline {figure}{\numberline {IV.1}{\ignorespaces Diagram Penggunaan Teknologi \textit {External Services} artinya adalah menggunakan \textit {services} dari luar, \textit {services}nya tidak di sendiri.\relax }}{57}{figure.caption.30}
+\contentsline {figure}{\numberline {IV.2}{\ignorespaces Pseudocode Controller untuk Menampilkan Antarmuka A \relax }}{63}{figure.caption.31}
+\contentsline {figure}{\numberline {IV.3}{\ignorespaces Pseudocode Controller untuk Menampilkan Antarmuka B \relax }}{64}{figure.caption.32}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

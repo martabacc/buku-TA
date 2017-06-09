@@ -9,15 +9,14 @@
 	% todo cite wikipedia
 	\textbf{\textit{The Problem}} \\
 	\indentenum  Masalah koneksi ke server lelang (yang berjalan pada domain yang sama, namun port yang berbeda) tidak dapat tersambung karena \textit{error} berikut :
-	\begin{lstlisting}[style=htmlcssjs]
-		No ‘Access-Control-Allow-Origin’ header is present on the requested resource.
+	\begin{lstlisting}[language=json]
+No ‘Access-Control-Allow-Origin’ header is present on the requested resource.
 	\end{lstlisting}
 	
 	
 	\textbf{\textit{Insight}} \\
 	\indentenum Selama 2 minggu kurang lebih penulis mencoba cara yang ditemukan penulis dalam situs stackoverflow untuk mengkonfigurasi \textit{server} lelang agar otorisasi CORS dapat dilakukan, namun tidak ada hasil.\\
 	\indent Masalah ini terselesaikan setelah menggunakan fitur \textit{reverse proxy} dari Nginx.\\
-	
 	
 	\textbf{\textit{Solution}} \\
 	\indentenum Strateginya adalah sebagai berikut :

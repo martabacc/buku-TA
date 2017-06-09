@@ -1,8 +1,8 @@
 \subsubsection{\textsc{Vue.js}}
 	% todo inline numbering
 	
-\begin{enumerate}\bfseries
-\item \textbf{Package Dependencies} \\
+\begin{enumerate}
+\item \textbf{\textit{Package Dependencies}} \\
     \indentenum Pada versi terbaru Laravel (5.4*), Laravel secara \textit{default} menyertakan \textit{package} Laravel Mix - yaitu fitur untuk \textit{compiling assets} dengan Webpack, dengan hasil akhir \textit{compiled assets} (terutama \textit{script} Javascript) yang eksekusinya jauh lebih cepat, karena menggunakan V8 -- sebuah \textit{engine} Javascript yang telah dioptimasi yang bersifat \textit{just-in-time} (JIT) yang memproduksi \textit{machine code} dari sebuah \textit{script} Javascript lalu dieksekusi.\\
   
   \textbf{\textit{Main Problem}} \\
@@ -20,35 +20,23 @@
   
   \textbf{\textit{Solution}} \\
     \indentenum Penulis lalu mengoreksi dan \textit{update package.json} dengan pendekatan \textit{trial and error}, dan bisa terselesaikan dengan script berikut :
-		  	
-\begin{lstlisting}[language=json]
-{
-	"private": true,
-	"scripts": 	{
-		"_comment" : "Lists of running npm commands defined here"
-	},
-	"devDependencies": {
-		"axios": "^0.15.3",
-		"bootstrap-sass": "^3.3.7",
-		"cross-env": "^3.2.3",
-		"jquery": "^3.1.1",
-		"laravel-mix": "0.*",
-		"lodash": "^4.17.4",
-		"vue": "^2.1.10"
-	},
-	"dependencies": {
-		"vue-resource": "^1.3.1"
-	}
-}
- 	\end{lstlisting}
+	\input{sourceCode/04/vue/package}	  	
+
 			  	
-			  
-\item \textbf{\textit{Package Dependencies Optimization}}
-		\\ \indent
-		Langkah-langkah untuk \textit{compiling assets} adalah sebagai berikut :
-		\begin{enumerate}
-			\item 
-		\end{enumerate}
-		Masalah optimasi muncul saat beberapa \textit{script} Vue.js ternyata menggunakan \textit{dependencies} yang sama, yaitu axios, vue dan http.
-		\\ \indentenum
-	 \end{enumerate}
+	\ \\		  
+\item 
+	\textbf{\textit{Dependencies Optimization}} \textbf{\textit{Problem}} \\
+	\indentenum Setelah menulis beberapa \textit{script} Vue, penulis menyadari bahwa setiap \textit{script} Vue ternyata mempunyai \textit{dependencies} yang sama, yaitu axios, Promise, toastr dan vue. Setiap file Vue meng\textit{include} sebuah \textit{script} yang berisi:
+	\input{sourceCode/04/vue/dependencies}
+
+	Hal ini mengakibatkan semua file vue yang di\textit{compile} ukurannya cukup besar (~400kb), padahal sebenarnya di dalam setiap file tersebut sebenarnya ada yang sama. Hal ini tentu tidak efektif, karna sebenarnya hal-hal yang sama tersebut bisa dipisahkan, dan dijadikan \textit{cache} sehingga \textit{loading} halaman bisa jauh lebih cepat.\\
+		
+	\textbf{\textit{Insight \& Solution}} \\
+	\indentenum Setelah penulis menanyakan dan mendiskusikan di forum Slack, beberapa pengguna Vue menyarankan untuk \textit{compile} keseluruhan \textit{dependencies} yang digunakan kedalam satu file terpisah, dan hanya menulis logika Vue untuk setiap file Vue.\\
+	\indentenum Isi file webpack.mix.js (file yang di\textit{compile} oleh Webpack)	menjadi seperti berikut.
+	\input{sourceCode/04/vue/webpack-opt}
+		
+	\indentenum Dan di HTML, untuk \textit{including} \textit{script} dituliskan seperti berikut:
+	\input{sourceCode/04/vue/html-include}
+
+\end{enumerate}
