@@ -1,0 +1,24 @@
+
+\subsection{Perancangan \textit{Database}}
+
+	Terdapat beberapa pertimbangan 
+    \\
+    
+    \begin{enumerate}
+    \item \textbf{Data Transaksional disimpan di DBMS SQL - \textit{Relational}}
+    \newline
+    \indent Data yang sifatnya \textit{transaksional}, seperti data \textit{bidding}, data pengguna, dan lain sebagainya.
+    Untuk data ini, lebih baik jika menggunakan database Postgre, untuk menjaga integritas data dan \textit{integrity checking} juga  menjadi lebih baik.
+    \newline
+    
+    \item 
+    \textbf{Data Non-Transaksional disimpan di DBMS NoSQL}
+    \newline
+    \indent Data \textit{chatting}, data \textit{joined rooms} tidak cocok dimasukkan kedalam database transaksional karena sifat pertambahan datanya yang sangat cepat, masif dan urgensi integritas data tidak terlalu diprioritaskan (dibanding dengan data transaksional pada poin sebelumnya.
+    \newline
+    \indent Oleh karena itu, baiknya data ini disimpan pada database NoSQL - pada rancang bangun aplikasi ini, DBMS NoSQL yang digunakan adalah MongoDB.
+    \newline
+   
+    
+    \end{enumerate}
+    
