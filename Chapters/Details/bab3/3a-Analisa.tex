@@ -1,7 +1,15 @@
 \section{Analisa}
-
+	Pada subbab ini, penulis akan memaparkan analisa-analisa kebutuhan, teknis dan analisa pribadi serta pengaruhnya dalam perancangan aplikasi pada subbab \ref{perancangan-sistem}. Secara garis besar, subbab ini menjelaskan \begin{inlinelist}
+		\item analisa kebutuhan fungsional,
+		\item analisa aspek bisnis,
+		\item spesifikasi kebutuhan, dan
+		\item rancangan arsitektur dan teknologi yang digunakan
+	\end{inlinelist}. Pada beberapa poin, penulis akan menyertakan rancangan dan pemilihan teknologi yang berdampak dari hasil analisa tersebut.
+	
 	%Requirement Analysis
 	\subsection{\textit{Requirement Analysis}}
+	
+	
 	\input{Chapters/Details/bab3/analisa/kebutuhan/basicfunctionality} %checked
 	\input{Chapters/Details/bab3/analisa/kebutuhan/paper} %checked
 	\input{Chapters/Details/bab3/analisa/kebutuhan/bussiness_aspect} 
@@ -9,69 +17,33 @@
 	\input{Chapters/Details/bab3/analisa/kebutuhan/non-functional} %checked
 	\input{Chapters/Details/bab3/analisa/kebutuhan/bussinessmodellingworkflow} 
 	\input{Chapters/Details/bab3/analisa/kebutuhan/ucdesc} %checked
-	
-	
 	%Technical Analysis
+
+
 	\subsection{\textit{Technical Analysis}}
-	\input{Chapters/Details/bab3/analisa/teknis/req-to-system}
-	\input{Chapters/Details/bab3/analisa/teknis/arsitektur-dasar}
-	\input{Chapters/Details/bab3/analisa/teknis/tech-options}
-	\input{Chapters/Details/bab3/analisa/teknis/summary}
-
-
-
-\subsection{Analisa \textit{User Experience} dari E-Commerce di Indonesia}
-\label{alasan-ux-ecommerce-indonesia alasan-app-serupa}
-Selama masa pengerjaan aplikasi, penulis sering menganalisa dan memperhatikan kebiasaan-kebiasaan yang umum di website \textit{e-commerce} di Indonesia. Salah satu yang paling sering dianalisa oleh penulis adalah adalah situs Tokopedia.
-\\
-\indent Beberapa hal yang dianalisa penulis adalah:
-\begin{enumerate}
-	\item Halaman yang muncul bukanlah eagerloading, tapi \textit{lazy loading}\\
-	\indent Ini adalah solusi cerdas untuk mengakali \textit{delay loading item} yang sudah pasti jumlahnya sangat banyak (maka butuh \textit{query} yang tentunya memakan waktu cukup lama), namun juga memainkan faktor psikologi / \textit{user behaviour} pengguna dengan membiarkan pengguna melihat tahap demi tahap halaman 'diisi'.
-	\item \textit{User Interface} yang sederhana dan pemilihan warna yang \textit{soft}
-\end{enumerate}
-Dari 2 poin tersebut, sebisa mungkin saya adaptasi ke dalam aplikasi Lelang Online ini.
-
-\subsection{Analisa Keamanan pada koneksi Soket}
-\label{alasan-socket.io}
-Untuk mengakomodasi fitur yang bersifat \textit{realtime}, dibutuhkan koneksi ke soket secara terus menerus. Hal ini tentu dapat menjadi sasaran empuk \textit{security} karena jika tidak diamankan, maka dapat menjadi peluang besar bagi para pihak yang tidak berkepentingan untuk merusak proses bisnis aplikasi.\\
-\indent Namun, jika dalam setiap koneksi soket harus mengirimkan \textit{credentials}, hal ini tentu menjadi tidak praktis dan malah lebih berbahaya karena membiarkan data-data sensitif seperti \textit{password} dan \textit{username} berlalu-lalang di jaringan internet. Selain itu, \textit{disadvantage}nya adalah ketidakpraktisan untuk selalu meng\textit{query} database setiap kali ada koneksi, tentu saja ini memperlambat kerja \textit{database} dan menambah waktu \textit{delay}.\\
-\indent Untuk menyiasatinya, penulis menerapkan JWT.io dengan keuntungan sebagai berikut :
-\begin{enumerate}
-	\item Tidak perlu \textit{query} ke database karena hanya menggunakan security token yang di\textit{generate} dengan formula tertentu
-	\item Tidak perlu ada aplikasi khusus yang menjembatani aplikasi Soket dan aplikasi WebServer - sehingga lebih praktis
-	\item Data-data sensitif menjadi lebih terjaga karena tidak perlu dipertukarkan setiap koneksi ke soket.
-\end{enumerate}
-
-\subsection{Analisa \textit{Best Practice} dalam Struktur Perangkat Lunak}
-\label{alasan-best-practice}
-Pada dasarnya, Laravel adalah kerangka kerja MVC. Namun, ada banyak fitur yang ada dalam aplikasi Lelang Online ini yang tidak terakomodasi dalam MVC, misal sebagai berikut :
-\begin{enumerate}
-	\item Sistem Verifikasi lewat Email - yang berarti aplikasi harus berinteraksi dengan SMTP server
-	\item Sistem \textit{Generate} Token JWT.io, dimana dalam proses \textit{Generate Token} sama sekali tidak ada database dilibatkan.
-\end{enumerate}
-
-\indent Jika fitur-fitur tersebut 'dipaksa' dimuat ke dalam MVC, maka tentu saja strukturnya menjadi ganjil, dan muncul \textit{code smell} berikut :
-\begin{enumerate}
-	\item \textit{Large Class}, dimana terdapat satu buah file yang sangat panjang (biasanya merupakan entitas utama, dalam hal ini contohnya barang/\textit{item})
-	\item \textit{Inappropriate Intimacy}, dimana terdapat satu kelas yang menyimpan \textit{logic} yang tidak seharusnya ia simpan
-	\item \textit{Duplicated Code}
-\end{enumerate}
-
-\indent Untuk menghindari kemungkinan \textit{code smell} tersebut, maka penulis menyiasatinya dengan cara berikut :
-\begin{enumerate}
-	\item Penggunaan Repository Pattern
-	\\ Memisahkan antara Data Processing Layer dan View Layer - agar lebih rapi, terstruktur, hal ini juga dapat menghindari \textit{Duplicated Code}.
-	\item Penambahan Komponen : Service dan Provider \\
-	Untuk memisahkan \textit{logic} aplikasi yang terkait dengan akses pihak ketiga. Tujuannya, agar jika kedepannya terdapat perbaikan fitur/penambahan fitur, lebih mudah melakukan \textit{traceback} terhadap file/kelas yang bertanggungjawab terhadap fitur tersebut.
-\end{enumerate}
-
-\subsection{Analisa Aplikasi Serupa}
-\label{alasan-app-serupa}
-Selama pengerjaan aplikasi, penulis menganalisa aplikasi serupa. Penulis menemukan aplikasi yang kurang lebih alur bisnis / alur penggunaan aplikasinya serupa yaitu : Carousell. \\
-\indent Penulis melihat ada beberapa kesamaan antara sifat transaksi aplikasi tugas akhir saya dengan aplikasi tersebut, yaitu :
-\begin{enumerate}
-	\item Sama-sama tidak mengakomodasi pembayaran
-	\item Sama-sama tidak adanya kepastian harga (bedanya, pada Carousell yang terjadi adalah \textit{bargaining}
-\end{enumerate}
-\indent Sehingga dalam alur proses nya, banyak diadaptasi dari Carousell, agar pengguna dapat lebih familiar dan \textit{predictability}nya lebih tinggi jika diadaptasi dari \textit{E-commerce} lainnya yang lebih umum digunakan oleh pengguna.
+	\label{tech-analysis}
+	
+	Untuk membuat sebuah aplikasi yang sukses, tentunya banyak sekali aspek yang harus diperhatikan. Selain kualitas aplikasi yang akan dibuat, juga ketahanannya terhadap perubahan karena \textit{e-commerce} adalah sesuatu yang sangat cepat berubah karena kompetitor yang sangat kompetitif dan dorongan tehnologi yang membuat efektifitas dan efisiensi menjadi lebih baik.\\
+	
+	\indent Dari sisi \textit{software engineering} sendiri, \textit{software engineering} dimaksudkan untuk menunjang/\textit{support} pengembangan \textit{software} daripada \textit{individual programming}. Hal ini mencakup: \begin{inlinelist}
+		\item \textit{evolution}
+		\item \textit{design}
+		\item \textit{supporting program specification}
+	\end{inlinelist} \cite[p.~5]{software-engineering}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.8\textwidth]{images/bab3/buku/essential-good-software.png}
+		\caption{\textit{Essential attributes of good software}}
+		\label{essential-software}
+	\end{figure}
+	
+	\indent Berdasarkan kriteria tersebut, maka setiap poin perlu diperhatikan agar dapat mengembangkan sebuah aplikasi yang tidak hanya sukses, tapi juga bertahan dalam kompetisi. Dalam istilah bisnis, hal ini disebut dengan \textit{risk management}.
+	
+	% pemaparan evolution-risk from inside : data growth, latency
+	
+	% pemaparan evolution-risk from outside : keamanan
+	% pemaparan gabungan 	
+	\input{Chapters/Details/bab3/analisa/teknis/personal-analysis} %doneded
+	
+	

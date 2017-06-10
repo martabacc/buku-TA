@@ -406,30 +406,6 @@ noauthor_sistem_nodate}%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Sitepoint%
-}{%
-Sitepoint%
-}{%
-{\protect \APACyear {2011}}%
-}]{%
-sitepoint_7_2011}
-\APACinsertmetastar {%
-sitepoint_7_2011}%
-\begin{APACrefauthors}%
-Sitepoint.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2011}{{\APACmonth{09}}}{}.
-\newblock
-\APACrefbtitle {7 {Reasons} to {Use} a {CDN}} {7 {Reasons} to {Use} a {CDN}}\
-  [Educational].
-\newblock
-\begin{APACrefURL} \url{https://www.sitepoint.com/7-reasons-to-use-a-cdn/}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 \APACcitebtitle {{SMTP}}}{%
 \APACcitebtitle {{SMTP}}}{%
 {\protect \APACyear {{\protect \bibnodate {}}}}%
@@ -459,6 +435,30 @@ noauthor_socket.io_2016}%
 \newblock
 \begin{APACrefURL} \url{https://en.wikipedia.org/wiki/Socket.IO}
   \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sommervile%
+}{%
+Sommervile%
+}{%
+{\protect \APACyear {2009}}%
+}]{%
+software-engineering}
+\APACinsertmetastar {%
+software-engineering}%
+\begin{APACrefauthors}%
+Sommervile, I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2009}.
+\newblock
+\APACrefbtitle {Software {Engineering}} {Software {Engineering}}\
+  (\PrintOrdinal{9th}\ \BEd).
+\newblock
+\APACaddressPublisher{United States of America}{Addison-Wesley. All rights
+  reserved}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
