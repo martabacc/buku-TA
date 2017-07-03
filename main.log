@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2017.5.23)  1 JUL 2017 13:54
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2017.5.23)  3 JUL 2017 13:07
 entering extended mode
 **./main.tex
 (main.tex
@@ -1167,6 +1167,36 @@ LaTeX Warning: Label `alasan-app-serupa' multiply defined.
 
 LaTeX Warning: Label `alasan-app-serupa@cref' multiply defined.
 
+
+LaTeX Warning: Label `db-coupon' multiply defined.
+
+
+LaTeX Warning: Label `db-coupon@cref' multiply defined.
+
+
+LaTeX Warning: Label `db-issues' multiply defined.
+
+
+LaTeX Warning: Label `db-issues@cref' multiply defined.
+
+
+LaTeX Warning: Label `db-issues' multiply defined.
+
+
+LaTeX Warning: Label `db-issues@cref' multiply defined.
+
+
+LaTeX Warning: Label `db-issues' multiply defined.
+
+
+LaTeX Warning: Label `db-issues@cref' multiply defined.
+
+
+LaTeX Warning: Label `db-issues' multiply defined.
+
+
+LaTeX Warning: Label `db-issues@cref' multiply defined.
+
 ) (Chapters/Main/Bab4-Implementasi.aux
 
 LaTeX Warning: Label `pdm' multiply defined.
@@ -1849,28 +1879,105 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (Chapters/Details/bab3/desain/database/kamus_transaksional/coupon_usages.tex
 (tables/03b/tables/transactional/coupon_usages.tex)
 (tables/03b/tables/transactional/coupon_usages.tex)
-(tables/03b/tables/transactional/coupon_usages.tex [58])))
-(Chapters/Details/bab3/desain/kamus-data-nontransaksional.tex)
-(Chapters/Details/bab3/desain/datadict.tex))) [59]
+(tables/03b/tables/transactional/coupon_usages.tex [58]))
+(Chapters/Details/bab3/desain/database/kamus_transaksional/favorites.tex
+(tables/03b/tables/transactional/favorites.tex)
+(tables/03b/tables/transactional/favorites.tex)
+(tables/03b/tables/transactional/favorites.tex))
+(Chapters/Details/bab3/desain/database/kamus_transaksional/issues.tex
+(tables/03b/tables/transactional/issues.tex)
+(tables/03b/tables/transactional/issues.tex)
+(tables/03b/tables/transactional/issues.tex [59]))
+(Chapters/Details/bab3/desain/database/kamus_transaksional/issuetypes.tex
+(tables/03b/tables/transactional/issuetypes.tex)
+(tables/03b/tables/transactional/issuetypes.tex)
+(tables/03b/tables/transactional/issuetypes.tex))
+(Chapters/Details/bab3/desain/database/kamus_transaksional/items.tex
+(tables/03b/tables/transactional/items.tex)
+(tables/03b/tables/transactional/items.tex)
+(tables/03b/tables/transactional/items.tex
+Overfull \hbox (2.10059pt too wide) in paragraph at lines 30--30
+[]|\EU1/TimesNewRoman(0)/m/n/10.95 id_coupon_usage| 
+ []
+
+[60] [61]))
+(Chapters/Details/bab3/desain/database/kamus_transaksional/ratingauctioneers.te
+x (tables/03b/tables/transactional/ratingauctioneers.tex)
+(tables/03b/tables/transactional/ratingauctioneers.tex)
+(tables/03b/tables/transactional/ratingauctioneers.tex))
+(Chapters/Details/bab3/desain/database/kamus_transaksional/ratingbidders.tex
+(tables/03b/tables/transactional/ratingbidders.tex)
+(tables/03b/tables/transactional/ratingbidders.tex)
+(tables/03b/tables/transactional/ratingbidders.tex
+Overfull \hbox (6.45195pt too wide) in paragraph at lines 18--18
+[]|\EU1/TimesNewRoman(0)/m/n/10.95 nama_user_bidder| 
+ []
+
+[62]))
+(Chapters/Details/bab3/desain/database/kamus_transaksional/ratinglogs.tex
+(tables/03b/tables/transactional/ratinglogs.tex)
+(tables/03b/tables/transactional/ratinglogs.tex)
+(tables/03b/tables/transactional/ratinglogs.tex
+Overfull \hbox (8.94002pt too wide) in paragraph at lines 16--16
+[]|\EU1/TimesNewRoman(0)/m/n/10.95 id_user_auctioneer| 
+ []
+
+
+Overfull \hbox (3.32819pt too wide) in paragraph at lines 19--19
+[]|[]| 
+ []
+
+
+Overfull \hbox (0.83463pt too wide) in paragraph at lines 20--20
+\EU1/TimesNewRoman(0)/m/n/10.95 ratingauctioneers| 
+ []
+
+[63]))
+(Chapters/Details/bab3/desain/database/kamus_transaksional/user_verifications.t
+ex (tables/03b/tables/transactional/userverifications.tex)
+(tables/03b/tables/transactional/userverifications.tex)
+(tables/03b/tables/transactional/userverifications.tex))
+(Chapters/Details/bab3/desain/database/kamus_transaksional/userissues.tex
+(tables/03b/tables/transactional/userissues.tex)
+(tables/03b/tables/transactional/userissues.tex)
+(tables/03b/tables/transactional/userissues.tex [64]))
+(Chapters/Details/bab3/desain/database/kamus_transaksional/users.tex
+(tables/03b/tables/transactional/users.tex)
+(tables/03b/tables/transactional/users.tex)
+(tables/03b/tables/transactional/users.tex [65])))
+(Chapters/Details/bab3/desain/kamus-data-nontransaksional.tex
+(Chapters/Details/bab3/desain/database/kamus_nontransaksional/userchats.tex
+(tables/03b/tables/nontransactional/userchats.tex)
+(tables/03b/tables/nontransactional/userchats.tex)
+(tables/03b/tables/nontransactional/userchats.tex))
+(Chapters/Details/bab3/desain/database/kamus_nontransaksional/chatrooms.tex
+(tables/03b/tables/nontransactional/chatrooms.tex)
+(tables/03b/tables/nontransactional/chatrooms.tex)
+(tables/03b/tables/nontransactional/chatrooms.tex [66]))
+(Chapters/Details/bab3/desain/database/kamus_nontransaksional/itemimages.tex
+(tables/03b/tables/nontransactional/itemimages.tex)
+(tables/03b/tables/nontransactional/itemimages.tex)
+(tables/03b/tables/nontransactional/itemimages.tex)))
+(Chapters/Details/bab3/desain/datadict.tex))) [67]
 \openout2 = `Chapters/Main/Bab4-Implementasi.aux'.
 
 
-(Chapters/Main/Bab4-Implementasi.tex [60
+(Chapters/Main/Bab4-Implementasi.tex [68
 
 
 
 ]
 BAB IV.
-(Chapters/Details/bab4/4a-ImplementasiPK.tex [61])
+(Chapters/Details/bab4/4a-ImplementasiPK.tex [69])
 (Chapters/Details/bab4/4b-ImplementasiPL.tex
 (Chapters/Details/bab4/4b/nginx.tex
 LaTeX Font Info:    Font shape `EU1/CourierNew(0)/m/n' will be
 (Font)              scaled to size 9.85492pt on input line 6.
- [62]
+ [70]
 LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/m/sc' will be
 (Font)              scaled to size 11.22368pt on input line 26.
 ) (Chapters/Details/bab4/4b/vue.tex
-[63] (sourceCode/04/vue/package.tex [64]) (sourceCode/04/vue/dependencies.tex
+[71] (sourceCode/04/vue/package.tex [72]) (sourceCode/04/vue/dependencies.tex
 ("C:\Users\rona\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.s
 ty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
@@ -1881,19 +1988,19 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
 LaTeX Font Info:    Font shape `EU1/CourierNew(0)/bx/n' will be
 (Font)              scaled to size 9.85492pt on input line 2.
-) (sourceCode/04/vue/webpack-opt.tex [65])
+) (sourceCode/04/vue/webpack-opt.tex [73])
 (sourceCode/04/vue/html-include.tex)) (Chapters/Details/bab4/4b/jwt.tex)
 (Chapters/Details/bab4/4b/sendgrid.tex))
 (Chapters/Details/bab4/4c-ImplementasiUI.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [66]
+ [74]
 File: images/bab4/smpso_code.png Graphic file (type QTm)
 
 <use  "images/bab4/smpso_code.png" >
 File: images/bab4/smpso_code.png Graphic file (type QTm)
  <use  "images/bab4/smpso_code.png" >
-[67])) [68]
+[75])) [76]
 \openout2 = `Chapters/Main/Bab5-PengujianDanEvaluasi.aux'.
 
  (Chapters/Main/Bab5-PengujianDanEvaluasi.tex
@@ -1902,30 +2009,30 @@ BAB V.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [69
+ [77
 
 
 
 ]))
-[70]
+[78]
 \openout2 = `Chapters/Main/Bab6-Penutup.aux'.
 
  (Chapters/Main/Bab6-Penutup.tex
 BAB VI.
-) [71
+) [79
 
 
 
 ] (main.bbl
 Underfull \vbox (badness 5077) has occurred while \output is active []
 
- [72
+ [80
 
 ]
 Underfull \vbox (badness 2735) has occurred while \output is active []
 
- [73])
-[74]
+ [81])
+[82]
 
 Package caption Warning: Unused \captionsetup[ltxtable] on input line 21.
 See the caption package documentation for explanation.
@@ -1952,12 +2059,12 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 30841 strings out of 428410
- 541609 string characters out of 3156958
- 769810 words of memory out of 3000000
- 33599 multiletter control sequences out of 15000+200000
+ 30990 strings out of 428410
+ 547539 string characters out of 3156958
+ 771804 words of memory out of 3000000
+ 33628 multiletter control sequences out of 15000+200000
  7067 words of font info for 65 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 55i,12n,69p,10398b,17325s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,12n,69p,10398b,17385s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (94 pages).
+Output written on main.pdf (102 pages).

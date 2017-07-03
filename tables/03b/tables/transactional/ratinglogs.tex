@@ -15,9 +15,9 @@
 \multicolumn{1}{|c|}{	2	}&	id\_user\_winner	&	varchar(50)	&	FK ID User pemenang lelang	\\ \hline
 \multicolumn{1}{|c|}{	3	}&	id\_user\_auctioneer	&	int	&	FK ID User Penjual	\\ \hline
 \multicolumn{1}{|c|}{	4	}&	id\_item	&	int	&	FK ID barang yang dirating	\\ \hline
-\multicolumn{1}{|c|}{	5	}&	status\_rating\_from\_winner	&	int	&	Flag apakah transaksi sudah dirating oleh pemenang lelang	\\ \hline
-\multicolumn{1}{|c|}{	6	}&	status\_rating\_from\_auctioneer	&	bigint	&	Flag apakah transaksi sudah dirating oleh penjual barang	\\ \hline
+\multicolumn{1}{|c|}{	5	}&	\begin{tabular}[l]{@{}l@{}}status\_rating \\ \hline \_from\_winner\end{tabular}	&	int	&	Flag apakah transaksi sudah dirating oleh pemenang lelang	\\ \hline
+\multicolumn{1}{|c|}{	6	}&	\begin{tabular}[l]{@{}l@{}}status\_rating \\ \hline \_from\_auctioneer\end{tabular}	&	bigint	&	Flag apakah transaksi sudah dirating oleh penjual barang	\\ \hline
 \multicolumn{1}{|c|}{	7	}&	id\_rating\_bidder	&	int	&	FK ID rating di tabel ratingauctioneers	\\ \hline
-\multicolumn{1}{|c|}{	8	}&	id\_rating\_auctioneer	&	text	&	FK ID rating di tabel ratingbidders	\\ \hline
+\multicolumn{1}{|c|}{	8	}&	\begin{tabular}[l]{@{}l@{}}id\_rating \\ \hline \_auctioneer\end{tabular}	&	text	&	FK ID rating di tabel ratingbidders	\\ \hline
 
  \end{longtable}
