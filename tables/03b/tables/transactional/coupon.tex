@@ -1,0 +1,24 @@
+ \begin{longtable}{|r|X|X|X|}
+ 	\caption{Kamus Data Tabel Coupon}
+ 	\label{db-coupon} \\ \hline
+ 	\textbf{No} & \textbf{Nama Atribut} & \textbf{Tipe Data} & \textbf{Keterangan} \\ \hline
+ 	\endfirsthead
+ 	
+ 	\multicolumn{4}{c}%
+ 	{\tablename\ \thetable{} -- lanjutan dari halaman sebelumnya} \\ \hline
+ 	\textbf{No} & \textbf{Nama Atribut} & \textbf{Tipe Data} & \textbf{Keterangan} \\ \hline
+ 	\endhead
+ 	
+ 	\hline
+ 	\endlastfoot
+ 	
+	\multicolumn{1}{|c|}{	1	}&	coupon\_id	&	int	&	PK, AutoIncr	\\ \hline
+	\multicolumn{1}{|c|}{	2	}&	\begin{tabular}[l]{@{}l@{}}customerfacing \\ \hline coupon\end{tabular}	&	varchar(15)	&	String voucher yang diberikan kepada  pengguna	\\ \hline
+	\multicolumn{1}{|c|}{	3	}&	activedate	&	timestamp	&	Tanggal aktif voucher	\\ \hline
+	\multicolumn{1}{|c|}{	4	}&	expiredate	&	timestamp	&	Tanggal nonaktif voucher	\\ \hline
+	\multicolumn{1}{|c|}{	5	}&	terms	&	varchar(255)	&	Deskripsi aturan penggunaan voucher	\\ \hline
+	\multicolumn{1}{|c|}{	6	}&	usages	&	bigint	&	Banyak penggunaan voucher	\\ \hline
+	\multicolumn{1}{|c|}{	7	}&	limit\_usages	&	bigint	&	Batas penggunaan voucher	\\ \hline
+	\multicolumn{1}{|c|}{	8	}&	free\_shipping	&	bool	&	Status apakah voucher berupa kupon \textit{free shipping} atau tidak	\\ \hline
+	\multicolumn{1}{|c|}{	9	}&	price	&	float	&	Persentase diskon yang diberikan	\\ \hline
+ \end{longtable}

@@ -236,6 +236,31 @@ Kuo, Y\BHBI F.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Laia~Bonastre%
+}{%
+Laia~Bonastre%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+a-set-of-heuristics-2014}
+\APACinsertmetastar {%
+a-set-of-heuristics-2014}%
+\begin{APACrefauthors}%
+Laia~Bonastre, T\BPBI G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Set Of Heuristics for User Experience Evaluation in
+  E-commerce Websites} {A set of heuristics for user experience evaluation in
+  e-commerce websites}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{ACHI 2014 : The Seventh International Conference on
+  Advances in Computer-Human Interactions}{}{}{27--34}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Laravel%
 }{%
 Laravel%

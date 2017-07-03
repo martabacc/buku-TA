@@ -1,0 +1,26 @@
+ \begin{longtable}{|r|X|X|X|}
+ 	\caption{Kamus Data Tabel Rating Bidders}
+ 	\label{db-ratingbidders} \\ \hline
+ 	\textbf{No} & \textbf{Nama Atribut} & \textbf{Tipe Data} & \textbf{Keterangan} \\ \hline
+ 	\endfirsthead
+ 	
+ 	\multicolumn{4}{c}%
+ 	{\tablename\ \thetable{} -- lanjutan dari halaman sebelumnya} \\ \hline
+ 	\textbf{No} & \textbf{Nama Atribut} & \textbf{Tipe Data} & \textbf{Keterangan} \\ \hline
+ 	\endhead
+ 	
+ 	\hline
+ 	\endlastfoot
+ 	
+\multicolumn{1}{|c|}{	1	}&	id	&	int	&	PK, Autoincrement	\\ \hline
+\multicolumn{1}{|c|}{	2	}&	id\_user\_bidder	&	varchar(50)	&	FK ID User Pelelang	\\ \hline
+\multicolumn{1}{|c|}{	3	}&	id\_user\_rater	&	int	&	FK ID User pemberi review	\\ \hline
+\multicolumn{1}{|c|}{	4	}&	nama\_user\_bidder	&	int	&	Nama user pelelang	\\ \hline
+\multicolumn{1}{|c|}{	5	}&	nama\_user\_rater	&	int	&	Nama user pemberi rating	\\ \hline
+\multicolumn{1}{|c|}{	6	}&	rate	&	bigint	&	Jumlah rating yang diberikan	\\ \hline
+\multicolumn{1}{|c|}{	7	}&	id\_item	&	int	&	FK ID barang yang dirating	\\ \hline
+\multicolumn{1}{|c|}{	8	}&	rate\_message	&	text	&	Deskripsi Rate	\\ \hline
+
+
+
+ \end{longtable}

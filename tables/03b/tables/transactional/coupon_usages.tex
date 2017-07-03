@@ -1,0 +1,22 @@
+ \begin{longtable}{|r|X|X|X|}
+ 	\caption{Kamus Data Tabel Coupon Usages}
+ 	\label{db-couponusages} \\ \hline
+ 	\textbf{No} & \textbf{Nama Atribut} & \textbf{Tipe Data} & \textbf{Keterangan} \\ \hline
+ 	\endfirsthead
+ 	
+ 	\multicolumn{4}{c}%
+ 	{\tablename\ \thetable{} -- lanjutan dari halaman sebelumnya} \\ \hline
+ 	\textbf{No} & \textbf{Nama Atribut} & \textbf{Tipe Data} & \textbf{Keterangan} \\ \hline
+ 	\endhead
+ 	
+ 	\hline
+ 	\endlastfoot
+ 	
+	\multicolumn{1}{|c|}{	1	}&	id	&	int	&	PK, Autoincrement	\\ \hline
+\multicolumn{1}{|c|}{	2	}&	id\_user	&	bigint	&	FK ID User yang menggunakan voucher	\\ \hline
+\multicolumn{1}{|c|}{	3	}&	id\_item	&	bigint	&	FK ID Item	\\ \hline
+\multicolumn{1}{|c|}{	4	}&	id\_coupon	&	int	&	FK ID Coupon yang digunakan	\\ \hline
+\multicolumn{1}{|c|}{	5	}&	price\_after	&	bigint	&	FK Harga setelah penggunaan voucher	\\ \hline
+
+
+ \end{longtable}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2017.5.23)  10 JUN 2017 15:15
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2017.5.23)  1 JUL 2017 13:54
 entering extended mode
 **./main.tex
 (main.tex
@@ -1178,37 +1178,37 @@ LaTeX Warning: Label `pdm@cref' multiply defined.
 ))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 55.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 55.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 59.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 59.
  ("C:\Users\rona\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tipa\t3cmr.fd"
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 55.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 59.
 
 ("C:\Users\rona\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    ... okay on input line 59.
 
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1250,68 +1250,68 @@ LaTeX Font Info:    ... okay on input line 55.
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 55.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 55.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 55.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 55.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 55.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 55.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 55.
-LaTeX Font Info:    Redeclaring math accent \check on input line 55.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 55.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 55.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 55.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 55.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 59.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 59.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 59.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 59.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 59.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 59.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 59.
+LaTeX Font Info:    Redeclaring math accent \check on input line 59.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 59.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 59.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 59.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 59.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 55.
+(Font)              `operators' in the math version `normal' on input line 59.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> EU1/TimesNewRoman(0)/m/n on input line 
-55.
+59.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 55.
+(Font)              `operators' in the math version `bold' on input line 59.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> EU1/TimesNewRoman(0)/m/n on input line
- 55.
+ 59.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  EU1/TimesNewRoman(0)/m/n --> EU1/TimesNewRoman(0)/m/n o
-n input line 55.
+n input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> EU1/TimesNewRoman(0)/m/it on input lin
-e 55.
+e 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> EU1/TimesNewRoman(0)/bx/n on input lin
-e 55.
+e 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> EU1/TrebuchetMS(0)/m/n on input line 5
-5.
+9.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU1/CourierNew(0)/m/n on input line 55
+(Font)                  OT1/cmtt/m/n --> EU1/CourierNew(0)/m/n on input line 59
 .
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  EU1/TimesNewRoman(0)/m/n --> EU1/TimesNewRoman(0)/bx/n 
-on input line 55.
+on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> EU1/TimesNewRoman(0)/bx/it on input l
-ine 55.
+ine 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> EU1/TrebuchetMS(0)/bx/n on input line
- 55.
+ 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> EU1/CourierNew(0)/bx/n on input line 5
-5.
+9.
 \AtBeginShipoutBox=\box62
 \c@lstlisting=\count198
 Package caption Info: Begin \AtBeginDocument code.
@@ -1320,10 +1320,10 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
 Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 55.
-LaTeX Info: Redefining \ref on input line 55.
-LaTeX Info: Redefining \pageref on input line 55.
-LaTeX Info: Redefining \nameref on input line 55.
+Package hyperref Info: Link coloring OFF on input line 59.
+LaTeX Info: Redefining \ref on input line 59.
+LaTeX Info: Redefining \pageref on input line 59.
+LaTeX Info: Redefining \nameref on input line 59.
 (main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -1383,7 +1383,7 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 ]
 LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/m/it' will be
-(Font)              scaled to size 11.22368pt on input line 58.
+(Font)              scaled to size 11.22368pt on input line 62.
  [0
 
 
@@ -1468,11 +1468,11 @@ File: images/cover/sampulWhite.png Graphic file (type QTm)
 
 ]
 LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/bx/n' will be
-(Font)              scaled to size 11.22368pt on input line 58.
+(Font)              scaled to size 11.22368pt on input line 62.
 LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/bx/n' will be
-(Font)              scaled to size 12.29993pt on input line 58.
+(Font)              scaled to size 12.29993pt on input line 62.
 LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/bx/it' will be
-(Font)              scaled to size 11.22368pt on input line 58.
+(Font)              scaled to size 11.22368pt on input line 62.
  [5] [6
 
 ]
@@ -1528,30 +1528,24 @@ LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/bx/n' will be
 
  [13] [14
 
-] (main.lot)
+] (main.lot [15])
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
- [15] [16
-
-] (main.lof)
+ [16] (main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
 
-[17] [18
+[17
+
+] [18
 
 ]
 \openout2 = `Chapters/Main/Bab1-Pendahuluan.aux'.
 
  (Chapters/Main/Bab1-Pendahuluan.tex
 BAB I.
-
-LaTeX Warning: Citation `ying-feng_kuo_online_2016' undefined on input line 7.
-
-
-LaTeX Warning: Citation `noauthor_sistem_nodate' undefined on input line 9.
-
 [1
 
 
@@ -1567,121 +1561,27 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
  (Chapters/Main/Bab2-DasarTeori.tex
 BAB II.
-
-LaTeX Warning: Citation `balailelang_sejarah_nodate' undefined on input line 4.
-
-
-
-LaTeX Warning: Citation `pratama_lelang_2012' undefined on input line 6.
-
 LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/bx/it' will be
 (Font)              scaled to size 11.27493pt on input line 9.
-
-LaTeX Warning: Citation `wikipedia_lelang_2016' undefined on input line 15.
-
 [3
 
 
 
-]
+] [4]
+Underfull \vbox (badness 1286) has occurred while \output is active []
 
-LaTeX Warning: Citation `noauthor_arti_nodate' undefined on input line 20.
-
-
-LaTeX Warning: Citation `noauthor_repository_2016' undefined on input line 26.
-
-
-LaTeX Warning: Citation `shaw_patterns_1996' undefined on input line 28.
-
-
-LaTeX Warning: Citation `insidebigdata_exponential_2017' undefined on input lin
-e 31.
-
-
-LaTeX Warning: Citation `d._vanhoose_e-commerce_2011' undefined on input line 3
-4.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4]
-
-LaTeX Warning: Citation `noauthor_sistem_2013' undefined on input line 45.
-
-[5]
-
-LaTeX Warning: Citation `wikipedia_nosql_nodate' undefined on input line 51.
-
-
-LaTeX Warning: Citation `noauthor_smtp_nodate' undefined on input line 54.
-
-
-LaTeX Warning: Citation `wikipedia_sendgrid_2017' undefined on input line 57.
-
-
-LaTeX Warning: Citation `noauthor_jwt_2016' undefined on input line 60.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6]
-
-LaTeX Warning: Citation `google_developers_service_2017' undefined on input lin
-e 63.
-
-[7]
-
-LaTeX Warning: Citation `noauthor_apa_2016' undefined on input line 76.
-
-
-LaTeX Warning: Citation `wikipedia_vue.js_2017' undefined on input line 82.
-
-
-LaTeX Warning: Citation `noauthor_node.js_2014' undefined on input line 85.
-
-
-Underfull \vbox (badness 2478) has occurred while \output is active []
-
- [8]
-
-LaTeX Warning: Citation `azurri_node_2016' undefined on input line 88.
-
-
-LaTeX Warning: Citation `noauthor_socket.io_2016' undefined on input line 91.
-
-[9]
-
-LaTeX Warning: Citation `noauthor_postgresql_nodate' undefined on input line 10
-2.
-
-
-LaTeX Warning: Citation `noauthor_mongodb_2017' undefined on input line 106.
-
-
-LaTeX Warning: Citation `yudana_redis_2015' undefined on input line 109.
-
-
+ [5]
+[6] [7]
 Underfull \vbox (badness 1215) has occurred while \output is active []
 
+ [8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [10]
-
-LaTeX Warning: Citation `wikipedia_amazon_2016' undefined on input line 118.
-
-
-LaTeX Warning: Citation `web_services_amazon_nodate' undefined on input line 12
-0.
-
-
-Underfull \vbox (badness 2671) has occurred while \output is active []
-
- [11]
-
-LaTeX Warning: Citation `noauthor_test_2016' undefined on input line 124.
-
-
-LaTeX Warning: Citation `laravel_browser_nodate' undefined on input line 132.
-
-) [12]
+[11]) [12]
 \openout2 = `Chapters/Main/Bab3-DesainDanPerancangan.aux'.
 
  (Chapters/Main/Bab3-DesainDanPerancangan.tex
@@ -1888,9 +1788,6 @@ Overfull \vbox (40.74886pt too high) has occurred while \output is active []
 ) (Chapters/Details/bab3/3cxx/05/02.tex) (Chapters/Details/bab3/3cxx/05/03.tex)
 ) (Chapters/Details/bab3/3cxx/KP06.tex (Chapters/Details/bab3/3cxx/06/01.tex)
 (Chapters/Details/bab3/3cxx/06/02.tex) (Chapters/Details/bab3/3cxx/06/03.tex)))
-
-LaTeX Warning: Citation `software-engineering' undefined on input line 32.
-
 File: images/bab3/buku/essential-good-software.png Graphic file (type QTm)
 <use  "images/bab3/buku/essential-good-software.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1919,43 +1816,61 @@ Underfull \vbox (badness 1817) has occurred while \output is active []
 Underfull \vbox (badness 1953) has occurred while \output is active []
 
  [49]
-[50] [51]) (Chapters/Details/bab3/desain/app-arc.tex [52]
+[50] [51]) (Chapters/Details/bab3/desain/app-arc.tex [52] [53]
 File: images/bab3/arsitektur-app-pl_2.png Graphic file (type QTm)
 
-<use  "images/bab3/arsitektur-app-pl_2.png" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [53])
+<use  "images/bab3/arsitektur-app-pl_2.png" >)
 (Chapters/Details/bab3/desain/app-structure.tex
+File: images/bab3/apl/main-apl.png Graphic file (type QTm)
+
+<use  "images/bab3/apl/main-apl.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [54])
-(Chapters/Details/bab3/desain/database.tex)
+ [54]
+[55]) (Chapters/Details/bab3/desain/database.tex)
 (Chapters/Details/bab3/desain/database-nontransaksional.tex)
-(Chapters/Details/bab3/desain/kamus-data-transaksional.tex)
-(Chapters/Details/bab3/desain/kamus-data-nontransaksional.tex)))
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [55]
-[56]
+(Chapters/Details/bab3/desain/kamus-data-transaksional.tex
+(Chapters/Details/bab3/desain/database/kamus_transaksional/administrators.tex
+(tables/03b/tables/transactional/administrator.tex)
+(tables/03b/tables/transactional/administrator.tex)
+(tables/03b/tables/transactional/administrator.tex))
+(Chapters/Details/bab3/desain/database/kamus_transaksional/bids.tex
+(tables/03b/tables/transactional/bid.tex)
+(tables/03b/tables/transactional/bid.tex)
+(tables/03b/tables/transactional/bid.tex [56]))
+(Chapters/Details/bab3/desain/database/kamus_transaksional/categories.tex
+(tables/03b/tables/transactional/categories.tex)
+(tables/03b/tables/transactional/categories.tex)
+(tables/03b/tables/transactional/categories.tex))
+(Chapters/Details/bab3/desain/database/kamus_transaksional/coupon.tex
+(tables/03b/tables/transactional/coupon.tex)
+(tables/03b/tables/transactional/coupon.tex)
+(tables/03b/tables/transactional/coupon.tex [57]))
+(Chapters/Details/bab3/desain/database/kamus_transaksional/coupon_usages.tex
+(tables/03b/tables/transactional/coupon_usages.tex)
+(tables/03b/tables/transactional/coupon_usages.tex)
+(tables/03b/tables/transactional/coupon_usages.tex [58])))
+(Chapters/Details/bab3/desain/kamus-data-nontransaksional.tex)
+(Chapters/Details/bab3/desain/datadict.tex))) [59]
 \openout2 = `Chapters/Main/Bab4-Implementasi.aux'.
 
- (Chapters/Main/Bab4-Implementasi.tex
+
+(Chapters/Main/Bab4-Implementasi.tex [60
+
+
+
+]
 BAB IV.
-(Chapters/Details/bab4/4a-ImplementasiPK.tex [57
-
-
-
-])
+(Chapters/Details/bab4/4a-ImplementasiPK.tex [61])
 (Chapters/Details/bab4/4b-ImplementasiPL.tex
 (Chapters/Details/bab4/4b/nginx.tex
 LaTeX Font Info:    Font shape `EU1/CourierNew(0)/m/n' will be
 (Font)              scaled to size 9.85492pt on input line 6.
- [58]
+ [62]
 LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/m/sc' will be
 (Font)              scaled to size 11.22368pt on input line 26.
 ) (Chapters/Details/bab4/4b/vue.tex
-[59] (sourceCode/04/vue/package.tex [60]) (sourceCode/04/vue/dependencies.tex
+[63] (sourceCode/04/vue/package.tex [64]) (sourceCode/04/vue/dependencies.tex
 ("C:\Users\rona\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.s
 ty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
@@ -1966,19 +1881,19 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
 LaTeX Font Info:    Font shape `EU1/CourierNew(0)/bx/n' will be
 (Font)              scaled to size 9.85492pt on input line 2.
-) (sourceCode/04/vue/webpack-opt.tex [61])
+) (sourceCode/04/vue/webpack-opt.tex [65])
 (sourceCode/04/vue/html-include.tex)) (Chapters/Details/bab4/4b/jwt.tex)
 (Chapters/Details/bab4/4b/sendgrid.tex))
 (Chapters/Details/bab4/4c-ImplementasiUI.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [62]
+ [66]
 File: images/bab4/smpso_code.png Graphic file (type QTm)
 
 <use  "images/bab4/smpso_code.png" >
 File: images/bab4/smpso_code.png Graphic file (type QTm)
  <use  "images/bab4/smpso_code.png" >
-[63])) [64]
+[67])) [68]
 \openout2 = `Chapters/Main/Bab5-PengujianDanEvaluasi.aux'.
 
  (Chapters/Main/Bab5-PengujianDanEvaluasi.tex
@@ -1987,40 +1902,44 @@ BAB V.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [65
+ [69
 
 
 
 ]))
-[66]
+[70]
 \openout2 = `Chapters/Main/Bab6-Penutup.aux'.
 
  (Chapters/Main/Bab6-Penutup.tex
 BAB VI.
-) [67
+) [71
 
 
 
 ] (main.bbl
 Underfull \vbox (badness 5077) has occurred while \output is active []
 
- [68
+ [72
 
 ]
-Underfull \vbox (badness 2050) has occurred while \output is active []
+Underfull \vbox (badness 2735) has occurred while \output is active []
 
- [69])
-[70]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 82.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 82.
- (main.aux (Chapters/Main/Bab0-Abstrak.aux)
-(Chapters/Main/Bab0-Abstract.aux) (Chapters/Main/Bab0-KataPengantar.aux)
-(Chapters/Main/Bab1-Pendahuluan.aux) (Chapters/Main/Bab2-DasarTeori.aux)
+ [73])
+[74]
+
+Package caption Warning: Unused \captionsetup[ltxtable] on input line 21.
+See the caption package documentation for explanation.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
+(main.aux (Chapters/Main/Bab0-Abstrak.aux) (Chapters/Main/Bab0-Abstract.aux)
+(Chapters/Main/Bab0-KataPengantar.aux) (Chapters/Main/Bab1-Pendahuluan.aux)
+(Chapters/Main/Bab2-DasarTeori.aux)
 (Chapters/Main/Bab3-DesainDanPerancangan.aux)
 (Chapters/Main/Bab4-Implementasi.aux)
 (Chapters/Main/Bab5-PengujianDanEvaluasi.aux) (Chapters/Main/Bab6-Penutup.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 82.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 82.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 86.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 86.
 
 LaTeX Warning: There were undefined references.
 
@@ -2033,12 +1952,12 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 30737 strings out of 428410
- 538237 string characters out of 3156958
- 766527 words of memory out of 3000000
- 33549 multiletter control sequences out of 15000+200000
+ 30841 strings out of 428410
+ 541609 string characters out of 3156958
+ 769810 words of memory out of 3000000
+ 33599 multiletter control sequences out of 15000+200000
  7067 words of font info for 65 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 55i,12n,69p,10398b,17311s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,12n,69p,10398b,17325s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (90 pages).
+Output written on main.pdf (94 pages).

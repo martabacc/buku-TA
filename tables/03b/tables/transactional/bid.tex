@@ -1,0 +1,27 @@
+ \begin{longtable}{|r|X|X|X|}
+ 	\caption{Kamus Data Tabel bids}
+ 	\label{db-bids} \\  \hline
+ 	
+ 	\multicolumn{1}{|c|}{\textbf{No}} & \textbf{Nama Atribut} & \textbf{Tipe Data} & \textbf{Keterangan} \\ \hline
+ 	\endfirsthead
+ 	
+ 	\multicolumn{4}{c}%
+ 	{\tablename\ \thetable{} -- lanjutan dari halaman sebelumnya} \\
+ 	\multicolumn{1}{|c|}{\textbf{No}} & \textbf{Nama Atribut} & \textbf{Tipe Data} & \textbf{Keterangan} \\ \hline
+ 	\endhead
+ 	
+ 	\hline \multicolumn{4}{|r|}{{Dilanjutkan ke halaman selanjutnya}} \\ \hline
+ 	\endfoot
+ 	
+ 	\hline
+ 	\endlastfoot
+ 	
+ 	
+ \multicolumn{1}{|c|}{	1	}&	id	&	bigint	&	PK , Auto increment	\\ \hline
+	\multicolumn{1}{|c|}{	2	}&	id\_user	&	int	&	FK ID user \newline yang memberikan penawaran	\\ \hline
+	\multicolumn{1}{|c|}{	3	}&	id\_item	&	bigint	&	FK ID barang \newline yang ditawar	\\ \hline
+	\multicolumn{1}{|c|}{	4	}&	price\_bid	&	bigint	&	Harga yang \newline ditawarkan	\\ \hline
+	\multicolumn{1}{|c|}{	5	}&	win\_status	&	bool	&	Status apakah bid ini \newline memenangkan lelang	\\ \hline
+	\multicolumn{1}{|c|}{	6	}&	bid\_timestamp	&	timestamp	&	Timestamp	\\ \hline
+
+ \end{longtable}
