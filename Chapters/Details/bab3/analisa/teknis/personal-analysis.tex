@@ -1,5 +1,6 @@
 
 \subsection{Analisa Pribadi Penulis}
+	Dalam pemaparan selanjutnya, penulis akan 
 	\subsubsection{Analisa \textit{User Experience} dari E-Commerce di Indonesia}
 	\label{alasan-ux-ecommerce-indonesia alasan-app-serupa}
 	Selama masa pengerjaan aplikasi, penulis sering menganalisa dan memperhatikan kebiasaan-kebiasaan yang umum di website \textit{e-commerce} di Indonesia. Salah satu yang paling sering dianalisa oleh penulis adalah adalah situs Tokopedia. Dalam pengembangannya, \textit{user interface} aplikasi akan dipengaruhi analisa ini, yang dijabarkan seperti berikut:
@@ -42,12 +43,11 @@
 	
 	\subsubsection{Analisa Aplikasi Serupa}
 	\label{alasan-app-serupa}
-		Selama pengerjaan aplikasi, penulis menganalisa aplikasi serupa. Penulis menemukan aplikasi yang kurang lebih alur bisnis / alur penggunaan aplikasinya serupa yaitu : Carousell. \\
-		\indent Penulis melihat ada beberapa kesamaan antara sifat transaksi aplikasi tugas akhir saya dengan aplikasi tersebut, yaitu :
+		Selama pengerjaan aplikasi, penulis menganalisa aplikasi serupa. Penulis menemukan aplikasi yang kurang lebih alur bisnis/alur penggunaan aplikasinya serupa yaitu : Carousell. Penulis melihat beberapa kesamaan antara sifat transaksi aplikasi tugas akhir saya dengan aplikasi tersebut, yaitu:
 		\begin{enumerate}
 			\item Sama-sama tidak mengakomodasi pembayaran
 			\item Sama-sama tidak adanya kepastian harga (bedanya, pada Carousell yang terjadi adalah \textit{bargaining}
-		\end{enumerate}
+		\end{enumerate} \
 		\indent Sehingga dalam alur proses nya, banyak diadaptasi dari Carousell, agar pengguna dapat lebih familiar dan \textit{predictability}nya lebih tinggi jika diadaptasi dari \textit{E-commerce} lainnya yang lebih umum digunakan oleh pengguna.
 		
 	
@@ -69,16 +69,14 @@
 		\newline
 		\indent Data yang sifatnya \textit{transaksional}, seperti data \textit{bidding}, data pengguna, dan lain sebagainya.
 		Untuk data ini, lebih baik jika menggunakan database Postgre, untuk menjaga integritas data dan \textit{integrity checking} juga  menjadi lebih baik.
-		\newline
-		
 		\item \textbf{Data non-transaksional disimpan di DBMS NoSQL}
 		\newline
-		\indent Data \textit{chatting}, data \textit{joined rooms} tidak cocok dimasukkan kedalam database transaksional karena sifat pertambahan datanya yang sangat cepat, masif dan urgensi integritas data tidak terlalu diprioritaskan (dibanding dengan data transaksional pada poin sebelumnya. Oleh karena itu, baiknya data ini disimpan pada database NoSQL - pada rancang bangun aplikasi ini, DBMS NoSQL, dengan alasan-alasan sebagai berikut.
+		\indent Data \textit{chatting}, data \textit{joined rooms} kurang tepat jika disimpan dalam database transaksional karena sifat pertambahan datanya yang sangat cepat, masif dan urgensi integritas data tidak terlalu diprioritaskan (dibanding dengan data transaksional pada poin sebelumnya). Oleh karena itu, baiknya data ini disimpan pada database NoSQL dengan alasan-alasan sebagai berikut.
 		\begin{itemize} 
-			\item Banyaknya transaksi \textit{read write}
-			\item Ketidaksamaan frekuensi \textit{read and write} data semua pengguna.
-			\item Sifat permintaan transaksi yang cepat
-			\item Kemungkinan perubahan struktur atribut pada pesan (misal: \textit{attachments}, \textit{forwarding}, \textit{replying}, dll) akan sangat menyulitkan pengembangan selanjutnya jika menggunakan database transaksional yang sifatnya 
+			\item Banyaknya transaksi \textit{read write};
+			\item Ketidaksamaan frekuensi \textit{read and write} data semua pengguna;
+			\item Sifat permintaan transaksi yang cepat; dan
+			\item Kemungkinan perubahan struktur atribut pada pesan (misal: \textit{attachments}, \textit{forwarding}, \textit{replying}, dll) akan sangat menyulitkan pengembangan selanjutnya jika menggunakan database transaksional yang terpaku pada skema database yang ditetapkan di awal pengembangan aplikasi.
 		\end{itemize} 	
 		
 		\item \textbf{Data citra/gambar menggunakan layanan Pihak Ketiga} \newline

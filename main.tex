@@ -33,6 +33,7 @@
 
 \usepackage[autostyle]{csquotes}
 \usepackage{babel}
+\usepackage{wrapfig} %untuk wrapfigure?
 
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
@@ -51,10 +52,12 @@
     \hspace{\labelwidth}\phantom{\texttt{type}-}
 }
 
-\include{languangeConf}
+\newcommand{\thelstlisting}{\arabic{chapter}.\arabic{lstlisting}}
 
-\include{enumitemConf}
+\include{languangeConf} %formatting code sources
+\include{enumitemConf} %enumerate?
 
+\raggedbottom
 \include{Metadata}
 \begin{document}
     \maketitle
@@ -66,6 +69,7 @@
     \tableofcontents % Daftar isi
     \listoftables % Daftar tabel
     \listoffigures % Daftar gambar
+    \lstlistoflistings % Daftar Kode Sumber
 
   \mainmatter % Halaman utama, dengan judul BAB X
     \include{Chapters/Main/Bab1-Pendahuluan}
@@ -83,4 +87,5 @@
     \appendix % Halaman lampiran, dengan judul LAMPIRAN X
   \backmatter % Lampiran tanpa judul LAMPIRAN X, untuk BIODATA PENULIS
 
+    \include{Chapters/Main/Bab7-Biodata}
 \end{document}

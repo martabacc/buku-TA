@@ -7,30 +7,56 @@
     \setmainfont[Scale=1.025]{Times New Roman}
     \setmonofont[Scale=0.9]{Courier New}
 \RequirePackage{tocbibind}
+\RequirePackage{clrscode3e}
 \RequirePackage[boxruled]{algorithm2e}
 \SetAlFnt{\scriptsize}
 \SetAlCapFnt{\scriptsize}
 \SetAlCapNameFnt{\scriptsize}
 
+\usepackage{listings}
+\renewcommand{\lstlistingname}{Kode Sumber}
+
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{chngcntr}
+\usepackage[titles]{tocloft}
+
+\begingroup
 \makeatletter
-\renewcommand{\algocf@caption@boxruled}{%
-	\hrule
-	\hbox to \hsize{%
-		\vrule\hskip-0.4pt
-		\vbox{   
-			\vskip\interspacetitleboxruled%
-			\unhbox\algocf@capbox\hfill
-			\vskip\interspacetitleboxruled
-		}%
-		\hskip-0.4pt\vrule%
-	}\nointerlineskip%
-}%
+\let\newcounter\@gobble\let\setcounter\@gobbletwo
+    \globaldefs\@ne \let\c@loldepth\@ne
+    \newlistof{listings}{lol}{\lstlistlistingname}
+    \newlistentry{lstlisting}{lol}{0}
 \makeatother
+\endgroup
+
+
+
+\newcommand\mydot[1]{.}
+
+\setlength\cftparskip{-2pt}
+\setlength\cftbeforechapskip{0pt}
+\setlength{\lineskip}{0pt}
+
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftchappresnum}{BAB }
+\renewcommand{\cfttabpresnum}{Tabel }
+\renewcommand{\cftfigpresnum}{Gambar }
+\renewcommand\cftlstlistingpresnum{Kode Sumber }
+\renewcommand\cftdot{\mydot{2}}
+\renewcommand\cftdotsep{0.5}
+
+\cftsetindents{chapter}{0in}{0.575in}
+\cftsetindents{section}{0.22in}{0.25in}
+\cftsetindents{subsection}{0.35in}{0.45in}
+\cftsetindents{figure}{0in}{0.85in}
+\cftsetindents{table}{0in}{0.65in}
+
 
 \newenvironment{prosedur}[1][htb]
 {\renewcommand{\algorithmcfname}{Prosedur}% Update algorithm name
-	\begin{algorithm}[#1]%
-	}{\end{algorithm}}
+    \begin{algorithm}[#1]%
+    }{\end{algorithm}}
 
 \RequirePackage{graphicx}
 \RequirePackage{eso-pic}
@@ -43,17 +69,38 @@
 \hbadness=10000
 
 % JSON
-\usepackage{listings}
+\usepackage[noend]{algpseudocode}% http://ctan.org/pkg/algorithmicx
+
 \usepackage{xcolor}
+
+\lstset{ %
+    numbers=left,
+    xleftmargin=2em,
+    xrightmargin=2mm,
+    frame=single,
+    framesep=2mm,
+    basicstyle=\footnotesize\ttfamily,
+    framexleftmargin=2em,
+    captionpos=b,
+    belowcaptionskip=4pt,
+    frame=single,
+    breaklines=true,
+    postbreak=\raisebox{0ex}[0ex][0ex]{\ensuremath{\color{red}\hookrightarrow\space}}
+}
+
+
 
 \colorlet{punct}{red!60!black}
 \definecolor{background}{HTML}{EEEEEE}
 \definecolor{delim}{RGB}{20,105,176}
 \colorlet{numb}{magenta!60!black}
 
+
+
+
 \lstdefinelanguage{json}{
-	frame=single,
-	tabsize=2,
+    frame=single,
+    tabsize=2,
     basicstyle=\normalfont\ttfamily,
     numbers=left,
     numberstyle=\scriptsize,
@@ -82,6 +129,9 @@
 }
 
 
+
+
+
 %Indent first paragraph
 \usepackage{indentfirst}
 
@@ -100,32 +150,32 @@
 \RequirePackage{fancyhdr}
     \fancyhf{}
     \renewcommand{\headrulewidth}{0pt}
-	\fancypagestyle{front}{%
-		\fancyhf{}
-		\cfoot{\thepage}
-	}
-	\fancypagestyle{main}{%
-		\fancyhf{}
-		\lhead[\thepage]{}
-		\rhead[]{\thepage}
-	}
+    \fancypagestyle{front}{%
+        \fancyhf{}
+        \cfoot{\thepage}
+    }
+    \fancypagestyle{main}{%
+        \fancyhf{}
+        \lhead[\thepage]{}
+        \rhead[]{\thepage}
+    }
 
 \makeatletter
 \renewcommand\frontmatter{%
-	\cleardoublepage
-	\@mainmatterfalse
-	\pagestyle{front}
-	\pagenumbering{roman}}
+    \cleardoublepage
+    \@mainmatterfalse
+    \pagestyle{front}
+    \pagenumbering{roman}}
 
 \renewcommand\mainmatter{%
-	\cleardoublepage
-	\@mainmattertrue
-	\pagestyle{main}
-	\pagenumbering{arabic}}
+    \cleardoublepage
+    \@mainmattertrue
+    \pagestyle{main}
+    \pagenumbering{arabic}}
 \makeatother
     
 \RequirePackage[hypcap=true, font=footnotesize]{caption}
-    \captionsetup{labelfont=bf, justification=centering, singlelinecheck=false, format=plain}
+    \captionsetup{labelfont=bf, justification=centering, singlelinecheck=false, format=plain,labelsep=space}
 
 \RequirePackage{tabulary, booktabs, longtable, ltcaption, ltabptch}
 \RequirePackage[referable]{threeparttablex}
@@ -159,36 +209,24 @@
 \makeatother
 
 \RequirePackage{titlesec}
-	\setcounter{secnumdepth}{3}
+    \setcounter{secnumdepth}{3}
     \titleformat{\chapter}[display]{\filcenter\fontsize{11}{11}\bfseries}{\chaptername \ \thechapter}{11pt}{\filcenter\fontsize{11}{11}\bfseries\uppercase}
-%     {left}{before}{after}{right}
-   	\titlespacing*{\chapter}{0pt}{-50pt}{20pt}
-    
+    \titlespacing*{\chapter}{0pt}{-50pt}{20pt}
+    %\titlespacing*{\section}{0pt}{11pt}{0pt}
+    %\titlespacing*{\subsection}{0pt}{11pt}{0pt}
+    %\titlespacing*{\subsubsection}{0pt}{11pt}{0pt}
     \titleformat*{\section}{\fontsize{11}{11}\bfseries}
     \titleformat*{\subsection}{\fontsize{11}{11}\bfseries}
     \titleformat*{\subsubsection}{\fontsize{11}{11}\bfseries}
-    
-%     \titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip}
-    \titlespacing*{\section}
-    {0pt}{5ex}{2ex}
-    \titlespacing*{\subsection}
-    {0pt}{3ex}{1.5ex}
-    \titlespacing*{\subsubsection}
-    {0pt}{1.5ex}{1.25ex}
-%     \titlespacing*{\subsubsection}{0pt}{1.1\baselineskip}{\baselineskip}
-%     \titlespacing*{\section}{0pt}{3pt}{0pt}
-%     \titlespacing*{\subsection}{0pt}{\baselineskip}{0pt}
-%     \titlespacing*{\subsubsection}{0pt}{3pt}{0pt}
 
 \addto\captionsbahasa{%
-	\renewcommand\bibname{DAFTAR PUSTAKA}%
-	\renewcommand\contentsname{DAFTAR ISI}%
-	\renewcommand\listtablename{DAFTAR TABEL}%
-	\renewcommand\listfigurename{DAFTAR GAMBAR}%
-	\renewcommand\chaptername{BAB}%
-    \renewcommand\thechapter{\Roman{chapter}}
+    \renewcommand\bibname{DAFTAR PUSTAKA}%
+    \renewcommand\contentsname{DAFTAR ISI}%
+    \renewcommand\listtablename{DAFTAR TABEL}%
+    \renewcommand\listfigurename{DAFTAR GAMBAR}%
+    \renewcommand\lstlistlistingname{DAFTAR KODE SUMBER}%
+    \renewcommand\chaptername{BAB}%
 }%
-
 
 
 \renewcommand*\thechapter{\arabic{chapter}}
@@ -275,6 +313,16 @@
 
 }
 
+
+
+\renewcommand{\thechapter}{\Roman{chapter}}
+\renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}
+\renewcommand{\thesubsection}{\arabic{chapter}.\arabic{section}.\arabic{subsection}}
+\renewcommand{\thefigure}{\arabic{chapter}.\arabic{figure}}
+\renewcommand{\thetable}{\arabic{chapter}.\arabic{table}}
+
+
+
 \newpage
 % Custom \maketitle
 \makeatletter
@@ -292,15 +340,15 @@
     \thispagestyle{empty}%
     \color{white}%
     { \noindent TUGAS AKHIR - \kodeTA }\\*[10pt]%
-    {\large\textbf{\MakeUppercase{\judul}}} \\*[32pt]%
+    {\large\textbf{\MakeUppercase{\judul}}} \\\\\\\\\\*[32pt]%
     \MakeUppercase{\penulis} \\*%
     NRP \nrp \\*[10pt]%
     Dosen Pembimbing I\\*%
     \pembimbingSatu \\*[10pt]%
     \ifdef{\pembimbingDua}{
         Dosen Pembimbing II\\*%
-    	\pembimbingDua
-    }{} \\*[10pt]%
+        \pembimbingDua
+    }{} \\\\*[10pt]%
     JURUSAN \MakeUppercase{\jurusan} \\*%
     Fakultas \fakultas \\*%
     Institut Teknologi Sepuluh Nopember \\*%
@@ -315,15 +363,15 @@
     \newgeometry{top=7cm,left=2cm,bottom=2cm}%
     \sffamily%
     { \noindent TUGAS AKHIR - \kodeTA }\\*[10pt]%
-    {\large\textbf{\MakeUppercase{\judul}}} \\*[32pt]%
+    {\large\textbf{\MakeUppercase{\judul}}} \\\\\\\\\\*[32pt]%
     \MakeUppercase{\penulis} \\*%
     NRP \nrp \\*[10pt]%
     Dosen Pembimbing I\\*%
     \pembimbingSatu \\*[10pt]%
     \ifdef{\pembimbingDua}{
         Dosen Pembimbing II\\*%
-    	\pembimbingDua
-    }{} \\*[10pt]%
+        \pembimbingDua
+    }{} \\\\*[10pt]%
     JURUSAN \MakeUppercase{\jurusan} \\*%
     Fakultas \fakultas \\*%
     Institut Teknologi Sepuluh Nopember \\*%
@@ -337,15 +385,15 @@
     \newgeometry{top=7cm,left=2cm,bottom=2cm}%
     \sffamily%
     { \noindent UNDERGRADUATE THESIS - \kodeTA }\\*[10pt]%
-    {\large\textbf{\MakeUppercase{\judulEnglish}}} \\*[32pt]%
+    {\large\textbf{\MakeUppercase{\judulEnglish}}} \\\\\\\\\\\\*[32pt]%
     \MakeUppercase{\penulis} \\*%
     NRP \nrp \\*[10pt]%
     Supervisor I\\*%
     \pembimbingSatu \\*[10pt]%
     \ifdef{\pembimbingDua}{
         Supervisor II\\*%
-    	\pembimbingDua
-    }{} \\*[10pt]%
+        \pembimbingDua
+    }{} \\\\*[10pt]%
     Department of \MakeUppercase{\jurusanEnglish} \\*%
     Faculty of \fakultasEnglish \\*%
     Institut Teknologi Sepuluh Nopember \\*%
@@ -363,7 +411,7 @@
 \def\legalityPaper{%
 \newpage%
     \begin{centering}%
-    	\textbf{\large{LEMBAR PENGESAHAN}} \\*[10pt]%
+        \textbf{\large{LEMBAR PENGESAHAN}} \\*[10pt]%
         \textbf{\MakeUppercase{\judul}} \\*[10pt]%
         \textbf{\MakeUppercase{TUGAS AKHIR}} \\*%
         Diajukan Guna Memenuhi Salah Satu Syarat \\*%
@@ -373,7 +421,7 @@
         Program Studi \prodi  Jurusan \jurusan \\*%
         Fakultas \fakultas \\*%
         Institut Teknologi Sepuluh Nopember \\*[10pt]%
-        Oleh : \\*%
+        Oleh: \\*%
         \textbf{\MakeUppercase{\penulis}} \\*%
         \textbf{NRP: \nrp} \\*[20pt]%
     \end{centering}%
@@ -415,27 +463,6 @@ Pembimbing I  & :& \pembimbingSatu
 
 % abstract
 \newenvironment{abstract}{
-\addcontentsline{toc}{chapter}{ABSTRACT}
-\begin{centering}
-\textbf{\MakeUppercase{\judulEnglish}} \\*[20pt]%
-\end{centering}
-
-\noindent\begin{tabular}{>{\bfseries}ll>{\bfseries}p{6.5cm}}
-Name  & :& \MakeUppercase{\penulis} \\
-NRP & :& \nrp \\
-Major  & :& \jurusanEnglish \fakultasSingkatan \\
-Supervisor I  & :& \pembimbingSatu 
-\ifdef{\pembimbingDua}{\\Supervisor II  & :& \pembimbingDua}{}
-\end{tabular}
-\\*[20pt]
-\begin{centering}
-\textbf{Abstract} \\*[10pt]
-\end{centering}
-\begin{itshape}
-}{\end{itshape}}
-
-% abstract
-\newenvironment{abstract-english}{
 \addcontentsline{toc}{chapter}{ABSTRACT}
 \begin{centering}
 \textbf{\MakeUppercase{\judulEnglish}} \\*[20pt]%
