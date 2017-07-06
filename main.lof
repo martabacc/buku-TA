@@ -6,12 +6,18 @@
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Kategori Perbaikan terhadap Kegagalan Pelayanan Lelang Online\relax }}{18}{figure.caption.7}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Visualisasi aspek bisnis dalam \textit {software engineering}\relax }}{20}{figure.caption.8}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces \textit {Essential attributes of good software}\relax }}{21}{figure.caption.9}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Arsitektur dasar yang dibutuhkan untuk membangun aplikasi\relax }}{49}{figure.caption.27}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces \textit {Visualisasi arsitektur dan teknologi Final yang diterapkan dalam rancang bangun aplikasi}\relax }}{55}{figure.caption.28}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Komponen Penyusun Struktur Aplikasi\relax }}{56}{figure.caption.29}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Diagram Kasus Penggunaan Aplikasi\relax }}{33}{figure.caption.10}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Diagram Kasus Penggunaan Manajemen Autentikasi Pengguna\relax }}{34}{figure.caption.11}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Diagram Kasus Penggunaan Manajemen Traksaksi Lelang\relax }}{38}{figure.caption.15}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Diagram Kasus Penggunaan Manajemen Barang Lelang\relax }}{43}{figure.caption.20}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Diagram Kasus Penggunaan Manajemen Interaksi Antarpengguna\relax }}{48}{figure.caption.25}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Diagram Kasus Penggunaan Manajemen Kupon\relax }}{55}{figure.caption.32}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Arsitektur dasar yang dibutuhkan untuk membangun aplikasi\relax }}{56}{figure.caption.33}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces \textit {Visualisasi arsitektur dan teknologi Final yang diterapkan dalam rancang bangun aplikasi}\relax }}{62}{figure.caption.34}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Komponen Penyusun Struktur Aplikasi\relax }}{63}{figure.caption.35}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Pseudocode Controller untuk Menampilkan Antarmuka A \relax }}{75}{figure.caption.30}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Pseudocode Controller untuk Menampilkan Antarmuka B \relax }}{76}{figure.caption.31}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Pseudocode Controller untuk Menampilkan Antarmuka A \relax }}{83}{figure.caption.36}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Pseudocode Controller untuk Menampilkan Antarmuka B \relax }}{84}{figure.caption.37}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
