@@ -13,11 +13,25 @@
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Diagram Kasus Penggunaan Manajemen Interaksi Antarpengguna\relax }}{48}{figure.caption.25}
 \contentsline {figure}{\numberline {3.10}{\ignorespaces Diagram Kasus Penggunaan Manajemen Kupon\relax }}{55}{figure.caption.32}
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Arsitektur dasar yang dibutuhkan untuk membangun aplikasi\relax }}{56}{figure.caption.33}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces \textit {Visualisasi arsitektur dan teknologi Final yang diterapkan dalam rancang bangun aplikasi}\relax }}{62}{figure.caption.34}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Komponen Penyusun Struktur Aplikasi\relax }}{63}{figure.caption.35}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces \textit {Visualisasi arsitektur dan teknologi Final yang diterapkan dalam rancang bangun aplikasi}\relax }}{61}{figure.caption.34}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Komponen Penyusun Struktur Aplikasi\relax }}{62}{figure.caption.35}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces \textit {Conceptual Database Model} (PDM) Aplikasi\relax }}{67}{figure.caption.36}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces \textit {Physical Database Model} (PDM) Aplikasi\relax }}{68}{figure.caption.37}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Pseudocode Controller untuk Menampilkan Antarmuka A \relax }}{83}{figure.caption.36}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Pseudocode Controller untuk Menampilkan Antarmuka B \relax }}{84}{figure.caption.37}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces \textit {Error} CORS yang muncul pada console browser\relax }}{83}{figure.caption.38}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces \textit {Whitelisting}\relax }}{88}{figure.caption.39}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Detail Informasi Email yang Masuk ke Kotak Masuk Pengguna\relax }}{89}{figure.caption.40}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Halaman antarmuka registrasi\relax }}{90}{figure.caption.41}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Halaman antarmuka \relax }}{93}{figure.caption.42}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Halaman antarmuka \relax }}{97}{figure.caption.43}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Halaman Antarmuka Implementasi Kasus Penggunaan Menawar/melelang barang\relax }}{98}{figure.caption.44}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Halaman antarmuka registrasi\relax }}{102}{figure.caption.45}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Halaman antarmuka \relax }}{118}{figure.caption.46}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Halaman Antarmuka Implementasi Kasus Penggunaan Mengirimkan Pesan\relax }}{120}{figure.caption.47}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Halaman Antarmuka Kasus Penggunaan Melihat Daftar Pengguna\relax }}{126}{figure.caption.48}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Halaman Antarmuka Kasus Penggunaan Melihat Daftar Pengguna\relax }}{127}{figure.caption.49}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Halaman Antarmuka Kasus Penggunaan Menambahkan Voucher\relax }}{130}{figure.caption.50}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Halaman Antarmuka Kasus Penggunaan Melihat Daftar Voucher\relax }}{131}{figure.caption.51}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -1,12 +1,23 @@
 
-\subsection{Perancangan \textit{Database} Transaksional}
-
-	\subsubsection{\textit{Conceptual Database Design}}
+\subsection{Perancangan \textit{Database}}
+Pada subbab ini akan dijelaskan bagaimana rancangan basis data yang digunakan pada aplikasi lelang online ini. Sistem basis data yang digunakan pada aplikasi ini menggunakan dua jenis database, yaitu transaksional (menggunakan PostgreSQL) dan nontransaksional (menggunakan MongoDB). Conceptual Data Model (CDM) dan Physical data model (PDM) dari basis data sistem ini dijelaskan pada gambar 
+	\subsubsection{\textit{Conceptual Database Model}}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[height=\textwidth]{images/bab3/db/cdm.png}
+		\caption{\textit{Conceptual Database Model} (PDM) Aplikasi}
+		\label{cdm}
+	\end{figure}
 	
-	\subsubsection{\textit{Physical Database Design}}
 	
-	\subsubsection{\textit{Optimization: Cache Tables}}
-
+	\subsubsection{\textit{Physical Database Model}}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[height=\textwidth]{images/bab3/db/pdm.png}
+		\caption{\textit{Physical Database Model} (PDM) Aplikasi}
+		\label{pdm}
+	\end{figure}
+	
 %  Konsep Item Caching
 %  Pyshical Database Design
 %   	\input{Chapters/Details/bab3/desain/kamusdata/users}

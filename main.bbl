@@ -1,651 +1,103 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
 
-\bibitem [\protect \citeauthoryear {%
- %
-}{%
- %
-}{%
-{\protect \APACyear {2016}}%
-}]{%
-noauthor_test_2016}
-\APACinsertmetastar {%
-noauthor_test_2016}%
-\begin{APACrefauthors}%
-W.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2016}{{\APACmonth{01}}}{}.
-\newblock
-\APACrefbtitle {Test {Script}} {Test {Script}}\ [Online {Encyclopedia}].
-\newblock
-\begin{APACrefURL} \url{https://en.wikipedia.org/wiki/Test_script}
-  \end{APACrefURL}
-\newblock
-\APACrefnote{translated by author}
-\PrintBackRefs{\CurrentBib}
+\bibitem{ying-feng_kuo_online_2016}
+Y.-F. Kuo, S.-T. Yen, and L.-H. Chen, ``Online auction service failures in
+  {Taiwan}: {Typologies} and recovery strategies,'' {\em Science Direct},
+  vol.~10, pp.~183--193, Oct. 2016.
 
-\bibitem [\protect \citeauthoryear {%
-\APACcitebtitle {Apa itu {Laravel}?}}{%
-\APACcitebtitle {Apa itu {Laravel}?}}{%
-{\protect \APACyear {2016}}%
-}]{%
-noauthor_apa_2016}
-\APACinsertmetastar {%
-noauthor_apa_2016}%
-\APACrefbtitle {Apa itu {Laravel}?} {Apa itu {Laravel}?}
-\newblock
-\APACrefYearMonthDay{2016}{}{}.
-\newblock
-\begin{APACrefURL}
-  \url{http://emka.web.id/tutorial/tutorial-laravel/2013/tutorial-laravel-1-apa-itu-laravel/}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
+\bibitem{noauthor_sistem_nodate}
+``Sistem {Lelang} {Online} {Masih} {Bermasalah}.''
 
-\bibitem [\protect \citeauthoryear {%
-\APACcitebtitle {Arti pengertian {BID}, {INC}, {BIN} dalam {Bahasa} {Lelang}
-  {Website}}}{%
-\APACcitebtitle {Arti pengertian {BID}, {INC}, {BIN} dalam {Bahasa} {Lelang}
-  {Website}}}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
-}]{%
-noauthor_arti_nodate}
-\APACinsertmetastar {%
-noauthor_arti_nodate}%
-\APACrefbtitle {Arti pengertian {BID}, {INC}, {BIN} dalam {Bahasa} {Lelang}
-  {Website}.} {Arti pengertian {BID}, {INC}, {BIN} dalam {Bahasa} {Lelang}
-  {Website}.}
-\newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
-\newblock
-\begin{APACrefURL}
-  \url{http://www.bocahsoenyi.com/2015/02/arti-pengertian-bid-inc-bin-dalam-lelang-website.html}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
+\bibitem{wikipedia_amazon_2016}
+Wikipedia, ``Amazon {Web} {Services},'' Jan. 2016.
 
-\bibitem [\protect \citeauthoryear {%
-Azurri%
-}{%
-Azurri%
-}{%
-{\protect \APACyear {2016}}%
-}]{%
-azurri_node_2016}
-\APACinsertmetastar {%
-azurri_node_2016}%
-\begin{APACrefauthors}%
-Azurri, A.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2016}{{\APACmonth{10}}}{}.
-\newblock
-\APACrefbtitle {Node {Package} {Manager}} {Node {Package} {Manager}}\ [Blog].
-\newblock
-\begin{APACrefURL}
-  \url{http://www.azuwir.com/2016/10/nodejs-node-package-manager-npm/}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
+\bibitem{web_services_amazon_nodate}
+A.~Web~Services, ``Amazon {Benefits}.''
 
-\bibitem [\protect \citeauthoryear {%
-BalaiLelang%
-}{%
-BalaiLelang%
-}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
-}]{%
-balailelang_sejarah_nodate}
-\APACinsertmetastar {%
-balailelang_sejarah_nodate}%
-\begin{APACrefauthors}%
-BalaiLelang.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
-\newblock
-\APACrefbtitle {Sejarah {Lelang} di {Indonesia}.} {Sejarah {Lelang} di
-  {Indonesia}.}
-\newblock
-\begin{APACrefURL}
-  \url{https://www.balailelang.co.id/index.php/sejarah-lelang/sejarah-lelang-di-indonesia}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
+\bibitem{noauthor_sistem_2013}
+``Sistem {Basis} {Data},'' Mar. 2013.
 
-\bibitem [\protect \citeauthoryear {%
-D.~VanHoose%
-}{%
-D.~VanHoose%
-}{%
-{\protect \APACyear {2011}}%
-}]{%
-d._vanhoose_e-commerce_2011}
-\APACinsertmetastar {%
-d._vanhoose_e-commerce_2011}%
-\begin{APACrefauthors}%
-D.~VanHoose, D.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2011}.
-\newblock
-\APACrefbtitle {E-{Commerce} {Economics}} {E-{Commerce} {Economics}}\
-  (\PrintOrdinal{2}\ \BEd).
-\newblock
-\APACaddressPublisher{}{Routledge}.
-\newblock
-\begin{APACrefURL} \url{https://books.google.co.id/books?id=doKsAgAAQBAJ&hl=id}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
+\bibitem{insidebigdata_exponential_2017}
+E.~T. insideBIGDATA, ``Exponential {Growth} of {Data},'' Feb. 2017.
 
-\bibitem [\protect \citeauthoryear {%
-Google~Developers%
-}{%
-Google~Developers%
-}{%
-{\protect \APACyear {2017}}%
-}]{%
-google_developers_service_2017}
-\APACinsertmetastar {%
-google_developers_service_2017}%
-\begin{APACrefauthors}%
-Google~Developers, W\BPBI F.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2017}{{\APACmonth{04}}}{}.
-\newblock
-\APACrefbtitle {Service {Worker} : {Pengantar}.} {Service {Worker} :
-  {Pengantar}.}
-\newblock
-\APACaddressPublisher{}{Google Developers}.
-\newblock
-\begin{APACrefURL}
-  \url{https://developers.google.com/web/fundamentals/getting-started/primers/service-workers?hl=id}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
+\bibitem{d._vanhoose_e-commerce_2011}
+D.~D.~VanHoose, {\em E-{Commerce} {Economics}}.
+\newblock Routledge, 2~ed., Mar. 2011.
 
-\bibitem [\protect \citeauthoryear {%
-insideBIGDATA%
-}{%
-insideBIGDATA%
-}{%
-{\protect \APACyear {2017}}%
-}]{%
-insidebigdata_exponential_2017}
-\APACinsertmetastar {%
-insidebigdata_exponential_2017}%
-\begin{APACrefauthors}%
-insideBIGDATA, E\BPBI T.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2017}{{\APACmonth{02}}}{}.
-\newblock
-\APACrefbtitle {Exponential {Growth} of {Data}} {Exponential {Growth} of
-  {Data}}\ [Blog \& {News}].
-\newblock
-\begin{APACrefURL}
-  \url{https://insidebigdata.com/2017/02/16/the-exponential-growth-of-data/}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
+\bibitem{noauthor_jwt_2016}
+``{JWT},'' June 2016.
 
-\bibitem [\protect \citeauthoryear {%
-\APACcitebtitle {{JWT}}}{%
-\APACcitebtitle {{JWT}}}{%
-{\protect \APACyear {2016}}%
-}]{%
-noauthor_jwt_2016}
-\APACinsertmetastar {%
-noauthor_jwt_2016}%
-\APACrefbtitle {{JWT}} {{JWT}}\ [Blog].
-\newblock
-\APACrefYearMonthDay{2016}{{\APACmonth{06}}}{}.
-\newblock
-\begin{APACrefURL}
-  \url{http://blog.nostratech.com/2016/06/jwt-json-web-token.html}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
+\bibitem{noauthor_apa_2016}
+``Apa itu {Laravel}?,'' 2016.
 
-\bibitem [\protect \citeauthoryear {%
-Kuo%
-, Yen%
-\BCBL {}\ \BBA {} Chen%
-}{%
-Kuo%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2016}}%
-}]{%
-ying-feng_kuo_online_2016}
-\APACinsertmetastar {%
-ying-feng_kuo_online_2016}%
-\begin{APACrefauthors}%
-Kuo, Y\BHBI F.%
-, Yen, S\BHBI T.%
-\BCBL {}\ \BBA {} Chen, L\BHBI H.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2016}{{\APACmonth{10}}}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Online auction service failures in {Taiwan}:
-  {Typologies} and recovery strategies} {Online auction service failures in
-  {Taiwan}: {Typologies} and recovery strategies}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Science Direct}{10}{}{183--193}.
-\PrintBackRefs{\CurrentBib}
+\bibitem{laravel_browser_nodate}
+Laravel, ``Browser {Testing}.''
 
-\bibitem [\protect \citeauthoryear {%
-Laia~Bonastre%
-}{%
-Laia~Bonastre%
-}{%
-{\protect \APACyear {2014}}%
-}]{%
-a-set-of-heuristics-2014}
-\APACinsertmetastar {%
-a-set-of-heuristics-2014}%
-\begin{APACrefauthors}%
-Laia~Bonastre, T\BPBI G.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2014}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {A Set Of Heuristics for User Experience Evaluation in
-  E-commerce Websites} {A set of heuristics for user experience evaluation in
-  e-commerce websites}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{ACHI 2014 : The Seventh International Conference on
-  Advances in Computer-Human Interactions}{}{}{27--34}.
-\PrintBackRefs{\CurrentBib}
+\bibitem{balailelang_sejarah_nodate}
+BalaiLelang, ``Sejarah {Lelang} di {Indonesia}.''
 
-\bibitem [\protect \citeauthoryear {%
-Laravel%
-}{%
-Laravel%
-}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
-}]{%
-laravel_browser_nodate}
-\APACinsertmetastar {%
-laravel_browser_nodate}%
-\begin{APACrefauthors}%
-Laravel.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
-\newblock
-\APACrefbtitle {Browser {Testing}} {Browser {Testing}}\ [Documentation].
-\newblock
-\begin{APACrefURL} \url{https://laravel.com/docs/5.4/dusk} \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
+\bibitem{pratama_lelang_2012}
+R.~Pratama, ``Lelang,'' Feb. 2012.
 
-\bibitem [\protect \citeauthoryear {%
-\APACcitebtitle {{MongoDB}}}{%
-\APACcitebtitle {{MongoDB}}}{%
-{\protect \APACyear {2017}}%
-}]{%
-noauthor_mongodb_2017}
-\APACinsertmetastar {%
-noauthor_mongodb_2017}%
-\APACrefbtitle {{MongoDB}} {{MongoDB}}\ [Online {Encyclopedia}].
-\newblock
-\APACrefYearMonthDay{2017}{{\APACmonth{01}}}{}.
-\newblock
-\begin{APACrefURL} \url{https://id.wikipedia.org/wiki/MongoDB} \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
+\bibitem{wikipedia_lelang_2016}
+Wikipedia, ``Lelang,'' Jan. 2016.
 
-\bibitem [\protect \citeauthoryear {%
-\APACcitebtitle {Node.js ({Wikipedia})}}{%
-\APACcitebtitle {Node.js ({Wikipedia})}}{%
-{\protect \APACyear {2014}}%
-}]{%
-noauthor_node.js_2014}
-\APACinsertmetastar {%
-noauthor_node.js_2014}%
-\APACrefbtitle {Node.js ({Wikipedia}).} {Node.js ({Wikipedia}).}
-\newblock
-\APACrefYearMonthDay{2014}{{\APACmonth{11}}}{}.
-\newblock
-\begin{APACrefURL} \url{https://id.wikipedia.org/wiki/Node.js} \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
+\bibitem{noauthor_arti_nodate}
+``Arti pengertian {BID}, {INC}, {BIN} dalam {Bahasa} {Lelang} {Website}.''
 
-\bibitem [\protect \citeauthoryear {%
-\APACcitebtitle {{PostgreSQL}}}{%
-\APACcitebtitle {{PostgreSQL}}}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
-}]{%
-noauthor_postgresql_nodate}
-\APACinsertmetastar {%
-noauthor_postgresql_nodate}%
-\APACrefbtitle {{PostgreSQL}.} {{PostgreSQL}.}
-\newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
-\newblock
-\begin{APACrefURL} \url{http://www.belajarsql.com/postgresql} \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
+\bibitem{noauthor_mongodb_2017}
+``{MongoDB},'' Jan. 2017.
 
-\bibitem [\protect \citeauthoryear {%
-Pratama%
-}{%
-Pratama%
-}{%
-{\protect \APACyear {2012}}%
-}]{%
-pratama_lelang_2012}
-\APACinsertmetastar {%
-pratama_lelang_2012}%
-\begin{APACrefauthors}%
-Pratama, R.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2012}{{\APACmonth{02}}}{}.
-\newblock
-\APACrefbtitle {Lelang} {Lelang}\ [Blog].
-\newblock
-\begin{APACrefURL} \url{http://raypratama.blogspot.co.id/2012/02/lelang.html}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
+\bibitem{noauthor_node.js_2014}
+``Node.js ({Wikipedia}),'' Nov. 2014.
 
-\bibitem [\protect \citeauthoryear {%
-\APACcitebtitle {Repository {Pattern} - {Coding}4ever’s {Blog}}}{%
-\APACcitebtitle {Repository {Pattern} - {Coding}4ever’s {Blog}}}{%
-{\protect \APACyear {2016}}%
-}]{%
-noauthor_repository_2016}
-\APACinsertmetastar {%
-noauthor_repository_2016}%
-\APACrefbtitle {Repository {Pattern} - {Coding}4ever’s {Blog}} {Repository
-  {Pattern} - {Coding}4ever’s {Blog}}\ [Educational {Blog}].
-\newblock
-\APACrefYearMonthDay{2016}{{\APACmonth{02}}}{}.
-\newblock
-\begin{APACrefURL}
-  \url{http://coding4ever.net/blog/2016/02/22/repository-pattern/}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
+\bibitem{wikipedia_nosql_nodate}
+Wikipedia, ``{NoSQL}.''
 
-\bibitem [\protect \citeauthoryear {%
-Shaw%
-}{%
-Shaw%
-}{%
-{\protect \APACyear {1996}}%
-}]{%
-shaw_patterns_1996}
-\APACinsertmetastar {%
-shaw_patterns_1996}%
-\begin{APACrefauthors}%
-Shaw, M.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1996}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Some {Patterns} for {Software} {Architectures}} {Some
-  {Patterns} for {Software} {Architectures}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Pattern Languages of Program Design}{2}{}{255--269}.
-\newblock
-\begin{APACrefURL}
-  \url{https://sophia.javeriana.edu.co/~cbustaca/docencia/DEAS-2015-03/documentos/1996_Shaw_Some%20Patterns%20for%20Software%20Architectures.pdf}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
+\bibitem{azurri_node_2016}
+A.~Azurri, ``Node {Package} {Manager},'' Oct. 2016.
 
-\bibitem [\protect \citeauthoryear {%
-\APACcitebtitle {Sistem {Basis} {Data}}}{%
-\APACcitebtitle {Sistem {Basis} {Data}}}{%
-{\protect \APACyear {2013}}%
-}]{%
-noauthor_sistem_2013}
-\APACinsertmetastar {%
-noauthor_sistem_2013}%
-\APACrefbtitle {Sistem {Basis} {Data}} {Sistem {Basis} {Data}}\ [Blog].
-\newblock
-\APACrefYearMonthDay{2013}{{\APACmonth{03}}}{}.
-\newblock
-\begin{APACrefURL}
-  \url{https://rezapratama8.wordpress.com/2013/05/19/sistem-basis-data/}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
+\bibitem{noauthor_postgresql_nodate}
+``{PostgreSQL}.''
 
-\bibitem [\protect \citeauthoryear {%
-\APACcitebtitle {Sistem {Lelang} {Online} {Masih} {Bermasalah}}}{%
-\APACcitebtitle {Sistem {Lelang} {Online} {Masih} {Bermasalah}}}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
-}]{%
-noauthor_sistem_nodate}
-\APACinsertmetastar {%
-noauthor_sistem_nodate}%
-\APACrefbtitle {Sistem {Lelang} {Online} {Masih} {Bermasalah}.} {Sistem
-  {Lelang} {Online} {Masih} {Bermasalah}.}
-\newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
-\newblock
-\begin{APACrefURL}
-  \url{http://www.saidabdullah.info/index.php/issues/394-sistem-lelang-online-masih-bermasalah}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
+\bibitem{yudana_redis_2015}
+Yudana, ``Redis {Lebih} {Dari} {Sekedar} {Cache},'' Sept. 2015.
 
-\bibitem [\protect \citeauthoryear {%
-\APACcitebtitle {{SMTP}}}{%
-\APACcitebtitle {{SMTP}}}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
-}]{%
-noauthor_smtp_nodate}
-\APACinsertmetastar {%
-noauthor_smtp_nodate}%
-\APACrefbtitle {{SMTP}.} {{SMTP}.}
-\newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
-\newblock
-\begin{APACrefURL} \url{http://techscape.co.id/hosting/smtp.ts}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
+\bibitem{noauthor_repository_2016}
+``Repository {Pattern} - {Coding}4ever’s {Blog},'' Feb. 2016.
 
-\bibitem [\protect \citeauthoryear {%
-\APACcitebtitle {Socket.io ({Wikipedia})}}{%
-\APACcitebtitle {Socket.io ({Wikipedia})}}{%
-{\protect \APACyear {2016}}%
-}]{%
-noauthor_socket.io_2016}
-\APACinsertmetastar {%
-noauthor_socket.io_2016}%
-\APACrefbtitle {Socket.io ({Wikipedia}).} {Socket.io ({Wikipedia}).}
-\newblock
-\APACrefYearMonthDay{2016}{{\APACmonth{01}}}{}.
-\newblock
-\begin{APACrefURL} \url{https://en.wikipedia.org/wiki/Socket.IO}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
+\bibitem{shaw_patterns_1996}
+M.~Shaw, ``Some {Patterns} for {Software} {Architectures},'' {\em Pattern
+  Languages of Program Design}, vol.~2, pp.~255--269, 1996.
 
-\bibitem [\protect \citeauthoryear {%
-Sommervile%
-}{%
-Sommervile%
-}{%
-{\protect \APACyear {2009}}%
-}]{%
-software-engineering}
-\APACinsertmetastar {%
-software-engineering}%
-\begin{APACrefauthors}%
-Sommervile, I.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2009}.
-\newblock
-\APACrefbtitle {Software {Engineering}} {Software {Engineering}}\
-  (\PrintOrdinal{9th}\ \BEd).
-\newblock
-\APACaddressPublisher{United States of America}{Addison-Wesley. All rights
-  reserved}.
-\PrintBackRefs{\CurrentBib}
+\bibitem{wikipedia_sendgrid_2017}
+Wikipedia, ``{SendGrid},'' Mar. 2017.
 
-\bibitem [\protect \citeauthoryear {%
-Web~Services%
-}{%
-Web~Services%
-}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
-}]{%
-web_services_amazon_nodate}
-\APACinsertmetastar {%
-web_services_amazon_nodate}%
-\begin{APACrefauthors}%
-Web~Services, A.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
-\newblock
-\APACrefbtitle {Amazon {Benefits}} {Amazon {Benefits}}\ [Bussiness].
-\newblock
-\begin{APACrefURL} \url{https://aws.amazon.com/application-hosting/benefits/}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
+\bibitem{google_developers_service_2017}
+W.~F. Google~Developers, ``Service {Worker} : {Pengantar},'' Apr. 2017.
 
-\bibitem [\protect \citeauthoryear {%
-Wikipedia%
-}{%
-Wikipedia%
-}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
-}]{%
-wikipedia_nosql_nodate}
-\APACinsertmetastar {%
-wikipedia_nosql_nodate}%
-\begin{APACrefauthors}%
-Wikipedia.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
-\newblock
-\APACrefbtitle {{NoSQL}} {{NoSQL}}\ [Online {Encyclopedia}].
-\newblock
-\begin{APACrefURL} \url{https://id.wikipedia.org/wiki/NoSQL} \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
+\bibitem{noauthor_smtp_nodate}
+``{SMTP}.''
 
-\bibitem [\protect \citeauthoryear {%
-Wikipedia%
-}{%
-Wikipedia%
-}{%
-{\protect \APACyear {2016}}%
-{\protect \APACexlab {{\protect \BCnt {1}}}}}]{%
-wikipedia_amazon_2016}
-\APACinsertmetastar {%
-wikipedia_amazon_2016}%
-\begin{APACrefauthors}%
-Wikipedia.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2016{\protect \BCnt {1}}}{{\APACmonth{01}}}{}.
-\newblock
-\APACrefbtitle {Amazon {Web} {Services}} {Amazon {Web} {Services}}\
-  [Wikipedia].
-\newblock
-\begin{APACrefURL} \url{https://id.wikipedia.org/wiki/Amazon_Web_Services}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
+\bibitem{noauthor_socket.io_2016}
+``Socket.io ({Wikipedia}),'' Jan. 2016.
 
-\bibitem [\protect \citeauthoryear {%
-Wikipedia%
-}{%
-Wikipedia%
-}{%
-{\protect \APACyear {2016}}%
-{\protect \APACexlab {{\protect \BCnt {2}}}}}]{%
-wikipedia_lelang_2016}
-\APACinsertmetastar {%
-wikipedia_lelang_2016}%
-\begin{APACrefauthors}%
-Wikipedia.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2016{\protect \BCnt {2}}}{{\APACmonth{01}}}{}.
-\newblock
-\APACrefbtitle {Lelang.} {Lelang.}
-\newblock
-\begin{APACrefURL} \url{https://id.wikipedia.org/wiki/Lelang} \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
+\bibitem{noauthor_test_2016}
+W.~, ``Test {Script},'' Jan. 2016.
+\newblock translated by author.
 
-\bibitem [\protect \citeauthoryear {%
-Wikipedia%
-}{%
-Wikipedia%
-}{%
-{\protect \APACyear {2017}}%
-{\protect \APACexlab {{\protect \BCnt {1}}}}}]{%
-wikipedia_sendgrid_2017}
-\APACinsertmetastar {%
-wikipedia_sendgrid_2017}%
-\begin{APACrefauthors}%
-Wikipedia.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2017{\protect \BCnt {1}}}{{\APACmonth{03}}}{}.
-\newblock
-\APACrefbtitle {{SendGrid}} {{SendGrid}}\ [Online {Encyclopedia}].
-\newblock
-\begin{APACrefURL} \url{https://en.wikipedia.org/wiki/SendGrid}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
+\bibitem{wikipedia_vue.js_2017}
+Wikipedia, ``Vue.js,'' May 2017.
+\newblock translated to Indonesia.
 
-\bibitem [\protect \citeauthoryear {%
-Wikipedia%
-}{%
-Wikipedia%
-}{%
-{\protect \APACyear {2017}}%
-{\protect \APACexlab {{\protect \BCnt {2}}}}}]{%
-wikipedia_vue.js_2017}
-\APACinsertmetastar {%
-wikipedia_vue.js_2017}%
-\begin{APACrefauthors}%
-Wikipedia.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2017{\protect \BCnt {2}}}{{\APACmonth{05}}}{}.
-\newblock
-\APACrefbtitle {Vue.js} {Vue.js}\ [Online {Encyclopedia}].
-\newblock
-\begin{APACrefURL} \url{https://en.wikipedia.org/wiki/Vue.js} \end{APACrefURL}
-\newblock
-\APACrefnote{translated to Indonesia}
-\PrintBackRefs{\CurrentBib}
+\bibitem{a-set-of-heuristics-2014}
+T.~G. Laia~Bonastre, ``A set of heuristics for user experience evaluation in
+  e-commerce websites,'' {\em ACHI 2014 : The Seventh International Conference
+  on Advances in Computer-Human Interactions}, pp.~27--34, 2014.
 
-\bibitem [\protect \citeauthoryear {%
-Yudana%
-}{%
-Yudana%
-}{%
-{\protect \APACyear {2015}}%
-}]{%
-yudana_redis_2015}
-\APACinsertmetastar {%
-yudana_redis_2015}%
-\begin{APACrefauthors}%
-Yudana.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2015}{{\APACmonth{09}}}{}.
-\newblock
-\APACrefbtitle {Redis {Lebih} {Dari} {Sekedar} {Cache}.} {Redis {Lebih} {Dari}
-  {Sekedar} {Cache}.}
-\newblock
-\begin{APACrefURL} \url{http://www.yudana.id/redis-lebih-dari-sekedar-cache/}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
+\bibitem{software-engineering}
+I.~Sommervile, {\em Software {Engineering}}.
+\newblock United States of America: Addison-Wesley. All rights reserved,
+  9th~ed., Oct. 2009.
 
 \end{thebibliography}

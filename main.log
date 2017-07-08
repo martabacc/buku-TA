@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2017.5.23)  6 JUL 2017 09:35
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2017.5.23)  9 JUL 2017 03:15
 entering extended mode
 **./main.tex
 (main.tex
@@ -1250,7 +1250,7 @@ Package: wrapfig 2003/01/31  v 3.6
 \@input{languangeConf.aux}
 \openout2 = `languangeConf.aux'.
 
-(languangeConf.tex (langconf/json.tex) (langconf/js.tex))
+(languangeConf.tex (langconf/json.tex) (langconf/js.tex) (langconf/php.tex))
 \@input{enumitemConf.aux}
 \openout2 = `enumitemConf.aux'.
 
@@ -1264,79 +1264,7 @@ Package: wrapfig 2003/01/31  v 3.6
 (Metadata.tex)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
- (main.aux (Chapters/Main/Bab0-Abstrak.aux)
-(Chapters/Main/Bab0-Abstract.aux) (Chapters/Main/Bab0-KataPengantar.aux)
-(Chapters/Main/Bab1-Pendahuluan.aux) (Chapters/Main/Bab2-DasarTeori.aux)
-(Chapters/Main/Bab3-DesainDanPerancangan.aux
-
-LaTeX Warning: Label `alasan-app-serupa' multiply defined.
-
-
-LaTeX Warning: Label `alasan-app-serupa@cref' multiply defined.
-
-
-LaTeX Warning: Label `kasus-penggunaan' multiply defined.
-
-
-LaTeX Warning: Label `kasus-penggunaan@cref' multiply defined.
-
-
-LaTeX Warning: Label `uc0202-a' multiply defined.
-
-
-LaTeX Warning: Label `uc0202-a@cref' multiply defined.
-
-
-LaTeX Warning: Label `uc02.02' multiply defined.
-
-
-LaTeX Warning: Label `uc02.02@cref' multiply defined.
-
-
-LaTeX Warning: Label `uc0302-show1page' multiply defined.
-
-
-LaTeX Warning: Label `uc0302-show1page@cref' multiply defined.
-
-
-LaTeX Warning: Label `db-coupon' multiply defined.
-
-
-LaTeX Warning: Label `db-coupon@cref' multiply defined.
-
-
-LaTeX Warning: Label `db-issues' multiply defined.
-
-
-LaTeX Warning: Label `db-issues@cref' multiply defined.
-
-
-LaTeX Warning: Label `db-issues' multiply defined.
-
-
-LaTeX Warning: Label `db-issues@cref' multiply defined.
-
-
-LaTeX Warning: Label `db-issues' multiply defined.
-
-
-LaTeX Warning: Label `db-issues@cref' multiply defined.
-
-
-LaTeX Warning: Label `db-issues' multiply defined.
-
-
-LaTeX Warning: Label `db-issues@cref' multiply defined.
-
-) (Chapters/Main/Bab4-Implementasi.aux
-
-LaTeX Warning: Label `pdm' multiply defined.
-
-
-LaTeX Warning: Label `pdm@cref' multiply defined.
-
-) (Chapters/Main/Bab5-PengujianDanEvaluasi.aux) (Chapters/Main/Bab6-Penutup.aux
-) (Chapters/Main/Bab7-Biodata.aux))
+ (main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
@@ -1491,8 +1419,11 @@ LaTeX Info: Redefining \nameref on input line 62.
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-\c@maskedRefs=\count278
 
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+\c@maskedRefs=\count278
 
 Package apacite Warning: No suitable language definition file (bahasa.apc) foun
 d.
@@ -1682,60 +1613,12 @@ LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/bx/n' will be
 
 
 
-] [10]) (main.toc
-Overfull \hbox (1.57394pt too wide) detected at line 26
-\EU1/TimesNewRoman(0)/m/n/10.95 2.10 
- []
+] [10])
 
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
 
-Overfull \hbox (1.15744pt too wide) detected at line 27
-\EU1/TimesNewRoman(0)/m/n/10.95 2.11 
- []
-
-
-Overfull \hbox (1.57394pt too wide) detected at line 28
-\EU1/TimesNewRoman(0)/m/n/10.95 2.12 
- []
-
-
-Overfull \hbox (1.57394pt too wide) detected at line 29
-\EU1/TimesNewRoman(0)/m/n/10.95 2.13 
- []
-
-
-Overfull \hbox (1.57394pt too wide) detected at line 30
-\EU1/TimesNewRoman(0)/m/n/10.95 2.14 
- []
-
-
-Overfull \hbox (1.57394pt too wide) detected at line 31
-\EU1/TimesNewRoman(0)/m/n/10.95 2.15 
- []
-
-
-Overfull \hbox (1.57394pt too wide) detected at line 32
-\EU1/TimesNewRoman(0)/m/n/10.95 2.16 
- []
-
-
-Overfull \hbox (1.57394pt too wide) detected at line 33
-\EU1/TimesNewRoman(0)/m/n/10.95 2.17 
- []
-
-
-Overfull \hbox (1.57394pt too wide) detected at line 34
-\EU1/TimesNewRoman(0)/m/n/10.95 2.18 
- []
-
-
-Overfull \hbox (1.57394pt too wide) detected at line 35
-\EU1/TimesNewRoman(0)/m/n/10.95 2.19 
- []
-
-
-Overfull \hbox (1.57394pt too wide) detected at line 36
-\EU1/TimesNewRoman(0)/m/n/10.95 2.20 
- []
+\tf@toc=\write4
+\openout4 = `main.toc'.
 
 [11
 
@@ -1743,48 +1626,37 @@ Overfull \hbox (1.57394pt too wide) detected at line 36
 
 
 
+] [12
+
+
 ]
-Overfull \hbox (1.57394pt too wide) detected at line 37
-\EU1/TimesNewRoman(0)/m/n/10.95 2.21 
- []
 
+Package hyperref Warning: old lot file detected, not used; run LaTeX again.
 
-Overfull \hbox (1.57394pt too wide) detected at line 38
-\EU1/TimesNewRoman(0)/m/n/10.95 2.22 
- []
-
-
-Overfull \hbox (1.57394pt too wide) detected at line 39
-\EU1/TimesNewRoman(0)/m/n/10.95 2.23 
- []
-
-[12])
-\tf@toc=\write4
-\openout4 = `main.toc'.
-
- [13] [14
-
-
-] (main.lot [15])
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
- [16] (main.lof)
+[13] [14
+
+
+]
+
+Package hyperref Warning: old lof file detected, not used; run LaTeX again.
+
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [17
+[15] [16
 
 
-] [18
+]
 
+Package hyperref Warning: old lol file detected, not used; run LaTeX again.
 
-] (main.lol)
 \tf@lol=\write7
 \openout7 = `main.lol'.
 
- [19]
-[20
+[17] [18
 
 
 ]
@@ -1792,6 +1664,12 @@ Overfull \hbox (1.57394pt too wide) detected at line 39
 
  (Chapters/Main/Bab1-Pendahuluan.tex
 BAB I.
+
+LaTeX Warning: Citation `ying-feng_kuo_online_2016' undefined on input line 7.
+
+
+LaTeX Warning: Citation `noauthor_sistem_nodate' undefined on input line 9.
+
 [1
 
 
@@ -1808,6 +1686,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
  (Chapters/Main/Bab2-DasarTeori.tex
 BAB II.
+
+LaTeX Warning: Citation `wikipedia_amazon_2016' undefined on input line 5.
+
+
+LaTeX Warning: Citation `web_services_amazon_nodate' undefined on input line 7.
+
+
 LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/bx/it' will be
 (Font)              scaled to size 11.27493pt on input line 9.
 [5
@@ -1815,15 +1700,107 @@ LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/bx/it' will be
 
 
 
-] [6] [7] [8] [9] [10] [11] [12] [13]) [14]
+]
+
+LaTeX Warning: Citation `noauthor_sistem_2013' undefined on input line 17.
+
+
+LaTeX Warning: Citation `insidebigdata_exponential_2017' undefined on input lin
+e 21.
+
+
+LaTeX Warning: Citation `d._vanhoose_e-commerce_2011' undefined on input line 2
+4.
+
+
+LaTeX Warning: Citation `noauthor_jwt_2016' undefined on input line 28.
+
+[6]
+
+LaTeX Warning: Citation `noauthor_apa_2016' undefined on input line 40.
+
+
+LaTeX Warning: Citation `laravel_browser_nodate' undefined on input line 45.
+
+
+LaTeX Warning: Citation `balailelang_sejarah_nodate' undefined on input line 50
+.
+
+
+LaTeX Warning: Citation `pratama_lelang_2012' undefined on input line 52.
+
+[7]
+
+LaTeX Warning: Citation `wikipedia_lelang_2016' undefined on input line 56.
+
+[8]
+
+LaTeX Warning: Citation `noauthor_arti_nodate' undefined on input line 61.
+
+
+LaTeX Warning: Citation `noauthor_mongodb_2017' undefined on input line 66.
+
+
+LaTeX Warning: Citation `noauthor_node.js_2014' undefined on input line 69.
+
+
+LaTeX Warning: Citation `wikipedia_nosql_nodate' undefined on input line 74.
+
+[9]
+
+LaTeX Warning: Citation `azurri_node_2016' undefined on input line 77.
+
+
+LaTeX Warning: Citation `noauthor_postgresql_nodate' undefined on input line 88
+.
+
+[10]
+
+LaTeX Warning: Citation `yudana_redis_2015' undefined on input line 92.
+
+
+LaTeX Warning: Citation `noauthor_repository_2016' undefined on input line 97.
+
+
+LaTeX Warning: Citation `shaw_patterns_1996' undefined on input line 99.
+
+
+LaTeX Warning: Citation `wikipedia_sendgrid_2017' undefined on input line 105.
+
+[11]
+
+LaTeX Warning: Citation `google_developers_service_2017' undefined on input lin
+e 108.
+
+
+LaTeX Warning: Citation `noauthor_smtp_nodate' undefined on input line 111.
+
+[12]
+
+LaTeX Warning: Citation `noauthor_socket.io_2016' undefined on input line 114.
+
+
+LaTeX Warning: Citation `noauthor_test_2016' undefined on input line 117.
+
+
+LaTeX Warning: Citation `wikipedia_vue.js_2017' undefined on input line 130.
+
+[13]) [14]
 \openout2 = `Chapters/Main/Bab3-DesainDanPerancangan.aux'.
 
-
-(Chapters/Main/Bab3-DesainDanPerancangan.tex
+ (Chapters/Main/Bab3-DesainDanPerancangan.tex
 BAB III.
 (Chapters/Details/bab3/3a-Analisa.tex
-(Chapters/Details/bab3/analisa/kebutuhan/basicfunctionality.tex)
-(Chapters/Details/bab3/analisa/kebutuhan/paper.tex [15
+
+LaTeX Warning: Reference `perancangan-sistem' on page 15 undefined on input lin
+e 2.
+
+(Chapters/Details/bab3/analisa/kebutuhan/basicfunctionality.tex
+
+LaTeX Warning: Reference `keb-fungsional' on page 15 undefined on input line 6.
+
+
+) (Chapters/Details/bab3/analisa/kebutuhan/paper.tex [15
 
 
 
@@ -1842,22 +1819,47 @@ LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/m/it' will be
 File: images/bab3/Solusi-Perbaikan-Ketidakpuasan.png Graphic file (type QTm)
 
 <use  "images/bab3/Solusi-Perbaikan-Ketidakpuasan.png" > [17] [18])
-(Chapters/Details/bab3/analisa/kebutuhan/bussiness_aspect.tex [19]
+(Chapters/Details/bab3/analisa/kebutuhan/bussiness_aspect.tex
+
+LaTeX Warning: Citation `a-set-of-heuristics-2014' undefined on input line 4.
+
+[19]
 File: images/bab3/analisa/user-centered.png Graphic file (type QTm)
+ <use  "images/bab3/analisa/user-centered.png" >
 
-<use  "images/bab3/analisa/user-centered.png" >)
-(Chapters/Details/bab3/analisa/kebutuhan/technical_analysis.tex [20]
+LaTeX Warning: Reference `keb-fungsional' on page 20 undefined on input line 37
+.
+
+) (Chapters/Details/bab3/analisa/kebutuhan/technical_analysis.tex [20]
+
+LaTeX Warning: Citation `software-engineering' undefined on input line 11.
+
 File: images/bab3/buku/essential-good-software.png Graphic file (type QTm)
-
 <use  "images/bab3/buku/essential-good-software.png" >)
-(Chapters/Details/bab3/analisa/teknis/personal-analysis.tex [21] [22] [23]
-[24] [25] [26]) (Chapters/Details/bab3/analisa/kebutuhan/functional.tex
+(Chapters/Details/bab3/analisa/teknis/personal-analysis.tex [21] [22]
+
+LaTeX Warning: Reference `software-structure' on page 23 undefined on input lin
+e 36.
+
+[23] [24] [25] [26]) (Chapters/Details/bab3/analisa/kebutuhan/functional.tex
+
+LaTeX Warning: Reference `deskripsi-umum-app' on page 27 undefined on input lin
+e 3.
+
+
+LaTeX Warning: Reference `tabel-fungsional' on page 27 undefined on input line 
+3.
+
 (tables/03b/functional.tex) (tables/03b/functional.tex)
 (tables/03b/functional.tex [27]))
 (Chapters/Details/bab3/analisa/kebutuhan/non-functional.tex
 (tables/03b/nonfunctional.tex) (tables/03b/nonfunctional.tex)
 (tables/03b/nonfunctional.tex [28]) [29])
 (Chapters/Details/bab3/analisa/tugas_hak_akses_aktor.tex
+
+LaTeX Warning: Reference `identifikasi-aktor' on page 30 undefined on input lin
+e 4.
+
 (tables/03/analisa/identifikasi_pengguna.tex)
 (tables/03/analisa/identifikasi_pengguna.tex)
 (tables/03/analisa/identifikasi_pengguna.tex)
@@ -1885,21 +1887,51 @@ Overfull \hbox (8.90346pt too wide) in paragraph at lines 22--22
 
 [30] [31]))) (Chapters/Details/bab3/3c-Rancangan.tex
 (Chapters/Details/bab3/analisa/kebutuhan/ucdesc.tex
+
+LaTeX Warning: Reference `tabel-fungsional' on page 32 undefined on input line 
+2.
+
+
+LaTeX Warning: Reference `kasus-penggunaan' on page 32 undefined on input line 
+3.
+
 (tables/03c/kasus_penggunaan.tex) (tables/03c/kasus_penggunaan.tex [32])
 File: images/bab3/usecasediagram/ucd-main.png Graphic file (type QTm)
 
 <use  "images/bab3/usecasediagram/ucd-main.png" >
-(Chapters/Details/bab3/3cxx/KP01.tex [33] (tables/03c/kasus_penggunaan.tex)
-(tables/03c/kasus_penggunaan.tex)
+(Chapters/Details/bab3/3cxx/KP01.tex [33]
 File: images/bab3/usecasediagram/ucd-01.png Graphic file (type QTm)
 
 <use  "images/bab3/usecasediagram/ucd-01.png" >
+(tables/03c/kasus_penggunaan.tex) (tables/03c/kasus_penggunaan.tex)
 (Chapters/Details/bab3/3cxx/01/01.tex
+
+LaTeX Warning: Reference `al-0101-a' on page 34 undefined on input line 30.
+
+
+LaTeX Warning: Reference `al-0101-a' on page 34 undefined on input line 31.
+
+
+LaTeX Warning: Reference `uc0101-show1page' on page 34 undefined on input line 
+31.
+
+
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 3--35
  [][] 
  []
 
 ) [34] (Chapters/Details/bab3/3cxx/01/02.tex
+
+LaTeX Warning: Reference `al-0101-a' on page 35 undefined on input line 30.
+
+
+LaTeX Warning: Reference `al-0101-a' on page 35 undefined on input line 31.
+
+
+LaTeX Warning: Reference `uc0102-show1page' on page 35 undefined on input line 
+31.
+
+
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 3--35
  [][] 
  []
@@ -1919,6 +1951,13 @@ Overfull \hbox (28.67905pt too wide) in paragraph at lines 5--38
  []
 
 ) [38] (Chapters/Details/bab3/3cxx/02/02.tex
+
+LaTeX Warning: Reference `uc0202-a' on page 39 undefined on input line 49.
+
+
+LaTeX Warning: Reference `uc0202-a' on page 39 undefined on input line 50.
+
+
 Overfull \hbox (28.67905pt too wide) in paragraph at lines 5--54
  [][] 
  []
@@ -1928,6 +1967,13 @@ Overfull \vbox (48.94183pt too high) has occurred while \output is active []
 
 
 [40] (Chapters/Details/bab3/3cxx/02/03.tex
+
+LaTeX Warning: Reference `uc0202-a' on page 41 undefined on input line 49.
+
+
+LaTeX Warning: Reference `uc0202-a' on page 41 undefined on input line 50.
+
+
 Overfull \hbox (28.67905pt too wide) in paragraph at lines 5--54
  [][] 
  []
@@ -1946,6 +1992,17 @@ File: images/bab3/usecasediagram/ucd-03.png Graphic file (type QTm)
 
 <use  "images/bab3/usecasediagram/ucd-03.png" > [42]
 (Chapters/Details/bab3/3cxx/03/01.tex
+
+LaTeX Warning: Reference `al-0301-a' on page 43 undefined on input line 36.
+
+
+LaTeX Warning: Reference `al-0301-a' on page 43 undefined on input line 37.
+
+
+LaTeX Warning: Reference `uc0301-show1page' on page 43 undefined on input line 
+37.
+
+
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 5--41
  [][] 
  []
@@ -1955,6 +2012,22 @@ Overfull \vbox (48.94183pt too high) has occurred while \output is active []
 
 
 [44] (Chapters/Details/bab3/3cxx/03/02.tex
+
+LaTeX Warning: Reference `al-0302-a' on page 45 undefined on input line 39.
+
+
+LaTeX Warning: Reference `al-0302-a' on page 45 undefined on input line 40.
+
+
+LaTeX Warning: Reference `uc0302-show2page' on page 45 undefined on input line 
+40.
+
+
+LaTeX Warning: Reference `al-0302-a' on page 45 undefined on input line 47.
+
+
+LaTeX Warning: Reference `al-0302-a' on page 45 undefined on input line 48.
+
 
 LaTeX Warning: Reference `uc0301-show2page' on page 45 undefined on input line 
 48.
@@ -1988,6 +2061,37 @@ Overfull \hbox (23.36862pt too wide) in paragraph at lines 5--47
  []
 
 ) [48] (Chapters/Details/bab3/3cxx/04/02.tex
+
+LaTeX Warning: Reference `uc0402-show1page' on page 49 undefined on input line 
+53.
+
+
+LaTeX Warning: Reference `al-0402-a' on page 49 undefined on input line 65.
+
+
+LaTeX Warning: Reference `al-0402-a' on page 49 undefined on input line 66.
+
+
+LaTeX Warning: Reference `al-0402-a' on page 49 undefined on input line 67.
+
+
+LaTeX Warning: Reference `uc0402-show1page' on page 49 undefined on input line 
+67.
+
+
+LaTeX Warning: Reference `al-0402-b' on page 49 undefined on input line 76.
+
+
+LaTeX Warning: Reference `al-0402-b' on page 49 undefined on input line 77.
+
+
+LaTeX Warning: Reference `al-0402-b' on page 49 undefined on input line 78.
+
+
+LaTeX Warning: Reference `uc0402-show1page' on page 49 undefined on input line 
+78.
+
+
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 6--82
  [][] 
  []
@@ -1997,6 +2101,19 @@ Overfull \vbox (397.53494pt too high) has occurred while \output is active []
 
 
 [50] (Chapters/Details/bab3/3cxx/04/03.tex
+
+LaTeX Warning: Reference `uc0403-1page' on page 51 undefined on input line 43.
+
+
+LaTeX Warning: Reference `al-0402-b' on page 51 undefined on input line 54.
+
+
+LaTeX Warning: Reference `al-0402-b' on page 51 undefined on input line 55.
+
+
+LaTeX Warning: Reference `uc0403-modal' on page 51 undefined on input line 55.
+
+
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 6--59
  [][] 
  []
@@ -2006,6 +2123,16 @@ Overfull \vbox (103.34186pt too high) has occurred while \output is active []
 
 
 [51] (Chapters/Details/bab3/3cxx/04/04.tex
+
+LaTeX Warning: Reference `al-0404-a' on page 52 undefined on input line 53.
+
+
+LaTeX Warning: Reference `al-0404-a' on page 52 undefined on input line 54.
+
+
+LaTeX Warning: Reference `al-0404-ex' on page 52 undefined on input line 54.
+
+
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 6--58
  [][] 
  []
@@ -2015,6 +2142,16 @@ Overfull \vbox (144.14735pt too high) has occurred while \output is active []
 
 
 [52] (Chapters/Details/bab3/3cxx/04/05.tex
+
+LaTeX Warning: Reference `al-0404-a' on page 53 undefined on input line 49.
+
+
+LaTeX Warning: Reference `al-0404-a' on page 53 undefined on input line 50.
+
+
+LaTeX Warning: Reference `al-0404-ex' on page 53 undefined on input line 50.
+
+
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 6--54
  [][] 
  []
@@ -2038,33 +2175,47 @@ File: images/bab3/usecasediagram/ucd-06.png Graphic file (type QTm)
 <use  "images/bab3/usecasediagram/ucd-06.png" >
 (Chapters/Details/bab3/3cxx/06/01.tex) (Chapters/Details/bab3/3cxx/06/02.tex)
 (Chapters/Details/bab3/3cxx/06/03.tex)))
-(Chapters/Details/bab3/analisa/teknis/req-to-system.tex [55]
-File: images/bab3/buku/basic_architecture.png Graphic file (type QTm)
+(Chapters/Details/bab3/analisa/teknis/req-to-system.tex
 
-<use  "images/bab3/buku/basic_architecture.png" >)
+LaTeX Warning: Reference `fundamental-component' on page 55 undefined on input 
+line 2.
+
+[55]
+File: images/bab3/buku/basic_architecture.png Graphic file (type QTm)
+ <use  "images/bab3/buku/basic_architecture.png" >)
 (Chapters/Details/bab3/analisa/teknis/tech-options.tex
+
+LaTeX Warning: Reference `tech-analysis' on page 56 undefined on input line 5.
+
 LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/bx/sc' will be
 (Font)              scaled to size 11.27493pt on input line 7.
- [56] [57] [58] [59])
-(Chapters/Details/bab3/desain/app-arc.tex [60] [61]
-File: images/bab3/arsitektur-app-pl_2.png Graphic file (type QTm)
+[56] [57] [58] [59]) (Chapters/Details/bab3/desain/app-arc.tex
 
-<use  "images/bab3/arsitektur-app-pl_2.png" >)
+LaTeX Warning: Reference `final-arch-tech-figure' on page 60 undefined on input
+ line 4.
+
+[60]
+File: images/bab3/arsitektur-app-pl_2.png Graphic file (type QTm)
+ <use  "images/bab3/arsitektur-app-pl_2.png" >)
 (Chapters/Details/bab3/desain/app-structure.tex
 File: images/bab3/apl/main-apl.png Graphic file (type QTm)
 
-<use  "images/bab3/apl/main-apl.png" > [62] [63])
-(Chapters/Details/bab3/desain/database.tex)
-(Chapters/Details/bab3/desain/database-nontransaksional.tex)
+<use  "images/bab3/apl/main-apl.png" > [61] [62] [63] [64] [65])
+(Chapters/Details/bab3/desain/database.tex
+File: images/bab3/db/cdm.png Graphic file (type QTm)
+ <use  "images/bab3/db/cdm.png" >
+[66]
+File: images/bab3/db/pdm.png Graphic file (type QTm)
+ <use  "images/bab3/db/pdm.png" > [67])
 (Chapters/Details/bab3/desain/kamus-data-transaksional.tex
 (Chapters/Details/bab3/desain/database/kamus_transaksional/administrators.tex
 (tables/03b/tables/transactional/administrator.tex)
 (tables/03b/tables/transactional/administrator.tex)
-(tables/03b/tables/transactional/administrator.tex))
+(tables/03b/tables/transactional/administrator.tex [68]))
 (Chapters/Details/bab3/desain/database/kamus_transaksional/bids.tex
 (tables/03b/tables/transactional/bid.tex)
 (tables/03b/tables/transactional/bid.tex)
-(tables/03b/tables/transactional/bid.tex [64]))
+(tables/03b/tables/transactional/bid.tex [69]))
 (Chapters/Details/bab3/desain/database/kamus_transaksional/categories.tex
 (tables/03b/tables/transactional/categories.tex)
 (tables/03b/tables/transactional/categories.tex)
@@ -2072,11 +2223,11 @@ File: images/bab3/apl/main-apl.png Graphic file (type QTm)
 (Chapters/Details/bab3/desain/database/kamus_transaksional/coupon.tex
 (tables/03b/tables/transactional/coupon.tex)
 (tables/03b/tables/transactional/coupon.tex)
-(tables/03b/tables/transactional/coupon.tex [65]))
+(tables/03b/tables/transactional/coupon.tex [70]))
 (Chapters/Details/bab3/desain/database/kamus_transaksional/coupon_usages.tex
 (tables/03b/tables/transactional/coupon_usages.tex)
 (tables/03b/tables/transactional/coupon_usages.tex)
-(tables/03b/tables/transactional/coupon_usages.tex [66]))
+(tables/03b/tables/transactional/coupon_usages.tex [71]))
 (Chapters/Details/bab3/desain/database/kamus_transaksional/favorites.tex
 (tables/03b/tables/transactional/favorites.tex)
 (tables/03b/tables/transactional/favorites.tex)
@@ -2084,7 +2235,7 @@ File: images/bab3/apl/main-apl.png Graphic file (type QTm)
 (Chapters/Details/bab3/desain/database/kamus_transaksional/issues.tex
 (tables/03b/tables/transactional/issues.tex)
 (tables/03b/tables/transactional/issues.tex)
-(tables/03b/tables/transactional/issues.tex [67]))
+(tables/03b/tables/transactional/issues.tex [72]))
 (Chapters/Details/bab3/desain/database/kamus_transaksional/issuetypes.tex
 (tables/03b/tables/transactional/issuetypes.tex)
 (tables/03b/tables/transactional/issuetypes.tex)
@@ -2097,20 +2248,15 @@ Overfull \hbox (2.10059pt too wide) in paragraph at lines 30--30
 []|\EU1/TimesNewRoman(0)/m/n/10.95 id_coupon_usage| 
  []
 
-[68] [69]))
+[73]))
 (Chapters/Details/bab3/desain/database/kamus_transaksional/ratingauctioneers.te
 x (tables/03b/tables/transactional/ratingauctioneers.tex)
 (tables/03b/tables/transactional/ratingauctioneers.tex)
-(tables/03b/tables/transactional/ratingauctioneers.tex))
+(tables/03b/tables/transactional/ratingauctioneers.tex [74]))
 (Chapters/Details/bab3/desain/database/kamus_transaksional/ratingbidders.tex
 (tables/03b/tables/transactional/ratingbidders.tex)
 (tables/03b/tables/transactional/ratingbidders.tex)
-(tables/03b/tables/transactional/ratingbidders.tex
-Overfull \hbox (6.45195pt too wide) in paragraph at lines 18--18
-[]|\EU1/TimesNewRoman(0)/m/n/10.95 nama_user_bidder| 
- []
-
-[70]))
+(tables/03b/tables/transactional/ratingbidders.tex))
 (Chapters/Details/bab3/desain/database/kamus_transaksional/ratinglogs.tex
 (tables/03b/tables/transactional/ratinglogs.tex)
 (tables/03b/tables/transactional/ratinglogs.tex)
@@ -2129,53 +2275,76 @@ Overfull \hbox (0.83463pt too wide) in paragraph at lines 20--20
 \EU1/TimesNewRoman(0)/m/n/10.95 ratingauctioneers| 
  []
 
-[71]))
+[75]))
 (Chapters/Details/bab3/desain/database/kamus_transaksional/user_verifications.t
 ex (tables/03b/tables/transactional/userverifications.tex)
 (tables/03b/tables/transactional/userverifications.tex)
-(tables/03b/tables/transactional/userverifications.tex))
+(tables/03b/tables/transactional/userverifications.tex [76]))
 (Chapters/Details/bab3/desain/database/kamus_transaksional/userissues.tex
 (tables/03b/tables/transactional/userissues.tex)
 (tables/03b/tables/transactional/userissues.tex)
-(tables/03b/tables/transactional/userissues.tex [72]))
+(tables/03b/tables/transactional/userissues.tex))
 (Chapters/Details/bab3/desain/database/kamus_transaksional/users.tex
 (tables/03b/tables/transactional/users.tex)
 (tables/03b/tables/transactional/users.tex)
-(tables/03b/tables/transactional/users.tex [73])))
+(tables/03b/tables/transactional/users.tex [77])))
 (Chapters/Details/bab3/desain/kamus-data-nontransaksional.tex
 (Chapters/Details/bab3/desain/database/kamus_nontransaksional/userchats.tex
 (tables/03b/tables/nontransactional/userchats.tex)
 (tables/03b/tables/nontransactional/userchats.tex)
-(tables/03b/tables/nontransactional/userchats.tex))
+(tables/03b/tables/nontransactional/userchats.tex [78]))
 (Chapters/Details/bab3/desain/database/kamus_nontransaksional/chatrooms.tex
 (tables/03b/tables/nontransactional/chatrooms.tex)
 (tables/03b/tables/nontransactional/chatrooms.tex)
-(tables/03b/tables/nontransactional/chatrooms.tex [74]))
+(tables/03b/tables/nontransactional/chatrooms.tex))
 (Chapters/Details/bab3/desain/database/kamus_nontransaksional/itemimages.tex
 (tables/03b/tables/nontransactional/itemimages.tex)
 (tables/03b/tables/nontransactional/itemimages.tex)
 (tables/03b/tables/nontransactional/itemimages.tex)))
-(Chapters/Details/bab3/desain/datadict.tex))) [75]
+(Chapters/Details/bab3/desain/datadict.tex))) [79]
 \openout2 = `Chapters/Main/Bab4-Implementasi.aux'.
 
 
-(Chapters/Main/Bab4-Implementasi.tex [76
+(Chapters/Main/Bab4-Implementasi.tex [80
 
 
 
 
 ]
 BAB IV.
-(Chapters/Details/bab4/4a-ImplementasiPK.tex [77])
+(Chapters/Details/bab4/4a-ImplementasiPK.tex [81])
 (Chapters/Details/bab4/4b-ImplementasiPL.tex
 (Chapters/Details/bab4/4b/nginx.tex
 LaTeX Font Info:    Font shape `EU1/CourierNew(0)/m/n' will be
 (Font)              scaled to size 9.85492pt on input line 6.
- [78]
+File: images/bab4/pl/madafaka_cors.png Graphic file (type QTm)
+ <use  "images/bab4/pl/madafaka_cors.png" >
+Overfull \hbox (1621.04172pt too wide) in paragraph at lines 16--17
+ [][] 
+ []
+
+[82] [83]
 LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/m/sc' will be
-(Font)              scaled to size 11.22368pt on input line 26.
-) (Chapters/Details/bab4/4b/vue.tex
-[79] (sourceCode/04/vue/package.tex [80]) (sourceCode/04/vue/dependencies.tex
+(Font)              scaled to size 11.22368pt on input line 31.
+
+
+LaTeX Warning: Reference `nginx-a' on page 84 undefined on input line 31.
+
+) (Chapters/Details/bab4/4b/vue.tex [84] (sourceCode/04/vue/package.tex
+LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/m/n' will be
+(Font)              scaled to size 10.24994pt on input line 1.
+LaTeX Font Info:    Font shape `EU1/CourierNew(0)/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 1.
+LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/m/n' will be
+(Font)              scaled to size 7.17496pt on input line 2.
+LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/m/n' will be
+(Font)              scaled to size 5.12497pt on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+
+[85]) (sourceCode/04/vue/dependencies.tex
 ("C:\Users\rona\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.s
 ty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
@@ -2185,47 +2354,822 @@ y"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
 LaTeX Font Info:    Font shape `EU1/CourierNew(0)/bx/n' will be
-(Font)              scaled to size 9.85492pt on input line 2.
-) [81] (sourceCode/04/vue/webpack-opt.tex)
-(sourceCode/04/vue/html-include.tex)) (Chapters/Details/bab4/4b/jwt.tex)
-(Chapters/Details/bab4/4b/sendgrid.tex))
-(Chapters/Details/bab4/4c-ImplementasiUI.tex [82]
-File: images/bab4/smpso_code.png Graphic file (type QTm)
+(Font)              scaled to size 8.99994pt on input line 2.
+) (sourceCode/04/vue/webpack-opt.tex [86])
+(sourceCode/04/vue/html-include.tex)) (Chapters/Details/bab4/4b/sendgrid.tex
+[87]
+File: images/bab4/pl/whitelist-success.png Graphic file (type QTm)
+ <use  "images/bab4/pl/whitelist-success.png" >
+Overfull \hbox (304.8771pt too wide) in paragraph at lines 12--13
+ [][] 
+ []
 
-<use  "images/bab4/smpso_code.png" > [83]
-File: images/bab4/smpso_code.png Graphic file (type QTm)
- <use  "images/bab4/smpso_code.png" >)) [84]
+File: images/bab4/pl/detail-whitelist.png Graphic file (type QTm)
+<use  "images/bab4/pl/detail-whitelist.png" >
+Overfull \hbox (235.5171pt too wide) in paragraph at lines 20--21
+ [][] 
+ []
+
+[88])) (Chapters/Details/bab4/4c-ImplementasiUI.tex
+(Chapters/Details/bab4/implementasiUI/01-01.tex
+
+LaTeX Warning: Reference `uc01.01' on page 89 undefined on input line 2.
+
+
+LaTeX Warning: Reference `cdbe.01-01' on page 89 undefined on input line 3.
+
+[89]
+File: images/bab4/ui/01-01.png Graphic file (type QTm)
+ <use  "images/bab4/ui/01-01.png" > [90] [91])
+(Chapters/Details/bab4/implementasiUI/01-02.tex
+
+LaTeX Warning: Reference `uc01.02' on page 92 undefined on input line 2.
+
+
+LaTeX Warning: Reference `cdbe.01-02' on page 92 undefined on input line 3.
+
+[92]
+File: images/bab4/ui/01-02.png Graphic file (type QTm)
+ <use  "images/bab4/ui/01-02.png" >)
+(Chapters/Details/bab4/implementasiUI/02-01.tex
+
+LaTeX Warning: Reference `uc02.01' on page 93 undefined on input line 2.
+
+
+LaTeX Warning: Reference `cdv.02-01' on page 93 undefined on input line 3.
+
+
+LaTeX Warning: Reference `cdbe.02-01' on page 93 undefined on input line 3.
+
+[93] [94] [95]
+File: images/bab4/ui/02-01.png Graphic file (type QTm)
+ <use  "images/bab4/ui/02-01.png" > [96])
+(Chapters/Details/bab4/implementasiUI/02-02.tex)
+(Chapters/Details/bab4/implementasiUI/02-03.tex
+
+LaTeX Warning: Reference `uc02.03' on page 97 undefined on input line 2.
+
+
+LaTeX Warning: Reference `cdvis.02-03' on page 97 undefined on input line 3.
+
+
+LaTeX Warning: Reference `cdjq.02-03' on page 97 undefined on input line 5.
+
+
+LaTeX Warning: Reference `cdjq.02-03' on page 97 undefined on input line 6.
+
+[97]
+
+LaTeX Warning: Reference `cdsoc.02-03' on page 98 undefined on input line 7.
+
+File: images/bab4/ui/02-03.png Graphic file (type QTm)
+<use  "images/bab4/ui/02-03.png" > [98] [99] [100])
+(Chapters/Details/bab4/implementasiUI/03-01.tex
+
+LaTeX Warning: Reference `uc03.01' on page 101 undefined on input line 3.
+
+[101]
+
+LaTeX Warning: Reference `cdjq.03-01' on page 102 undefined on input line 6.
+
+
+LaTeX Warning: Reference `cdjq.03-01' on page 102 undefined on input line 7.
+
+
+LaTeX Warning: Reference `cdaws.03-01' on page 102 undefined on input line 8.
+
+File: images/bab4/ui/03-01.png Graphic file (type QTm)
+<use  "images/bab4/ui/03-01.png" > [102] [103] [104] [105] [106]
+Overfull \hbox (15.53862pt too wide) in paragraph at lines 148--149
+[][][][] 
+ []
+
+
+Overfull \hbox (15.53862pt too wide) in paragraph at lines 151--152
+[][][][] 
+ []
+
+[107]) (Chapters/Details/bab4/implementasiUI/03-02.tex
+
+LaTeX Warning: Reference `uc03.02' on page 108 undefined on input line 2.
+
+
+LaTeX Warning: Reference `kasus-penggunaan-daftarbarang' on page 108 undefined 
+on input line 3.
+
+
+LaTeX Warning: Reference `cdjq.03-03' on page 108 undefined on input line 5.
+
+
+LaTeX Warning: Reference `cdjq.03-03' on page 108 undefined on input line 6.
+
+
+LaTeX Warning: Reference `cdaws.03-02' on page 108 undefined on input line 7.
+
+[108] [109] [110] [111]
+Overfull \hbox (26.33864pt too wide) in paragraph at lines 100--101
+[][][][] 
+ []
+
+
+Overfull \hbox (11.42749pt too wide) in paragraph at lines 102--103
+[][][][][][][] 
+ []
+
+
+Overfull \hbox (0.62747pt too wide) in paragraph at lines 110--111
+[][][][][][][] 
+ []
+
+
+Overfull \hbox (0.62747pt too wide) in paragraph at lines 111--112
+[][][][][][][] 
+ []
+
+
+Overfull \hbox (4.7386pt too wide) in paragraph at lines 112--113
+[][][][][] 
+ []
+
+
+Overfull \hbox (0.62747pt too wide) in paragraph at lines 115--116
+[][][][][][][] 
+ []
+
+[112] [113] [114] [115]
+Overfull \hbox (15.53862pt too wide) in paragraph at lines 228--229
+[][][][] 
+ []
+
+
+Overfull \hbox (15.53862pt too wide) in paragraph at lines 231--232
+[][][][] 
+ []
+
+[116]) (Chapters/Details/bab4/implementasiUI/03-03.tex
+
+LaTeX Warning: Reference `uc03.03' on page 117 undefined on input line 2.
+
+
+LaTeX Warning: Reference `cdbe.03-03' on page 117 undefined on input line 3.
+
+[117]
+File: images/bab4/ui/02-01.png Graphic file (type QTm)
+ <use  "images/bab4/ui/02-01.png" >)
+(Chapters/Details/bab4/implementasiUI/03-04.tex)
+(Chapters/Details/bab4/implementasiUI/04-01.tex)
+(Chapters/Details/bab4/implementasiUI/04-02.tex)
+(Chapters/Details/bab4/implementasiUI/04-03.tex)
+(Chapters/Details/bab4/implementasiUI/04-04.tex
+
+LaTeX Warning: Reference `uc04.04' on page 118 undefined on input line 2.
+
+
+LaTeX Warning: Reference `cdvis.04-04' on page 118 undefined on input line 3.
+
+[118]
+
+LaTeX Warning: Reference `cdbe.04-04' on page 119 undefined on input line 5.
+
+
+LaTeX Warning: Reference `cdjq.04-04' on page 119 undefined on input line 6.
+
+
+LaTeX Warning: Reference `cdsoc.04-04' on page 119 undefined on input line 7.
+
+File: images/bab4/ui/04-04.png Graphic file (type QTm)
+<use  "images/bab4/ui/04-04.png" > [119] [120] [121] [122] [123] [124])
+(Chapters/Details/bab4/implementasiUI/04-05.tex)
+(Chapters/Details/bab4/implementasiUI/04-06.tex)
+(Chapters/Details/bab4/implementasiUI/05-01.tex
+
+LaTeX Warning: Reference `uc05.01' on page 125 undefined on input line 2.
+
+
+LaTeX Warning: Reference `cdbe.05-01' on page 125 undefined on input line 3.
+
+[125]
+File: images/bab4/ui/05-01.png Graphic file (type QTm)
+ <use  "images/bab4/ui/05-01.png" >)
+(Chapters/Details/bab4/implementasiUI/05-02.tex
+
+LaTeX Warning: Reference `uc05.01' on page 126 undefined on input line 2.
+
+
+LaTeX Warning: Reference `cdbe.05-01' on page 126 undefined on input line 3.
+
+[126]
+File: images/bab4/ui/05-01.png Graphic file (type QTm)
+ <use  "images/bab4/ui/05-01.png" >)
+(Chapters/Details/bab4/implementasiUI/05-03.tex
+
+LaTeX Warning: Reference `uc05.02' on page 127 undefined on input line 2.
+
+
+LaTeX Warning: Reference `cdbe.05-02' on page 127 undefined on input line 3.
+
+[127]) (Chapters/Details/bab4/implementasiUI/06-01.tex
+
+LaTeX Warning: Reference `uc06.01' on page 128 undefined on input line 2.
+
+
+LaTeX Warning: Reference `cdbe.06-01' on page 128 undefined on input line 3.
+
+[128]
+File: images/bab4/ui/06-01.png Graphic file (type QTm)
+ <use  "images/bab4/ui/06-01.png" > [129])
+(Chapters/Details/bab4/implementasiUI/06-02.tex
+
+LaTeX Warning: Reference `uc06.02' on page 130 undefined on input line 2.
+
+
+LaTeX Warning: Reference `cdbe.06-02' on page 130 undefined on input line 3.
+
+[130]
+File: images/bab4/ui/06-02.png Graphic file (type QTm)
+ <use  "images/bab4/ui/06-02.png" >)
+(Chapters/Details/bab4/implementasiUI/06-03.tex
+
+LaTeX Warning: Reference `uc06.03' on page 131 undefined on input line 2.
+
+
+LaTeX Warning: Reference `cdbe.06-03' on page 131 undefined on input line 3.
+
+[131] [132]))) [133]
 \openout2 = `Chapters/Main/Bab5-PengujianDanEvaluasi.aux'.
 
- (Chapters/Main/Bab5-PengujianDanEvaluasi.tex
+ (Chapters/Main/Bab5-PengujianDanEvaluasi.tex [134
+
+
+
+
+]
 BAB V.
 (Chapters/Details/bab5/5a-Pengujian.tex) (Chapters/Details/bab5/5b-Evaluasi.tex
-[85
-
-
-
-
-])) [86]
+[135])) [136]
 \openout2 = `Chapters/Main/Bab6-Penutup.aux'.
 
  (Chapters/Main/Bab6-Penutup.tex
 BAB VI.
-) [87
+) [137
 
 
 
 
-] (main.bbl [88
+] (main.bbl
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.3 \bibitem{ying-feng_kuo_online_2016}
+                                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-] [89]) [90]
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.3 \bibitem{ying-feng_kuo_online_2016}
+                                       
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.8 \bibitem{noauthor_sistem_nodate}
+                                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.8 \bibitem{noauthor_sistem_nodate}
+                                    
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.11 \bibitem{wikipedia_amazon_2016}
+                                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.11 \bibitem{wikipedia_amazon_2016}
+                                    
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.14 \bibitem{web_services_amazon_nodate}
+                                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.14 \bibitem{web_services_amazon_nodate}
+                                         
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.17 \bibitem{noauthor_sistem_2013}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.17 \bibitem{noauthor_sistem_2013}
+                                   
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.20 \bibitem{insidebigdata_exponential_2017}
+                                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.20 \bibitem{insidebigdata_exponential_2017}
+                                             
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.23 \bibitem{d._vanhoose_e-commerce_2011}
+                                          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.23 \bibitem{d._vanhoose_e-commerce_2011}
+                                          
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.27 \bibitem{noauthor_jwt_2016}
+                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.27 \bibitem{noauthor_jwt_2016}
+                                
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.30 \bibitem{noauthor_apa_2016}
+                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.30 \bibitem{noauthor_apa_2016}
+                                
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.33 \bibitem{laravel_browser_nodate}
+                                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.33 \bibitem{laravel_browser_nodate}
+                                     
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.36 \bibitem{balailelang_sejarah_nodate}
+                                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.36 \bibitem{balailelang_sejarah_nodate}
+                                         
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.39 \bibitem{pratama_lelang_2012}
+                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.39 \bibitem{pratama_lelang_2012}
+                                  
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.42 \bibitem{wikipedia_lelang_2016}
+                                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.42 \bibitem{wikipedia_lelang_2016}
+                                    
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.45 \bibitem{noauthor_arti_nodate}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.45 \bibitem{noauthor_arti_nodate}
+                                   
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.48 \bibitem{noauthor_mongodb_2017}
+                                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.48 \bibitem{noauthor_mongodb_2017}
+                                    
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.51 \bibitem{noauthor_node.js_2014}
+                                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.51 \bibitem{noauthor_node.js_2014}
+                                    
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.54 \bibitem{wikipedia_nosql_nodate}
+                                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.54 \bibitem{wikipedia_nosql_nodate}
+                                     
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.57 \bibitem{azurri_node_2016}
+                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.57 \bibitem{azurri_node_2016}
+                               
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.60 \bibitem{noauthor_postgresql_nodate}
+                                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.60 \bibitem{noauthor_postgresql_nodate}
+                                         
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.63 \bibitem{yudana_redis_2015}
+                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.63 \bibitem{yudana_redis_2015}
+                                
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.66 \bibitem{noauthor_repository_2016}
+                                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.66 \bibitem{noauthor_repository_2016}
+                                       
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.69 \bibitem{shaw_patterns_1996}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.69 \bibitem{shaw_patterns_1996}
+                                 
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.73 \bibitem{wikipedia_sendgrid_2017}
+                                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.73 \bibitem{wikipedia_sendgrid_2017}
+                                      
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.76 \bibitem{google_developers_service_2017}
+                                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.76 \bibitem{google_developers_service_2017}
+                                             
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.79 \bibitem{noauthor_smtp_nodate}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.79 \bibitem{noauthor_smtp_nodate}
+                                   
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.82 \bibitem{noauthor_socket.io_2016}
+                                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.82 \bibitem{noauthor_socket.io_2016}
+                                      
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.85 \bibitem{noauthor_test_2016}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.85 \bibitem{noauthor_test_2016}
+                                 
+I'm forgetting what you said and using zero instead.
+
+[138
+
+]
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.89 \bibitem{wikipedia_vue.js_2017}
+                                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.89 \bibitem{wikipedia_vue.js_2017}
+                                    
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.93 \bibitem{a-set-of-heuristics-2014}
+                                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.93 \bibitem{a-set-of-heuristics-2014}
+                                       
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.98 \bibitem{software-engineering}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.98 \bibitem{software-engineering}
+                                   
+I'm forgetting what you said and using zero instead.
+
+) [139] [140
+
+
+]
 \openout2 = `Chapters/Main/Bab7-Biodata.aux'.
 
  (Chapters/Main/Bab7-Biodata.tex
 File: images/foto-diri.jpg Graphic file (type QTm)
-
-<use  "images/foto-diri.jpg" >) [91
-
-
+ <use  "images/foto-diri.jpg" >)
+[141
 
 
 
@@ -2250,7 +3194,7 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 91.
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  )
 (\end occurred inside a group at level 1)
@@ -2258,12 +3202,12 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 32955 strings out of 428410
- 590060 string characters out of 3156958
- 862925 words of memory out of 3000000
- 35524 multiletter control sequences out of 15000+200000
- 7067 words of font info for 65 fonts, out of 3000000 for 9000
+ 33924 strings out of 428410
+ 604807 string characters out of 3156958
+ 880287 words of memory out of 3000000
+ 36450 multiletter control sequences out of 15000+200000
+ 7099 words of font info for 69 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 55i,12n,69p,10398b,18969s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,12n,69p,10398b,19285s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (113 pages).
+Output written on main.pdf (161 pages).

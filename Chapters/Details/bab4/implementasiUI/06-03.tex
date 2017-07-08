@@ -1,0 +1,56 @@
+\subsection{Memperbarui Voucher}
+Halaman ini hanya dapat diakses oleh \textit{administrator} yang sebelumnya sudah login. Detail kasus penggunaan dapat dilihat tabel spesifikasi kasus penggunaan \ref{uc06.03}.\\
+\indent Tidak ada \textit{view logic} ataupun logika \textit{UI} khusus dalam halaman ini. Kode sumber implementasi \textit{back-end} dapat dilihat pada kode sumber \ref{cdbe.06-03}.
+
+\begin{lstlisting}[label=cdbe.06-03,style=php,caption=Kode Sumber Implementasi \textit{Back-end} Kasus Penggunaan Memperbarui Voucher]
+
+/** File : app/Http/Controllers/CouponController
+ * Menampilkan halaman perbarui kupon
+ * Method : GET
+ */
+public function edit($id)
+{
+    try{
+        $data['user'] = $this->userRepository->checkbox();
+        $data['coupon'] = $this->couponRepository->find($id);
+        return view('pages.coupon.edit', $data);
+    }
+    catch (\Exception $e){
+        abort(403);
+    }
+}
+/**
+ * Update data kupon yang dimasukkan
+ * fungsi ini dijalankan ketika form di halaman edit  kupon disubmit
+ * terkait dengan CouponRepository
+ */
+
+public function update(Request $request, $id)
+{
+
+    $data = $request->all();
+    if($this->couponRepository->update($id, $data)){
+        return redirect('coupon')->with('success','Sukses memperbarui kupon!');
+    }
+    else return redirect('coupon')->with('error','Mohon maaf, gagal memperbarui kupon. Silahkan coba lagi');
+}
+
+
+/**
+ * File CouponRepository
+ */
+public function update($id, $data)
+{
+    $coupon = $this->find($id);
+    return $coupon->update($data);
+
+}
+\end{lstlisting}
+	  
+%  \begin{figure}[H]
+%    \centering
+%    \includegraphics[width=\textwidth]{images/bab4/ui/06-03.png}
+%    \caption{Halaman Antarmuka Kasus Penggunaan Memperbarui Voucher}
+%    \label{ui.01-01}
+%  \end{figure}
+      
