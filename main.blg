@@ -1,13 +1,5 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
-A level-1 auxiliary file: Chapters/Main/Bab0-Abstrak.aux
-A level-1 auxiliary file: Chapters/Main/Bab0-Abstract.aux
-A level-1 auxiliary file: Chapters/Main/Bab0-KataPengantar.aux
-A level-1 auxiliary file: Chapters/Main/Bab1-Pendahuluan.aux
-A level-1 auxiliary file: Chapters/Main/Bab2-DasarTeori.aux
-A level-1 auxiliary file: Chapters/Main/Bab3-DesainDanPerancangan.aux
-A level-1 auxiliary file: Chapters/Main/Bab4-Implementasi.aux
-A level-1 auxiliary file: Chapters/Main/Bab5-PengujianDanEvaluasi.aux
-A level-1 auxiliary file: Chapters/Main/Bab6-Penutup.aux
-The style file: ieeetr.bst
-A level-1 auxiliary file: Chapters/Main/Bab7-Biodata.aux
-Database file #1: Zotero.bib
+I found no \citation commands---while reading file main.aux
+I found no \bibdata command---while reading file main.aux
+I found no \bibstyle command---while reading file main.aux
+(There were 3 error messages)

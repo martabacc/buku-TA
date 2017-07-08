@@ -155,5 +155,4 @@
 \contentsline {chapter}{\numberline {VI}PENUTUP}{137}{chapter.6}
 \contentsline {section}{\numberline {6.1}Kesimpulan}{137}{section.6.1}
 \contentsline {section}{\numberline {6.2}Saran}{137}{section.6.2}
-\contentsline {section}{Pustaka}{138}{section.6.2}
-\contentsline {chapter}{BIODATA PENULIS}{141}{appendix*.52}
+\contentsline {chapter}{BIODATA PENULIS}{139}{appendix*.52}
