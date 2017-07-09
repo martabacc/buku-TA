@@ -1,7 +1,7 @@
 \contentsline {lstlisting}{\numberline {IV.1}Kode Sumber Antarmuka Registrasi}{90}{lstlisting.4.1}
 \contentsline {lstlisting}{\numberline {IV.2}Kode Sumber Antarmuka Registrasi}{92}{lstlisting.4.2}
 \contentsline {lstlisting}{\numberline {IV.3}Kode Sumber \textit {Back-end} Melihat Daftar Barang}{94}{lstlisting.4.3}
-\contentsline {lstlisting}{\numberline {IV.4}Kode Sumber Vue Melihat Daftar Barang}{95}{lstlisting.4.4}
+\contentsline {lstlisting}{\numberline {IV.4}Kode Sumber Vue Melihat Daftar Barang}{94}{lstlisting.4.4}
 \contentsline {lstlisting}{\numberline {IV.5}Kode Sumber \textit {Back-end} Menampilkan Halaman Lelang Barang}{98}{lstlisting.4.5}
 \contentsline {lstlisting}{\numberline {IV.6}Kode Sumber Logika Lelang (menggunakan Node.js)}{99}{lstlisting.4.6}
 \contentsline {lstlisting}{\numberline {IV.7}Kode Sumber Logika UI (menggunakan jQuery)}{100}{lstlisting.4.7}
@@ -16,8 +16,8 @@
 \contentsline {lstlisting}{\numberline {IV.16}Kode Sumber Logika Lelang (menggunakan Node.js)}{121}{lstlisting.4.16}
 \contentsline {lstlisting}{\numberline {IV.17}Kode Sumber Logika Pengiriman \& Penerimaan Pesan (menggunakan jQuery)}{123}{lstlisting.4.17}
 \contentsline {lstlisting}{\numberline {IV.18}Kode Sumber Antarmuka Registrasi}{125}{lstlisting.4.18}
-\contentsline {lstlisting}{\numberline {IV.19}Kode Sumber Antarmuka Registrasi}{126}{lstlisting.4.19}
-\contentsline {lstlisting}{\numberline {IV.20}Kode Sumber Antarmuka Registrasi}{128}{lstlisting.4.20}
+\contentsline {lstlisting}{\numberline {IV.19}Kode Sumber Antarmuka Registrasi}{127}{lstlisting.4.19}
+\contentsline {lstlisting}{\numberline {IV.20}Kode Sumber Antarmuka Registrasi}{127}{lstlisting.4.20}
 \contentsline {lstlisting}{\numberline {IV.21}Kode Sumber Antarmuka Registrasi}{128}{lstlisting.4.21}
 \contentsline {lstlisting}{\numberline {IV.22}Kode Sumber Antarmuka Registrasi}{130}{lstlisting.4.22}
 \contentsline {lstlisting}{\numberline {IV.23}Kode Sumber Implementasi \textit {Back-end} Kasus Penggunaan Memperbarui Voucher}{132}{lstlisting.4.23}
