@@ -52,8 +52,15 @@
 }
 
 
+\renewcommand{\lstlistingname}{Kode Sumber}
+\renewcommand{\lstlistlistingname}{DAFTAR KODE SUMBER}
+
 \include{languangeConf} %formatting code sources
 \include{enumitemConf} %enumerate?
+
+\makeatletter
+\def\l@lstlisting#1#2{\@dottedtocline{1}{1.5em}{3em}{#1}{#2}}
+\makeatother
 
 \raggedbottom
 \include{Metadata}

@@ -1,5 +1,13 @@
 \begin{thebibliography}{10}
 
+\bibitem{ying-feng_kuo_online_2016}
+Y.-F. Kuo, S.-T. Yen, and L.-H. Chen, ``Online auction service failures in
+  {Taiwan}: {Typologies} and recovery strategies,'' {\em Science Direct},
+  vol.~10, pp.~183--193, Oct. 2016.
+
+\bibitem{noauthor_sistem_nodate}
+``Sistem {Lelang} {Online} {Masih} {Bermasalah}.''
+
 \bibitem{wikipedia_amazon_2016}
 Wikipedia, ``Amazon {Web} {Services},'' Jan. 2016.
 
@@ -86,5 +94,10 @@ Wikipedia, ``Vue.js,'' May 2017.
 T.~G. Laia~Bonastre, ``A set of heuristics for user experience evaluation in
   e-commerce websites,'' {\em ACHI 2014 : The Seventh International Conference
   on Advances in Computer-Human Interactions}, pp.~27--34, 2014.
+
+\bibitem{software-engineering}
+I.~Sommervile, {\em Software {Engineering}}.
+\newblock United States of America: Addison-Wesley. All rights reserved,
+  9th~ed., Oct. 2009.
 
 \end{thebibliography}
