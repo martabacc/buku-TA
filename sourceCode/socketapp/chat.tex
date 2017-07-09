@@ -1,0 +1,143 @@
+\begin{lstlisting}[label=sc-socket-chat,style=htmlcssjs,caption=Kode Sumber Implementasi Node.js + Socket.io untuk \textit{Chat}]
+
+var fs = require('fs');
+var app = require('express')();
+var options = {
+        key: fs.readFileSync('/etc/nginx/ssl/lelangapa-socket.key'),
+        cert: fs.readFileSync('/etc/nginx/ssl/lelangapa-socket.crt')
+};
+var httpsserver = require('https').Server(options, app);
+var httpserver = require('http').Server(app);
+var ioServer = require('socket.io');
+var Promise = require('es6-promise').Promise;
+var mongo = require('mongodb').MongoClient;
+var assert = require('assert');
+
+var io = new ioServer();
+var jwt = require('socketio-jwt');
+require('dotenv').config({path: '/home/grkt/security/.env'});
+
+app.get('/', function(req, res) {
+  res.status(200).json({
+    status: "success"
+  });
+});
+
+
+var url = 'mongodb://localhost:27017/lelangkita';
+
+function parseRoom(room){
+  var chatInformation = room.split("-");
+  var f = parseInt(chatInformation[0]);
+  var l = parseInt(chatInformation[1]);
+
+  if(f > l) {
+      //l = f ;
+      //f = parseInt(chatInformation[0]);
+      return {
+              room : chatInformation[1] + '-'+ chatInformation[0],
+              from : chatInformation[0],
+              to : chatInformation[1]
+      };
+  }
+  else return {
+    room : room,
+    from : chatInformation[0],
+    to : chatInformation[1]
+  };
+}
+
+function insertToRoomCollection(roomCollection, parsedRoom, updateAt, callback){
+
+  var criteria= {
+    room : parsedRoom.room
+  };
+
+  var insertQuery = {};
+  var fr = parseInt(parsedRoom.from);
+  var to = parseInt(parsedRoom.to);
+
+  if (fr > to) {
+    insertQuery["id_user_1"] = parsedRoom.to;
+    insertQuery["id_user_2"] = parsedRoom.from;
+    insertQuery["room"] = parsedRoom.room;
+  }
+  else {
+    insertQuery["id_user_1"] = parsedRoom.from;
+    insertQuery["id_user_2"] = parsedRoom.to;
+    insertQuery["room"] = parsedRoom.room;
+  }
+  if ( updateAt ) insertQuery["updatedAt"] = new Date();
+
+  //only update created room
+  //why would opening conversation would move the conversation upwards you shitty cunt
+  roomCollection.update( criteria, 
+    { $set : insertQuery , $setOnInsert : { createdAt : new Date() } }, 
+    {upsert:true}, 
+    function(err, res) {
+        if(callback) callback();
+  });
+
+}
+mongo.connect(url, function(err, db) {
+
+  var collection = db.collection('userchat');
+  var roomcollection = db.collection('chatroom');
+
+  io.use( jwt.authorize({
+
+          secret:process.env.JWT_SECRET,
+          handshake : true
+  }) );
+
+
+  io.on('connection', function(socket){
+
+    socket.emit('handshake',{ status : true });
+
+    socket.on('join-room', function(room) {
+
+      var parsedRoom = parseRoom(room);
+      insertToRoomCollection(roomcollection, parsedRoom, false, function() {
+        socket.join(parsedRoom.room);
+
+        var cb = function(err, chat) {
+          if (chat!=[]){
+            socket.emit('chathistory', chat);
+          }
+        };
+        collection.find({ room : parsedRoom.room }).sort({ sent : -1 }).limit(50).toArray(cb);
+      });
+
+    });
+
+
+    socket.on('send', function(data) {
+      var msgParse = JSON.parse(data);
+      var parsedRoom = parseRoom(msgParse.room);
+
+      var insertQuery = {
+        room : parsedRoom.room,
+        sender : parsedRoom.from,
+        msg : msgParse.body,
+        sent : new Date()
+      };
+
+      collection.insert(insertQuery, function(err, o) {
+        var ll = parsedRoom.from.toString();
+        if (err) io.to(ll).emit('send-status', { status : false});
+        else io.to(ll).emit('send-status', { status : true });
+      });
+
+      //update to inbox
+      insertToRoomCollection(roomcollection, parsedRoom, true);
+      io.to(parsedRoom.room).emit('new-msg', insertQuery);
+    });
+  });
+});
+
+httpsserver.listen(12000);
+httpserver.listen(13000);
+io.attach(httpsserver);
+io.attach(httpserver);
+\end{lstlisting}
