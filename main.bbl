@@ -1,4 +1,86 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{wikipedia_amazon_2016}
+Wikipedia, ``Amazon {Web} {Services},'' Jan. 2016.
+
+\bibitem{web_services_amazon_nodate}
+A.~Web~Services, ``Amazon {Benefits}.''
+
+\bibitem{noauthor_sistem_2013}
+``Sistem {Basis} {Data},'' Mar. 2013.
+
+\bibitem{insidebigdata_exponential_2017}
+E.~T. insideBIGDATA, ``Exponential {Growth} of {Data},'' Feb. 2017.
+
+\bibitem{d._vanhoose_e-commerce_2011}
+D.~D.~VanHoose, {\em E-{Commerce} {Economics}}.
+\newblock Routledge, 2~ed., Mar. 2011.
+
+\bibitem{noauthor_jwt_2016}
+``{JWT},'' June 2016.
+
+\bibitem{noauthor_apa_2016}
+``Apa itu {Laravel}?,'' 2016.
+
+\bibitem{laravel_browser_nodate}
+Laravel, ``Browser {Testing}.''
+
+\bibitem{balailelang_sejarah_nodate}
+BalaiLelang, ``Sejarah {Lelang} di {Indonesia}.''
+
+\bibitem{pratama_lelang_2012}
+R.~Pratama, ``Lelang,'' Feb. 2012.
+
+\bibitem{wikipedia_lelang_2016}
+Wikipedia, ``Lelang,'' Jan. 2016.
+
+\bibitem{noauthor_arti_nodate}
+``Arti pengertian {BID}, {INC}, {BIN} dalam {Bahasa} {Lelang} {Website}.''
+
+\bibitem{noauthor_mongodb_2017}
+``{MongoDB},'' Jan. 2017.
+
+\bibitem{noauthor_node.js_2014}
+``Node.js ({Wikipedia}),'' Nov. 2014.
+
+\bibitem{wikipedia_nosql_nodate}
+Wikipedia, ``{NoSQL}.''
+
+\bibitem{azurri_node_2016}
+A.~Azurri, ``Node {Package} {Manager},'' Oct. 2016.
+
+\bibitem{noauthor_postgresql_nodate}
+``{PostgreSQL}.''
+
+\bibitem{yudana_redis_2015}
+Yudana, ``Redis {Lebih} {Dari} {Sekedar} {Cache},'' Sept. 2015.
+
+\bibitem{noauthor_repository_2016}
+``Repository {Pattern} - {Coding}4ever’s {Blog},'' Feb. 2016.
+
+\bibitem{shaw_patterns_1996}
+M.~Shaw, ``Some {Patterns} for {Software} {Architectures},'' {\em Pattern
+  Languages of Program Design}, vol.~2, pp.~255--269, 1996.
+
+\bibitem{wikipedia_sendgrid_2017}
+Wikipedia, ``{SendGrid},'' Mar. 2017.
+
+\bibitem{google_developers_service_2017}
+W.~F. Google~Developers, ``Service {Worker} : {Pengantar},'' Apr. 2017.
+
+\bibitem{noauthor_smtp_nodate}
+``{SMTP}.''
+
+\bibitem{noauthor_socket.io_2016}
+``Socket.io ({Wikipedia}),'' Jan. 2016.
+
+\bibitem{noauthor_test_2016}
+W.~, ``Test {Script},'' Jan. 2016.
+\newblock translated by author.
+
+\bibitem{wikipedia_vue.js_2017}
+Wikipedia, ``Vue.js,'' May 2017.
+\newblock translated to Indonesia.
 
 \bibitem{a-set-of-heuristics-2014}
 T.~G. Laia~Bonastre, ``A set of heuristics for user experience evaluation in
