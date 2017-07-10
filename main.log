@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2017.5.23)  10 JUL 2017 21:48
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2017.5.23)  11 JUL 2017 02:46
 entering extended mode
 **./main.tex
 (main.tex
@@ -1269,12 +1269,6 @@ LaTeX Warning: Label `alasan-app-serupa' multiply defined.
 LaTeX Warning: Label `alasan-app-serupa@cref' multiply defined.
 
 
-LaTeX Warning: Label `kasus-penggunaan' multiply defined.
-
-
-LaTeX Warning: Label `kasus-penggunaan@cref' multiply defined.
-
-
 LaTeX Warning: Label `uc0202-a' multiply defined.
 
 
@@ -1330,12 +1324,6 @@ LaTeX Warning: Label `ui.02-01' multiply defined.
 LaTeX Warning: Label `ui.02-01@cref' multiply defined.
 
 
-LaTeX Warning: Label `cdsoc.04-04' multiply defined.
-
-
-LaTeX Warning: Label `cdsoc.04-04@cref' multiply defined.
-
-
 LaTeX Warning: Label `cdbe.05-02' multiply defined.
 
 
@@ -1347,8 +1335,15 @@ LaTeX Warning: Label `ui.01-01' multiply defined.
 
 LaTeX Warning: Label `ui.01-01@cref' multiply defined.
 
-) (Chapters/Main/Bab5-PengujianDanEvaluasi.aux) (Chapters/Main/Bab6-Penutup.aux
-) (Chapters/Auxiliary.aux) (Chapters/Main/Bab7-Biodata.aux))
+) (Chapters/Main/Bab5-PengujianDanEvaluasi.aux
+
+LaTeX Warning: Label `uji-fungsional-1-akun' multiply defined.
+
+
+LaTeX Warning: Label `uji-fungsional-1-akun@cref' multiply defined.
+
+) (Chapters/Main/Bab6-Penutup.aux) (Chapters/Auxiliary.aux)
+(Chapters/Main/Bab7-Biodata.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
@@ -1764,14 +1759,14 @@ Overfull \hbox (1.57394pt too wide) detected at line 39
 \EU1/TimesNewRoman(0)/m/n/10.95 2.23 
  []
 
-[14])
+[14] [15])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [15] [16
+ [16] (main.lot [17
 
 
-] (main.lot [17])
+])
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
@@ -1911,7 +1906,6 @@ File: images/bab3/usecasediagram/ucd-main.png Graphic file (type QTm)
 File: images/bab3/usecasediagram/ucd-01.png Graphic file (type QTm)
 
 <use  "images/bab3/usecasediagram/ucd-01.png" >
-(tables/03c/kasus_penggunaan.tex) (tables/03c/kasus_penggunaan.tex)
 (Chapters/Details/bab3/3cxx/01/01.tex
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 3--35
  [][] 
@@ -2175,8 +2169,7 @@ ex (tables/03b/tables/transactional/userverifications.tex)
 (Chapters/Details/bab3/desain/database/kamus_nontransaksional/itemimages.tex
 (tables/03b/tables/nontransactional/itemimages.tex)
 (tables/03b/tables/nontransactional/itemimages.tex)
-(tables/03b/tables/nontransactional/itemimages.tex)))
-(Chapters/Details/bab3/desain/datadict.tex))) [78]
+(tables/03b/tables/nontransactional/itemimages.tex))))) [78]
 \openout2 = `Chapters/Main/Bab4-Implementasi.aux'.
 
 
@@ -2317,9 +2310,6 @@ File: images/bab4/ui/02-01.png Graphic file (type QTm)
 
 LaTeX Warning: Reference `cdvis.04-04' on page 116 undefined on input line 3.
 
-
-LaTeX Warning: Reference `cdjq.04-04' on page 116 undefined on input line 6.
-
 File: images/bab4/ui/04-04.png Graphic file (type QTm)
 <use  "images/bab4/ui/04-04.png" > [116] [117] [118] [119] [120] [121])
 (Chapters/Details/bab4/implementasiUI/04-05.tex)
@@ -2362,55 +2352,107 @@ LaTeX Warning: Reference `uc06.03' on page 128 undefined on input line 2.
 
  (Chapters/Main/Bab5-PengujianDanEvaluasi.tex
 BAB V.
-(Chapters/Details/bab5/5a-Pengujian.tex
+(Chapters/Details/bab5/5a-Pengujian.tex (Chapters/Details/bab5/Skenario.tex
 
-LaTeX Warning: Reference `' on page 131 undefined on input line 2.
+LaTeX Warning: Reference `uji-ux' on page 131 undefined on input line 12.
 
-) (Chapters/Details/bab5/5b-Evaluasi.tex
-(Chapters/Details/bab5/evaluasi/legalitas.tex [131
-
+[131
 
 
 
-] [132] [133] [134] [135]
-[136]) (Chapters/Details/bab5/evaluasi/pengguna.tex
+
+]) (Chapters/Details/bab5/fungsionalitas.tex
+(Chapters/Details/bab5/fungsionalitas/1-autentikasi.tex
+(Chapters/Details/bab5/fungsionalitas/table/1-akun.tex)
+(Chapters/Details/bab5/fungsionalitas/table/1-akun.tex)
+(Chapters/Details/bab5/fungsionalitas/table/1-akun.tex
+
+LaTeX Warning: Reference `ss-kp01-01' on page 132 undefined on input line 42.
+
+
+LaTeX Warning: Reference `ss-kp01-02' on page 132 undefined on input line 60.
+
+
+LaTeX Warning: Reference `ss-kp01-03' on page 132 undefined on input line 78.
+
+[132] [133])) (Chapters/Details/bab5/fungsionalitas/2-penawaran.tex
+(Chapters/Details/bab5/fungsionalitas/table/2-penawaran.tex)
+(Chapters/Details/bab5/fungsionalitas/table/2-penawaran.tex)
+(Chapters/Details/bab5/fungsionalitas/table/2-penawaran.tex
+
+LaTeX Warning: Reference `ss-kp02-01' on page 134 undefined on input line 39.
+
+
+LaTeX Warning: Reference `ss-kp02-02' on page 134 undefined on input line 57.
+
+
+LaTeX Warning: Reference `ss-kp02-03' on page 134 undefined on input line 76.
+
+[134] [135])) (Chapters/Details/bab5/fungsionalitas/3-barang.tex
+(Chapters/Details/bab5/fungsionalitas/table/3-barang.tex)
+(Chapters/Details/bab5/fungsionalitas/table/3-barang.tex)
+(Chapters/Details/bab5/fungsionalitas/table/3-barang.tex
+
+LaTeX Warning: Reference `ss-kp02-01' on page 136 undefined on input line 39.
+
+
+LaTeX Warning: Reference `ss-kp02-02' on page 136 undefined on input line 57.
+
+[136]
+
+LaTeX Warning: Reference `ss-kp02-03' on page 137 undefined on input line 76.
+
+[137] [138])) (Chapters/Details/bab5/fungsionalitas/4-interaksi.tex)
+(Chapters/Details/bab5/fungsionalitas/5-laporan.tex)
+(Chapters/Details/bab5/fungsionalitas/6-kupon.tex))
+(Chapters/Details/bab5/performa.tex (Chapters/Details/bab5/performa/process.tex
+) (Chapters/Details/bab5/performa/process.tex)
+(Chapters/Details/bab5/performa/hasil.tex)
+(Chapters/Details/bab5/performa/hasil.tex))
+(Chapters/Details/bab5/userxperience.tex (Chapters/Details/bab5/ux/proses.tex)
+(Chapters/Details/bab5/ux/hasil.tex)) (Chapters/Details/bab5/maintainabilty.tex
+(Chapters/Details/bab5/maintainability/proses.tex)
+(Chapters/Details/bab5/maintainability/hasil.tex))
+(Chapter/Details/bab5/summary.tex)) (Chapters/Details/bab5/5b-Evaluasi.tex
+(Chapters/Details/bab5/evaluasi/legalitas.tex [139] [140] [141] [142] [143]
+[144] [145]) (Chapters/Details/bab5/evaluasi/pengguna.tex
 (table/05/pengguna/recap_all.tex) (table/05/pengguna/recap_all.tex)
-(table/05/pengguna/recap_all.tex [137])
+(table/05/pengguna/recap_all.tex [146])
 
-LaTeX Warning: Reference `user-test-recap-sorted' on page 138 undefined on inpu
+LaTeX Warning: Reference `user-test-recap-sorted' on page 147 undefined on inpu
 t line 5.
 
-))) [138]
+))) [147]
 \openout2 = `Chapters/Main/Bab6-Penutup.aux'.
 
- (Chapters/Main/Bab6-Penutup.tex
+ (Chapters/Main/Bab6-Penutup.tex [148
+
+
+
+
+]
 BAB VI.
-[139
+[149]) [150] (main.bbl [151
 
 
 
-
-]) [140] (main.bbl [141
-
-
-
-]) [142]
+]) [152]
 \openout2 = `Chapters/Auxiliary.aux'.
 
  (Chapters/Auxiliary.tex
 (Chapters/Auxiliary/SourceCode.tex
 Lampiran A.
-(sourceCode/socketapp/bid.tex [143
+(sourceCode/socketapp/bid.tex [153
 
 
 
-] [144] [145]
+] [154] [155]
 Overfull \hbox (47.93867pt too wide) in paragraph at lines 95--96
 [][][][] 
  []
 
-[146] [147] [148]) (sourceCode/socketapp/chat.tex [149] [150] [151] [152]))
-(Chapters/Auxiliary/Questionnaire.tex [153] [154
+[156] [157] [158]) (sourceCode/socketapp/chat.tex [159] [160] [161] [162]))
+(Chapters/Auxiliary/Questionnaire.tex [163] [164
 
 
 ]
@@ -2419,43 +2461,43 @@ File: images/bab5/ujipengguna/1.jpg Graphic file (type QTm)
 <use  "images/bab5/ujipengguna/1.jpg" >
 File: images/bab5/ujipengguna/2.jpg Graphic file (type QTm)
 
-<use  "images/bab5/ujipengguna/2.jpg" > [155]
+<use  "images/bab5/ujipengguna/2.jpg" > [165]
 Overfull \vbox (8.3415pt too high) has occurred while \output is active []
 
 
-[156]
+[166]
 File: images/bab5/ujipengguna/3.jpg Graphic file (type QTm)
  <use  "images/bab5/ujipengguna/3.jpg" >
 File: images/bab5/ujipengguna/4.jpg Graphic file (type QTm)
 
-<use  "images/bab5/ujipengguna/4.jpg" > [157]
+<use  "images/bab5/ujipengguna/4.jpg" > [167]
 File: images/bab5/ujipengguna/5.jpg Graphic file (type QTm)
 
-<use  "images/bab5/ujipengguna/5.jpg" > [158]
+<use  "images/bab5/ujipengguna/5.jpg" > [168]
 File: images/bab5/ujipengguna/6.jpg Graphic file (type QTm)
 
-<use  "images/bab5/ujipengguna/6.jpg" > [159]
+<use  "images/bab5/ujipengguna/6.jpg" > [169]
 File: images/bab5/ujipengguna/7.jpg Graphic file (type QTm)
 
-<use  "images/bab5/ujipengguna/7.jpg" > [160]
+<use  "images/bab5/ujipengguna/7.jpg" > [170]
 File: images/bab5/ujipengguna/8.jpg Graphic file (type QTm)
 
-<use  "images/bab5/ujipengguna/8.jpg" > [161]
+<use  "images/bab5/ujipengguna/8.jpg" > [171]
 File: images/bab5/ujipengguna/9.jpg Graphic file (type QTm)
 
-<use  "images/bab5/ujipengguna/9.jpg" > [162]
+<use  "images/bab5/ujipengguna/9.jpg" > [172]
 File: images/bab5/ujipengguna/10.jpg Graphic file (type QTm)
 
-<use  "images/bab5/ujipengguna/10.jpg" > [163]
+<use  "images/bab5/ujipengguna/10.jpg" > [173]
 File: images/bab5/ujipengguna/11.jpg Graphic file (type QTm)
 
-<use  "images/bab5/ujipengguna/11.jpg" > [164] [165])) [166]
+<use  "images/bab5/ujipengguna/11.jpg" > [174] [175])) [176]
 \openout2 = `Chapters/Main/Bab7-Biodata.aux'.
 
 
 (Chapters/Main/Bab7-Biodata.tex
 File: images/foto-diri.jpg Graphic file (type QTm)
- <use  "images/foto-diri.jpg" >) [167
+ <use  "images/foto-diri.jpg" >) [177
 
 
 
@@ -2491,12 +2533,12 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 33835 strings out of 428410
- 606091 string characters out of 3156958
- 905759 words of memory out of 3000000
- 36286 multiletter control sequences out of 15000+200000
+ 33990 strings out of 428410
+ 612074 string characters out of 3156958
+ 906527 words of memory out of 3000000
+ 36368 multiletter control sequences out of 15000+200000
  7099 words of font info for 69 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 55i,12n,69p,10398b,19086s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,12n,69p,10398b,19211s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (191 pages).
+Output written on main.pdf (201 pages).
