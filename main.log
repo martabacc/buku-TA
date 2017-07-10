@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2017.5.23)  11 JUL 2017 02:46
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2017.5.23)  11 JUL 2017 03:19
 entering extended mode
 **./main.tex
 (main.tex
@@ -1287,6 +1287,12 @@ LaTeX Warning: Label `uc0302-show1page' multiply defined.
 LaTeX Warning: Label `uc0302-show1page@cref' multiply defined.
 
 
+LaTeX Warning: Label `kp05' multiply defined.
+
+
+LaTeX Warning: Label `kp05@cref' multiply defined.
+
+
 LaTeX Warning: Label `db-issues' multiply defined.
 
 
@@ -1337,10 +1343,16 @@ LaTeX Warning: Label `ui.01-01@cref' multiply defined.
 
 ) (Chapters/Main/Bab5-PengujianDanEvaluasi.aux
 
-LaTeX Warning: Label `uji-fungsional-1-akun' multiply defined.
+LaTeX Warning: Label `uji-fungsional-4-interaksi' multiply defined.
 
 
-LaTeX Warning: Label `uji-fungsional-1-akun@cref' multiply defined.
+LaTeX Warning: Label `uji-fungsional-4-interaksi@cref' multiply defined.
+
+
+LaTeX Warning: Label `uji-fungsional-4-interaksi' multiply defined.
+
+
+LaTeX Warning: Label `uji-fungsional-4-interaksi@cref' multiply defined.
 
 ) (Chapters/Main/Bab6-Penutup.aux) (Chapters/Auxiliary.aux)
 (Chapters/Main/Bab7-Biodata.aux))
@@ -1766,26 +1778,26 @@ Overfull \hbox (1.57394pt too wide) detected at line 39
  [16] (main.lot [17
 
 
-])
+] [18])
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
- [18] (main.lof [19
+ [19] [20
 
 
-])
+] (main.lof [21])
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [20] (main.lol)
+ [22] (main.lol)
 \tf@lol=\write7
 \openout7 = `main.lol'.
 
- [21
+
+[23
 
 
-]
-[22]
+] [24]
 \openout2 = `Chapters/Main/Bab1-Pendahuluan.aux'.
 
  (Chapters/Main/Bab1-Pendahuluan.tex
@@ -2031,60 +2043,64 @@ Overfull \hbox (23.36862pt too wide) in paragraph at lines 6--54
  [][] 
  []
 
-)
+))
 Overfull \vbox (103.34186pt too high) has occurred while \output is active []
 
 
-[53] (Chapters/Details/bab3/3cxx/04/06.tex
+[53] (Chapters/Details/bab3/3cxx/KP05.tex
+File: images/bab3/usecasediagram/ucd-05.png Graphic file (type QTm)
+
+<use  "images/bab3/usecasediagram/ucd-05.png" >
+(Chapters/Details/bab3/3cxx/05/01.tex) (Chapters/Details/bab3/3cxx/05/02.tex))
+(Chapters/Details/bab3/3cxx/KP06.tex
+File: images/bab3/usecasediagram/ucd-06.png Graphic file (type QTm)
+
+<use  "images/bab3/usecasediagram/ucd-06.png" > [54]
+(Chapters/Details/bab3/3cxx/06/01.tex) (Chapters/Details/bab3/3cxx/06/02.tex)
+(Chapters/Details/bab3/3cxx/06/03.tex) (Chapters/Details/bab3/3cxx/04/06.tex
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 5--51
  [][] 
  []
 
-))
+)) [55]
 Overfull \vbox (40.74886pt too high) has occurred while \output is active []
 
 
-[54] (Chapters/Details/bab3/3cxx/KP06.tex
-File: images/bab3/usecasediagram/ucd-06.png Graphic file (type QTm)
-
-<use  "images/bab3/usecasediagram/ucd-06.png" >
-(Chapters/Details/bab3/3cxx/06/01.tex) (Chapters/Details/bab3/3cxx/06/02.tex)
-(Chapters/Details/bab3/3cxx/06/03.tex)))
-(Chapters/Details/bab3/analisa/teknis/req-to-system.tex [55]
+[56]) (Chapters/Details/bab3/analisa/teknis/req-to-system.tex
 File: images/bab3/buku/basic_architecture.png Graphic file (type QTm)
 
 <use  "images/bab3/buku/basic_architecture.png" >)
-(Chapters/Details/bab3/analisa/teknis/tech-options.tex
+(Chapters/Details/bab3/analisa/teknis/tech-options.tex [57]
 LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/bx/sc' will be
 (Font)              scaled to size 11.27493pt on input line 7.
- [56] [57] [58] [59])
-(Chapters/Details/bab3/desain/app-arc.tex [60]
+ [58] [59] [60]
+[61]) (Chapters/Details/bab3/desain/app-arc.tex [62]
 File: images/bab3/arsitektur-app.png Graphic file (type QTm)
 
-<use  "images/bab3/arsitektur-app.png" > [61
+<use  "images/bab3/arsitektur-app.png" > [63
 
 ])
 (Chapters/Details/bab3/desain/app-structure.tex
 File: images/bab3/apl/main-apl.png Graphic file (type QTm)
 
-<use  "images/bab3/apl/main-apl.png" > [62
+<use  "images/bab3/apl/main-apl.png" > [64
 
-] [63] [64])
+] [65] [66])
 (Chapters/Details/bab3/desain/database.tex
 File: images/bab3/db/cdm.png Graphic file (type QTm)
  <use  "images/bab3/db/cdm.png" >
-[65]
+[67]
 File: images/bab3/db/pdm.png Graphic file (type QTm)
- <use  "images/bab3/db/pdm.png" > [66])
+ <use  "images/bab3/db/pdm.png" > [68])
 (Chapters/Details/bab3/desain/kamus-data-transaksional.tex
 (Chapters/Details/bab3/desain/database/kamus_transaksional/administrators.tex
-[67] (tables/03b/tables/transactional/administrator.tex)
+[69] (tables/03b/tables/transactional/administrator.tex)
 (tables/03b/tables/transactional/administrator.tex)
 (tables/03b/tables/transactional/administrator.tex))
 (Chapters/Details/bab3/desain/database/kamus_transaksional/bids.tex
 (tables/03b/tables/transactional/bid.tex)
 (tables/03b/tables/transactional/bid.tex)
-(tables/03b/tables/transactional/bid.tex [68]))
+(tables/03b/tables/transactional/bid.tex [70]))
 (Chapters/Details/bab3/desain/database/kamus_transaksional/categories.tex
 (tables/03b/tables/transactional/categories.tex)
 (tables/03b/tables/transactional/categories.tex)
@@ -2092,11 +2108,11 @@ File: images/bab3/db/pdm.png Graphic file (type QTm)
 (Chapters/Details/bab3/desain/database/kamus_transaksional/coupon.tex
 (tables/03b/tables/transactional/coupon.tex)
 (tables/03b/tables/transactional/coupon.tex)
-(tables/03b/tables/transactional/coupon.tex [69]))
+(tables/03b/tables/transactional/coupon.tex [71]))
 (Chapters/Details/bab3/desain/database/kamus_transaksional/coupon_usages.tex
 (tables/03b/tables/transactional/coupon_usages.tex)
 (tables/03b/tables/transactional/coupon_usages.tex)
-(tables/03b/tables/transactional/coupon_usages.tex [70]))
+(tables/03b/tables/transactional/coupon_usages.tex [72]))
 (Chapters/Details/bab3/desain/database/kamus_transaksional/favorites.tex
 (tables/03b/tables/transactional/favorites.tex)
 (tables/03b/tables/transactional/favorites.tex)
@@ -2104,7 +2120,7 @@ File: images/bab3/db/pdm.png Graphic file (type QTm)
 (Chapters/Details/bab3/desain/database/kamus_transaksional/issues.tex
 (tables/03b/tables/transactional/issues.tex)
 (tables/03b/tables/transactional/issues.tex)
-(tables/03b/tables/transactional/issues.tex [71]))
+(tables/03b/tables/transactional/issues.tex [73]))
 (Chapters/Details/bab3/desain/database/kamus_transaksional/issuetypes.tex
 (tables/03b/tables/transactional/issuetypes.tex)
 (tables/03b/tables/transactional/issuetypes.tex)
@@ -2117,11 +2133,11 @@ Overfull \hbox (2.10059pt too wide) in paragraph at lines 30--30
 []|\EU1/TimesNewRoman(0)/m/n/10.95 id_coupon_usage| 
  []
 
-[72]))
+[74]))
 (Chapters/Details/bab3/desain/database/kamus_transaksional/ratingauctioneers.te
 x (tables/03b/tables/transactional/ratingauctioneers.tex)
 (tables/03b/tables/transactional/ratingauctioneers.tex)
-(tables/03b/tables/transactional/ratingauctioneers.tex [73]))
+(tables/03b/tables/transactional/ratingauctioneers.tex [75]))
 (Chapters/Details/bab3/desain/database/kamus_transaksional/ratingbidders.tex
 (tables/03b/tables/transactional/ratingbidders.tex)
 (tables/03b/tables/transactional/ratingbidders.tex)
@@ -2144,11 +2160,11 @@ Overfull \hbox (0.83463pt too wide) in paragraph at lines 20--20
 \EU1/TimesNewRoman(0)/m/n/10.95 ratingauctioneers| 
  []
 
-[74]))
+[76]))
 (Chapters/Details/bab3/desain/database/kamus_transaksional/user_verifications.t
 ex (tables/03b/tables/transactional/userverifications.tex)
 (tables/03b/tables/transactional/userverifications.tex)
-(tables/03b/tables/transactional/userverifications.tex [75]))
+(tables/03b/tables/transactional/userverifications.tex [77]))
 (Chapters/Details/bab3/desain/database/kamus_transaksional/userissues.tex
 (tables/03b/tables/transactional/userissues.tex)
 (tables/03b/tables/transactional/userissues.tex)
@@ -2156,12 +2172,12 @@ ex (tables/03b/tables/transactional/userverifications.tex)
 (Chapters/Details/bab3/desain/database/kamus_transaksional/users.tex
 (tables/03b/tables/transactional/users.tex)
 (tables/03b/tables/transactional/users.tex)
-(tables/03b/tables/transactional/users.tex [76])))
+(tables/03b/tables/transactional/users.tex [78])))
 (Chapters/Details/bab3/desain/kamus-data-nontransaksional.tex
 (Chapters/Details/bab3/desain/database/kamus_nontransaksional/userchats.tex
 (tables/03b/tables/nontransactional/userchats.tex)
 (tables/03b/tables/nontransactional/userchats.tex)
-(tables/03b/tables/nontransactional/userchats.tex [77]))
+(tables/03b/tables/nontransactional/userchats.tex [79]))
 (Chapters/Details/bab3/desain/database/kamus_nontransaksional/chatrooms.tex
 (tables/03b/tables/nontransactional/chatrooms.tex)
 (tables/03b/tables/nontransactional/chatrooms.tex)
@@ -2169,13 +2185,13 @@ ex (tables/03b/tables/transactional/userverifications.tex)
 (Chapters/Details/bab3/desain/database/kamus_nontransaksional/itemimages.tex
 (tables/03b/tables/nontransactional/itemimages.tex)
 (tables/03b/tables/nontransactional/itemimages.tex)
-(tables/03b/tables/nontransactional/itemimages.tex))))) [78]
+(tables/03b/tables/nontransactional/itemimages.tex))))) [80]
 \openout2 = `Chapters/Main/Bab4-Implementasi.aux'.
 
 
 (Chapters/Main/Bab4-Implementasi.tex
 BAB IV.
-(Chapters/Details/bab4/4a-ImplementasiPK.tex [79
+(Chapters/Details/bab4/4a-ImplementasiPK.tex [81
 
 
 
@@ -2187,16 +2203,16 @@ LaTeX Font Info:    Font shape `EU1/CourierNew(0)/m/n' will be
 (Font)              scaled to size 9.85492pt on input line 6.
 File: images/bab4/pl/madafaka_cors.png Graphic file (type QTm)
  <use  "images/bab4/pl/madafaka_cors.png" >
-[80]
+[82]
 LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/m/sc' will be
 (Font)              scaled to size 11.22368pt on input line 31.
-) (Chapters/Details/bab4/4b/vue.tex [81] (sourceCode/04/vue/package.tex
+) (Chapters/Details/bab4/4b/vue.tex [83] (sourceCode/04/vue/package.tex
 LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 10.24994pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/CourierNew(0)/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 1.
 
-[82]
+[84]
 LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 7.17496pt on input line 2.
 LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/m/n' will be
@@ -2216,48 +2232,48 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
 LaTeX Font Info:    Font shape `EU1/CourierNew(0)/bx/n' will be
 (Font)              scaled to size 8.99994pt on input line 2.
-) [83] (sourceCode/04/vue/webpack-opt.tex)
+) [85] (sourceCode/04/vue/webpack-opt.tex)
 (sourceCode/04/vue/html-include.tex)) (Chapters/Details/bab4/4b/sendgrid.tex
-[84]
+[86]
 File: images/bab4/pl/whitelist-success.png Graphic file (type QTm)
- <use  "images/bab4/pl/whitelist-success.png" > [85]
+ <use  "images/bab4/pl/whitelist-success.png" > [87]
 File: images/bab4/pl/detail-whitelist.png Graphic file (type QTm)
 
 <use  "images/bab4/pl/detail-whitelist.png" >))
 (Chapters/Details/bab4/4c-ImplementasiUI.tex
-(Chapters/Details/bab4/implementasiUI/01-01.tex [86]
+(Chapters/Details/bab4/implementasiUI/01-01.tex [88]
 File: images/bab4/ui/01-01.png Graphic file (type QTm)
 
-<use  "images/bab4/ui/01-01.png" > [87] [88])
-(Chapters/Details/bab4/implementasiUI/01-02.tex [89]
+<use  "images/bab4/ui/01-01.png" > [89] [90])
+(Chapters/Details/bab4/implementasiUI/01-02.tex [91]
 File: images/bab4/ui/01-02.png Graphic file (type QTm)
 
 <use  "images/bab4/ui/01-02.png" >)
-(Chapters/Details/bab4/implementasiUI/02-01.tex [90] [91] [92]
+(Chapters/Details/bab4/implementasiUI/02-01.tex [92] [93] [94]
 File: images/bab4/ui/02-01.png Graphic file (type QTm)
 
-<use  "images/bab4/ui/02-01.png" > [93])
+<use  "images/bab4/ui/02-01.png" > [95])
 (Chapters/Details/bab4/implementasiUI/02-02.tex)
 (Chapters/Details/bab4/implementasiUI/02-03.tex
 
-LaTeX Warning: Reference `uc02.03' on page 94 undefined on input line 2.
+LaTeX Warning: Reference `uc02.03' on page 96 undefined on input line 2.
 
 
-LaTeX Warning: Reference `cdvis.02-03' on page 94 undefined on input line 3.
+LaTeX Warning: Reference `cdvis.02-03' on page 96 undefined on input line 3.
 
 
-LaTeX Warning: Reference `cdjq.02-03' on page 94 undefined on input line 5.
+LaTeX Warning: Reference `cdjq.02-03' on page 96 undefined on input line 5.
 
 
-LaTeX Warning: Reference `cdjq.02-03' on page 94 undefined on input line 6.
+LaTeX Warning: Reference `cdjq.02-03' on page 96 undefined on input line 6.
 
-[94]
+[96]
 File: images/bab4/ui/02-03.png Graphic file (type QTm)
- <use  "images/bab4/ui/02-03.png" > [95] [96] [97])
-(Chapters/Details/bab4/implementasiUI/03-01.tex [98]
+ <use  "images/bab4/ui/02-03.png" > [97] [98] [99])
+(Chapters/Details/bab4/implementasiUI/03-01.tex [100]
 File: images/bab4/ui/03-01.png Graphic file (type QTm)
 
-<use  "images/bab4/ui/03-01.png" > [99] [100] [101] [102] [103]
+<use  "images/bab4/ui/03-01.png" > [101] [102] [103] [104] [105]
 Overfull \hbox (15.53862pt too wide) in paragraph at lines 148--149
 [][][][] 
  []
@@ -2267,8 +2283,8 @@ Overfull \hbox (15.53862pt too wide) in paragraph at lines 151--152
 [][][][] 
  []
 
-[104]) (Chapters/Details/bab4/implementasiUI/03-02.tex [105] [106] [107]
-[108]
+[106]) (Chapters/Details/bab4/implementasiUI/03-02.tex [107] [108] [109]
+[110]
 Overfull \hbox (26.33864pt too wide) in paragraph at lines 100--101
 [][][][] 
  []
@@ -2298,65 +2314,70 @@ Overfull \hbox (0.62747pt too wide) in paragraph at lines 115--116
 [][][][][][][] 
  []
 
-[109] [110] [111] [112] [113]) (Chapters/Details/bab4/implementasiUI/03-03.tex
-[114]
+[111] [112] [113] [114] [115]) (Chapters/Details/bab4/implementasiUI/03-03.tex
+[116]
 File: images/bab4/ui/02-01.png Graphic file (type QTm)
  <use  "images/bab4/ui/02-01.png" >)
 (Chapters/Details/bab4/implementasiUI/03-04.tex)
 (Chapters/Details/bab4/implementasiUI/04-01.tex)
-(Chapters/Details/bab4/implementasiUI/04-02.tex [115])
+(Chapters/Details/bab4/implementasiUI/04-02.tex [117])
 (Chapters/Details/bab4/implementasiUI/04-03.tex)
 (Chapters/Details/bab4/implementasiUI/04-04.tex
 
-LaTeX Warning: Reference `cdvis.04-04' on page 116 undefined on input line 3.
+LaTeX Warning: Reference `cdvis.04-04' on page 118 undefined on input line 3.
 
 File: images/bab4/ui/04-04.png Graphic file (type QTm)
-<use  "images/bab4/ui/04-04.png" > [116] [117] [118] [119] [120] [121])
+<use  "images/bab4/ui/04-04.png" > [118] [119] [120] [121] [122] [123])
 (Chapters/Details/bab4/implementasiUI/04-05.tex)
 (Chapters/Details/bab4/implementasiUI/04-06.tex)
 (Chapters/Details/bab4/implementasiUI/05-01.tex
 
-LaTeX Warning: Reference `uc05.01' on page 122 undefined on input line 2.
+LaTeX Warning: Reference `uc05.01' on page 124 undefined on input line 2.
 
-[122]
+[124]
 File: images/bab4/ui/05-01.png Graphic file (type QTm)
  <use  "images/bab4/ui/05-01.png" >)
 (Chapters/Details/bab4/implementasiUI/05-02.tex
 
-LaTeX Warning: Reference `uc05.02' on page 123 undefined on input line 2.
+LaTeX Warning: Reference `uc05.02' on page 125 undefined on input line 2.
 
-[123]) (Chapters/Details/bab4/implementasiUI/05-03.tex
+[125]) (Chapters/Details/bab4/implementasiUI/05-03.tex
 
-LaTeX Warning: Reference `uc05.02' on page 124 undefined on input line 2.
+LaTeX Warning: Reference `uc05.02' on page 126 undefined on input line 2.
 
 ) (Chapters/Details/bab4/implementasiUI/06-01.tex
 
-LaTeX Warning: Reference `uc06.01' on page 124 undefined on input line 2.
+LaTeX Warning: Reference `uc06.01' on page 126 undefined on input line 2.
 
-[124] [125]
+[126] [127]
 File: images/bab4/ui/06-01.png Graphic file (type QTm)
- <use  "images/bab4/ui/06-01.png" > [126])
+ <use  "images/bab4/ui/06-01.png" > [128])
 (Chapters/Details/bab4/implementasiUI/06-02.tex
 
-LaTeX Warning: Reference `uc06.02' on page 127 undefined on input line 2.
+LaTeX Warning: Reference `uc06.02' on page 129 undefined on input line 2.
 
-[127]
+[129]
 File: images/bab4/ui/06-02.png Graphic file (type QTm)
  <use  "images/bab4/ui/06-02.png" >)
 (Chapters/Details/bab4/implementasiUI/06-03.tex
 
-LaTeX Warning: Reference `uc06.03' on page 128 undefined on input line 2.
+LaTeX Warning: Reference `uc06.03' on page 130 undefined on input line 2.
 
-[128] [129]))) [130]
+[130] [131]))) [132]
 \openout2 = `Chapters/Main/Bab5-PengujianDanEvaluasi.aux'.
 
  (Chapters/Main/Bab5-PengujianDanEvaluasi.tex
 BAB V.
-(Chapters/Details/bab5/5a-Pengujian.tex (Chapters/Details/bab5/Skenario.tex
+(Chapters/Details/bab5/5a-Pengujian.tex
 
-LaTeX Warning: Reference `uji-ux' on page 131 undefined on input line 12.
+LaTeX Warning: Reference `summary-pengujian' on page 133 undefined on input lin
+e 2.
 
-[131
+(Chapters/Details/bab5/Skenario.tex
+
+LaTeX Warning: Reference `uji-ux' on page 133 undefined on input line 12.
+
+[133
 
 
 
@@ -2367,92 +2388,136 @@ LaTeX Warning: Reference `uji-ux' on page 131 undefined on input line 12.
 (Chapters/Details/bab5/fungsionalitas/table/1-akun.tex)
 (Chapters/Details/bab5/fungsionalitas/table/1-akun.tex
 
-LaTeX Warning: Reference `ss-kp01-01' on page 132 undefined on input line 42.
+LaTeX Warning: Reference `ss-kp01-01' on page 134 undefined on input line 42.
 
 
-LaTeX Warning: Reference `ss-kp01-02' on page 132 undefined on input line 60.
+LaTeX Warning: Reference `ss-kp01-02' on page 134 undefined on input line 60.
 
 
-LaTeX Warning: Reference `ss-kp01-03' on page 132 undefined on input line 78.
+LaTeX Warning: Reference `ss-kp01-03' on page 134 undefined on input line 76.
 
-[132] [133])) (Chapters/Details/bab5/fungsionalitas/2-penawaran.tex
+[134] [135])) (Chapters/Details/bab5/fungsionalitas/2-penawaran.tex
 (Chapters/Details/bab5/fungsionalitas/table/2-penawaran.tex)
 (Chapters/Details/bab5/fungsionalitas/table/2-penawaran.tex)
 (Chapters/Details/bab5/fungsionalitas/table/2-penawaran.tex
-
-LaTeX Warning: Reference `ss-kp02-01' on page 134 undefined on input line 39.
-
-
-LaTeX Warning: Reference `ss-kp02-02' on page 134 undefined on input line 57.
-
-
-LaTeX Warning: Reference `ss-kp02-03' on page 134 undefined on input line 76.
-
-[134] [135])) (Chapters/Details/bab5/fungsionalitas/3-barang.tex
-(Chapters/Details/bab5/fungsionalitas/table/3-barang.tex)
-(Chapters/Details/bab5/fungsionalitas/table/3-barang.tex)
-(Chapters/Details/bab5/fungsionalitas/table/3-barang.tex
 
 LaTeX Warning: Reference `ss-kp02-01' on page 136 undefined on input line 39.
 
 
 LaTeX Warning: Reference `ss-kp02-02' on page 136 undefined on input line 57.
 
-[136]
 
-LaTeX Warning: Reference `ss-kp02-03' on page 137 undefined on input line 76.
+LaTeX Warning: Reference `ss-kp02-03' on page 136 undefined on input line 76.
 
-[137] [138])) (Chapters/Details/bab5/fungsionalitas/4-interaksi.tex)
-(Chapters/Details/bab5/fungsionalitas/5-laporan.tex)
-(Chapters/Details/bab5/fungsionalitas/6-kupon.tex))
-(Chapters/Details/bab5/performa.tex (Chapters/Details/bab5/performa/process.tex
-) (Chapters/Details/bab5/performa/process.tex)
+[136] [137])) (Chapters/Details/bab5/fungsionalitas/3-barang.tex
+(Chapters/Details/bab5/fungsionalitas/table/3-barang.tex)
+(Chapters/Details/bab5/fungsionalitas/table/3-barang.tex)
+(Chapters/Details/bab5/fungsionalitas/table/3-barang.tex
+
+LaTeX Warning: Reference `ss-kp02-01' on page 138 undefined on input line 39.
+
+
+LaTeX Warning: Reference `ss-kp02-02' on page 138 undefined on input line 57.
+
+[138]
+
+LaTeX Warning: Reference `ss-kp02-03' on page 139 undefined on input line 76.
+
+[139] [140])) (Chapters/Details/bab5/fungsionalitas/4-interaksi.tex
+(Chapters/Details/bab5/fungsionalitas/table/4-interaksi.tex)
+(Chapters/Details/bab5/fungsionalitas/table/4-interaksi.tex)
+(Chapters/Details/bab5/fungsionalitas/table/4-interaksi.tex
+
+LaTeX Warning: Reference `ss-kp04-01' on page 141 undefined on input line 39.
+
+
+LaTeX Warning: Reference `ss-kp02-02' on page 141 undefined on input line 57.
+
+
+LaTeX Warning: Reference `ss-kp04-03' on page 141 undefined on input line 76.
+
+
+LaTeX Warning: Reference `ss-kp04-04' on page 141 undefined on input line 91.
+
+[141] [142])) (Chapters/Details/bab5/fungsionalitas/5-laporan.tex
+(Chapters/Details/bab5/fungsionalitas/table/5-laporan.tex)
+(Chapters/Details/bab5/fungsionalitas/table/5-laporan.tex)
+(Chapters/Details/bab5/fungsionalitas/table/5-laporan.tex
+
+LaTeX Warning: Reference `ss-kp04-01' on page 143 undefined on input line 39.
+
+
+LaTeX Warning: Reference `ss-kp02-02' on page 143 undefined on input line 57.
+
+[143]
+
+LaTeX Warning: Reference `ss-kp04-03' on page 144 undefined on input line 76.
+
+
+LaTeX Warning: Reference `ss-kp04-04' on page 144 undefined on input line 91.
+
+[144] [145])) (Chapters/Details/bab5/fungsionalitas/6-kupon.tex
+(Chapters/Details/bab5/fungsionalitas/table/6-kupon.tex)
+(Chapters/Details/bab5/fungsionalitas/table/6-kupon.tex)
+(Chapters/Details/bab5/fungsionalitas/table/6-kupon.tex
+
+LaTeX Warning: Reference `ss-kp04-01' on page 146 undefined on input line 39.
+
+
+LaTeX Warning: Reference `ss-kp02-02' on page 146 undefined on input line 57.
+
+
+LaTeX Warning: Reference `ss-kp04-03' on page 146 undefined on input line 76.
+
+[146] [147]))) (Chapters/Details/bab5/performa.tex
+(Chapters/Details/bab5/performa/process.tex)
+(Chapters/Details/bab5/performa/process.tex)
 (Chapters/Details/bab5/performa/hasil.tex)
 (Chapters/Details/bab5/performa/hasil.tex))
 (Chapters/Details/bab5/userxperience.tex (Chapters/Details/bab5/ux/proses.tex)
 (Chapters/Details/bab5/ux/hasil.tex)) (Chapters/Details/bab5/maintainabilty.tex
 (Chapters/Details/bab5/maintainability/proses.tex)
-(Chapters/Details/bab5/maintainability/hasil.tex))
-(Chapter/Details/bab5/summary.tex)) (Chapters/Details/bab5/5b-Evaluasi.tex
-(Chapters/Details/bab5/evaluasi/legalitas.tex [139] [140] [141] [142] [143]
-[144] [145]) (Chapters/Details/bab5/evaluasi/pengguna.tex
+(Chapters/Details/bab5/maintainability/hasil.tex)))
+(Chapters/Details/bab5/5b-Evaluasi.tex [148]
+(Chapters/Details/bab5/evaluasi/legalitas.tex [149] [150] [151] [152] [153]
+[154]) (Chapters/Details/bab5/evaluasi/pengguna.tex
 (table/05/pengguna/recap_all.tex) (table/05/pengguna/recap_all.tex)
-(table/05/pengguna/recap_all.tex [146])
+(table/05/pengguna/recap_all.tex [155])
 
-LaTeX Warning: Reference `user-test-recap-sorted' on page 147 undefined on inpu
+LaTeX Warning: Reference `user-test-recap-sorted' on page 156 undefined on inpu
 t line 5.
 
-))) [147]
+))) [156]
 \openout2 = `Chapters/Main/Bab6-Penutup.aux'.
 
- (Chapters/Main/Bab6-Penutup.tex [148
-
-
-
-
-]
+ (Chapters/Main/Bab6-Penutup.tex
 BAB VI.
-[149]) [150] (main.bbl [151
+[157
 
 
 
-]) [152]
+
+]) [158] (main.bbl [159
+
+
+
+]) [160]
 \openout2 = `Chapters/Auxiliary.aux'.
 
  (Chapters/Auxiliary.tex
 (Chapters/Auxiliary/SourceCode.tex
 Lampiran A.
-(sourceCode/socketapp/bid.tex [153
+(sourceCode/socketapp/bid.tex [161
 
 
 
-] [154] [155]
+] [162] [163]
 Overfull \hbox (47.93867pt too wide) in paragraph at lines 95--96
 [][][][] 
  []
 
-[156] [157] [158]) (sourceCode/socketapp/chat.tex [159] [160] [161] [162]))
-(Chapters/Auxiliary/Questionnaire.tex [163] [164
+[164] [165] [166]) (sourceCode/socketapp/chat.tex [167] [168] [169] [170]))
+(Chapters/Auxiliary/Questionnaire.tex [171] [172
 
 
 ]
@@ -2461,43 +2526,43 @@ File: images/bab5/ujipengguna/1.jpg Graphic file (type QTm)
 <use  "images/bab5/ujipengguna/1.jpg" >
 File: images/bab5/ujipengguna/2.jpg Graphic file (type QTm)
 
-<use  "images/bab5/ujipengguna/2.jpg" > [165]
+<use  "images/bab5/ujipengguna/2.jpg" > [173]
 Overfull \vbox (8.3415pt too high) has occurred while \output is active []
 
 
-[166]
+[174]
 File: images/bab5/ujipengguna/3.jpg Graphic file (type QTm)
  <use  "images/bab5/ujipengguna/3.jpg" >
 File: images/bab5/ujipengguna/4.jpg Graphic file (type QTm)
 
-<use  "images/bab5/ujipengguna/4.jpg" > [167]
+<use  "images/bab5/ujipengguna/4.jpg" > [175]
 File: images/bab5/ujipengguna/5.jpg Graphic file (type QTm)
 
-<use  "images/bab5/ujipengguna/5.jpg" > [168]
+<use  "images/bab5/ujipengguna/5.jpg" > [176]
 File: images/bab5/ujipengguna/6.jpg Graphic file (type QTm)
 
-<use  "images/bab5/ujipengguna/6.jpg" > [169]
+<use  "images/bab5/ujipengguna/6.jpg" > [177]
 File: images/bab5/ujipengguna/7.jpg Graphic file (type QTm)
 
-<use  "images/bab5/ujipengguna/7.jpg" > [170]
+<use  "images/bab5/ujipengguna/7.jpg" > [178]
 File: images/bab5/ujipengguna/8.jpg Graphic file (type QTm)
 
-<use  "images/bab5/ujipengguna/8.jpg" > [171]
+<use  "images/bab5/ujipengguna/8.jpg" > [179]
 File: images/bab5/ujipengguna/9.jpg Graphic file (type QTm)
 
-<use  "images/bab5/ujipengguna/9.jpg" > [172]
+<use  "images/bab5/ujipengguna/9.jpg" > [180]
 File: images/bab5/ujipengguna/10.jpg Graphic file (type QTm)
 
-<use  "images/bab5/ujipengguna/10.jpg" > [173]
+<use  "images/bab5/ujipengguna/10.jpg" > [181]
 File: images/bab5/ujipengguna/11.jpg Graphic file (type QTm)
 
-<use  "images/bab5/ujipengguna/11.jpg" > [174] [175])) [176]
+<use  "images/bab5/ujipengguna/11.jpg" > [182] [183])) [184]
 \openout2 = `Chapters/Main/Bab7-Biodata.aux'.
 
 
 (Chapters/Main/Bab7-Biodata.tex
 File: images/foto-diri.jpg Graphic file (type QTm)
- <use  "images/foto-diri.jpg" >) [177
+ <use  "images/foto-diri.jpg" >) [185
 
 
 
@@ -2533,12 +2598,12 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 33990 strings out of 428410
- 612074 string characters out of 3156958
- 906527 words of memory out of 3000000
- 36368 multiletter control sequences out of 15000+200000
+ 34042 strings out of 428410
+ 614250 string characters out of 3156958
+ 906974 words of memory out of 3000000
+ 36397 multiletter control sequences out of 15000+200000
  7099 words of font info for 69 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 55i,12n,69p,10398b,19211s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,12n,69p,10398b,19216s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (201 pages).
+Output written on main.pdf (211 pages).
