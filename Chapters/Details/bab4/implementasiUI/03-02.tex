@@ -213,25 +213,25 @@ if ($_SERVER['REQUEST_METHOD']=='POST'){
                         'is_main_image' => $isMainImage
         ]);
 
-                if ($isMainImage == true) {
-                        $indexImageURL = "https://src-api.lelangapa.com/apis/index/submit/image";
-                        $headers = array(
-                          'Content-Type: application/json'
-                        );
-                        $post_data = array(
-                                "id_item" => $itemid,
-                                "main_image_url" => $imgpath
-                        );
-                        $ch = curl_init();
-                        curl_setopt($ch, CURLOPT_URL, $indexImageURL);
-                        curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-                        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-                        curl_setopt($ch, CURLOPT_POST, true);
-                        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($post_data));
-                        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
-                        $indexresult = curl_exec($ch);
-                        curl_close($ch);
-                }
+        if ($isMainImage == true) {
+         $indexImageURL = "https://src-api.lelangapa.com/apis/index/submit/image";
+         $headers = array(
+           'Content-Type: application/json'
+         );
+         $post_data = array(
+                 "id_item" => $itemid,
+                 "main_image_url" => $imgpath
+         );
+         $ch = curl_init();
+         curl_setopt($ch, CURLOPT_URL, $indexImageURL);
+         curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+         curl_setopt($ch, CURLOPT_POST, true);
+         curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($post_data));
+         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
+         $indexresult = curl_exec($ch);
+         curl_close($ch);
+        }
     }
     else {
       $collection->updateOne(

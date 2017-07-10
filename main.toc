@@ -119,9 +119,9 @@
 \contentsline {subsection}{\numberline {4.3.6}Mendaftarkan Barang untuk Dilelang}{98}{subsection.4.3.6}
 \contentsline {subsection}{\numberline {4.3.7}Memperbarui Barang}{105}{subsection.4.3.7}
 \contentsline {subsection}{\numberline {4.3.8}Melihat Barang yang Didaftarkan}{114}{subsection.4.3.8}
-\contentsline {subsection}{\numberline {4.3.9}Melihat riwayat harga yang ditawarkan pada barang yang dilelang}{116}{subsection.4.3.9}
-\contentsline {subsection}{\numberline {4.3.10}Melihat Review Pengguna Lainnya}{116}{subsection.4.3.10}
-\contentsline {subsection}{\numberline {4.3.11}Menambahkan Review}{116}{subsection.4.3.11}
+\contentsline {subsection}{\numberline {4.3.9}Melihat riwayat harga yang ditawarkan pada barang yang dilelang}{115}{subsection.4.3.9}
+\contentsline {subsection}{\numberline {4.3.10}Melihat Review Pengguna Lainnya}{115}{subsection.4.3.10}
+\contentsline {subsection}{\numberline {4.3.11}Menambahkan Review}{115}{subsection.4.3.11}
 \contentsline {subsection}{\numberline {4.3.12}Melaporkan Barang/Pengguna}{116}{subsection.4.3.12}
 \contentsline {subsection}{\numberline {4.3.13}Mengirimkan pesan}{116}{subsection.4.3.13}
 \contentsline {subsection}{\numberline {4.3.14}Melihat Kotak Pesan}{122}{subsection.4.3.14}
@@ -134,21 +134,18 @@
 \contentsline {subsection}{\numberline {4.3.21}Memperbarui Voucher}{128}{subsection.4.3.21}
 \contentsline {chapter}{\numberline {V}PENGUJIAN DAN EVALUASI}{131}{chapter.5}
 \contentsline {section}{\numberline {5.1}Pengujian}{131}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Pengujian Fungsionalitas Lelang}{131}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Pengujian Fungsionalitas Voucher}{131}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}\textit {Summary} Pengujian}{132}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}Evaluasi}{132}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}\textit {Summary} Pengujian Fungsionalitas}{132}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Pendekatan Hukum Perlindungan Konsumen}{132}{subsection.5.2.2}
-\contentsline {subsubsection}{\numberline {5.2.2.1}Perlindungan Hukum Bagi Konsumen Belanja \textit {Online}}{133}{subsubsection.5.2.2.1}
-\contentsline {subsubsection}{\numberline {5.2.2.2}Kontrak Elektronik dan Perlindungan Konsumen berdasarkan UU ITE dan PP PSTE}{136}{subsubsection.5.2.2.2}
-\contentsline {subsubsection}{\numberline {5.2.2.3}\textit {Summary}}{137}{subsubsection.5.2.2.3}
-\contentsline {subsection}{\numberline {5.2.3}\textit {Summary} Pengujian Pengguna}{138}{subsection.5.2.3}
-\contentsline {chapter}{\numberline {VI}PENUTUP}{141}{chapter.6}
-\contentsline {section}{\numberline {6.1}Kesimpulan}{141}{section.6.1}
-\contentsline {section}{\numberline {6.2}Saran}{141}{section.6.2}
-\contentsline {section}{\numberline {6.3}\textit {Further Enchancements}}{142}{section.6.3}
-\contentsline {chapter}{DAFTAR PUSTAKA}{145}{chapter*.51}
-\contentsline {chapter}{\numberline {A}Kode Sumber}{147}{appendix.A}
-\contentsline {chapter}{\numberline {B}Kuisioner Pengguna}{159}{appendix.B}
-\contentsline {chapter}{BIODATA PENULIS}{171}{appendix*.63}
+\contentsline {subsection}{\numberline {5.1.1}\textit {Summary} Pengujian}{131}{subsection.5.1.1}
+\contentsline {section}{\numberline {5.2}Evaluasi}{131}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}\textit {Summary} Pengujian Fungsionalitas}{131}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Pendekatan Hukum Perlindungan Konsumen}{131}{subsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.2.1}Perlindungan Hukum Bagi Konsumen Belanja \textit {Online}}{132}{subsubsection.5.2.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2.2}Kontrak Elektronik dan Perlindungan Konsumen berdasarkan UU ITE dan PP PSTE}{135}{subsubsection.5.2.2.2}
+\contentsline {subsubsection}{\numberline {5.2.2.3}\textit {Summary}}{136}{subsubsection.5.2.2.3}
+\contentsline {subsection}{\numberline {5.2.3}\textit {Summary} Pengujian Pengguna}{137}{subsection.5.2.3}
+\contentsline {chapter}{\numberline {VI}PENUTUP}{139}{chapter.6}
+\contentsline {section}{\numberline {6.1}Kesimpulan}{139}{section.6.1}
+\contentsline {section}{\numberline {6.2}Saran}{139}{section.6.2}
+\contentsline {chapter}{DAFTAR PUSTAKA}{141}{chapter*.51}
+\contentsline {chapter}{\numberline {A}Kode Sumber}{143}{appendix.A}
+\contentsline {chapter}{\numberline {B}Kuisioner Pengguna}{155}{appendix.B}
+\contentsline {chapter}{BIODATA PENULIS}{167}{appendix*.63}
