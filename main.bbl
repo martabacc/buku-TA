@@ -100,4 +100,15 @@ I.~Sommervile, {\em Software {Engineering}}.
 \newblock United States of America: Addison-Wesley. All rights reserved,
   9th~ed., Oct. 2009.
 
+\bibitem{chin_development_1998}
+J.~P. Chin, V.~A. Diehl, and K.~L. Norman, ``Development of an {Instrument}
+  {Measuring} {User} {Satisfaction} of the {Human}-{Computer} {Interface},''
+  {\em Proceedings of ACM CHI'88 Conference on Human Factors in Computing
+  Systems}, May 1998.
+
+\bibitem{peercy_software_nodate}
+D.~E. PEERCY, ``A {Software} {Maintainability} {Evaluation} {Methodology},''
+  {\em IEEE TRANSACTIONS ON SOFTWARE ENGINEERING,}, vol.~SE-7, no.~4,
+  pp.~343--351.
+
 \end{thebibliography}

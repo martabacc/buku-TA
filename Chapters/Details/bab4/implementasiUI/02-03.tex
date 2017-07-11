@@ -1,8 +1,8 @@
 \subsection{Menawar/melelang barang}
-Halaman ini hanya dapat diakses oleh pengguna yang sudah terdaftar. Halaman ini menampilkan halaman informasi barang, dan sebuah elemen \textit{input} harga , dan pengguna dapat mengisi lalu mengklik tombol daftar, dan untuk kasus normal dan alternatif dapat dilihat pada tabel spesifikasi kasus penggunaan \ref{uc02.03}.\\
-\indent Sebagai ringkasan dari ketiga logika tersebut, visualisasi pada gambar \ref{cdvis.02-03} akan membantu menggambarkan keseluruhan proses logika secara ringkas. Masing-masing logika tersebut dapat dijabarkan sebagai berikut:
+Halaman ini hanya dapat diakses oleh pengguna yang sudah terdaftar. Halaman ini menampilkan halaman informasi barang, dan sebuah elemen \textit{input} harga , dan pengguna dapat mengisi lalu mengklik tombol daftar, dan untuk kasus normal dan alternatif dapat dilihat pada tabel spesifikasi kasus penggunaan \ref{uc.02-03}.\\
+\indent Alur pemrosesan dan logika program pada kasus penggunaan ini dapat dijabarkan sebagai berikut:
 	\begin{enumerate}
-		\item Logika \textit{back-end} ditulis menggunakan PHP yang dicantumkan dalam kode sumber \ref{cdjq.02-03}; 
+		\item Pemrosesan \textit{back-end} ditulis menggunakan PHP yang dicantumkan dalam kode sumber \ref{cdbe.02-03}; 
 		\item Logika \textit{view} ditulis menggunakan jQuery yang dicantumkan dalam kode sumber \ref{cdjq.02-03}; dan
 		\item Logika proses lelang, berjalan diatas socket yang berjalan diatas Node.js dengan bantuan Socket.io yang dicantumkan dalam kode sumber \ref{cdsoc.02-03}
 	\end{enumerate}
@@ -14,7 +14,7 @@ Halaman ini hanya dapat diakses oleh pengguna yang sudah terdaftar. Halaman ini 
     \label{ui.02-03}
 \end{figure}
 
-\begin{lstlisting}[label=cdbe.02-01,style=php,caption=Kode Sumber \textit{Back-end} Menampilkan Halaman Lelang Barang]
+\begin{lstlisting}[label=cdbe.02-03,style=php,caption=Kode Sumber \textit{Back-end} Menampilkan Halaman Lelang Barang]
 /*	file : app/Http/Controllers/ItemController*/
 public function show($id){
 	/*	method : GET */
@@ -38,7 +38,7 @@ public function show($id){
 \end{lstlisting}
 
 
-\begin{lstlisting}[label=cdsoc.02-01,style=htmlcssjs,caption=Kode Sumber Logika Lelang (menggunakan Node.js)]
+\begin{lstlisting}[label=cdsoc.02-03,style=htmlcssjs,caption=Kode Sumber Logika Lelang (menggunakan Node.js)]
 /*	
 	file : bidserver_https.js 
 	menggunakan dependencies : socketio (ioServer), https, http, fs dan express
@@ -79,7 +79,7 @@ socket.on('submitbid', function(bidjson) {
 });
 \end{lstlisting}
 
-\begin{lstlisting}[label=cdsoc.02-03,style=htmlcssjs,caption=Kode Sumber Logika UI (menggunakan jQuery)]
+\begin{lstlisting}[label=cdjq.02-03,style=htmlcssjs,caption=Kode Sumber Logika UI (menggunakan jQuery)]
 // script ini berjalan
 // saat tombol Tawar diklik
 

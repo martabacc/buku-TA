@@ -65,62 +65,64 @@ public function store(Request $request)
 /*	Fungsi ini berfungsi untuk \textit{update} gambar barang, diteruskan kepada \textit{script} terpisah 
 */
 init: function() {
-                var submitButton = document.querySelector("#click");
-                var myDropzone = this; // closure
-                console.log(myDropzone.files.length);
+    var submitButton = document.querySelector("#click");
+    var myDropzone = this; // closure
 	submitButton.addEventListener("click", function() {
-	    swal({
-	        text: 'Memperbarui data barang anda...',
-	        allowOutsideClick: false,
-	        showConfirmButton: false,
-	        onOpen: function (){
-	            var dataSubmission = $('.submititem').serialize();
-	            var startime='&start_time=' + addTimebasedTZ($('#start_time').data().date);
-	            var endtime = '&end_time=' + addTimebasedTZ($('#end_time').data().date);
-	            dataSubmission += startime;
-	            dataSubmission += endtime;
-	            $.ajax({
-	                type: "POST",
-	                url: '{{ route('item.update') }}',
-	                data: { _token: '{{csrf_token()}}', data : dataSubmission },
-	                success: function( msg ) {
-	                    console.log (msg);
-	                    if(msg.success == false){
-	                        $('.asdf').css('display','block');
-	                        $('.asdf').empty();
-	                        $.each(msg.msg, function(i, val){
-	                            $('.asdf').append(
-	                                '<li>'+val+'</li>'
-	                            );
-	                        });
-	                        swal('Oops','Maaf, data anda belum valid. Silahkan cek kembali','error');
-
-	                    }
-	                    else{
-	                        if(myDropzone.files.length >0){
-	                            iditem = msg.id;
-	                            myDropzone.processQueue();
-	                        }
-
-	                        else{
-
-	                            swal({
-	                                title: 'Sukses!',
-	                                type:'success',
-	                                allowOutsideClick : false,
-	                                showConfirmButton : false,
-	                                text: "Sukses menambahkan barang!",
-	                                timer: 1000
-	                            }).then(function () {
-	                                document.location = "{{ url('item/') }}" + iditem;
-	                            });
-	                        }
-	                    }
-
-	                }
-	            });
-	        }
-	    });
+		 swal({
+		   text: 'Memperbarui data barang anda...',
+		   allowOutsideClick: false,
+		   showConfirmButton: false,
+		   onOpen: function (){
+		       var dataSubmission = $('.submititem').serialize();
+		       var startime=
+			       '&start_time=' + 
+			       addTimebasedTZ($('#start_time').data().date);
+		       var endtime = '&end_time=' + addTimebasedTZ($('#end_time').data().date);
+		       dataSubmission += startime;
+		       dataSubmission += endtime;
+		       $.ajax({
+		         type: "POST",
+		         url: '{{ route('item.update') }}',
+		         data: { _token: '{{csrf_token()}}', data : dataSubmission },
+		         success: function( msg ) {
+		             console.log (msg);
+		             if(msg.success == false){
+		                 $('.asdf').css('display','block');
+		                 $('.asdf').empty();
+		                 $.each(msg.msg, function(i, val){
+		                       $('.asdf').append(
+		                           '<li>'+val+'</li>'
+		                       );
+		                   });
+		                   swal('Oops',
+				                'Maaf, data anda belum valid. Silahkan cek kembali'
+				                ,'error');
+			
+		               }
+		               else{
+		                 if(myDropzone.files.length >0){
+		                     iditem = msg.id;
+		                     myDropzone.processQueue();
+		                 }
+			
+		                 else{
+				
+		                  swal({
+		                      title: 'Sukses!',
+		                      type:'success',
+		                      allowOutsideClick : false,
+		                      showConfirmButton : false,
+		                      text: "Sukses menambahkan barang!",
+		                      timer: 1000
+		                  }).then(function () {
+		                      document.location = "{{ url('item/') }}" + iditem;
+		                  });
+		                 }
+		               }
+		           }
+		         });
+		     }
+		 });
 	});
 
 	this.on("processing", function() {

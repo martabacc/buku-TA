@@ -86,23 +86,23 @@ use Aws\S3\S3Client;
 
 $collection = (new MongoDB\Client("mongodb://127.0.0.1:27017"))->lelangkita->itemimages;
 if ($_SERVER['REQUEST_METHOD']=='POST'){
-        $image = $_POST['image'];
-        $userid = $_POST['id_user'];
-        $ext = $_POST['ext'];
-        $itemid = $_POST['itemid'];
-        $isMainImage = false;
-
-        if (isset($_POST['is_main_image']) && !empty($_POST['is_main_image']) && $_POST['is_main_image'] == "true") {
-                $isMainImage = true;
-        }
-
-        $year = date("Y");
-        $month = date("m");
-        $date = date("d");
-        $unique = uniqid();
-        $filename = $userid."_".$unique.".".$ext;
-        $path = "img/".$year."/".$month."/".$date."/".$userid;
-        $imgpath = $path."/".$filename;
+	$image = $_POST['image'];
+	$userid = $_POST['id_user'];
+	$ext = $_POST['ext'];
+	$itemid = $_POST['itemid'];
+	$isMainImage = false;
+	
+	if (isset($_POST['is_main_image']) && !empty($_POST['is_main_image']) && $_POST['is_main_image'] == "true") {
+	        $isMainImage = true;
+	}
+	
+	$year = date("Y");
+	$month = date("m");
+	$date = date("d");
+	$unique = uniqid();
+	$filename = $userid."_".$unique.".".$ext;
+	$path = "img/".$year."/".$month."/".$date."/".$userid;
+	$imgpath = $path."/".$filename;
 
   $decoded_image = base64_decode($image);
 
@@ -128,30 +128,30 @@ if ($_SERVER['REQUEST_METHOD']=='POST'){
     );
 
     $insertToDB = $collection->insertOne([
-                'item_id' => $itemid,
-                'url' => $imgpath,
-                        'is_main_image' => $isMainImage
-        ]);
+            'item_id' => $itemid,
+            'url' => $imgpath,
+                    'is_main_image' => $isMainImage
+    ]);
 
-                if ($isMainImage == true) {
-                        $indexImageURL = "https://src-api.lelangapa.com/apis/index/submit/image";
-                        $headers = array(
-                          'Content-Type: application/json'
-                        );
-                        $post_data = array(
-                                "id_item" => $itemid,
-                                "main_image_url" => $imgpath
-                        );
-                        $ch = curl_init();
-                        curl_setopt($ch, CURLOPT_URL, $indexImageURL);
-                        curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-                        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-                        curl_setopt($ch, CURLOPT_POST, true);
-                        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($post_data));
-                        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
-                        $indexresult = curl_exec($ch);
-                        curl_close($ch);
-                }
+    if ($isMainImage == true) {
+	    $indexImageURL = "https://src-api.lelangapa.com/apis/index/submit/image";
+	    $headers = array(
+	      'Content-Type: application/json'
+	    );
+	    $post_data = array(
+	            "id_item" => $itemid,
+	            "main_image_url" => $imgpath
+	    );
+	    $ch = curl_init();
+	    curl_setopt($ch, CURLOPT_URL, $indexImageURL);
+	    curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+	    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+	    curl_setopt($ch, CURLOPT_POST, true);
+	    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($post_data));
+	    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
+	    $indexresult = curl_exec($ch);
+	    curl_close($ch);
+    }
 
     if ($upload) {
       $res = array('status' => 'success', 'result' => '1');

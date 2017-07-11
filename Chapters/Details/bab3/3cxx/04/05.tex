@@ -9,7 +9,7 @@
 			& UC-04.05
 			\\ \hline
 			\textbf{Nama}
-			& \textbf{Melihat dan Membaca Pesan} 
+			& \textbf{Melihat daftar Pesan} 
 			\\ \hline
 			\textbf{Aktor}    
 			& Pengguna 
@@ -37,20 +37,10 @@
 				\item Balasan dari fungsi AJAX di \textit{load} oleh \textit{browser} untuk selanjutnya di\textit{parse} ke dalam HTML
 				\item Sistem menampilkan daftar percakapan pengguna
 				\item Pengguna mengklik percakapan yang ingin dilihat/dibaca
-				\item Sistem menampilkan etail percakapan pengguna dengan pengguna tujuan
+				\item Sistem menampilkan detail percakapan pengguna dengan pengguna tujuan
 			\end{enumerate}
 			\\ \hline
-			\multicolumn{2}{|c|}{\textbf{Alur Kejadian Alternatif}} \\ \hline
-			\multicolumn{1}{|l|}{}                   
-			& \textbf{Koneksi terhadap soket \textit{chat} tidak dapat dibangun/bermasalah}
-			\\ \hline
-			\multicolumn{1}{|l|}{}& 
-			\begin{itemize}
-					\item[\ref{al-0404-a}a.] Sistem mendapatkan \textit{exception} dari fungsi AJAX, bahwa daftar perpesanan/percakapan tidak dapat di\textit{load}
-					\item[\ref{al-0404-a}b.] Sistem menampilkan kembali halaman pada poin \ref{al-0404-ex}, dengan \textit{modal} berisikan \textit{error message}
-			\end{itemize}
-			\\ \hline
 		\end{tabular}
-		\caption{Spesifikasi Kasus Penggunaan : Melihat \& Membaca Pesan}
+		\caption{Spesifikasi Kasus Penggunaan: Melihat \& Membaca Pesan}
 		\label{uc04.05}
 	\end{table}

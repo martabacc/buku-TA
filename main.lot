@@ -20,37 +20,41 @@
 \contentsline {table}{\numberline {3.16}{\ignorespaces Spesifikasi Kasus Penggunaan : Melihat Riwayat Penawaran Harga\relax }}{47}{table.caption.24}
 \contentsline {table}{\numberline {3.17}{\ignorespaces Spesifikasi Kasus Penggunaan : Melihat \textit {Review} Pengguna\relax }}{49}{table.caption.26}
 \contentsline {table}{\numberline {3.18}{\ignorespaces Spesifikasi Kasus Penggunaan : Memberikan \textit {Review} Pengguna\relax }}{50}{table.caption.27}
-\contentsline {table}{\numberline {3.19}{\ignorespaces Spesifikasi Kasus Penggunaan : Melaporkan Barang\relax }}{51}{table.caption.28}
-\contentsline {table}{\numberline {3.20}{\ignorespaces Spesifikasi Kasus Penggunaan : Mengirimkan Pesan\relax }}{52}{table.caption.29}
-\contentsline {table}{\numberline {3.21}{\ignorespaces Spesifikasi Kasus Penggunaan : Melihat \& Membaca Pesan\relax }}{53}{table.caption.30}
-\contentsline {table}{\numberline {3.22}{\ignorespaces Spesifikasi Kasus Penggunaan : Mendaftarkan Barang Lelang\relax }}{56}{table.caption.33}
-\contentsline {table}{\numberline {3.23}{\ignorespaces Spesifikasi Tabel Administrator\relax }}{70}{table.3.23}
-\contentsline {table}{\numberline {3.24}{\ignorespaces Kamus Data Tabel \textit {bids}\relax }}{70}{table.3.24}
-\contentsline {table}{\numberline {3.25}{\ignorespaces Kamus Data Tabel \textit {categories}\relax }}{71}{table.3.25}
-\contentsline {table}{\numberline {3.26}{\ignorespaces Kamus Data Tabel \textit {coupon}\relax }}{71}{table.3.26}
-\contentsline {table}{\numberline {3.27}{\ignorespaces Kamus Data Tabel Coupon Usages\relax }}{72}{table.3.27}
-\contentsline {table}{\numberline {3.28}{\ignorespaces Kamus Data Tabel \textit {favorites}\relax }}{73}{table.3.28}
-\contentsline {table}{\numberline {3.29}{\ignorespaces Kamus Data Tabel \textit {issues}\relax }}{73}{table.3.29}
-\contentsline {table}{\numberline {3.30}{\ignorespaces Kamus Data Tabel \textit {issuetypes}\relax }}{74}{table.3.30}
-\contentsline {table}{\numberline {3.31}{\ignorespaces Kamus Data Tabel \textit {items}\relax }}{74}{table.3.31}
-\contentsline {table}{\numberline {3.32}{\ignorespaces Kamus Data Tabel \textit {ratingauctioneers}\relax }}{76}{table.3.32}
-\contentsline {table}{\numberline {3.33}{\ignorespaces Kamus Data Tabel \textit {ratingbidders}\relax }}{76}{table.3.33}
-\contentsline {table}{\numberline {3.34}{\ignorespaces Kamus Data Tabel \textit {ratinglogs}\relax }}{77}{table.3.34}
-\contentsline {table}{\numberline {3.35}{\ignorespaces Kamus Data Tabel \textit {userverifications}\relax }}{78}{table.3.35}
-\contentsline {table}{\numberline {3.36}{\ignorespaces Kamus Data Tabel \textit {User Issues}\relax }}{78}{table.3.36}
-\contentsline {table}{\numberline {3.37}{\ignorespaces Kamus Data Tabel \textit {users}\relax }}{78}{table.3.37}
-\contentsline {table}{\numberline {3.38}{\ignorespaces Kamus data tabel \textit {userchat}\relax }}{79}{table.3.38}
-\contentsline {table}{\numberline {3.39}{\ignorespaces Kamus Data Tabel Chatroom\relax }}{80}{table.3.39}
-\contentsline {table}{\numberline {3.40}{\ignorespaces Kamus data tabel Itemimage\relax }}{80}{table.3.40}
+\contentsline {table}{\numberline {3.19}{\ignorespaces Spesifikasi Kasus Penggunaan : Mengirimkan Pesan\relax }}{51}{table.caption.28}
+\contentsline {table}{\numberline {3.20}{\ignorespaces Spesifikasi Kasus Penggunaan: Melihat \& Membaca Pesan\relax }}{52}{table.caption.29}
+\contentsline {table}{\numberline {3.21}{\ignorespaces Spesifikasi Kasus Penggunaan : Mendaftarkan Barang Lelang\relax }}{54}{table.caption.31}
+\contentsline {table}{\numberline {3.22}{\ignorespaces Spesifikasi Tabel Administrator\relax }}{68}{table.3.22}
+\contentsline {table}{\numberline {3.23}{\ignorespaces Kamus Data Tabel \textit {bids}\relax }}{68}{table.3.23}
+\contentsline {table}{\numberline {3.24}{\ignorespaces Kamus Data Tabel \textit {categories}\relax }}{69}{table.3.24}
+\contentsline {table}{\numberline {3.25}{\ignorespaces Kamus Data Tabel \textit {coupon}\relax }}{69}{table.3.25}
+\contentsline {table}{\numberline {3.26}{\ignorespaces Kamus Data Tabel Coupon Usages\relax }}{70}{table.3.26}
+\contentsline {table}{\numberline {3.27}{\ignorespaces Kamus Data Tabel \textit {favorites}\relax }}{71}{table.3.27}
+\contentsline {table}{\numberline {3.28}{\ignorespaces Kamus Data Tabel \textit {issues}\relax }}{71}{table.3.28}
+\contentsline {table}{\numberline {3.29}{\ignorespaces Kamus Data Tabel \textit {issuetypes}\relax }}{72}{table.3.29}
+\contentsline {table}{\numberline {3.30}{\ignorespaces Kamus Data Tabel \textit {items}\relax }}{72}{table.3.30}
+\contentsline {table}{\numberline {3.31}{\ignorespaces Kamus Data Tabel \textit {ratingauctioneers}\relax }}{74}{table.3.31}
+\contentsline {table}{\numberline {3.32}{\ignorespaces Kamus Data Tabel \textit {ratingbidders}\relax }}{74}{table.3.32}
+\contentsline {table}{\numberline {3.33}{\ignorespaces Kamus Data Tabel \textit {ratinglogs}\relax }}{75}{table.3.33}
+\contentsline {table}{\numberline {3.34}{\ignorespaces Kamus Data Tabel \textit {userverifications}\relax }}{76}{table.3.34}
+\contentsline {table}{\numberline {3.35}{\ignorespaces Kamus Data Tabel \textit {User Issues}\relax }}{76}{table.3.35}
+\contentsline {table}{\numberline {3.36}{\ignorespaces Kamus Data Tabel \textit {users}\relax }}{76}{table.3.36}
+\contentsline {table}{\numberline {3.37}{\ignorespaces Kamus data tabel \textit {userchat}\relax }}{77}{table.3.37}
+\contentsline {table}{\numberline {3.38}{\ignorespaces Kamus Data Tabel Chatroom\relax }}{78}{table.3.38}
+\contentsline {table}{\numberline {3.39}{\ignorespaces Kamus data tabel Itemimage\relax }}{78}{table.3.39}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Pengujian Fungsionalitas Fitur Manajemen Akun\relax }}{134}{table.5.1}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Pengujian Fungsionalitas Fitur Manajemen Penawaran\relax }}{136}{table.5.2}
-\contentsline {table}{\numberline {5.3}{\ignorespaces Pengujian Fungsionalitas Fitur Manajemen Barang Lelang\relax }}{139}{table.5.3}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Pengujian Fungsionalitas Fitur Manajemen Interaksi Antarpengguna\relax }}{141}{table.5.4}
-\contentsline {table}{\numberline {5.5}{\ignorespaces Pengujian Fungsionalitas Fitur Manajemen Laporan\relax }}{144}{table.5.5}
-\contentsline {table}{\numberline {5.6}{\ignorespaces Pengujian Fungsionalitas Fitur Manajemen Kupon\relax }}{146}{table.5.6}
-\contentsline {table}{\numberline {5.7}{\ignorespaces Rekapitulasi Hasil Pengujian Pengguna Aplikasi Lelang Online\relax }}{155}{table.5.7}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Pengujian Fungsionalitas Fitur Manajemen Akun\relax }}{132}{table.5.1}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Pengujian Fungsionalitas Fitur Manajemen Penawaran\relax }}{134}{table.5.2}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Pengujian Fungsionalitas Fitur Manajemen Barang Lelang\relax }}{137}{table.5.3}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Pengujian Fungsionalitas Fitur Manajemen Interaksi Antarpengguna\relax }}{139}{table.5.4}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Pengujian Fungsionalitas Fitur Manajemen Kupon\relax }}{142}{table.5.5}
+\contentsline {table}{\numberline {5.6}{\ignorespaces Pengujian Fungsionalitas Fitur Manajemen Interaksi Antarpengguna\relax }}{145}{table.5.6}
+\contentsline {table}{\numberline {5.7}{\ignorespaces Rekapitulasi Hasil Pengujian Pengguna Aplikasi Lelang Online\relax }}{147}{table.5.7}
+\contentsline {table}{\numberline {5.8}{\ignorespaces Rekapitulasi Pengujian \textit {Maintainability} pada aspek \textit {Source Code}\relax }}{149}{table.5.8}
+\contentsline {table}{\numberline {5.9}{\ignorespaces Rekapitulasi Pengujian \textit {Maintainability} pada aspek \textit {documentation}\relax }}{149}{table.5.9}
+\contentsline {table}{\numberline {5.10}{\ignorespaces Signifikansi Perbedaan Hasil Pengujian Pengguna Aplikasi Lelang Online\relax }}{156}{table.5.10}
+\contentsline {table}{\numberline {5.11}{\ignorespaces Tabel Evaluasi Hasil Pengujian \textit {Maintainability}\relax }}{159}{table.5.11}
+\contentsline {table}{\numberline {5.12}{\ignorespaces Evaluasi Keseluruhan\relax }}{160}{table.5.12}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
