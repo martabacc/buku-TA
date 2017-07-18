@@ -1,11 +1,11 @@
 \subsection{Mendaftarkan Barang untuk Dilelang}
 \label{kasus-penggunaan-daftarbarang}
-Halaman ini hanya dapat diakses oleh pengguna yang sudah terdaftar dan sudah login ke dalam sistem. Halaman ini menampilkan form berisi elemen \textit{input} informasi barang, dan pengguna dapat mengisi lalu mengklik tombol tambahkan barang, dan untuk kasus normal dan alternatif dapat dilihat pada tabel spesifikasi kasus penggunaan \ref{uc03.01}.\\
+Halaman ini hanya dapat diakses oleh pengguna yang sudah terdaftar dan sudah login ke dalam sistem. Halaman ini menampilkan form berisi elemen \textit{input} informasi barang, dan pengguna dapat mengisi lalu mengklik tombol tambahkan barang, dan untuk kasus normal dan alternatif dapat dilihat pada Tabel \ref{uc03.01}.\\
 \indent Terdapat logika \textit{view} khusus pada implementasi kasus penggunaan ini, karena adanya kebutuhan untuk \textit{upload multiple images} untuk setiap barang dan adanya penggunaan layanan pihak ketiga (AWS Storage Service) sebagai tempat penyimpanan gambar. Kode-kode sumber terkait dengan implementasi kasus penggunaan Mendaftarkan Barang untuk Dilelang adalah sebagai berikut:
 	\begin{enumerate}
-		\item Logika \textit{back-end} ditulis menggunakan PHP yang dicantumkan dalam kode sumber \ref{cdjq.03-01}; 
-		\item Logika \textit{view} ditulis menggunakan jQuery yang dicantumkan dalam kode sumber \ref{cdjq.03-01}; dan
-		\item Logika \textit{upload}/\textit{storage} data gambar, yang ditulis menggunakan PHP dicantumka pada kode sumber \ref{cdaws.03-01}
+		\item Logika \textit{back-end} ditulis menggunakan PHP yang dicantumkan dalam Kode Sumber \ref{cdjq.03-01}; 
+		\item Logika \textit{view} ditulis menggunakan jQuery yang dicantumkan dalam Kode Sumber \ref{cdjq.03-01}; dan
+		\item Logika \textit{upload}/\textit{storage} data gambar, yang ditulis menggunakan PHP dicantumka pada Kode Sumber \ref{cdaws.03-01}
 	\end{enumerate} 
 
   \begin{figure}[H]

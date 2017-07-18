@@ -3,13 +3,13 @@
 	
 \begin{enumerate}
 \item \textbf{\textit{Package Dependencies}} \\
-    \indentenum Pada versi terbaru Laravel (5.4*), Laravel secara \textit{default} menyertakan \textit{package} Laravel Mix - yaitu fitur untuk \textit{compiling assets} dengan Webpack, dengan hasil akhir \textit{compiled assets} (terutama \textit{script} Javascript) yang eksekusinya jauh lebih cepat, karena menggunakan V8 -- sebuah \textit{engine} Javascript yang telah dioptimasi yang bersifat \textit{just-in-time} (JIT) yang memproduksi \textit{machine code} dari sebuah \textit{script} Javascript lalu dieksekusi.\\
+	Pada versi terbaru Laravel (5.4*), Laravel secara \textit{default} menyertakan \textit{package} Laravel Mix - yaitu fitur untuk \textit{compiling assets} dengan Webpack, dengan hasil akhir \textit{compiled assets} (terutama \textit{script} Javascript) yang eksekusinya jauh lebih cepat, karena menggunakan V8 -- sebuah \textit{engine} Javascript yang telah dioptimasi yang bersifat \textit{just-in-time} (JIT) yang memproduksi \textit{machine code} dari sebuah \textit{script} Javascript lalu dieksekusi.\\
   
   \textbf{\textit{Main Problem}} \\
-  \indentenum Masalah muncul saat versi Laravel yang digunakan untuk membangun aplikasi adalah versi (5.3) -- dan jika Laravelnya di\textit{upgrade}, tidak ada jaminan bahwa \textit{deprecated dependencies} (keadaan dimana sebuah \textit{package} tidak di\textit{support} oleh versi terbaru) -- yang berarti harus \textit{refactoring code} yang pasti memakan waktu lama.\\			  
+  Masalah muncul saat versi Laravel yang digunakan untuk membangun aplikasi adalah versi (5.3) -- dan jika Laravelnya di\textit{upgrade}, tidak ada jaminan bahwa \textit{deprecated dependencies} (keadaan dimana sebuah \textit{package} tidak di\textit{support} oleh versi terbaru) -- yang berarti harus \textit{refactoring code} yang pasti memakan waktu lama.\\			  
 
 	\textbf{\textit{Insights}} \\
-	  \indentenum Penulis menganalisa perbedaan mendasar package.json antara Laravel 5.3 dan 5.4 adalah sebagai berikut:
+	Penulis menganalisa perbedaan mendasar package.json antara Laravel 5.3 dan 5.4 adalah sebagai berikut:
 	\begin{enumerate}[label={\alph*}.]
   	  	\item Basis : Perubahan basis yang awalnya Gulp menjadi Webpack
   	  	\item \textit{Dependencies} : Webpack ternyata menggunakan beberapa plugin tambahan yang tidak diakomodasi dalam package.json di versi 5.3
@@ -19,24 +19,24 @@
 	\ \\
   
   \textbf{\textit{Solution}} \\
-    \indentenum Penulis lalu mengoreksi dan \textit{update package.json} dengan pendekatan \textit{trial and error}, dan bisa terselesaikan dengan script berikut :
+  Penulis lalu mengoreksi dan \textit{update package.json} dengan pendekatan \textit{trial and error}, dan bisa terselesaikan dengan script berikut :
 	\input{sourceCode/04/vue/package}	  	
 
 			  	
 	\ \\		  
 \item 
 	\textbf{\textit{Dependencies Optimization}} \textbf{\textit{Problem}} \\
-	\indentenum Setelah menulis beberapa \textit{script} Vue, penulis menyadari bahwa setiap \textit{script} Vue ternyata mempunyai \textit{dependencies} yang sama, yaitu axios, Promise, toastr dan vue. Setiap file Vue meng\textit{include} sebuah \textit{script} yang berisi:
+	Setelah menulis beberapa \textit{script} Vue, penulis menganalisa bahwa setiap \textit{script} Vue ternyata mempunyai \textit{dependencies} yang sama, yaitu axios, Promise, toastr dan vue. Setiap file Vue meng\textit{include} sebuah \textit{script} yang berisi:
 	\input{sourceCode/04/vue/dependencies}
 
-	Hal ini mengakibatkan semua file vue yang di\textit{compile} ukurannya cukup besar (~400kb), padahal sebenarnya di dalam setiap file tersebut sebenarnya ada yang sama. Hal ini tentu tidak efektif, karna sebenarnya hal-hal yang sama tersebut bisa dipisahkan, dan dijadikan \textit{cache} sehingga \textit{loading} halaman bisa jauh lebih cepat.\\
+	Hal ini mengakibatkan semua file vue yang di\textit{compile} ukurannya cukup besar (~400KB), padahal sebenarnya di dalam setiap file tersebut sebenarnya ada yang sama. Hal ini tentu tidak efektif, karna sebenarnya hal-hal yang sama tersebut bisa dipisahkan, dan dijadikan \textit{cache} sehingga \textit{loading} halaman bisa jauh lebih cepat.\\
 		
 	\textbf{\textit{Insight \& Solution}} \\
-	\indentenum Setelah penulis menanyakan dan mendiskusikan di forum Slack, beberapa pengguna Vue menyarankan untuk \textit{compile} keseluruhan \textit{dependencies} yang digunakan kedalam satu file terpisah, dan hanya menulis logika Vue untuk setiap file Vue.\\
-	\indentenum Isi file webpack.mix.js (file yang di\textit{compile} oleh Webpack)	menjadi seperti berikut.
+	Setelah penulis berdiskusi di forum Slack, beberapa pengguna Vue menyarankan untuk \textit{compile} keseluruhan \textit{dependencies} yang digunakan kedalam satu file terpisah, dan hanya menulis logika Vue untuk setiap file Vue.\\
+	Isi file webpack.mix.js (file yang di\textit{compile} oleh Webpack)	menjadi seperti berikut.
 	\input{sourceCode/04/vue/webpack-opt}
 		
-	\indentenum Dan di HTML, untuk \textit{including} \textit{script} dituliskan seperti berikut:
+	Dan di HTML, untuk \textit{including} \textit{script} dituliskan seperti berikut:
 	\input{sourceCode/04/vue/html-include}
 
 \end{enumerate}

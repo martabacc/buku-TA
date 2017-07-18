@@ -1,10 +1,10 @@
 \subsection{Mengirimkan pesan}
-Halaman ini hanya dapat diakses oleh pengguna yang sudah terdaftar dan masuk/\textit{login} ke dalam sistem. Pada halaman ini terdapat elemen-elemen halaman \textit{chatting} pada umumnya, yaitu elemen \textit{input} pesan, tombol Kirim, dan riwayat beberapa pesan sebelumnya. Spesifikasi kasus penggunaan dapat dilihat pada tabel \ref{uc04.04}.\\
-\indent Terdapat logika \textit{view} dan alur proses khusus dikarenakan sifat pengiriman dan penerimaan pesan yang realtime, sehingga dibangun diatas Node.js dan menggunakan Socket.io. Sebagai ringkasan dari ketiga logika tersebut, visualisasi pada gambar \ref{cdvis.04-04} akan membantu menggambarkan keseluruhan proses logika secara ringkas. Masing-masing logika tersebut dapat dijabarkan sebagai berikut:
+Halaman ini hanya dapat diakses oleh pengguna yang sudah terdaftar dan masuk/\textit{login} ke dalam sistem. Pada halaman ini terdapat elemen-elemen halaman \textit{chatting} pada umumnya, yaitu elemen \textit{input} pesan, tombol Kirim, dan riwayat beberapa pesan sebelumnya. Spesifikasi kasus penggunaan dapat dilihat pada Tabel \ref{uc04.04}.\\
+\indent Terdapat logika \textit{view} dan alur proses khusus dikarenakan sifat pengiriman dan penerimaan pesan yang realtime, sehingga dibangun diatas Node.js dan menggunakan Socket.io. Masing-masing logika tersebut dapat dijabarkan sebagai berikut:
 	\begin{enumerate}
-		\item Logika \textit{back-end} ditulis menggunakan PHP yang dicantumkan dalam kode sumber \ref{cdbe.04-04}; 
-		\item Logika \textit{view} ditulis menggunakan jQuery yang dicantumkan dalam kode sumber \ref{cdjq.04-04}; dan
-		\item Logika proses pengiriman \& penerimaan pesan, berjalan diatas socket yang berjalan diatas Node.js dengan bantuan Socket.io yang dicantumkan dalam kode sumber \ref{cdsoc.04-04}
+		\item Logika \textit{back-end} ditulis menggunakan PHP yang dicantumkan dalam Kode Sumber \ref{cdbe.04-04}; 
+		\item Logika \textit{view} ditulis menggunakan jQuery yang dicantumkan dalam Kode Sumber \ref{cdjq.04-04}; dan
+		\item Logika proses pengiriman \& penerimaan pesan, berjalan diatas socket yang berjalan diatas Node.js dengan bantuan Socket.io yang dicantumkan dalam Kode Sumber \ref{cdsoc.04-04}
 	\end{enumerate}
 
 \begin{figure}[H]

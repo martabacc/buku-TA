@@ -1,0 +1,48 @@
+	% Memasukkan kupon
+	
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{|r|p{8cm}|}
+			\hline
+			\textbf{Kode}
+			& UC-05.01
+			\\ \hline
+			\textbf{Nama}
+			& \textbf{Menambahkan Kupon} 
+			\\ \hline
+			\textbf{Aktor}    
+			& Administrator 
+			\\ \hline
+			\textbf{Deskripsi}
+			& Administrator ingin menggunakan kupon/voucher yang ia miliki untuk pada sebuah transaksi
+			\\ \hline
+			\textbf{Tipe}
+			& Fungsional 
+			\\ \hline
+			\textbf{\textit{Precondition}}
+			& Kupon baru belum berhasil tersimpan di sistem
+			\\ \hline
+			\textbf{\textit{Postcondition}} 
+			& Kupon baru berhasil tersimpan di sistem
+			\\ \hline
+			\multicolumn{2}{|c|}
+			{\textbf{Alur Kejadian Normal}}
+			\\ \hline
+			\multicolumn{1}{|l|}{} & 
+			\begin{enumerate}
+				\item Administrator membuka halaman 'Tambah Kupon'
+				\item Sistem menampilkan halaman form Tambah Kupon
+				\item Administrator memasukkan informasi kupon baru yang akan ditambahkan
+				\item Sistem mengecek permintaan penggunaan kupon,jika permintaan dapat diverifikasi dan valid, sistem me\textit{redirect} ke halaman manajemen kupon.
+				% \item \label{uc0301-show1page}Sistem menampilkan halaman yang berisi form pendaftaran barang
+				% \item \label{al-0301-a} Sistem memvalidasi data yang dimasukkan pengguna
+			\end{enumerate}
+			\\ \hline
+			\multicolumn{2}{|c|}{\textbf{Alur Kejadian Alternatif}} \\ \hline
+			\multicolumn{1}{|l|}{}                   
+			& -
+			\\ \hline
+		\end{tabular}
+		\caption{Spesifikasi Kasus Penggunaan : Menambahkan Kupon}
+		\label{uc06.01}
+	\end{table}

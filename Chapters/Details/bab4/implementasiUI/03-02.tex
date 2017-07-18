@@ -1,10 +1,10 @@
 \subsection{Memperbarui Barang}
-Halaman ini dapat diakses oleh semua pengguna, baik yang belum terdaftar maupun sudah. Halaman ini menampilkan form berisi elemen \textit{input} data barang yang sebelumnya sudah terisi data-data barang sebelumnya, dan pengguna dapat memperbarui data lalu mengklik tombol Perbarui, dan untuk kasus alternatif dapat dilihat pada tabel spesifikasi kasus penggunaan \ref{uc03.02}.\\
+Halaman ini dapat diakses oleh semua pengguna, baik yang belum terdaftar maupun sudah. Halaman ini menampilkan form berisi elemen \textit{input} data barang yang sebelumnya sudah terisi data-data barang sebelumnya, dan pengguna dapat memperbarui data lalu mengklik tombol Perbarui, dan untuk kasus alternatif dapat dilihat pada Tabel \ref{uc03.02}.\\
 \indent Pada implementasinya, kasus penggunaan ini kurang lebih sama dengan kasus pengunaan Mendaftarkan Barang (subbab \ref{kasus-penggunaan-daftarbarang}) karena adanya penggunaan layanan pihak ketiga (AWS Storage Service) sebagai tempat penyimpanan gambar. Kode-kode sumber terkait dengan implementasi kasus penggunaan Mendaftarkan Barang untuk Dilelang adalah sebagai berikut:
 \begin{enumerate}
-	\item Logika \textit{back-end} ditulis menggunakan PHP yang dicantumkan dalam kode sumber \ref{cdbe.03-02}; 
-	\item Logika \textit{view} ditulis menggunakan jQuery yang dicantumkan dalam kode sumber \ref{cdjq.03-02}; dan
-	\item Logika \textit{update image}/\textit{storage} data gambar, yang ditulis menggunakan PHP dicantumkan pada kode sumber \ref{cdaws.03-02}
+	\item Logika \textit{back-end} ditulis menggunakan PHP yang dicantumkan dalam Kode Sumber \ref{cdbe.03-02}; 
+	\item Logika \textit{view} ditulis menggunakan jQuery yang dicantumkan dalam Kode Sumber \ref{cdjq.03-02}; dan
+	\item Logika \textit{update image}/\textit{storage} data gambar, yang ditulis menggunakan PHP dicantumkan pada Kode Sumber \ref{cdaws.03-02}
 \end{enumerate} 
 
 \begin{lstlisting}[label=cdbe.03-02,style=php,caption=Kode Sumber \textit{Back-end} Memperbarui Barang]
