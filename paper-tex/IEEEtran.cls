@@ -373,6 +373,66 @@
 \normalfont\selectfont
 
 
+%renewing command, custom
+\newcommand{\pic}{Gambar}
+\newcommand{\tab}{Tabel}
+\newcommand{\code}{Kode}
+
+\newcommand{\judul}{}
+\newcommand{\kodeTA}{}
+\newcommand{\judulEnglish}{}
+\newcommand{\penulis}{}
+\newcommand{\nrp}{}
+\newcommand{\gelar}{}
+\newcommand{\jurusan}{}
+\newcommand{\jurusanEnglish}{}
+\newcommand{\fakultas}{}
+\newcommand{\fakultasSingkatan}{}
+\newcommand{\fakultasEnglish}{}
+\newcommand{\prodi}{}
+\newcommand{\bidangStudi}{}
+\newcommand{\pembimbingSatu}{}
+\newcommand{\nipPembimbingSatu}{}
+\newcommand{\pembimbingDua}{}
+\newcommand{\nipPembimbingDua}{}
+\newcommand{\tahun}{\monthnamebahasa}
+\newcommand{\bulan}{}
+
+\renewcommand{\author}[2]{%
+\renewcommand{\penulis}{#1}%
+\renewcommand{\nrp}{#2}%
+}%
+
+\newcommand{\supervisorOne}[2]{
+\renewcommand{\pembimbingSatu}{#1}%
+%\renewcommand{\nipPembimbingSatu}{#2}%
+}
+
+\newcommand{\supervisorTwo}[2]{
+\renewcommand{\pembimbingDua}{#1}%
+%\renewcommand{\nipPembimbingDua}{#2}%
+}
+
+\newcommand{\degree}[8]{
+    \renewcommand{\gelar}{#1 }
+    \renewcommand{\bidangStudi}{#2 }
+    \renewcommand{\prodi}{#3 }
+    \renewcommand{\jurusan}{#4 }
+    \renewcommand{\jurusanEnglish}{#5 }
+    \renewcommand{\fakultas}{#6 }
+    \renewcommand{\fakultasSingkatan}{#7 }
+    \renewcommand{\fakultasEnglish}{#8 }
+}
+
+\renewcommand{\time}[2]{
+    \renewcommand{\bulan}{#1 }
+    \renewcommand{\tahun}{#2 }
+
+}
+
+
+%end renewing command
+
 
 
 
@@ -4656,6 +4716,9 @@ between column types.}%
 \fi
 
 
+
+
+
 % provide a way to restore the commands that are locked out
 \def\IEEEoverridecommandlockouts{%
 \typeout{** ATTENTION: Overriding command lockouts (line \the\inputlineno).}%
@@ -4730,4 +4793,5 @@ Use \@IEEEbackslash #2 instead.}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%% End of IEEEtran.cls  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % That's all folks!
+
 

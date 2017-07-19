@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2017.5.23)  19 JUL 2017 14:27
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2017.5.23)  19 JUL 2017 20:44
 entering extended mode
 **./main.tex
 (main.tex
@@ -28,45 +28,45 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 \CLASSINFOnormalsizeunitybaselineskip=\dimen106
 \IEEEnormaljot=\dimen107
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 791.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 791.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 791.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 791.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 791.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 791.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 791.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 791.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 791.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 791.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 791.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 791.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 791.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 791.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 791.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 791.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 791.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 791.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 791.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 791.
 \IEEEilabelindentA=\dimen108
 \IEEEilabelindentB=\dimen109
 \IEEEilabelindent=\dimen110
@@ -154,53 +154,50 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
 \Gin@req@height=\dimen117
 \Gin@req@width=\dimen118
-)
-No file main.aux.
+) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 386.
-LaTeX Font Info:    ... okay on input line 386.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 386.
-LaTeX Font Info:    ... okay on input line 386.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 386.
-LaTeX Font Info:    ... okay on input line 386.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 386.
-LaTeX Font Info:    ... okay on input line 386.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 386.
-LaTeX Font Info:    ... okay on input line 386.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 386.
-LaTeX Font Info:    ... okay on input line 386.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+ (Metadata.tex) (abstract.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 476.
+(Font)              <9> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 476.
+(Font)              <6> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 476.
+(Font)              <5> on input line 9.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 476.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 655.
-File: picture.png Graphic file (type QTm)
-<use  "picture.png" >
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 9.
+) (introduction.tex)
+(conclusion.tex) (appendices.tex) (acknowledgement.tex) (main.bbl)
+(about-author.tex
 File: picture.png Graphic file (type QTm)
  <use  "picture.png" >
+File: picture.png Graphic file (type QTm)
+ <use  "picture.png" >)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 690.
+(Font)              <7> on input line 25.
  [1
 
 
-] (main.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 1644 strings out of 428410
- 25556 string characters out of 3156958
- 84323 words of memory out of 3000000
- 5073 multiletter control sequences out of 15000+200000
- 29172 words of font info for 66 fonts, out of 3000000 for 9000
+ 1685 strings out of 428410
+ 25969 string characters out of 3156958
+ 84514 words of memory out of 3000000
+ 5093 multiletter control sequences out of 15000+200000
+ 27712 words of font info for 62 fonts, out of 3000000 for 9000
  1331 hyphenation exceptions out of 8191
- 29i,10n,38p,218b,326s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,10n,38p,218b,330s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on main.pdf (1 page).
