@@ -64,10 +64,7 @@ $ sudo apt-get install python-pygments
 ```
 $ sudo wget http://mirrors.ctan.org/macros/latex/contrib/titlesec/titlesec.sty -O /usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 ```
-- 
-										  
 
-
-										  #### Acknowledgement
-										  Only to be copied as a academic reference , not to be copied in commercial purpose. 
-										  You should know law & legal enforcements for copyrights and you cannot blame me for anything I sue you in the future related to the acknowledgements from this repository. Hasta lavista!
+#### Acknowledgement
+Only to be copied as a academic reference , not to be copied in commercial purpose. 
+You should know law & legal enforcements for copyrights and you cannot blame me for anything I sue you in the future related to the acknowledgements from this repository. Hasta lavista!
