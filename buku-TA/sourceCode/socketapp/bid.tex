@@ -1,0 +1,172 @@
+\begin{lstlisting}[label=sc-socket-bid,style=htmlcssjs,caption=Kode Sumber Implementasi Node.js + Socket.io untuk Lelang]
+
+var fs = require('fs');
+var app = require('express')();
+var options = {
+        key: fs.readFileSync('/etc/nginx/ssl/lelangapa-socket.key'),
+        cert: fs.readFileSync('/etc/nginx/ssl/lelangapa-socket.crt')
+};
+var httpsserver = require('https').Server(options, app);
+var httpserver = require('http').Server(app);
+//var io = require('socket.io')(server);
+var ioServer = require('socket.io');
+var biddingAPI = require('./bid_api/Bidding');
+var peringkatAPI = require('./bid_api/Ranking');
+var auctioneerAPI = require('./bid_api/Auctioneer');
+var pushnotifAPI = require('./notification_api/PushNotification');
+
+var io = new ioServer();
+var jwt = require('socketio-jwt');
+
+/*  
+ * environment integrated file for security issues
+ */
+require('dotenv').config({path: '/home/grkt/security/.env'});
+
+app.disable('etag');
+app.get('/', function(req, res){
+  res.status(200).json({
+    status: "success"
+  });
+});
+
+httpsserver.listen(15000, function() {
+        console.log ("Connected on port 15000");
+});
+httpserver.listen(16000, function() {
+        console.log ("Connected on port 16000");
+});
+io.attach(httpsserver);
+io.attach(httpserver);
+
+io.use(jwt.authorize({
+  secret:process.env.JWT_SECRET,
+  handshake : true
+}));
+
+io.on('connection', function(socket){
+  /*
+  mengirim data bahwa berhasil konek
+  */
+  socket.emit('connected', { status: "true" });
+
+  /*
+  socket ketika ada yang menekan tombol "Tawar"
+  */
+  socket.on('submitting', function(room) {
+    //kirimkan ke semua client pada sebuah room, kecuali sender
+    socket.to(room).emit('submitting', { status: "true" });
+  });
+
+  /*
+  socket ketika ada yang berhenti mengetik penawaran
+  */
+
+  socket.on('type-stop', function(room) {
+    //implemented later
+    io.to(room).emit('type-stop', { status: "true" });
+  });
+
+  /*
+  socket untuk memasukkan tawaran
+  */
+  socket.on('submitbid', function(bidjson) {
+    /* terima dari client berupa json yang berisi
+     * id_bidder, id_item, dan harga_bid
+     * lalu diteruskan ke API submitBid
+     */
+    var bidobj = JSON.parse(bidjson);
+    biddingAPI.submitBid(bidobj, function(status, result) {
+      if (status=="1")
+      {
+        //jika sukses, maka bid dari user akan dibroadcast ke semua user yang tersambung ke socket
+        peringkatAPI.getPeringkatTopThreeLive(bidobj.id_item, function(status_peringkat, result_peringkat) {
+          if (status_peringkat == "1")
+          {
+            var messageObject = {};
+            var tokenArray;
+            /*constructing message object)
+            result.peringkat = result_peringkat;
+            io.to(result.item_id_return)
+	          .emit('bidsuccess', result);
+            pushnotifAPI.sendPushNotification(messageObject, tokenArray);
+          }
+        });
+      }
+      else if (status=="0")
+      {
+        //jika gagal, maka send ke sender bahwa bid failed
+        socket.emit('bidfailed', { bidstatus: "failed" });
+      }
+    });
+    //io.emit('biddingresponse', bidobj.msg);
+    //implemented later
+  });
+  /*
+	  socket untuk membatalkan lelang 
+	  yang sedang atau yang akan berjalan
+  */
+  socket.on('cancelauction', function(item_id_query) {
+    var room = item_id_query;
+    
+    auctioneerAPI.cancelItemOnAuction(item_id_query, function(status, result) {
+      if (status=="1") {
+        io.to(room).emit('cancelsuccess', result);
+      }
+      else if (status=="0") {
+        socket.emit('cancelfailed', result);
+      }
+    });
+  });
+  /*
+  socket untuk memilih pemenang lelang -- tested
+  */
+  socket.on('winnerselected', function(winnerjson) {
+    //JSON berisi item_id_query dan bid_id_query
+    var winnerObj = JSON.parse(winnerjson);
+    var room = winnerObj.item_id_query;
+    auctioneerAPI.stopAndSelectBidderWinner(winnerObj.bid_id_query, function(status, result) {
+      if (status=="1") {
+        io.to(room).emit('winnerchosen', result);
+      }
+      else if (status=="0") {
+        socket.emit('selectionfailed', result);
+      }
+    });
+  });
+
+        /*
+        socket untuk block pengguna pada suatu lelang --tested
+        */
+        socket.on('blockuser', function(jsonobject) {
+          var obj = JSON.parse(jsonobject);
+          var room = obj.id_item;
+          auctioneerAPI.blockUserOnBidding(obj, function(status, result) {
+            if (status == "1") {
+                    io.to(room).emit('blocksuccess', result);
+            }
+            else {
+                    socket.emit('blockfailed', result);
+            }
+          });
+        });
+
+        /*
+        socket untuk membatalkan penawaran spesifik --tested
+        */
+        socket.on('cancelbid', function(jsonobject) {
+          var obj = JSON.parse(jsonobject);
+          var room = obj.id_item;
+          auctioneerAPI.cancelSpecificBidPrice(obj, function(status, result) {
+            if (status == "1") {
+                    io.to(room).emit('cancelbidsuccess', result);
+            }
+            else {
+                    socket.emit('cancelbidfailed', result);
+            }
+          });
+        });
+
+});
+
+\end{lstlisting}

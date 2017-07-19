@@ -1,0 +1,523 @@
+\chapter{DESAIN}
+\label{chapter:desain}
+
+Pada bab ini akan dibahas tentang desain algoritma untuk menyelesaikan \problem{}.
+\section{Desain Umum Sistem}
+Pada subbab ini akan dijelaskan mengenai gambaran secara umum dari algoritma yang dirancang.
+
+Program akan diawali dengan melakukan \textit{preprocess} lalu dilanjutkan dengan menerima masukan berupa banyak data uji. Untuk setiap data uji berupa sebuah baris yang terdiri dari tiga data masukan yang dipisahkan oleh sebuah spasi, yaitu \textit{string} $ad1$, \textit{string} $ad2$ dan bilangan bulat $X$. \textit{String} $ad1$ dan $ad2$ adalah \textit{string} hasil enkripsi sesuai dengan deskripsi \problem{} dan $X=dist(ad1, orig1) + dist(ad2, orig2)$ di mana $dist(st1, st2)$ adalah total jarak absolut masing-masing karakter $st1$ dan $st2$ pada posisi yang sama. Setelah menerima masukan, maka masukan tersebut diolah dan hasilnya ditampilkan di layar. Secara garis besar seperti yang terlihat pada Gambar \ref{figure:fungsi_main}. 
+
+\begin{figure}
+	\begin{mdframed}
+		\begin{codebox}
+			\Procname{$\proc{Main}()$}
+			\li \proc{preprocess}()
+			\li $\id{TC} \gets \proc{Input}()$
+			\li \For $T \gets 0$ \To $TC - 1$ \Do
+			\li 	\proc{readInput}()			
+			\li 	\proc{init}()
+			\li 	\proc{solveProblem}()
+			\li 	\proc{writeOutput}()
+			\End
+		\end{codebox}
+	\end{mdframed}
+	\caption{Pseudocode Fungsi Main}
+	\label{figure:fungsi_main}
+\end{figure}
+
+\section{Desain Fungsi Preprocess}
+\label{sec:desain_fungsi_preprocess}
+Fungsi preprocess merupakan fungsi yang bertujuan agar algoritma yang menyelesaikan permasalahan dapat berjalan dengan benar dan efisien. Pada fungsi ini akan dilakukan perhitungan daftar bit yang bernilai $1$ pada setiap bilangan bulat dengan konstanta rentang bilangan yang telah ditentukan. Konstanta rentang bilangan yang digunakan adalah $0$ hingga $2^{10}$ di mana $10$ merupakan panjang maksimal \textit{string} $ad1$ dan $ad2$ yang mungkin. Tabel \ref{tab:setbit_1} sampai dengan Tabel \ref{tab:setbit_35} adalah nilai dari himpunan $ setBit $ setelah fungsi preprocess dijalankan. Gambar \ref{figure:pseudocode_fungsi_preprocess} adalah \textit{pseudocode} untuk fungsi \textit{preprocess}.
+
+\begin{figure}
+	\begin{mdframed}
+		\begin{codebox}
+			\Procname{$\proc{preprocess}()$}
+			\li \For $num \gets 0$ \To $2^{10} - 1$ \Do
+			\li 	\For $bitPos \gets 0$ \To $10 - 1$ \Do 
+			\li 		\If $isBitOn(num, bitPos)$ \Then
+			\li				$setBit_{(powerNum)}$.\proc{push}$(bitPos)$
+						\End
+					\End
+				\End
+		\end{codebox}
+	\end{mdframed}
+	\caption{Pseudocode Fungsi Preprocess}
+	\label{figure:pseudocode_fungsi_preprocess}
+\end{figure}
+
+\section{Desain Fungsi Init}
+\label{sec:desain_fungsi_init}
+
+Fungsi init merupakan fungsi yang bertujuan untuk melakukan inisialisasi nilai awal dan perhitungan data-data yang diperlukan untuk menyelesaikan \problem{} untuk setiap kasus uji.
+
+Karena algoritma yang dibangun menggunakan pendekatan paradigma \dynamicprogramming{} yang menggunakan teknik memoisasi, maka algoritma yang dibangun harus melakukan inisialisasi nilai untuk setiap memo yang digunakan. Terdapat dua variabel memo yang digunakan pada algoritma yang dibangun, yaitu $memoF_{(idx, mask, dist)}$ untuk mencatat hasil perhitungan fungsi $F_{(S, mask, dist)}$ dan $memoG_{(idx, mask, dist)}$ untuk mencatat hasil perhitungan fungsi $G_{(S, mask, d)}$.
+
+Untuk mempermudah menyelesaikan \problem{}, algoritma yang dibangun membutuhkan \textit{string} masukan $ad1$ dan $ad2$ dalam keadaan yang sudah terurut \textit{ascending} secara alfabetis.
+
+Pada bagian berikutnya adalah perhitungan data-data yang dibutuhkan untuk perhitungan jawaban akhir dari \problem{}. Data-data yang diperlukan adalah sebagai berikut:
+\begin{enumerate}
+	\item $maxMask_{(S)}$ yaitu nilai maksimal $mask$ untuk \textit{string} $S$. Nilai maksimal $mask$ dari \textit{string} $S$ adalah $2^{|S|}-1$.
+	\item $charFirstPos_{(S, C)}$ yaitu posisi pertama karakter $C$ pada \textit{string} $S$.
+	\item $charLastPos_{(S, C)}$ yaitu posisi terakhir karakter $ C $ pada \textit{string} $ S $.
+\end{enumerate}
+
+Sebagai contoh, ketika \textit{string} masukan $ S="inicontoh" $, maka \textit{string} $ S $ setelah diurutkan secara alfabetis akan menjadi $ "chiinnoot" $. Tabel \ref{tab:hasil_init} adalah nilai dari $charFirstPos_{(S, C)}$ dan $charLastPos_{(S, C)}$. Nilai dari $ maxMask_{(S)} $ adalah $ 511 $. Gambar \ref{figure:pseudocode_fungsi_init} adalah \textit{pseudocode} dari fungsi init.
+
+\begin{table}
+	\centering
+	\begin{tabular} {|l|l|l|} \hline
+		$C$ & $ charFirstPos_{(S,C)} $ & $ charLastPos_{(S,C)} $ \\ \hline
+	$ a $ & $ \varnothing $ & $ \varnothing $ \\ \hline
+	$ b $ & $ \varnothing $ & $ \varnothing $ \\ \hline
+	$ c $ & $ 0 $ & $ 0 $ \\ \hline
+	$ d $ & $ \varnothing $ & $ \varnothing $ \\ \hline
+	$ e $ & $ \varnothing $ & $ \varnothing $ \\ \hline
+	$ f $ & $ \varnothing $ & $ \varnothing $ \\ \hline
+	$ g $ & $ \varnothing $ & $ \varnothing $ \\ \hline
+	$ h $ & $ 1 $ & $ 1 $ \\ \hline
+	$ i $ & $ 2 $ & $ 3 $ \\ \hline
+	$ j $ & $ \varnothing $ & $ \varnothing $ \\ \hline
+	$ k $ & $ \varnothing $ & $ \varnothing $ \\ \hline
+	$ l $ & $ \varnothing $ & $ \varnothing $ \\ \hline
+	$ m $ & $ \varnothing $ & $ \varnothing $ \\ \hline
+	$ n $ & $ 4 $ & $ 5 $ \\ \hline
+	$ o $ & $ 6 $ & $ 7 $ \\ \hline
+	$ p $ & $ \varnothing $ & $ \varnothing $ \\ \hline
+	$ q $ & $ \varnothing $ & $ \varnothing $ \\ \hline
+	$ r $ & $ \varnothing $ & $ \varnothing $ \\ \hline
+	$ s $ & $ \varnothing $ & $ \varnothing $ \\ \hline
+	$ t $ & $ 8 $ & $ 8 $ \\ \hline
+	$ u $ & $ \varnothing $ & $ \varnothing $ \\ \hline
+	$ v $ & $ \varnothing $ & $ \varnothing $ \\ \hline
+	$ w $ & $ \varnothing $ & $ \varnothing $ \\ \hline
+	$ x $ & $ \varnothing $ & $ \varnothing $ \\ \hline
+	$ y $ & $ \varnothing $ & $ \varnothing $ \\ \hline
+	$ z $ & $ \varnothing $ & $ \varnothing $ \\ \hline	
+	\end{tabular}\caption{Hasil $ charFirstPos_{(S, C)} $ dan $ charLastPos_{(S, C)} $ dengan \textit{string} $ S="inicontoh" $ setelah fungsi init dijalankan}
+	\label{tab:hasil_init}
+\end{table}
+
+\begin{figure}[H]
+	\begin{mdframed}
+		\begin{codebox}
+			\Procname{$\proc{init}()$}
+			\li $memoF = \emptyset$
+			\li $memoG = \emptyset$
+			\li $charFirstPos = \emptyset$
+			\li $charLastPos = \emptyset$
+			\li $maxMask_{(ad1)} = 2^{|ad1|}-1$
+			\li $\proc{sort}(ad1)$
+			\li \For $i \gets 0$ \To $|ad1| - 1$ \Do
+			\li		$charLastPos_{(ad1, ad1_{i})} = i$
+			\li		\If $charFirstPos_{(ad1, ad1_{i})} = \varnothing$ \Then
+			\li			$charFirstPos_{(ad1, ad1_{i})} = i$
+					\End
+				\End
+			\li $maxMask_{(ad2)} = 2^{|ad2|}-1$
+			\li $\proc{sort}(ad2)$
+			\li \For $i \gets 0$ \To $|ad2| - 1$ \Do
+			\li		$charLastPos_{(ad2, ad2_{i})} = i$
+			\li		\If $charFirstPos_{(ad2, ad2_{i})} = \varnothing$ \Then
+			\li			$charFirstPos_{(ad2, ad2_{i})} = i$
+					\End
+				\End	
+		\end{codebox}
+	\end{mdframed}
+	\caption{Pseudocode Fungsi Init}
+	\label{figure:pseudocode_fungsi_init}
+\end{figure}
+
+\section{Desain Fungsi Solve}
+\label{sec:desain_fungsi_solve}
+
+Fungsi solve adalah fungsi yang bertujuan untuk menyelesaikan permasalahan sesuai dengan deskripsi permasalahan untuk setiap masukan yang diberikan. Setelah melalui proses \textit{preprocessing}, membaca masukan dan inisialisasi, masukan akan diolah untuk menghasilkan jawaban dari \problem{}. Algoritma fungsi solve yang dibangun akan didasari oleh persamaan-persamaan yang terdapat pada subbab \ref{sec:pemodelan_relasi_rekurens}.
+
+Fungsi solve merupakan fungsi yang mengimplementasi persamaan \ref{equation:main_answer}. Fungsi solve sendiri akan membutuhkan beberapa fungsi-fungsi lain untuk membantu. Fungsi-fungsi tersebut antara lain fungsi $ F_{(S, mask, dist)} $ dan fungsi $ G_{(S, mask, dist)} $. Gambar \ref{figure:pseudocode_fungsi_solve} adalah \textit{pseudocode} dari fungsi solve. 
+
+\begin{figure}
+	\begin{mdframed}
+		\begin{codebox}
+			\Procname{$\proc{solve}(ad1, ad2, X)$}
+			\li $ret \gets 0$
+			\li	$bound \gets min(X, 250)$
+			\li \For $dist \gets 0$ \To $min(250, X)$ \Do
+			\li		$rem = X - dist$
+			\li		\If $rem > 250$ \Then
+			\li			\proc{continue}
+					\End
+			\li		\If $rem < 0$ \Then
+			\li			\proc{break}
+					\End
+			\li 	$ret \gets ret + F_{(ad1, maxMask_{ad1}, bound - dist)}$\\ \quad \quad $+ G_{(ad2, maxMask_{ad2}, bound - rem)}$
+			\li 	$ret \gets ret + G_{(ad1, maxMask_{ad1}, bound - dist)} $\\ \quad \quad $ + F_{(ad2, maxMask_{ad2}, bound - rem)}$				
+				\End
+			\li 	\Return $ret$	
+		\end{codebox}
+	\end{mdframed}
+	\caption{Pseudocode Fungsi Solve}
+	\label{figure:pseudocode_fungsi_solve}
+\end{figure}
+
+\subsection{Desain Fungsi F}
+\label{subsec:desain_fungsi_f}
+
+Pada \textit{pseudocode} pada Gambar \ref{figure:pseudocode_fungsi_solve}, terdapat perhitungan dengan menggunakan fungsi $F_{(S, mask, dist)}$ pada baris 9 dan 10. Seperti yang telah dijelaskan pada bagian \ref{subsec:pemodelan_relasi_rekurens_submasalah_optimal_untuk_menghitung_jumlah_kemungkinan_string_awal_tanpa_operasi_replace}, fungsi $F_{(S, mask, dist)}$ adalah fungsi untuk menghitung jumlah kemungkinan \textit{string} $orig$ dari \textit{string} $S$ tanpa operasi \textit{replace} dengan jarak $dist$. Nilai dari fungsi $F_{(S, mask, dist)}$ adalah hasil penjumlahan seluruh \textit{state} yang berhubungan, yaitu \textit{state} $F_{(S, mask - 2^{idx}, dist +|S_{idx} - S_{curIdx}|)}$ di mana $curIdx$ adalah jumlah bit tidak menyala pada $mask$ dan $idx$ adalah $set\_bit(mask)_{i}$ untuk setiap i di mana $0 \leq i \leq NSB_{mask}$ dengan $set\_bit(mask)$ adalah Himpunan index bit menyala pada $mask$ dan $NSB_{mask}$ adalah jumlah bit menyala pada $mask$. Algoritma pada fungsi $F_{(S, mask, dist)}$ akan didasari oleh persamaan \ref{equation:rekurens_f}. Gambar \ref{figure:pseudocode_fungsi_f} adalah \textit{pseudocode} dari fungsi $ F_{(S, mask, dist)} $.
+
+\begin{table}
+	\centering
+	\begin{tabular} {|p{3cm}|p{5cm}|p{1cm}|} \hline
+		Fungsi & Perhitungan Nilai & Nilai \\ \hline
+		$ F_{(behkn, 31, 5)}  $ & $F_{(behkn, 30, 5)} + F_{(behkn, 29, 8)} + F_{(behkn, 27, 11)} + F_{(behkn, 23, 14)} + F_{(behkn, 15, 17)}$ & $ 1 $ \\ \hline
+		$ F_{(behkn, 15, 17)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 23, 14)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 27, 11)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 29, 8)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 30, 5)}  $ & $F_{(behkn, 28, 5)} + F_{(behkn, 26, 8)} + F_{(behkn, 22, 11)} + F_{(behkn, 14, 14)}$ & $ 1 $ \\ \hline
+		$ F_{(behkn, 14, 14)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 22, 11)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 26, 8)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 28, 5)}  $ & $F_{(behkn, 24, 5)} + F_{(behkn, 20, 8)} + F_{(behkn, 12, 11)}$ & $ 1 $ \\ \hline
+		$ F_{(behkn, 12, 11)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 20, 8)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 24, 5)}  $ & $F_{(behkn, 16, 5)} + F_{(behkn, 8, 8)}$ & $ 1 $ \\ \hline
+		$ F_{(behkn, 8, 8)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 16, 5)}  $ & $F_{(behkn, 0, 5)}$ & $ 1 $ \\ \hline
+		$ F_{(behkn, 0, 5)} $ & \textit{base case} & $ 1 $ \\ \hline
+	\end{tabular}\caption{Simulasi fungsi $ F $ dengan $ S="kbenh" $, $ X=5 $ dan $ dist= 5$}
+	\label{tab:simulasi_F_1}
+\end{table}
+
+\begin{figure}[H]
+	\begin{mdframed}
+		\begin{codebox}
+			\Procname{$\proc{F}(S, mask, dist)$}			
+			\li \If $ dist > bound \lor (mask = 0  \land  dist \neq bound)$ \Then
+			\li 	\Return $ 0 $
+				\End
+			\li \If $ mask = 0  \land  dist = bound$ \Then
+			\li 	\Return $ 1 $
+				\End
+			\li \If $ memoF_{(S, mask, dist)} \neq \varnothing$ \Then
+			\li 	\Return $ memoF_{(S, mask, dist)} $
+				\End
+			\li	$ numberOfSetBit \gets \proc{size}_{(setBit_{(mask)})} $
+			\li	$ retVal \gets 0 $
+			\li	\For $ i \gets 0 $ \To $numberOfSetBit - 1$ \Do
+			\li		\If $setBit_{(mask)i} \geq length_{(S)}$ \Then
+			\li			\proc{break}
+					\End
+			\li		$ret \gets ret + F1_{(S, mask, setBit_{(mask)i}, dist)}$
+				\End
+			\li	\Return $ memoF_{(S, mask, dist)} \gets ret $						
+		\end{codebox}
+	\end{mdframed}
+	\caption{Pseudocode Fungsi F}
+	\label{figure:pseudocode_fungsi_f}
+\end{figure}
+
+Karena tidak semua \textit{state} yang terhubung dengan \textit{state} $F_{(S, mask, dist)}$ valid, maka diperlukan sebuah fungsi $F1_{(S, mask, idx, dist)}$ untuk menentukan valid atau tidaknya sebuah \textit{state} $F_{(S, mask - 2^{idx}, dist +|S_{idx} - S_{curIdx}|)}$ yang terbentuk dari \textit{state} $F_{(S, mask, dist)}$. Perancangan algoritma fungsi $F1_{(S, mask, idx, dist)}$ akan didasari oleh persamaan \ref{equation:rekurens_f1}. Gambar \ref{figure:pseudocode_fungsi_f1} adalah \textit{pseudocode} dari fungsi $F1_{(S, mask, idx, dist)}$ dan Gambar \ref{figure:pseudocode_fungsi_duplicate_rule1} adalah \textit{pseudocode} dari fungsi $ duplicate\_rule1(S,mask,idx) $. Tabel \ref{tab:simulasi_F_1} adalah simulasi fungsi $ F $ dengan $ S="kbenh" $, $ X=5 $ dan $ dist= 5$.
+
+\begin{figure}[H]
+	\begin{mdframed}
+		\begin{codebox}
+			\Procname{$\proc{F1}(S, mask, idx, dist)$}
+			\li $curIdx \gets \proc{length}_{(S)} - \proc{size}_{(setBit_{(mask)})}$			
+			\li \If $ idx = \proc{length}_{(S)} - 1 \lor \proc{duplicateRule1}_{(S, mask, idx)}$ \Then
+			\li 	\Return $ F_{(S, mask - 2^{idx}, dist + | S_{idx} - S_{curIdx} |)} $
+			\End						
+		\end{codebox}
+	\end{mdframed}
+	\caption{Pseudocode Fungsi F1}
+	\label{figure:pseudocode_fungsi_f1}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{mdframed}
+		\begin{codebox}
+			\Procname{$\proc{duplicate\_rule1}(S, mask, idx)$}
+			\li \Return $ idx < length_{(S)}-1 \land (S_{idx} \neq _{idx+1} \lor$\\$ (S_{idx} = S_{idx+1} \land \neg isBitOn_{(mask, idx+1)})) $						
+		\end{codebox}
+	\end{mdframed}
+	\caption{Pseudocode Fungsi duplicate\_rule1}
+	\label{figure:pseudocode_fungsi_duplicate_rule1}
+\end{figure}
+
+\subsection{Desain Fungsi G}
+\label{subsec:desain_fungsi_g}
+
+Pada \textit{pseudocode} pada Gambar \ref{figure:pseudocode_fungsi_solve}, terdapat perhitungan dengan menggunakan fungsi $G_{(S, mask, dist)}$ pada baris 9 dan 10. Seperti yang telah dijelaskan pada bagian \ref{subsec:pemodelan_relasi_rekurens_submasalah_optimal_untuk_menghitung_jumlah_kemungkinan_string_awal_tanpa_operasi_replace}, fungsi $G_{(S, mask, dist)}$ merupakan fungsi untuk menghitung jumlah kemungkinan \textit{string} $orig$ dari \textit{string} $S$ dengan sekali operasi \textit{replace} dengan jarak $X-dist$. Nilai dari fungsi $G_{(S, mask, dist)}$ adalah hasil penjumlahan dari seluruh \textit{state} yang berhubungan dengan dengan \textit{state} $G_{(S, mask, dist)}$ yang valid. Gambar \ref{figure:pseudocode_fungsi_G} adalah \textit{pseudocode} dari fungsi $G_{(S, mask, dist)}$. Terdapat tiga kasus \textit{state} yang mungkin, yaitu:
+
+\begin{enumerate}
+	\item \textit{State} $ G_{(S, mask-2^{idx}, dist+|S_{idx}-S_{curIdx}|)} $ dengan kasus ketika mengambil karakter posisi $idx$ pada \textit{string} $S$ sebagai karakter posisi $curIdx$ pada \textit{string} $orig$ tanpa melakukan \textit{replace}. Fungsi $ G1_{(S, mask, idx, dist)} $ adalah fungsi yang melakukan validasi terhadap \textit{state} jenis pertama. Gambar \ref{figure:pseudocode_fungsi_g1} adalah \textit{pseudocode} dari fungsi $ G1_{(S, mask, idx, dist)} $.
+	\item \textit{State} $ F_{(S, mask-2^{idx},  dist+|S_{idx}+1-S_{curIdx}|)} $ dengan kasus ketika mengambil karakter posisi $idx$ pada \textit{string} $S$ sebagai karakter posisi $curIdx$ pada \textit{string} $orig$ dengan melakukan \textit{replace} dengan karakter setelahnya secara alfabetis. Fungsi $ G2_{(S, mask, idx, dist)} $ adalah fungsi yang melakukan validasi terhadap \textit{state} jenis kedua. Gambar \ref{figure:pseudocode_fungsi_g2} adalah \textit{pseudocode} dari fungsi $ G2_{(S, mask, idx, dist)} $ dan Gambar \ref{figure:pseudocode_fungsi_duplicate_rule2} adalah \textit{pseudocode} dari fungsi $ duplicate\_rule2(S,mask,idx) $.
+	\item \textit{State} $ F_{(S, mask-2^{idx}, dist+|S_{idx}-1-S_{curIdx}|)} $ dengan kasus ketika mengambil karakter posisi $idx$ pada \textit{string} $S$ sebagai karakter posisi $curIdx$ pada \textit{string} $orig$ dengan melakukan \textit{replace} dengan karakter sebelumnya secara alfabetis. Fungsi $ G3_{(S, mask, idx, dist)} $ adalah fungsi yang melakukan validasi terhadap \textit{state} jenis ketiga. Gambar \ref{figure:pseudocode_fungsi_g3} adalah \textit{pseudocode} dari fungsi $ G3_{(S, mask, idx, dist)} $ dan Gambar \ref{figure:pseudocode_fungsi_duplicate_rule3} adalah \textit{pseudocode} dari fungsi $ duplicate\_rule3(S,mask,idx) $.
+\end{enumerate}
+
+Tabel \ref{tab:simulasi_G_1} sampai dengan \ref{tab:simulasi_G_6} adalah simulasi fungsi $ G $ dengan $ S="kbenh" $, $ X=5 $ dan $ dist= 0$.
+
+\begin{table}
+	\centering
+	\begin{tabular} {|p{3cm}|p{5cm}|p{1cm}|} \hline
+		Fungsi & Perhitungan Nilai & Nilai \\ \hline
+		$ G_{(behkn, 31, 0)}  $ & $G_{(behkn, 30, 0)} + F_{(behkn, 30, 1)} + F_{(behkn, 30, 1)} + G_{(behkn, 29, 3)} + F_{(behkn, 29, 4)} + F_{(behkn, 29, 2)} + G_{(behkn, 27, 6)} + F_{(behkn, 27, 7)} + F_{(behkn, 27, 5)} + G_{(behkn, 23, 9)} + F_{(behkn, 23, 10)} + F_{(behkn, 23, 8)} + G_{(behkn, 15, 12)} + F_{(behkn, 15, 13)} + F_{(behkn, 15, 11)}$ & $ 8 $ \\ \hline
+		$ F_{(behkn, 15, 11)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 15, 13)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ G_{(behkn, 15, 12)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 23, 8)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 23, 10)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ G_{(behkn, 23, 9)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 27, 5)}  $ & $F_{(behkn, 26, 8)} + F_{(behkn, 25, 5)} + F_{(behkn, 19, 11)} + F_{(behkn, 11, 14)}$ & $ 0 $ \\ \hline
+		$ F_{(behkn, 11, 14)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 19, 11)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 25, 5)}  $ & $memoF_{(behkn, 25, 5)}$ & $ 0 $ \\ \hline
+		$ F_{(behkn, 26, 8)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 27, 7)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ G_{(behkn, 27, 6)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 29, 2)}  $ & $F_{(behkn, 28, 5)} + F_{(behkn, 25, 5)} + F_{(behkn, 21, 8)} + F_{(behkn, 13, 11)}$ & $ 1 $ \\ \hline
+		$ F_{(behkn, 13, 11)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 21, 8)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 25, 5)}  $ & $memoF_{(behkn, 25, 5)}$ & $ 0 $ \\ \hline
+		$ F_{(behkn, 28, 5)}  $ & $memoF_{(behkn, 28, 5)}$ & $ 1 $ \\ \hline
+		$ F_{(behkn, 29, 4)}  $ & $F_{(behkn, 28, 7)} + F_{(behkn, 25, 7)} + F_{(behkn, 21, 10)} + F_{(behkn, 13, 13)}$ & $ 0 $ \\ \hline	
+	\end{tabular}\caption{Simulasi fungsi $ G $ dengan $ S="kbenh" $, $ X=5 $ dan $ dist= 0$ (1)}
+	\label{tab:simulasi_G_1}
+\end{table}
+
+\begin{table}
+	\centering
+	\begin{tabular} {|p{3cm}|p{5cm}|p{1cm}|} \hline
+		Fungsi & Perhitungan Nilai & Nilai \\ \hline
+		$ F_{(behkn, 13, 13)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 21, 10)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 25, 7)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 28, 7)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ G_{(behkn, 29, 3)}  $ & $G_{(behkn, 28, 6)} + F_{(behkn, 28, 5)} + F_{(behkn, 28, 7)} + G_{(behkn, 25, 6)} + F_{(behkn, 25, 7)} + F_{(behkn, 25, 5)} + G_{(behkn, 21, 9)} + F_{(behkn, 21, 10)} + F_{(behkn, 21, 8)} + G_{(behkn, 13, 12)} + F_{(behkn, 13, 13)} + F_{(behkn, 13, 11)}$ & $ 1 $ \\ \hline	
+		$ F_{(behkn, 13, 11)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 13, 13)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ G_{(behkn, 13, 12)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 21, 8)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 21, 10)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ G_{(behkn, 21, 9)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 25, 5)}  $ & $F_{(behkn, 24, 11)} + F_{(behkn, 17, 8)} + F_{(behkn, 9, 11)}$ & $ 0 $ \\ \hline
+		$ F_{(behkn, 9, 11)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 17, 8)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 24, 11)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 25, 7)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ G_{(behkn, 25, 6)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 28, 7)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 28, 5)}  $ & $F_{(behkn, 24, 5)} + F_{(behkn, 20, 8)} + F_{(behkn, 12, 11)}$ & $ 1 $ \\ \hline
+		$ F_{(behkn, 12, 11)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 20, 8)} $ & \textit{base case} & $ 0 $ \\ \hline	
+	\end{tabular}\caption{Simulasi fungsi $ G $ dengan $ S="kbenh" $, $ X=5 $ dan $ dist= 0$ (2)}
+	\label{tab:simulasi_G_2}
+\end{table}
+
+\begin{table}
+	\centering
+	\begin{tabular} {|p{3cm}|p{5cm}|p{1cm}|} \hline
+		Fungsi & Perhitungan Nilai & Nilai \\ \hline
+		$ F_{(behkn, 24, 5)}  $ & $memoF_{(behkn, 24, 5)}$ & $ 1 $ \\ \hline
+		$ G_{(behkn, 28, 6)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 30, 1)}  $ & $memoF_{(behkn, 30, 1)}$ & $ 0 $ \\ \hline
+		$ F_{(behkn, 30, 1)}  $ & $F_{(behkn, 28, 1)} + F_{(behkn, 26, 4)} + F_{(behkn, 22, 7)} + F_{(behkn, 14, 10)}$ & $ 0 $ \\ \hline
+		$ F_{(behkn, 14, 10)} $ & \textit{base case} & $ 0 $ \\ \hline	
+		$ F_{(behkn, 22, 7)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 26, 4)}  $ & $memoF_{(behkn, 26, 4)}$ & $ 0 $ \\ \hline
+		$ F_{(behkn, 28, 1)}  $ & $memoF_{(behkn, 28, 1)}$ & $ 0 $ \\ \hline
+		$ G_{(behkn, 30, 0)}  $ & $G_{(behkn, 28, 0)} + F_{(behkn, 28, 1)} + F_{(behkn, 28, 1)} + G_{(behkn, 26, 3)} + F_{(behkn, 26, 4)} + F_{(behkn, 26, 2)} + G_{(behkn, 22, 6)} + F_{(behkn, 22, 7)} + F_{(behkn, 22, 5)} + G_{(behkn, 14, 9)} + F_{(behkn, 14, 10)} + F_{(behkn, 14, 8)}$ & $ 6 $ \\ \hline
+		$ F_{(behkn, 14, 8)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 14, 10)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ G_{(behkn, 14, 9)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 22, 5)}  $ & $F_{(behkn, 20, 8)} + F_{(behkn, 18, 5)} + F_{(behkn, 6, 11)}$ & $ 0 $ \\ \hline
+		$ F_{(behkn, 6, 11)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 18, 5)}  $ & $memoF_{(behkn, 18, 5)}$ & $ 0 $ \\ \hline
+		$ F_{(behkn, 20, 8)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 22, 7)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ G_{(behkn, 22, 6)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 26, 2)}  $ & $F_{(behkn, 24, 5)} + F_{(behkn, 18, 5)} + F_{(behkn, 10, 8)}$ & $ 1 $ \\ \hline
+		$ F_{(behkn, 10, 8)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 18, 5)}  $ & $memoF_{(behkn, 18, 5)}$ & $ 0 $ \\ \hline
+	\end{tabular}\caption{Simulasi fungsi $ G $ dengan $ S="kbenh" $, $ X=5 $ dan $ dist= 0$ (3)}
+	\label{tab:simulasi_G_3}
+\end{table}
+
+\begin{table}
+	\centering
+	\begin{tabular} {|p{3cm}|p{5cm}|p{1cm}|} \hline
+		Fungsi & Perhitungan Nilai & Nilai \\ \hline
+		$ F_{(behkn, 24, 5)}  $ & $memoF_{(behkn, 24, 5)}$ & $ 1 $ \\ \hline
+		$ F_{(behkn, 26, 4)}  $ & $F_{(behkn, 24, 7)} + F_{(behkn, 18, 7)} + F_{(behkn, 10, 10)}$ & $ 0 $ \\ \hline
+		$ F_{(behkn, 10, 10)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 18, 7)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 24, 7)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ G_{(behkn, 26, 3)}  $ & $G_{(behkn, 24, 6)} + F_{(behkn, 24, 5)} + F_{(behkn, 24, 7)} + G_{(behkn, 18, 6)} + F_{(behkn, 18, 7)} + F_{(behkn, 18, 5)} + G_{(behkn, 10, 9)} + F_{(behkn, 10, 10)} + F_{(behkn, 10, 8)}$ & $ 1 $ \\ \hline
+		$ F_{(behkn, 10, 8)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 10, 10)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ G_{(behkn, 10, 9)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 18, 5)}  $ & $F_{(behkn, 16, 11)} + F_{(behkn, 2, 8)}$ & $ 0 $ \\ \hline
+		$ F_{(behkn, 2, 8)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 16, 11)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 18, 7)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ G_{(behkn, 18, 6)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 24, 7)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 24, 5)}  $ & $F_{(behkn, 16, 5)} + F_{(behkn, 8, 8)}$ & $ 1 $ \\ \hline
+		$ F_{(behkn, 8, 8)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 16, 5)}  $ & $memoF_{(behkn, 16, 5)}$ & $ 1 $ \\ \hline
+		$ G_{(behkn, 24, 6)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 28, 1)}  $ & $memoF_{(behkn, 28, 1)}$ & $ 0 $ \\ \hline
+		$ F_{(behkn, 28, 1)}  $ & $F_{(behkn, 24, 1)} + F_{(behkn, 20, 4)} + F_{(behkn, 12, 7)}$ & $ 0 $ \\ \hline
+	\end{tabular}\caption{Simulasi fungsi $ G $ dengan $ S="kbenh" $, $ X=5 $ dan $ dist= 0$ (4)}
+	\label{tab:simulasi_G_4}
+\end{table}
+
+\begin{table}
+	\centering
+	\begin{tabular} {|p{3cm}|p{5cm}|p{1cm}|} \hline
+		Fungsi & Perhitungan Nilai & Nilai \\ \hline
+		$ F_{(behkn, 12, 7)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 20, 4)}  $ & $memoF_{(behkn, 20, 4)}$ & $ 0 $ \\ \hline
+		$ F_{(behkn, 24, 1)}  $ & $memoF_{(behkn, 24, 1)}$ & $ 0 $ \\ \hline
+		$ G_{(behkn, 28, 0)}  $ & $G_{(behkn, 24, 0)} + F_{(behkn, 24, 1)} + F_{(behkn, 24, 1)} + G_{(behkn, 20, 3)} + F_{(behkn, 20, 4)} + F_{(behkn, 20, 2)} + G_{(behkn, 12, 6)} + F_{(behkn, 12, 7)} + F_{(behkn, 12, 5)}$ & $ 4 $ \\ \hline
+		$ F_{(behkn, 12, 5)}  $ & $F_{(behkn, 8, 8)} + F_{(behkn, 4, 5)}$ & $ 0 $ \\ \hline
+		$ F_{(behkn, 4, 5)}  $ & $memoF_{(behkn, 4, 5)}$ & $ 0 $ \\ \hline
+		$ F_{(behkn, 8, 8)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 12, 7)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ G_{(behkn, 12, 6)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 20, 2)}  $ & $F_{(behkn, 16, 5)} + F_{(behkn, 4, 5)}$ & $ 1 $ \\ \hline
+		$ F_{(behkn, 4, 5)}  $ & $memoF_{(behkn, 4, 5)}$ & $ 0 $ \\ \hline
+		$ F_{(behkn, 16, 5)}  $ & $memoF_{(behkn, 16, 5)}$ & $ 1 $ \\ \hline
+		$ F_{(behkn, 20, 4)}  $ & $F_{(behkn, 16, 7)} + F_{(behkn, 4, 7)}$ & $ 0 $ \\ \hline
+		$ F_{(behkn, 4, 7)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 16, 7)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ G_{(behkn, 20, 3)}  $ & $G_{(behkn, 16, 6)} + F_{(behkn, 16, 5)} + F_{(behkn, 16, 7)} + G_{(behkn, 4, 6)} + F_{(behkn, 4, 7)} + F_{(behkn, 4, 5)}$ & $ 1 $ \\ \hline
+		$ F_{(behkn, 4, 5)}  $ & $F_{(behkn, 0, 11)}$ & $ 0 $ \\ \hline
+		$ F_{(behkn, 0, 11)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 4, 7)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ G_{(behkn, 4, 6)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 16, 7)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 16, 5)}  $ & $F_{(behkn, 0, 5)}$ & $ 1 $ \\ \hline
+	\end{tabular}\caption{Simulasi fungsi $ G $ dengan $ S="kbenh" $, $ X=5 $ dan $ dist= 0$ (5)}
+	\label{tab:simulasi_G_5}
+\end{table}
+
+\begin{table}
+	\centering
+	\begin{tabular} {|p{3cm}|p{5cm}|p{1cm}|} \hline
+		Fungsi & Perhitungan Nilai & Nilai \\ \hline
+		$ F_{(behkn, 0, 5)} $ & \textit{base case} & $ 1 $ \\ \hline
+		$ G_{(behkn, 16, 6)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 24, 1)}  $ & $memoF_{(behkn, 24, 1)}$ & $ 0 $ \\ \hline
+		$ F_{(behkn, 24, 1)}  $ & $F_{(behkn, 16, 1)} + F_{(behkn, 8, 4)}$ & $ 0 $ \\ \hline
+		$ F_{(behkn, 8, 4)}  $ & $memoF_{(behkn, 8, 4)}$ & $ 0 $ \\ \hline
+		$ F_{(behkn, 16, 1)}  $ & $memoF_{(behkn, 16, 1)}$ & $ 0 $ \\ \hline
+		$ G_{(behkn, 24, 0)}  $ & $G_{(behkn, 16, 0)} + F_{(behkn, 16, 1)} + F_{(behkn, 16, 1)} + G_{(behkn, 8, 3)} + F_{(behkn, 8, 4)} + F_{(behkn, 8, 2)}$ & $ 2 $ \\ \hline
+		$ F_{(behkn, 8, 2)}  $ & $F_{(behkn, 0, 5)}$ & $ 1 $ \\ \hline
+		$ F_{(behkn, 0, 5)} $ & \textit{base case} & $ 1 $ \\ \hline
+		$ F_{(behkn, 8, 4)}  $ & $F_{(behkn, 0, 7)}$ & $ 0 $ \\ \hline
+		$ F_{(behkn, 0, 7)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ G_{(behkn, 8, 3)}  $ & $G_{(behkn, 0, 6)} + F_{(behkn, 0, 5)} + F_{(behkn, 0, 7)}$ & $ 1 $ \\ \hline
+		$ F_{(behkn, 0, 7)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 0, 5)} $ & \textit{base case} & $ 1 $ \\ \hline
+		$ G_{(behkn, 0, 6)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 16, 1)}  $ & $memoF_{(behkn, 16, 1)}$ & $ 0 $ \\ \hline
+		$ F_{(behkn, 16, 1)}  $ & $F_{(behkn, 0, 1)}$ & $ 0 $ \\ \hline
+		$ F_{(behkn, 0, 1)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ G_{(behkn, 16, 0)}  $ & $G_{(behkn, 0, 0)} + F_{(behkn, 0, 1)} + F_{(behkn, 0, 1)}$ & $ 0 $ \\ \hline
+		$ F_{(behkn, 0, 1)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ F_{(behkn, 0, 1)} $ & \textit{base case} & $ 0 $ \\ \hline
+		$ G_{(behkn, 0, 0)} $ & \textit{base case} & $ 0 $ \\ \hline
+	\end{tabular}\caption{Simulasi fungsi $ G $ dengan $ S="kbenh" $, $ X=5 $ dan $ dist= 0$ (6)}
+	\label{tab:simulasi_G_6}
+\end{table}
+
+\begin{figure}[H]
+	\begin{mdframed}
+		\begin{codebox}
+			\Procname{$\proc{G}(S, mask, dist)$}			
+			\li \If $ dist > bound \lor mask = 0$ \Then
+			\li 	\Return $ 0 $
+			\End
+			\li \If $ memoG_{(S, mask, dist)} \neq \varnothing$ \Then
+			\li 	\Return $ memoG_{(S, mask, dist)} $
+			\End
+			\li	$ numberOfSetBit \gets \proc{size}_{(setBit_{(mask)})} $
+			\li	$ retVal \gets 0 $
+			\li	\For $ i \gets 0 $ \To $numberOfSetBit - 1$ \Do
+			\li		\If $setBit_{(mask)i} \geq length_{(S)}$ \Then
+			\li			\proc{break}
+			\End
+			\li		$ret \gets ret + G1_{(S, mask, setBit_{(mask)i}, dist)}$
+			\li		$ret \gets ret + G2_{(S, mask, setBit_{(mask)i}, dist)}$
+			\li		$ret \gets ret + G3_{(S, mask, setBit_{(mask)i}, dist)}$
+			\End
+			\li	\Return $ memoF_{(S, mask, dist)} \gets ret $						
+		\end{codebox}
+	\end{mdframed}
+	\caption{Pseudocode Fungsi G}
+	\label{figure:pseudocode_fungsi_G}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{mdframed}
+		\begin{codebox}
+			\Procname{$\proc{G1}(S, mask, idx, dist)$}
+			\li $curIdx \gets \proc{length}_{(S)} - \proc{size}_{(setBit_{(mask)})}$			
+			\li \If $ idx = \proc{length}_{(S)} - 1 \lor \proc{duplicateRule1}_{(S, mask, idx)}$ \Then
+			\li 	\Return $ G_{(S, mask - 2^{idx}, dist + | S_{idx} - S_{curIdx} |)} $
+			\End						
+		\end{codebox}
+	\end{mdframed}
+	\caption{Pseudocode Fungsi G1}
+	\label{figure:pseudocode_fungsi_g1}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{mdframed}
+		\begin{codebox}
+			\Procname{$\proc{G2}(S, mask, idx, dist)$}
+			\li $curIdx \gets \proc{length}_{(S)} - \proc{size}_{(setBit_{(mask)})}$			
+			\li \If $ idx = \proc{length}_{(S)} - 1 \lor (\proc{duplicateRule2}_{(S, mask, idx)} \land$ \\ $\proc{duplicateRule1}_{(S, mask, idx)})$ \Then
+			\li 	\Return $ F_{(S, mask - 2^{idx}, dist + | (S_{idx} + 1) - S_{curIdx} |)} $
+			\End						
+		\end{codebox}
+	\end{mdframed}
+	\caption{Pseudocode Fungsi G2}
+	\label{figure:pseudocode_fungsi_g2}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{mdframed}
+		\begin{codebox}
+			\Procname{$\proc{G3}(S, mask, idx, dist)$}
+			\li $curIdx \gets \proc{length}_{(S)} - \proc{size}_{(setBit_{(mask)})}$			
+			\li \If $ (idx = \proc{length}_{(S)} - 1 \lor \proc{duplicateRule1}_{(S, mask, idx)}) \land $ \\ $(idx = 0 \lor \proc{duplicateRule3}_{(S, mask, idx)}) $ \Then
+			\li 	\Return $ F_{(S, mask - 2^{idx}, dist + | (S_{idx} - 1) - S_{curIdx} |)} $
+			\End						
+		\end{codebox}
+	\end{mdframed}
+	\caption{Pseudocode Fungsi G3}
+	\label{figure:pseudocode_fungsi_g3}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{mdframed}
+		\begin{codebox}
+			\Procname{$\proc{duplicate\_rule2}(S, mask, idx)$}
+			\li \Return $ idx < length_{(S)}-1 \land (charFirstPos_{(S, S_{idx}+1) }$\\$ = \varnothing \lor (charFirstPos_{(S, S_{idx}+1) } \neq \varnothing $\\$\land \neg isBitOn_{(mask, charFirstPos_{(S, S_{idx}+1) })})) $						
+		\end{codebox}
+	\end{mdframed}
+	\caption{Pseudocode Fungsi duplicate\_rule2}
+	\label{figure:pseudocode_fungsi_duplicate_rule2}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{mdframed}
+		\begin{codebox}
+			\Procname{$\proc{duplicate\_rule3}(S, mask, idx)$}
+			\li \Return $ idx > 0 \land (charLastPos_{(S, S_{idx}-1) }$\\$ = \varnothing \lor (charLastPos_{(S, S_{idx}-1) } \neq \varnothing $\\$\land isBitOn_{(mask, charLastPos_{(S, S_{idx}-1) })})) $						
+		\end{codebox}
+	\end{mdframed}
+	\caption{Pseudocode Fungsi duplicate\_rule3}
+	\label{figure:pseudocode_fungsi_duplicate_rule3}
+\end{figure}

@@ -1,0 +1,50 @@
+	% Mengirim pesan
+	
+	
+	\begin{table}[H]
+		\centering
+		\caption{Spesifikasi Kasus Penggunaan : Mengirimkan Pesan}
+		\label{uc04.04}
+		\begin{tabular}{|r|p{8cm}|}
+			\hline
+			\textbf{Kode}
+			& UC-04.04
+			\\ \hline
+			\textbf{Nama}
+			& \textbf{ Mengirim Pesan } 
+			\\ \hline
+			\textbf{Aktor}    
+			& Pengguna 
+			\\ \hline
+			\textbf{Deskripsi}
+			& Pengguna akan mengirimkan pesan kepada pengguna lainnya
+			\\ \hline
+			\textbf{Tipe}
+			& Fungsional 
+			\\ \hline
+			\textbf{\textit{Precondition}}
+			& Pesan yang dikirimkan pengguna belum tersimpan pada sistem
+			\\ \hline
+			\textbf{\textit{Postcondition}} 
+			& Pesan yang dikirimkan pengguna berhasil tersimpan pada sistem
+			\\ \hline
+			\multicolumn{2}{|c|}
+			{\textbf{Alur Kejadian Normal}}
+			\\ \hline
+			\multicolumn{1}{|l|}{} & 
+			\begin{enumerate}
+				\item Pengguna mengklik \textit{URL} pengguna tujuan yang ingin dikirimi pesan
+				\item Sistem menampilkan halaman profil pengguna tujuan
+				\item Pengguna mengklik tombol "Kirim Pesan"
+				\item Sistem menampilkan halaman percakapan dengan pengguna tersebut.
+				\item \label{al-0404-ex} Pengguna memasukkan pesan yang ingin dikirimkan. lalu klik tombol 'Kirim'
+				\item \label{al-0404-a}Sistem mengirimkan pesan, lalu sistem kembali menampilkan halaman pengguna dengan informasi pesan yang sudah terkirim muncul di riwayat percakapan pengguna dengan pengguna tujuan				
+				% \item \label{uc0301-show1page}Sistem menampilkan halaman yang berisi form pendaftaran barang
+				% \item \label{al-0301-a} Sistem memvalidasi data yang dimasukkan pengguna
+			\end{enumerate}
+			\\ \hline
+			\multicolumn{2}{|c|}{\textbf{Alur Kejadian Alternatif}} \\ \hline
+			\multicolumn{1}{|l|}{}                   
+			& - \\ \hline
+		\end{tabular}
+	\end{table}

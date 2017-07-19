@@ -1,0 +1,77 @@
+% INDONESIAN ABSTRAK
+\addcontentsline{toc}{chapter}{ABSTRAK}
+\thispagestyle{plain}
+\begin{centering}
+\textbf{\MakeUppercase{\judul}}
+\end{centering}
+
+\begin{tabular}{ll}
+Nama  & : \MakeUppercase{\penulis} \\
+NRP & : \nrp \\
+Departemen  & : \jurusan FTIF-ITS \\
+Pembimbing I  & : \pembimbingSatu \\
+Pembimbing II  & : \pembimbingDua
+\end{tabular}
+\\*[20pt]
+\begin{centering}
+\textbf{Abstrak}
+\end{centering}
+\itshape
+% BEGIN
+\\
+\indent Diberikan dua buah string $orig1$ dan $orig2$. Diberikan tiga tahapan proses enkripsi untuk menghasilkan string $ad1$ dan $ad2$. Tahap pertama adalah string $orig1$ diacak sususan karakter-karakternya. Tahap kedua adalah string $orig2$ diacak susunan karakter-karakternya. Tahap terakhir adalah salah satu karakter dari string $orig1$ atau $orig2$ diganti dengan karakter sebelum atau sesudahnya dalam alfabet. Jarak dua buah string didefinisikan sebagai jumlah dari selisih mutlak dari karakter-karakter pada posisi yang sama. Diberikan sebuah bilangan bulat $X$ yang merupakan jarak dari string $orig1$ dan string $ad1$ dijumlahkan dengan jarak dari string $orig2$ dan string $ad2$. Tentukan jumlah kemungkinan kombinasi string $orig1$ dan $orig2$ jika diberikan string $ad1$, $ad2$ dan nilai $X$.
+
+Meet in the middle adalah sebuah teknik pencarian dengan paradigma divide and conquer yang membagi permasalahan menjadi dua, lalu menyelesaikannya masing-masing, lalu menggabungkannya kembali.
+
+Dynamic programming adalah sebuah paradigma untuk
+mendapatkan nilai optimal dari beberapa kemungkinan jawaban,
+dimana permasalahan tersebut memiliki submasalah tumpang
+tindih dan struktur optimal.
+
+Pada tugas akhir ini akan dirancang penyelesaian masalah yang disampaikan pada paragraf pertama dengan menggunakan teknik meet in the middle dan pendekatan dynamic programming.
+
+Solusi yang dikembangkan berjalan dengan kompleksitas waktu $\mathcal{O}(2^{|S|} * MAX\_DIST^{2} * T)$, dimana $|S|$ adalah panjang string yang diberikan dan $MAX\_DIST$ adalah jarak antar string maksimal.\\
+% END
+\rm \\
+\textbf{Kata Kunci: string, divide and conquer, meet in the middle, dynamic programming}
+
+
+\cleardoublepage
+
+% ENGLISH ABSTRACT
+\addcontentsline{toc}{chapter}{ABSTRACT}
+\thispagestyle{plain}
+\begin{centering}
+\textbf{\MakeUppercase{\judulEnglish}}
+\end{centering}
+
+\begin{tabular}{ll}
+Name  & : \MakeUppercase{\penulis} \\
+NRP & : \nrp \\
+Major  & : \jurusanEnglish Faculty of IT-ITS \\
+Supervisor I  & : \pembimbingSatu \\
+Supervisor II  & : \pembimbingDua
+\end{tabular}
+\\*[20pt]
+\begin{centering}
+\textbf{Abstract}
+\end{centering}
+\itshape
+% BEGIN
+\\
+\indent 
+Given two strings $ orig1 $ and $ orig2 $. Given three steps to encrypt $ orig1 $ and $ orig2 $ to become $ ad1 $ and $ ad2 $. First step is shuffle the letters position of string $ orig1 $. The Second step is shuffle the letters position of string $ orig2 $. The last step is replace one letter from string $ orig1 $ or $ orig2 $ with its next or previous letter in the alphabet. Distance between two strings is defined as the sum of absolute difference between letter in same position. Given an integer $ X $ which is $ distance(orig1, ad1) + distance(orig2, ad2) $. Find the number of possible string $ orig1 $ and $ orig2 $ from given string $ ad1 $, $ ad2 $ and integer $ X $.
+
+Meet in the middle is a searching technique with divide and conquer paradigm that divide problem into two or more subproblems, solve each, and combine all the subproblem's answers to get main answer.
+
+Dynamic programming is a paradigm to get optimal solution from some possible answer, which each of subproblem has overlapping subproblems and optimal structure.
+
+In this final project the writer will design and analyse an algorithm to solve the problem that stated in the first paragraph using meet in the middle and dynamic programming.
+
+The solution will run in $\mathcal{O}(2^{|S|} * MAX\_DIST^{2} * T)$ time complexity where $ |S| $ is the given string $ ad1 $ and $ ad2 $ and $ MAX\_DIST $ is the maximum distance between given strings.
+\\
+% END
+\rm \\
+\textbf{Keywords: string, divide and conquer, meet in the middle, dynamic programming}
+
+\cleardoublepage

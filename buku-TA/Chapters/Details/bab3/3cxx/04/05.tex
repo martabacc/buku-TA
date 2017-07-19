@@ -1,0 +1,45 @@
+	% Melihat dan membaca pesan
+	
+	
+	\begin{table}[H]
+		\centering
+		\caption{Spesifikasi Kasus Penggunaan: Melihat \& Membaca Pesan}
+		\label{uc04.05}
+		\begin{tabular}{|r|p{8cm}|}
+			\hline
+			\textbf{Kode}
+			& UC-04.05
+			\\ \hline
+			\textbf{Nama}
+			& \textbf{Melihat daftar Pesan} 
+			\\ \hline
+			\textbf{Aktor}    
+			& Pengguna 
+			\\ \hline
+			\textbf{Deskripsi}
+			& Pengguna ingin melihat daftar percakapan/ daftar perpesanan yang pernah dilakukan pengguna
+			\\ \hline
+			\textbf{Tipe}
+			& Fungsional 
+			\\ \hline
+			\textbf{\textit{Precondition}}
+			& Daftar percakapan/ daftar perpesanan belum ditampilkan
+			\\ \hline
+			\textbf{\textit{Postcondition}} 
+			& Daftar percakapan/ daftar perpesanan berhasil ditampilkan
+			\\ \hline
+			\multicolumn{2}{|c|}
+			{\textbf{Alur Kejadian Normal}}
+			\\ \hline
+			\multicolumn{1}{|l|}{} & 
+			\begin{enumerate}
+				\item Pengguna mengklik tombol 'Conversations' di \textit{navbar} aplikasi
+				\item \label{al-0405-a} Sistem menampilkan halaman daftar percakapan pengguna
+				\item Pengguna mengklik percakapan yang ingin dilihat/dibaca
+				\item Sistem menampilkan detail percakapan yang diklik sebelumnya.
+			\end{enumerate}
+			\\ \hline
+			\multicolumn{2}{|c|}{\textbf{Alur Kejadian Alternatif}} \\ \hline                  
+			& - \\ \hline
+		\end{tabular}
+	\end{table}

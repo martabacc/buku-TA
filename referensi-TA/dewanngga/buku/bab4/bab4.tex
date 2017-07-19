@@ -1,0 +1,155 @@
+\chapter{IMPLEMENTASI}
+
+Pada bab ini dijelaskan mengenai implementasi dari desain algoritma penyelesaian \problem{}.
+
+\section{Lingkungan Implementasi}
+Lingkungan implementasi dalam pembuatan Tugas Akhir ini
+meliputi perangkat keras dan perangkat lunak yang digunakan
+untuk melakukan proses pendekatan paradigma \textit{dynamic
+programming} dan teknik \textit{meet in the middle} untuk \problem{} adalah sebagai berikut:
+
+\begin{enumerate}
+	\item Perangkat Keras.
+		\begin{itemize}
+			\item \textit{Processor} Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz.
+			\item Memori 8 GB.
+		\end{itemize}
+	\item Perangkat Lunak.
+	\begin{itemize}
+		\item Sistem operasi Linux Mint 17.1 Rebecca 64 bit.
+		\item \textit{Text editor} vim
+		\item \textit{Compiler} g++ versi 4.8.4.
+	\end{itemize}			
+\end{enumerate}
+
+
+\section{Rancangan Data}
+Pada subbab ini dijelaskan mengenai desain data masukan yang
+diperlukan untuk melakukan proses algoritma, dan data keluaran
+yang dihasilkan oleh program.
+
+\subsection{Data Masukan}
+Data masukan adalah data yang akan diproses oleh program sebagai masukan menggunakan algoritma yang telah dirancang dalam tugas akhir ini.
+
+Data masukan berupa berkas teks yang berisi data dengan format yang telah ditentukan pada deskripsi \problem{}. Pada masing-masing berkas data masukan, baris pertama berupa sebuah bilangan bulat yang merepresentasikan jumlah kasus uji yang ada pada berkas tersebut. Untuk setiap kasus uji, masukan berupa sebuah baris masukan yang terdiri dari dua buah \textit{string} $ad1$ dan $ad2$ diikuti oleh sebuah bilangan bulat $ X $ yang merepresentasikan $ dist(ad1, orig1) + dist(ad2, orig2) $.
+
+
+\subsection{Data Keluaran}
+Data keluaran yang dihasilkan oleh program hanya berupa satu nilai, yaitu jumlah kemungkinan \textit{string} $orig1$ dan $ orig2 $ yang mungkin membentuk \textit{string} $ ad1 $ dan $ ad2 $.
+
+
+\section{Implementasi Algoritma}
+Pada subbab ini akan dijelaskan tentang implementasi proses
+algoritma secara keseluruhan berdasarkan desain yang telah
+dijelaskan pada bab \ref{chapter:desain}.
+
+\subsection{Header-Header yang Diperlukan}
+Implementasi algoritma dengan teknik \meetinthemiddle{} dan \dynamicprogramming{} untuk menyelesaikan \problem{} membutuhkan lima buah header yaitu cstdio, algorithm, vector, \textit{string} dan cstring, seperti yang terlihat pada Kode Sumber \ref{source:implementasi_header}.
+
+\lstinputlisting[language=C++, firstline=1, lastline=5, caption=Header yang diperlukan, label=source:implementasi_header]{bab4/pwords.cpp}
+
+Header cstdio berisi modul untuk menerima masukan dan
+memberikan keluaran. Header vector berisi struktur data yang digunakan untuk menyimpan data himpunan index bit menyala dari sebuah bilangan bulat. Header algorithm berisi modul yang memiliki fungsi-fungsi yang sangat berguna dalam membantu mengimplementasi algortima yang telah dibangun. Contohnya adalah fungsi \textit{max} dan \textit{sort}. Header \textit{string} berisi modul untuk menyimpan data berupa text. Header cstring berisi modul yang memiliki fungsi-fungsi untuk melakukan pemrosesan string. Contoh fungsi yang membantu mengimplementasikan algoritma yang dibangun adalah fungsi \textit{memset}.
+
+\subsection{Variabel Global}
+Variabel global digunakan untuk memudahkan dalam mengakses data yang digunakan lintas fungsi. Kode sumber implementasi variabel global dapat dilihat pada Kode Sumber \ref{source:variabel_global}.
+
+\begin{minipage}{\linewidth}
+\lstinputlisting[language=C++, firstline=7, lastline=16, caption=Variabel global, label=source:variabel_global]{bab4/pwords.cpp}
+\end{minipage}
+	
+\subsection{Implementasi Fungsi Main}
+Fungsi $ \proc{main} $ adalah implementasi algoritma yang dirancang pada Gambar \ref{figure:fungsi_main}. Implementasi fungsi $ \proc{main} $ dapat dilihat pada Kode Sumber \ref{source:fungsi_main}.
+
+\lstinputlisting[language=C++, firstline=239, lastline=250, caption=Fungsi main, label=source:fungsi_main]{bab4/pwords.cpp}
+
+\subsection{Implementasi Fungsi Preprocess}
+Fungsi preprocess adalah implementasi dari hasil perancangan pada \textit{pseudocode} pada Gambar \ref{figure:pseudocode_fungsi_preprocess}. Implementasi dari fungsi preprocess dapat dilihat pada Kode Sumber \ref{source:fungsi_preprocess}.
+
+\lstinputlisting[language=C++, firstline=35, lastline=43, caption=Fungsi preprocess, label=source:fungsi_preprocess]{bab4/pwords.cpp}
+
+\subsection{Implementasi Fungsi ReadInput}
+
+Fungsi $ \proc{readInput} $ akan membaca masukan dari berkas uji untuk setiap kasus ujinya. Pada awalnya, fungsi akan membaca masukan \textit{string} $ad1$, lalu dilanjutkan dengan membaca \textit{string} $ad2$ dan diakhiri dengan membaca sebuah bilangan bulat $X$. Implementasi fungsi $ \proc{readInput} $ dapat dilihat pada Kode Sumber \ref{source:fungsi_readInput}. 
+
+\lstinputlisting[language=C++, firstline=197, lastline=204, caption=Fungsi readInput, label=source:fungsi_readInput]{bab4/pwords.cpp}
+
+\subsection{Implementasi Fungsi Init}
+
+Implementasi dari fungsi init dapat dilihat pada Kode Sumber \ref{source:fungsi_init}.
+
+\lstinputlisting[language=C++, firstline=210, lastline=237, caption=Fungsi init, label=source:fungsi_init]{bab4/pwords.cpp}
+
+\subsection{Implementasi Fungsi Solve}
+
+Fungsi solve adalah implementasi dari desain algoritma pada Gambar \ref{figure:pseudocode_fungsi_solve} dimana algoritma tersebut adalah hasil perancangan berdasarkan persamaan \ref{equation:main_answer}. Implementasi dari fungsi solve dapat dilihat pada Kode Sumber \ref{source:fungsi_solve}.
+\\
+
+\lstinputlisting[language=C++, firstline=180, lastline=195, caption=Fungsi solve, label=source:fungsi_solve]{bab4/pwords.cpp}
+
+\subsection{Implementasi Fungsi F}
+
+terdapat fungsi F yang telah dirancang algoritmanya pada subbab \ref{subsec:desain_fungsi_f}. Implementasi dari fungsi F dapat dilihat pada Kode Sumber \ref{source:fungsi_f_1} dan \ref{source:fungsi_f_2}.
+
+\begin{minipage}{\linewidth}
+\lstinputlisting[language=C++, firstline=95, lastline=102, caption=Fungsi F (1), label=source:fungsi_f_1]{bab4/pwords.cpp}
+\end{minipage}
+
+\begin{minipage}{\linewidth}
+	\lstinputlisting[language=C++, firstline=103, lastline=111, caption=Fungsi F (2), label=source:fungsi_f_2]{bab4/pwords.cpp}
+\end{minipage}
+
+\subsection{Implementasi Fungsi F1}
+Fungsi F1 adalah implementasi dari perancangan pada \textit{pseudocode} pada Gambar \ref{figure:pseudocode_fungsi_f1} yang dirancang berdasarkan persamaan \ref{equation:rekurens_f1}. Implementasi dari fungsi F1 dapat dilihat pada Kode Sumber \ref{source:fungsi_f1}.
+
+\lstinputlisting[language=C++, firstline=80, lastline=93, caption=Fungsi F1, label=source:fungsi_f1]{bab4/pwords.cpp}
+
+\subsection{Implementasi Fungsi G}
+
+Implementasi dari fungsi G dapat dilihat pada Kode Sumber \ref{source:fungsi_g}. Algoritma pada fungsi F menggunakan pendekatan \dynamicprogramming{}.
+
+\lstinputlisting[language=C++, firstline=161, lastline=178, caption=Fungsi G, label=source:fungsi_g]{bab4/pwords.cpp}
+
+\subsection{Implementasi Fungsi G1}
+
+Fungsi G1 adalah implementasi dari perancangan pada \textit{pseudocode} pada Gambar \ref{figure:pseudocode_fungsi_g1} yang dirancang berdasarkan persamaan \ref{equation:relasi_rekurens_fungsi_g1}. Implementasi dari fungsi G1 dapat dilihat pada Kode Sumber \ref{source:fungsi_g1_1}.
+
+\begin{minipage}{\linewidth}
+\lstinputlisting[language=C++, firstline=113, lastline=126, caption=Fungsi G1, label=source:fungsi_g1_1]{bab4/pwords.cpp}
+\end{minipage}
+
+\subsection{Implementasi Fungsi G2}
+
+Fungsi G2 adalah implementasi dari perancangan pada \textit{pseudocode} pada Gambar \ref{figure:pseudocode_fungsi_g2}. Implementasi dari fungsi G2 dapat dilihat pada Kode Sumber \ref{source:fungsi_g2_1} dan Kode Sumber \ref{source:fungsi_g2_2}.
+\\
+
+\lstinputlisting[language=C++, firstline=128, lastline=139, caption=Fungsi G2 (1), label=source:fungsi_g2_1]{bab4/pwords.cpp}
+
+\lstinputlisting[language=C++, firstline=140, lastline=142, firstnumber=5, caption=Fungsi G2 (2), label=source:fungsi_g2_2]{bab4/pwords.cpp}
+
+\subsection{Implementasi Fungsi G3}
+
+Fungsi G3 adalah implementasi dari perancangan pada \textit{pseudocode} pada Gambar \ref{figure:pseudocode_fungsi_g3} yang dirancang berdasarkan persamaan \ref{equation:relasi_rekurens_fungsi_g3}. Implementasi dari fungsi G3 dapat dilihat pada Kode Sumber \ref{source:fungsi_g3}.
+
+\lstinputlisting[language=C++, firstline=144, lastline=159, caption=Fungsi G3, label=source:fungsi_g3]{bab4/pwords.cpp}
+
+
+\subsection{Implementasi Fungsi Duplicate Rule 1}
+
+Fungsi duplicate\_rule1 adalah implementasi dari perancangan pada \textit{pseudocode} pada Gambar \ref{figure:pseudocode_fungsi_duplicate_rule1} yang dirancang berdasarkan persamaan \ref{equation:rekurens_duplicate_rule1}. Implementasi dari fungsi duplicate\_rule1 dapat dilihat pada Kode Sumber \ref{source:fungsi_duplicate_rule1_1}.
+
+\begin{minipage}{\linewidth}
+\lstinputlisting[language=C++, firstline=45, lastline=54, caption=Fungsi duplicate\_rule1, label=source:fungsi_duplicate_rule1_1]{bab4/pwords.cpp}
+\end{minipage}
+
+\subsection{Implementasi Fungsi Duplicate Rule 2}
+
+Fungsi duplicate\_rule2 adalah implementasi dari perancangan pada \textit{pseudocode} pada Gambar \ref{figure:pseudocode_fungsi_duplicate_rule2} yang dirancang berdasarkan persamaan \ref{equation:rekurens_duplicate_rule2}. Implementasi dari fungsi duplicate\_rule2 dapat dilihat pada Kode Sumber \ref{source:fungsi_duplicate_rule2}.
+
+\lstinputlisting[language=C++, firstline=56, lastline=66, caption=Fungsi duplicate\_rule2, label=source:fungsi_duplicate_rule2]{bab4/pwords.cpp}
+
+\subsection{Implementasi Fungsi Duplicate Rule 3}
+
+Fungsi duplicate\_rule3 adalah implementasi dari perancangan pada \textit{pseudocode} pada Gambar \ref{figure:pseudocode_fungsi_duplicate_rule3} yang dirancang berdasarkan persamaan \ref{equation:rekurens_duplicate_rule3}. Implementasi dari fungsi duplicate\_rule1 dapat dilihat pada Kode Sumber \ref{source:fungsi_duplicate_rule3}.
+\\
+\lstinputlisting[language=C++, firstline=68, lastline=78, caption=Fungsi duplicate\_rule3, label=source:fungsi_duplicate_rule3]{bab4/pwords.cpp}

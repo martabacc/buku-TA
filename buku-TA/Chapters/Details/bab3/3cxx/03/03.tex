@@ -1,0 +1,33 @@
+% Melihat barang yang pernah didaftarkan
+
+\begin{table}[H]
+	\centering
+	\caption{Spesifikasi Kasus Penggunaan : Melihat Barang yang Pernah Didaftarkan}
+	\label{uc03.03}
+	\begin{tabular}{|r|p{8cm}|}
+		\hline
+		\textbf{Kode}                                                    & UC-03.03                                                     \\ \hline
+		\textbf{Nama}                                                    & \textbf{Melihat Daftar Barang yang Pernah Dilelang} \\ \hline
+		\textbf{Aktor}                                                   & Pengguna 
+		\\ \hline
+		\textbf{Deskripsi}                                               & Pengguna hendak melihat daftar semua barang yang pernah didaftarkan untuk dilelang di dalam sistem.
+		\\ \hline
+		\textbf{Tipe}                                                    & Fungsional 
+		\\ \hline
+		\textbf{\textit{Precondition}}
+		& Informasi daftar barang belum ditampilkan. \\ \hline
+		\textbf{\textit{Postcondition}} 
+		& Informasi daftar barang sudah ditampilkan. \\ \hline
+		\multicolumn{2}{|c|}
+		{\textbf{Alur Kejadian Normal}}                                                                            \\ \hline
+		\multicolumn{1}{|l|}{}                                           & 
+		\begin{enumerate}
+			\item Pengguna dalam keadaan terautentikasi, mengklik "Item Anda" -> "Manage Items" pada \textit{navbar} bagian atas halaman.
+			\item \label{uc0302-show1page}Sistem menampilkan halaman yang berisi daftar barang yang didaftarkan pengguna.
+		\end{enumerate}
+		\\ \hline
+		\multicolumn{2}{|c|}{\textbf{Alur Kejadian Alternatif}}                                                         \\ \hline
+		\multicolumn{1}{|l|}{}                                           & -
+		\\ \hline
+	\end{tabular}
+\end{table}

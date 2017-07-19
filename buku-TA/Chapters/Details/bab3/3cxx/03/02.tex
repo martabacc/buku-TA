@@ -1,0 +1,54 @@
+% Memperbarui informasi barang yang dilelang
+
+\begin{table}[H]
+	\centering
+	\caption{Spesifikasi Kasus Penggunaan : Mendaftarkan Barang Lelang}
+	\label{uc03.02}
+	\begin{tabular}{|r|p{8cm}|}
+		\hline
+		\textbf{Kode}                                                    & UC-03.02                                                     \\ \hline
+		\textbf{Nama}                                                    & \textbf{Memperbarui informasi barang yang dilelang} \\ \hline
+		\textbf{Aktor}                                                   & Pengguna 
+			\\ \hline
+		\textbf{Deskripsi}                                               & Pengguna memperbarui informasi barang yang sebelumnya sudah terdaftar di dalam sistem 
+			 \\ \hline
+		\textbf{Tipe}                                                    & Fungsional 
+			\\ \hline
+		\textbf{\textit{Precondition}}
+			& Informasi barang belum diperbarui. \\ \hline
+		\textbf{\textit{Postcondition}} 
+			& Informasi barang sudah diperbarui. \\ \hline
+		\multicolumn{2}{|c|}
+			{\textbf{Alur Kejadian Normal}}                                                                            \\ \hline
+		\multicolumn{1}{|l|}{}                                           & 
+			\begin{enumerate}
+				\item Pengguna dalam keadaan terautentikasi, mengklik "Item Anda" -> "Manage Items" pada \textit{navbar} bagian atas halaman.
+				\item \label{uc0302-show1page}Sistem menampilkan halaman yang berisi daftar barang yang didaftarkan pengguna.
+				\item Pengguna mengklik barang yang ingin diperbarui informasinya
+				\item \label{uc0302-show2page}Sistem menampilkan halaman \textit{form} "Perbarui barang".
+				\item Pengguna mengisi informasi pembaruan barang di dalam form tersebut.
+				\item Setelah selesai, pengguna mengklik tombol "Simpan Pembaruan".
+				\item \label{al-0302-a} Sistem memvalidasi data (termasuk file gambar) yang dimasukkan pengguna, lalu sistem me\textit{redirect} ke halaman "Kelola Barang" dalam keadaan barang baru sudah ditambahkan.
+			\end{enumerate}
+		\\ \hline
+		
+		\multicolumn{2}{|c|}{\textbf{Alur Kejadian Alternatif}}                                                         \\ \hline
+		\multicolumn{1}{|l|}{}                                           & 	
+			-
+			\\ \hline
+%		\multicolumn{1}{|l|}{}                                           & 
+%			 \begin{itemize}
+%			 	\item[\ref{al-0302-a}a.] Sistem tidak dapat memvalidasi data yang dimasukkan pengguna.
+%			 	\item[\ref{al-0302-a}b.] Sistem me\textit{redirect} ke halaman "Perbarui Barang" (langkah \ref{uc0302-show2page}) dengan \textit{error message}.
+%			 \end{itemize}
+%		 \\ \hline
+%		 \multicolumn{1}{|l|}{}                                           & \textbf{Gambar yang dimasukkan pengguna tidak dapat divalidasi}
+%		 \\ \hline
+%		 \multicolumn{1}{|l|}{}                                           & 
+%		 \begin{itemize}
+%		 	\item[\ref{al-0302-a}a.] Sistem menampilkan \textit{error modal} berisi peringatan bahwa "Kesalahan saat \textit{upload} gambar, silahkan coba lagi"
+%		 	\item[\ref{al-0302-a}b.] Sistem me\textit{redirect} ke halaman form "Perbarui Barang" (langkah \ref{uc0301-show2page}) dengan \textit{error message}.
+%		 \end{itemize}
+%		 \\ \hline
+	\end{tabular}
+\end{table}

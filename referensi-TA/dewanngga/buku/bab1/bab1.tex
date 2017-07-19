@@ -1,0 +1,114 @@
+\chapter{PENDAHULUAN}
+Pada bab ini akan dijelaskan latar belakang, rumusan masalah, batasan masalah, tujuan, metodologi dan sistematika penulisan Tugas Akhir.
+
+\section{Latar Belakang}
+
+Tugas Akhir ini mengacu pada \problem. Diberikan dua buah \textit{string} $orig1$ dan $orig2$. Diberikan tiga tahapan proses enkripsi untuk menghasilkan \textit{string} $ad1$ dan $ad2$ sebagai berikut:
+
+\begin{enumerate}
+	\item \textit{String} $orig1$ diacak urutan karakter-karakternya.
+	\item \textit{String} $orig2$ diacak urutan karakter-karakternya.
+	\item Salah satu karakter dari \textit{string} $orig1$ atau $orig2$ diganti dengan karakter sebelum atau sesudahnya dalam alfabet.
+\end{enumerate}	
+
+Jarak dua buah \textit{string} didefinisikan sebagai jumlah dari selisih mutlak dari karakter-karakter pada posisi yang sama. Diberikan sebuah bilangan bulat $X$ yang merupakan jarak dari \textit{string} $orig1$ dan \textit{string} $ad1$ dijumlahkan dengan jarak dari \textit{string} $orig2$ dan \textit{string} $ad2$. Berapakah jumlah kemungkinan kombinasi \textit{string} $orig1$ dan $orig2$ jika diberikan \textit{string} $ad1$, $ad2$ dan nilai $X$.
+
+Untuk menyelesaikan permasalahan di atas, penulis akan menggunakan pendekatan solusi dengan teknik \dynamicprogramming{} dan \meetinthemiddle{}. Selain dapat menjawab pertanyaan dengan benar, waktu juga menjadi salah satu faktor penting untuk memberikan gambaran tentang performa dari algoritma yang dirancang.
+
+Hasil dari Tugas Akhir ini diharapkan dapat memberikan gambaran mengenai performa algoritma dengan teknik \dynamicprogramming{} dan \meetinthemiddle{}.	 
+
+\section{Rumusan Masalah}
+Rumusan masalah yang diangkat dalam Tugas Akhir ini adalah sebagai berikut:
+\begin{enumerate}
+	\item Perancangan algoritma yang sesuai untuk menyelesaikan \problem{} yang didasari oleh teknik \dynamicprogramming{} dan \meetinthemiddle{}.
+	\item Implementasi algoritma untuk menyelesaikan \problem.
+	\item Analisis performa algoritma yang telah dirancang untuk menyelesaikan \problem.
+\end{enumerate}
+
+\section{Batasan Masalah}
+Permasalahan yang dibahas pada Tugas Akhir ini memiliki beberapa batasan, yaitu sebagai berikut:
+
+\begin{enumerate}
+	\item Implementasi algoritma menggunakan bahasa pemrograman C++.
+	\item Uji coba kebenaran dilakukan dengan uji \textit{submission} ke situs penilaian daring SPOJ.
+	\item Panjang \textit{string} masukan $ ad1 $ dan $ ad2 $ maksimal bernilai 10.
+	\item Karakter pada \textit{string} masukan $ ad1 $ dan $ ad2 $ berada dalam rentang $ `b` \le ad1_{i}, ad2_{i} \le `y` $.
+	\item Nilai masukan $ X $ tidak melebihi $ 100000 $.
+	\item Batas waktu eksekusi program adalah $ 6,459 $ detik. 
+\end{enumerate}
+
+\section{Tujuan}
+Tujuan dari Tugas Akhir ini adalah sebagai berikut:
+
+\begin{enumerate}
+	\item Menyelesaikan \problem{} dengan algoritma yang telah dirancang dan diimplementasikan menggunakan teknik \dynamicprogramming{} dan \meetinthemiddle{}.
+	\item Menguji kebenaran algoritma dengan melakukan uji kebenaran terhadap algoritma yang telah dirancang dan diimplementasikan.
+	\item Mengetahui performa algoritma yang dibangun dengan menganalisa hasil uji coba.
+\end{enumerate}
+
+\section{Manfaat}
+Manfaat dari Tugas Akhir ini adalah sebagai berikut:
+
+\begin{enumerate}
+	\item Mengetahui pemanfaatan metode \dynamicprogramming{} dan \meetinthemiddle{} dalam menyelesaikan suatu permasalahan.
+	\item Melatih kemampuan analisis karakteristik permasalahan yang dapat diselesaikan dengan metode \dynamicprogramming{} dan \meetinthemiddle{}.
+\end{enumerate}
+
+\section{Metodologi}
+Metodologi yang digunakan dalam pengerjaan Tugas Akhir ini adalah sebagai berikut:
+\begin{enumerate}
+	
+	\item Penyusunan proposal Tugas Akhir
+
+	Pada tahap ini dilakukan penyusunan proposal Tugas Akhir yang berisi permasalahan dan gagasan solusi yang akan diteliti pada \problem.
+	
+	\item Studi literatur
+	
+	Pada tahap ini dilakukan pencarian informasi dan studi literatur mengenai pengetahuan atau metode yang dapat digunakan dalam penyelesaian masalah. Informasi didapatkan dari materi-materi yang berhubungan dengan algoritma yang digunakan untuk penyelesaian permasalahan ini, materi-materi tersebut didapatkan dari buku, jurnal, maupun internet.
+	
+	\item Desain
+	
+	Pada tahap ini dilakukan desain rancangan algoritma yang digunakan dalam solusi untuk pemecahan \problem.
+	
+	\item Implementasi perangkat lunak
+	
+	Pada tahap ini dilakukan implementasi atau realiasi dari rancangan desain algoritma yang telah dibangun pada tahap desain ke dalam bentuk program.
+	
+	\item Uji coba dan evaluasi
+	
+	Pada tahap ini dilakukan uji coba kebenaran implementasi. Pengujian kebenaran dilakukan pada sistem penilaian daring SPOJ sesuai dengan masalah yang dikerjakan untuk diuji apakah luaran dari program telah sesuai.
+	
+	\item Penyusunan buku Tugas Akhir
+	
+	Pada tahap ini dilakukan penyusunan buku Tugas Akhir yang berisi dokumentasi hasil pengerjaan Tugas Akhir.
+\end{enumerate}
+
+	\section{Sistematika Penulisan}
+	Berikut adalah sistematika penulisan buku Tugas Akhir ini:
+	\begin{enumerate}
+		\item BABI: PENDAHULUAN
+		
+		Bab ini berisi latar belakang, rumusan masalah, batasan masalah, tujuan, metodologi dan sistematika penulisan Tugas Akhir.
+		
+		\item BAB II: DASAR TEORI
+		
+		Bab ini berisi dasar teori mengenai permasalahan dan algoritma penyelesaian yang digunakan dalam Tugas Akhir
+		
+		\item BAB III: DESAIN
+		
+		Bab ini berisi desain algoritma dan struktur data yang digunakan dalam penyelesaian permasalahan.
+		
+		\item BAB IV: IMPLEMENTASI
+		
+		Bab ini berisi implementasi berdasarkan desain algortima yang telah dilakukan pada tahap desain.
+		
+		\item BAB V: UJI COBA DAN EVALUASI
+		
+		Bab ini berisi uji coba dan evaluasi dari hasil implementasi yang telah dilakukan pada tahap implementasi.
+		
+		\item BAB VI: KESIMPULAN
+		
+		Bab ini berisi kesimpulan yang didapat dari hasil uji coba yang telah dilakukan.
+	\end{enumerate}
+
+\cleardoublepage
