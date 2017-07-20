@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2017.5.23)  20 JUL 2017 09:59
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2017.5.23)  20 JUL 2017 16:19
 entering extended mode
 **./main.tex
 (main.tex
@@ -628,34 +628,32 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 File: images/bab3/usecasediagram/ucd-main.png Graphic file (type QTm)
 
 <use  "images/bab3/usecasediagram/ucd-main.png" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 File: images/bab3/buku/basic_architecture.png Graphic file (type QTm)
+
 <use  "images/bab3/buku/basic_architecture.png" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 File: images/bab3/diagram-portrait.png Graphic file (type QTm)
+
 <use  "images/bab3/diagram-portrait.png" >
-Overfull \vbox (18.87497pt too high) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-[2]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 104.
-
+ [2]
 File: images/bab3/apl/main-apl.png Graphic file (type QTm)
+
 <use  "images/bab3/apl/main-apl.png" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 File: images/UI/landing.png Graphic file (type QTm)
- <use  "images/UI/landing.png" >)
-(deskripsi-sistem.tex) (test-eval.tex
+
+<use  "images/UI/landing.png" >) (deskripsi-sistem.tex) (test-eval.tex
 File: images/bab5/speed/combined.png Graphic file (type QTm)
- <use  "images/bab5/speed/combined.png" >
+
+<use  "images/bab5/speed/combined.png" >
 Underfull \hbox (badness 7047) in paragraph at lines 4--16
 []\OT1/ptm/m/n/10 Pengujian ke-cepatan di-lakukan den-gan meng-gu-nakan
  []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: images/bab5/maintainability/telor.png Graphic file (type QTm)
 <use  "images/bab5/maintainability/telor.png" >
@@ -686,26 +684,17 @@ Underfull \hbox (badness 3439) in paragraph at lines 18--31
 licity\OT1/ptm/m/n/10 , dan \OT1/ptm/m/it/10 track-a-bil-
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+[3]
 File: images/bab5/ujipengguna/result.png Graphic file (type QTm)
-<use  "images/bab5/ujipengguna/result.png" >
+ <use  "images/bab5/ujipengguna/result.png" >
 File: images/bab5/ujipengguna/chart.png Graphic file (type QTm)
 
 <use  "images/bab5/ujipengguna/chart.png" >) (conclusion.tex
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[3]
 Underfull \hbox (badness 3158) in paragraph at lines 5--6
 \OT1/ptm/m/n/10 adalah bis-nis me-nun-tut pe-ruba-han yang cepat, se-
  []
 
-) (acknowledgement.tex) (main.bbl
+[4]) (main.bbl
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `Indonesia'. Using the pattern for
 ** the default language instead.
@@ -753,7 +742,6 @@ ex . php / issues /
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
-[4]
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
@@ -769,12 +757,12 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 67.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 67.
  ) 
 Here is how much of TeX's memory you used:
- 11952 strings out of 428410
- 173695 string characters out of 3156958
+ 11950 strings out of 428410
+ 173655 string characters out of 3156958
  259662 words of memory out of 3000000
- 15228 multiletter control sequences out of 15000+200000
+ 15229 multiletter control sequences out of 15000+200000
  27539 words of font info for 62 fonts, out of 3000000 for 9000
  1331 hyphenation exceptions out of 8191
- 36i,8n,45p,1091b,462s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,8n,45p,1091b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on main.pdf (5 pages).
