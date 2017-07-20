@@ -1,12 +1,11 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
-A level-1 auxiliary file: Metadata.aux
-A level-1 auxiliary file: abstract.aux
-A level-1 auxiliary file: introduction.aux
-A level-1 auxiliary file: chapter-example.aux
-A level-1 auxiliary file: conclusion.aux
-A level-1 auxiliary file: appendices.aux
-A level-1 auxiliary file: acknowledgement.aux
-A level-1 auxiliary file: about-author.aux
-I found no \citation commands---while reading file main.aux
-I found no \bibstyle command---while reading file main.aux
-(There were 2 error messages)
+The style file: ieeetran.bst
+Database file #1: Zotero.bib
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty author in noauthor_application_2005
+Warning--empty year in peercy_software_nodate
+
+Done.
+(There were 2 warnings)

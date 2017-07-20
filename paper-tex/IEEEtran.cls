@@ -1710,15 +1710,15 @@
 \def\listtablename{List of Tables}
 \def\refname{References}
 \def\indexname{Index}
-\def\figurename{Fig.}
-\def\tablename{TABLE}
+\def\figurename{Gambar }
+\def\tablename{Tabel }
 \@IEEEcompsocconfonly{\def\figurename{Figure}\def\tablename{Table}}
 \def\partname{Part}
-\def\appendixname{Appendix}
-\def\abstractname{Abstract}
+\def\appendixname{Daftar Pustaka}
+\def\abstractname{Abstrak}
 % IEEE specific names
-\def\IEEEkeywordsname{Keywords}
-\def\IEEEproofname{Proof}
+\def\IEEEkeywordsname{Kata Kunci}
+\def\IEEEproofname{Lampiran }
 
 
 % LIST OF FIGURES AND TABLES AND TABLE OF CONTENTS
@@ -1903,11 +1903,11 @@
 \@namedef{figure*}{\@dblfloat{figure}}
 \@namedef{endfigure*}{\end@dblfloat}
 \newcounter{table}
-\ifCLASSOPTIONcompsoc
+%\ifCLASSOPTIONcompsoc
 \def\thetable{\arabic{table}}
-\else
-\def\thetable{\@Roman\c@table}
-\fi
+%\else
+%\def\thetable{\@Roman\c@table}
+%\fi
 \def\fps@table{tbp}
 \def\ftype@table{2}
 \def\ext@table{lot}
