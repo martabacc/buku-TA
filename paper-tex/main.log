@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2017.5.23)  20 JUL 2017 16:19
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2017.5.23)  21 JUL 2017 10:14
 entering extended mode
 **./main.tex
 (main.tex
@@ -412,47 +412,6 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@inbox=\box34
 \enitdp@description=\count135
 )
-("C:\Users\rona\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.sty
-"
-Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
-
-("C:\Users\rona\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption3.st
-y"
-Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen150
-\captionmargin@=\dimen151
-\captionwidth=\dimen152
-\caption@tempdima=\dimen153
-\caption@indent=\dimen154
-\caption@parindent=\dimen155
-\caption@hangindent=\dimen156
-Package caption Info: Unknown document class (or package),
-(caption)             standard defaults will be used.
-)
-
-Package caption Warning: Unsupported document class (or package) detected,
-(caption)                usage of the caption package is not recommended.
-See the caption package documentation for explanation.
-
-Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEta
-blestring \footnotesize {\centering \normalfont \footnotesize #1.\qquad \scshap
-e #2\par }\@IEEEtablecaptionsepspace \else \@IEEEfigurecaptionsepspace \setbox 
-\@tempboxa \hbox {\normalfont \footnotesize {#1.}~~ #2}\ifdim \wd \@tempboxa >\
-hsize \setbox \@tempboxa \hbox {\normalfont \footnotesize {#1.}~~ }\parbox [t]{
-\hsize }{\normalfont \footnotesize \noindent \unhbox \@tempboxa #2}\else \ifCLA
-SSOPTIONconference \hbox to\hsize {\normalfont \footnotesize \box \@tempboxa \h
-fil }\else \hbox to\hsize {\normalfont \footnotesize \box \@tempboxa \hfil }\fi
- \fi \fi .
-\c@ContinuedFloat=\count136
-Package caption Info: float package is loaded.
-Package caption Info: hyperref package is loaded.
-Package caption Info: longtable package is loaded.
-
-("C:\Users\rona\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\ltcaption.s
-ty"
-Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
-))
 ("C:\Users\rona\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
@@ -556,15 +515,15 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 ))
 ("C:\Users\rona\AppData\Local\Programs\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty
 "
-\wrapoverhang=\dimen157
-\WF@size=\dimen158
-\c@WF@wrappedlines=\count137
+\wrapoverhang=\dimen150
+\WF@size=\dimen151
+\c@WF@wrappedlines=\count136
 \WF@box=\box35
 \WF@everypar=\toks22
 Package: wrapfig 2003/01/31  v 3.6
 )
-\c@inlinelisti=\count138
-\enitdp@inlinelist=\count139
+\c@inlinelisti=\count137
+\enitdp@inlinelist=\count138
  (main.aux)
 \openout1 = `main.aux'.
 
@@ -601,9 +560,6 @@ LaTeX Info: Redefining \nameref on input line 48.
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: wrapfig package is loaded.
-Package caption Info: End \AtBeginDocument code.
  (Metadata.tex) (abstract.tex) (introduction.tex
 ("C:\Users\rona\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\se-ascii
 -print.def"
@@ -618,9 +574,9 @@ al yang sekedar per-tukaran
 File: images/bab3/analisa/user-centered.png Graphic file (type QTm)
 <use  "images/bab3/analisa/user-centered.png" >
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 23.
+(Font)              <7> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 23.
+(Font)              <5> on input line 25.
  [1
 
 
@@ -631,20 +587,15 @@ File: images/bab3/usecasediagram/ucd-main.png Graphic file (type QTm)
 File: images/bab3/buku/basic_architecture.png Graphic file (type QTm)
 
 <use  "images/bab3/buku/basic_architecture.png" >
-File: images/bab3/diagram-portrait.png Graphic file (type QTm)
+File: images/bab3/arsitektur-app.png Graphic file (type QTm)
 
-<use  "images/bab3/diagram-portrait.png" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<use  "images/bab3/arsitektur-app.png" >
+Overfull \hbox (9.0pt too wide) in paragraph at lines 90--91
+ [][] 
+ []
 
- [2]
 File: images/bab3/apl/main-apl.png Graphic file (type QTm)
-
-<use  "images/bab3/apl/main-apl.png" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-File: images/UI/landing.png Graphic file (type QTm)
-
-<use  "images/UI/landing.png" >) (deskripsi-sistem.tex) (test-eval.tex
+<use  "images/bab3/apl/main-apl.png" >) (deskripsi-sistem.tex) (test-eval.tex
 File: images/bab5/speed/combined.png Graphic file (type QTm)
 
 <use  "images/bab5/speed/combined.png" >
@@ -652,49 +603,18 @@ Underfull \hbox (badness 7047) in paragraph at lines 4--16
 []\OT1/ptm/m/n/10 Pengujian ke-cepatan di-lakukan den-gan meng-gu-nakan
  []
 
+[2]
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Font Warning: Font shape `OT1/ptm/m/scit' undefined
+(Font)              using `OT1/ptm/m/n' instead on input line 22.
 
-File: images/bab5/maintainability/telor.png Graphic file (type QTm)
-<use  "images/bab5/maintainability/telor.png" >
-File: images/bab5/maintainability/maintainability-evaluation.png Graphic file (
-type QTm)
-
-<use  "images/bab5/maintainability/maintainability-evaluation.png" >
-Underfull \hbox (badness 3219) in paragraph at lines 18--31
-[]\OT1/ptm/m/n/10 Pengujian \OT1/ptm/m/it/10 main-tain-abil-ity \OT1/ptm/m/n/10
- di-lakukan den-gan mengikuti
- []
-
-
-Underfull \hbox (badness 2662) in paragraph at lines 18--31
-\OT1/ptm/m/n/10 pe-do-man dari pa-per "A Soft-ware Main-tain-abil-ity Eval-
- []
-
-
-Underfull \hbox (badness 3838) in paragraph at lines 18--31
-\OT1/ptm/m/n/10 u-a-tion Methodology"[[]], yaitu pa-ram-e-ter utama: \OT1/ptm/m
-/it/10 mod-
- []
-
-
-Underfull \hbox (badness 3439) in paragraph at lines 18--31
-\OT1/ptm/m/it/10 u-lar-ity\OT1/ptm/m/n/10 ,\OT1/ptm/m/it/10 descriptiveness\OT1
-/ptm/m/n/10 ,\OT1/ptm/m/it/10 consistency\OT1/ptm/m/n/10 ,\OT1/ptm/m/it/10 simp
-licity\OT1/ptm/m/n/10 , dan \OT1/ptm/m/it/10 track-a-bil-
- []
-
-[3]
-File: images/bab5/ujipengguna/result.png Graphic file (type QTm)
- <use  "images/bab5/ujipengguna/result.png" >
 File: images/bab5/ujipengguna/chart.png Graphic file (type QTm)
-
 <use  "images/bab5/ujipengguna/chart.png" >) (conclusion.tex
 Underfull \hbox (badness 3158) in paragraph at lines 5--6
 \OT1/ptm/m/n/10 adalah bis-nis me-nun-tut pe-ruba-han yang cepat, se-
  []
 
-[4]) (main.bbl
+[3]) (main.bbl
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `Indonesia'. Using the pattern for
 ** the default language instead.
@@ -704,7 +624,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 28.
 
 Underfull \hbox (badness 2418) in paragraph at lines 26--30
-[]\OT1/ptm/m/n/8 BalaiLelang, ``Se-jarah Lelang di In-done-sia.'' [On-
+[]\OT1/ptm/m/scit/8 BalaiLelang, ``Se-jarah Lelang di In-done-sia.'' [On-
  []
 
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
@@ -715,13 +635,13 @@ Underfull \hbox (badness 2418) in paragraph at lines 26--30
 ** the default language instead.
 
 Underfull \hbox (badness 2529) in paragraph at lines 39--42
-[]\OT1/ptm/m/n/8 ``Sistem Lelang On-line Masih Bermasalah.'' [On-
+[]\OT1/ptm/m/scit/8 ``Sistem Lelang On-line Masih Bermasalah.'' [On-
  []
 
 
 Underfull \hbox (badness 2035) in paragraph at lines 39--42
-\OT1/ptm/m/n/8 line]. Avail-able: []$http : / / www . saidabdullah . info / ind
-ex . php / issues /
+\OT1/ptm/m/scit/8 line]. Avail-able: []$http : / / www . saidabdullah . info / 
+index . php / issues /
  []
 
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
@@ -747,22 +667,26 @@ ex . php / issues /
 ** the default language instead.
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 67.
- [5
+ [4
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 67.
  (main.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 67.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 67.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 67.
  ) 
 Here is how much of TeX's memory you used:
- 11950 strings out of 428410
- 173655 string characters out of 3156958
- 259662 words of memory out of 3000000
- 15229 multiletter control sequences out of 15000+200000
- 27539 words of font info for 62 fonts, out of 3000000 for 9000
+ 10889 strings out of 428410
+ 154159 string characters out of 3156958
+ 239241 words of memory out of 3000000
+ 14182 multiletter control sequences out of 15000+200000
+ 28185 words of font info for 63 fonts, out of 3000000 for 9000
  1331 hyphenation exceptions out of 8191
- 36i,8n,45p,1091b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 30i,14n,45p,1091b,447s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (5 pages).
+Output written on main.pdf (4 pages).
