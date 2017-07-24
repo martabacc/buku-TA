@@ -1,6 +1,6 @@
 \subsection{Mendaftarkan Barang untuk Dilelang}
 \label{kasus-penggunaan-daftarbarang}
-Halaman ini hanya dapat diakses oleh pengguna yang sudah terdaftar dan sudah login ke dalam sistem. Halaman ini menampilkan form berisi elemen \textit{input} informasi barang, dan pengguna dapat mengisi lalu mengklik tombol tambahkan barang, dan untuk kasus normal dan alternatif dapat dilihat pada Tabel \ref{uc03.01}.\\
+Halaman ini hanya dapat diakses oleh pengguna yang sudah terdaftar dan sudah \textit{login} ke dalam sistem. Halaman ini menampilkan \textit{form} berisi elemen \textit{input} informasi barang, dan pengguna dapat mengisi lalu mengklik tombol tambahkan barang, dan untuk kasus normal dan alternatif dapat dilihat pada Tabel \ref{uc03.01}.\\
 \indent Terdapat logika \textit{view} khusus pada implementasi kasus penggunaan ini, karena adanya kebutuhan untuk \textit{upload multiple images} untuk setiap barang dan adanya penggunaan layanan pihak ketiga (AWS Storage Service) sebagai tempat penyimpanan gambar. Kode-kode sumber terkait dengan implementasi kasus penggunaan Mendaftarkan Barang untuk Dilelang adalah sebagai berikut:
 	\begin{enumerate}
 		\item Logika \textit{back-end} ditulis menggunakan PHP yang dicantumkan dalam Kode Sumber \ref{cdjq.03-01}; 
@@ -11,11 +11,12 @@ Halaman ini hanya dapat diakses oleh pengguna yang sudah terdaftar dan sudah log
   \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{images/bab4/ui/03-01.png}
-    \caption{Halaman antarmuka Mendaftarkan Barang untuk Dilelang}
-    \label{ui.01-01}
+    \caption{Halaman Antarmuka Mendaftarkan Barang untuk Dilelang}
+    \label{ui.03-01}
   \end{figure}
 
- \begin{lstlisting}[label=cdbe.03-01,style=php,caption=Kode Sumber \textit{Back-end} Mendaftarkan Barang untuk Dilelang]
+\newpage
+ \begin{lstlisting}[label=cdbe.03-01,style=php,caption=Implementasi \textit{Back-end} Mendaftarkan Barang untuk Dilelang]
 /*
     Fungsi create() dipanggil untuk menampilkan halaman tambah barang
     Fungsi store() dipanggil saat form di halaman tambah barang diklik
@@ -39,45 +40,38 @@ public function store(Request $request)
     $validate = Validator::make($unserialize, $this->itemRep->rules(), $this->itemRep->messages());
 
     if(false){
-        /* Jika gagal, return false dan error message 
-            ke view
-         */
+        /* Jika gagal, return false dan error message */
         return ['success'=>false, 'msg' => $validate->messages()];
     }
     else{
-        /* 
-            Jika sukses, return true 
-            dan id barang yang berhasil diinsert
-            untuk selanjutnya diproses oleh browser
-            untuk upload gambar barang ke URL terpisah.
-         */
-        return ['success' => true, 'id' =>  10];
+	    /* Jika sukses, return true 
+	    dan id barang yang berhasil diinsert
+	       untuk selanjutnya diproses oleh browser
+	       untuk upload gambar barang ke URL terpisah.
+	     */
+	    return ['success' => true, 'id' =>  10];
     }
 }
 	  
 	  
 \end{lstlisting}
 
-\begin{lstlisting}[label=cdjq.03-01,style=php,caption=Kode Sumber \textit{Back-end} Mendaftarkan Barang untuk Dilelang]
-/*	
-    Fungsi ini berfungsi untuk \textit{update} gambar barang, diteruskan kepada \textit{script} terpisah 
+\begin{lstlisting}[label=cdjq.03-01,style=php,caption=Implementasi \textit{Back-end} Mendaftarkan Barang untuk Dilelang]
+/*	Fungsi ini berfungsi untuk \textit{update} gambar barang, diteruskan kepada \textit{script} terpisah 
     Pada file : ImageController
-    Method : Any
 */
 public function uploadItemImage(Request $request){
     //passed here if csrf token is already passed
     $_POST['image'] = $request->file('image');
     $_POST['id_user'] = Auth::user()->id;
     $_POST['ext'] = $request->file('image')->extension();
-    
     require ('/home/img/upload-aws.php');
-
     return $res;
 }
 \end{lstlisting}
 
 
-\begin{lstlisting}[label=cdaws.03-01,style=php,caption=Kode Sumber \textit{Back-end} Upload Gambar Barang]
+\begin{lstlisting}[label=cdaws.03-01,style=php,caption=Implementasi \textit{Back-end} \textit{Upload} Gambar Barang]
 /*	Fungsi ini berfungsi untuk \textit{upload} gambar lewat script terpisah (untuk alasan integrasi data dengan sistem yang dibuat oleh partner tugas akhir)
 */
 require 'vendor/autoload.php';

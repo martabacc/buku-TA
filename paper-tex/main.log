@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2017.5.23)  21 JUL 2017 10:14
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2017.5.23)  24 JUL 2017 10:01
 entering extended mode
 **./main.tex
 (main.tex
@@ -572,15 +572,14 @@ al yang sekedar per-tukaran
  []
 
 File: images/bab3/analisa/user-centered.png Graphic file (type QTm)
-<use  "images/bab3/analisa/user-centered.png" >
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 25.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 25.
- [1
+<use  "images/bab3/analisa/user-centered.png" > [1
 
 
 ]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 44.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 44.
 File: images/bab3/usecasediagram/ucd-main.png Graphic file (type QTm)
 
 <use  "images/bab3/usecasediagram/ucd-main.png" >
@@ -687,6 +686,6 @@ Here is how much of TeX's memory you used:
  14182 multiletter control sequences out of 15000+200000
  28185 words of font info for 63 fonts, out of 3000000 for 9000
  1331 hyphenation exceptions out of 8191
- 30i,14n,45p,1091b,447s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,14n,45p,1091b,447s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on main.pdf (4 pages).

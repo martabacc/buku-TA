@@ -1,12 +1,11 @@
 
 \subsection{Analisa Penulis}
-	\subsubsection{Analisa \textit{User Experience} dari E-Commerce di Indonesia}
+	\subsubsection{Analisa \textit{User Experience} dari \textit{E-Commerce} di Indonesia}
 	\label{alasan-ux-ecommerce-indonesia alasan-app-serupa}
 	Selama masa pengerjaan aplikasi, penulis sering menganalisa dan memperhatikan kebiasaan-kebiasaan yang umum di website \textit{e-commerce} di Indonesia. Salah satu yang paling sering dianalisa oleh penulis adalah adalah situs Tokopedia. Dalam pengembangannya, \textit{user interface} aplikasi akan dipengaruhi analisa ini, yang dijabarkan seperti berikut:
 	\begin{enumerate}
-		\item Halaman yang muncul bukanlah eagerloading, tapi \textit{lazy loading}\\
-		\indent Ini adalah solusi cerdas untuk mengakali \textit{delay loading item} yang sudah pasti jumlahnya sangat banyak (maka butuh \textit{query} yang tentunya memakan waktu cukup lama), namun juga memainkan faktor psikologi / \textit{user behaviour} pengguna dengan membiarkan pengguna melihat tahap demi tahap halaman 'diisi'.
-		\item \textit{User Interface} yang sederhana dan pemilihan warna yang \textit{soft}
+		\item Halaman yang muncul bukanlah eagerloading, tapi \textit{lazy loading}, yang merupakan solusi cerdas untuk mengakali \textit{delay loading item} yang sudah pasti jumlahnya sangat banyak (maka butuh \textit{query} yang tentunya memakan waktu cukup lama), namun juga memainkan faktor psikologi / \textit{user behaviour} pengguna dengan membiarkan pengguna melihat tahap demi tahap halaman 'diisi'; dan
+		\item \textit{User Interface} yang sederhana dan pemilihan warna yang \textit{soft}.
 	\end{enumerate}
 	
 	\subsubsection{Analisa Keamanan pada koneksi Soket}
@@ -21,9 +20,9 @@
 	
 	\subsubsection{Analisa \textit{Best Practice} dalam Struktur Perangkat Lunak}
 		\label{alasan-best-practice}
-		Pada dasarnya, Laravel adalah kerangka kerja MVC. Namun, ada banyak fitur yang ada dalam aplikasi Lelang Online ini yang tidak terakomodasi dalam MVC, misal sebagai berikut :
+		Pada dasarnya, Laravel adalah kerangka kerja MVC. Namun, ada banyak fitur yang ada dalam aplikasi Lelang \textit{online} ini yang tidak terakomodasi dalam MVC, misal sebagai berikut :
 		\begin{enumerate}
-			\item Sistem Verifikasi lewat Email - yang berarti aplikasi harus berinteraksi dengan SMTP server
+			\item Sistem Verifikasi lewat \textit{email} - yang berarti aplikasi harus berinteraksi dengan SMTP server
 			\item Sistem \textit{Generate} Token JWT.io, dimana dalam proses \textit{Generate Token} sama sekali tidak ada database dilibatkan.
 		\end{enumerate}
 		\indent Jika fitur-fitur tersebut 'dipaksa' dimuat ke dalam MVC, maka tentu saja strukturnya menjadi ganjil, dan muncul \textit{code smell} berikut :
@@ -66,7 +65,7 @@
 	\begin{enumerate}
 		\item \textbf{Data transaksional disimpan di DBMS SQL - \textit{Relational}}
 		\newline
-		\indent Data yang sifatnya \textit{transaksional}, seperti data \textit{bidding}, data pengguna, dan lain sebagainya.
+		\indent Data yang sifatnya transaksional, seperti data \textit{bidding}, data pengguna, dan lain sebagainya.
 		Untuk data ini, lebih baik jika menggunakan database Postgre, untuk menjaga integritas data dan \textit{integrity checking} juga  menjadi lebih baik.
 		\item \textbf{Data non-transaksional disimpan di DBMS NoSQL}
 		\newline
@@ -79,18 +78,18 @@
 		\end{itemize} 	
 		
 		\item \textbf{Data citra/gambar menggunakan layanan Pihak Ketiga} \newline
-		\indent Sekarang telah banyak penyedia jasa \textit{cloud computing} sebagai infrastruktur, seperti Amazon Web Service, Google Cloud Storage. Alasan-alasan menggunakan AWS sebagai \textit{data storage} untuk gambar adalah sebagai berikut :
+		\indent Sekarang telah banyak penyedia jasa \textit{cloud computing} sebagai infrastruktur, seperti Amazon \textit{web} Service, Google Cloud Storage. Alasan-alasan menggunakan AWS sebagai \textit{data storage} untuk gambar adalah sebagai berikut :
 		\begin{enumerate}[noitemsep,topsep=0pt]
 			\item Skalabilitas aplikasi lebih terjaga. 
 			\newline Dengan memisahkan penyimpanan antara gambar dan server sehingga lebih mudah me\textit{maintain} perkembangan aplikasi, dan lebih fokus terhadap pengembangan aplikasi.
-			\item Menyediakan \textit{built-in} keamanan, fleksibel dan efisiensi \cite{wikipedia_amazon_2016}
+			\item Menyediakan \textit{built-in} keamanan, fleksibel dan efisiensi \cite{wikipedia_amazon_2016}.
 		\end{enumerate}
 		
 		\item \textbf{Optimasi \textit{assets}} \newline
 		\indent Dalam banyak kesempatan, penulis seringkali mendapati bahwa \textit{delay} untuk \textit{loading assets} lebih lama daripada \textit{loading data} dari database. Berikut penulis akan memaparkan hasil analisa berupa penyebab dan \textit{tackling} permasalahan tersebut.
 			\begin{enumerate}
 				\item \textit{Useless assets} yang disertakan dalam halaman: Memisahkan \textit{essentials assets} dan menyertakan \textit{script} yang hanya digunakan oleh halaman tersebut.
-				\item Logika penyusunan script yang tidak efektif dan optimal (misal: ada satu \textit{script} yang menyertakan file yang tidak diperlukan): \textit{pre-processing} berupa \textit{minifying, optimization, compiling, compression} terhadap \textit{assets}
-				\item Latensi ke \textit{server} yang cukup tinggi (misal: kecepatan sambungan internet yang rendah): \textit{Caching}, \textit{upgrading server} agar dapat "lebih terjangkau" secara jaringan, penerapan PWA (\textit{Progressive Web Apps}) untuk sisi \textit{user experience}.
+				\item Logika penyusunan script yang tidak efektif dan optimal (misal: ada satu \textit{script} yang menyertakan file yang tidak diperlukan): \textit{pre-processing} berupa \textit{minifying, optimization, compiling, compression} terhadap \textit{assets}.
+				\item Latensi ke \textit{server} yang cukup tinggi (misal: kecepatan sambungan internet yang rendah): \textit{Caching}, \textit{upgrading server} agar dapat "lebih terjangkau" secara jaringan, penerapan PWA (\textit{Progressive \textit{web} Apps}) untuk sisi \textit{user experience}.
 			\end{enumerate}
 	\end{enumerate}

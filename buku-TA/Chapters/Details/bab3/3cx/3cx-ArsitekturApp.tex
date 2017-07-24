@@ -3,14 +3,14 @@
       \begin{figure}[H]
         \centering
         \includegraphics[width=\textwidth]{images/bab3/diagram/arsitektur-awal.png}
-        \caption{Arsitektur Aplikasi Lelang Online 
+        \caption{Arsitektur Aplikasi Lelang \textit{online} 
         		\\
                 \textit{External Services} artinya adalah menggunakan \textit{service} dari luar, tidak dibangun sendiri. }
         \label{arsitektur-app-final}
       \end{figure}
     
     \subsubsection{\textbf{\textsc{Nginx} sebagai WebServer dan Proxy Server}}
-    {\scshape Nginx} adalah web server multifungsi - dimana selain berfungsi sebagai Webserver, namun juga bisa berfungsi sebagai Load Balancer. Dalam awal pembuatan aplikasi, \textsc{Nginx} hanya digunakan sebagai \textit{web server} untuk melayani permintaan halaman Web dari pengguna.
+    {\scshape Nginx} adalah \textit{web} server multifungsi - dimana selain berfungsi sebagai Webserver, namun juga bisa berfungsi sebagai Load Balancer. Dalam awal pembuatan aplikasi, \textsc{Nginx} hanya digunakan sebagai \textit{web server} untuk melayani permintaan halaman \textit{web} dari pengguna.
     \\
     Namun, saat \textit{deployment}, banyak sekali terjadi \textit{issue} yang berkaitan dengan \textit{ssl certificate}, sehingga pada akhirnya Nginx juga digunakan sebagai \textit{proxy server} - dimana Nginx mempunyai fungsi baru yaitu \textit{redirecting request=request} yang masuk ke dalam server, dan meneruskannya ke proses dalam server yang bertugas memproses \textit{request} tersebut.
 	   \\
@@ -21,11 +21,11 @@
 	    Dimana pada saat browser mengakses soket dari port lain (meskipun domainnnya sama), browser menganggap bahwa sambungan dari port lain tersebut sebagai \textit{security threat} dan otomatis memutuskan sambungan.
 	    \item ERROR :: INSECURE RESPONSE!
 	    \newline
-	    Hal ini terjadi saat browser membuka sebuah web dengan https - namun mengakses koneksi soket yang tidak terproteksi dengan https. Hal ini juga membuat browser menganggap ini sebagai \textit{security threat}, dan tidak membuka \textit{reply} dari koneksi soket yang tidak terproteksi dengan https tersebut.
+	    Hal ini terjadi saat browser membuka sebuah \textit{web} dengan https - namun mengakses koneksi soket yang tidak terproteksi dengan https. Hal ini juga membuat browser menganggap ini sebagai \textit{security threat}, dan tidak membuka \textit{reply} dari koneksi soket yang tidak terproteksi dengan https tersebut.
 	    \end{itemize}
     
     \subsubsection {\textbf{Laravel dan Logika Aplikasi}}
-    \textsc{Laravel}, bertugas sebagai Bos Besar, pengelola data dan manajemen data, dan pelayan \textit{request} dalam aplikasi Lelang online ini. Semua request diteruskan, dan diproses oleh \textsc{Laravel}, dan diproses oleh Laravel. 	    
+    \textsc{Laravel}, bertugas sebagai Bos Besar, pengelola data dan manajemen data, dan pelayan \textit{request} dalam aplikasi Lelang \textit{online} ini. Semua request diteruskan, dan diproses oleh \textsc{Laravel}, dan diproses oleh Laravel. 	    
     
     \subsubsection{\textbf{Vue.js sebagai \textit{View Renderer} }}
 	Penggunaan Vue.js yang digunakan oleh penulis dimaksudkan untuk membagi beban kerja/\textit{workloads} antara Server dan Pengguna. \\
@@ -49,7 +49,7 @@
     Server yang dibangun dengan menggunakan Node.js akan mengakomodasi \textit{request} yang bersifat \textit{event-driven} dan bersifat asinkronus, seperti transaksi lelang/\textit{bidding} dan \textit{chatting}.
     
     \subsubsection{\textbf{SendGrid} sebagai SMTP Service}
-    Untuk mengakomodasi fitur verifikasi otomatis lewat email, dibutuhkan sebuah SMTP service untuk mengirimkan email dari aplikasi ke alamat email pengguna. Dalam hal ini, yang digunakan adalah SendGrid Service.
+    Untuk mengakomodasi fitur verifikasi otomatis lewat email, dibutuhkan sebuah SMTP service untuk mengirimkan \textit{email} dari aplikasi ke alamat \textit{email} pengguna. Dalam hal ini, yang digunakan adalah SendGrid Service.
     
     \subsubsection{\textbf{Amazon S3} sebagai Data Storage Service}
     Untuk menyimpan gambar-gambar dari barang yang di\textit{upload} pada saat mendaftarkan barang.

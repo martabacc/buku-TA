@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2017.5.23)  20 JUL 2017 16:23
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2017.5.23)  24 JUL 2017 08:55
 entering extended mode
 **./main.tex
 (main.tex
@@ -1305,24 +1305,6 @@ LaTeX Warning: Label `ui.01-01' multiply defined.
 
 LaTeX Warning: Label `ui.01-01@cref' multiply defined.
 
-
-LaTeX Warning: Label `ui.01-01' multiply defined.
-
-
-LaTeX Warning: Label `ui.01-01@cref' multiply defined.
-
-
-LaTeX Warning: Label `ui.02-01' multiply defined.
-
-
-LaTeX Warning: Label `ui.02-01@cref' multiply defined.
-
-
-LaTeX Warning: Label `ui.01-01' multiply defined.
-
-
-LaTeX Warning: Label `ui.01-01@cref' multiply defined.
-
 ) (Chapters/Main/Bab5-PengujianDanEvaluasi.aux) (Chapters/Main/Bab6-Penutup.aux
 ) (Chapters/Auxiliary.aux) (Chapters/Main/Bab7-Biodata.aux))
 \openout1 = `main.aux'.
@@ -1817,7 +1799,7 @@ LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/bx/n' will be
 LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/m/it' will be
 (Font)              scaled to size 9.22495pt on input line 16.
  [16]
-Overfull \vbox (43.0pt too high) has occurred while \output is active []
+Overfull \vbox (32.0pt too high) has occurred while \output is active []
 
  [17]
 File: images/bab3/Solusi-Perbaikan-Ketidakpuasan.png Graphic file (type QTm)
@@ -1835,9 +1817,9 @@ File: images/bab3/buku/essential-good-software.png Graphic file (type QTm)
 [24] [25]) (Chapters/Details/bab3/analisa/kebutuhan/functional.tex
 (tables/03b/functional.tex) (tables/03b/functional.tex)
 (tables/03b/functional.tex [26]))
-(Chapters/Details/bab3/analisa/kebutuhan/non-functional.tex
+(Chapters/Details/bab3/analisa/kebutuhan/non-functional.tex [27]
 (tables/03b/nonfunctional.tex) (tables/03b/nonfunctional.tex)
-(tables/03b/nonfunctional.tex [27] [28]) [29])
+(tables/03b/nonfunctional.tex [28]) [29])
 (Chapters/Details/bab3/analisa/tugas_hak_akses_aktor.tex
 (tables/03/analisa/identifikasi_pengguna.tex)
 (tables/03/analisa/identifikasi_pengguna.tex)
@@ -1864,60 +1846,54 @@ Overfull \hbox (8.90346pt too wide) in paragraph at lines 22--22
 \EU1/TimesNewRoman(0)/m/n/10.95 antarpengguna.| 
  []
 
-
-Overfull \hbox (2.9902pt too wide) in paragraph at lines 22--22
-\EU1/TimesNewRoman(0)/m/n/10.95 menggunakan
- []
-
-
-Overfull \hbox (2.9902pt too wide) in paragraph at lines 23--23
-\EU1/TimesNewRoman(0)/m/n/10.95 menggunakan
- []
-
-[30] [31]))) (Chapters/Details/bab3/3c-Rancangan.tex
-(Chapters/Details/bab3/analisa/kebutuhan/ucdesc.tex
-(tables/03c/kasus_penggunaan.tex) (tables/03c/kasus_penggunaan.tex [32])
+[30]))) (Chapters/Details/bab3/3c-Rancangan.tex
+(Chapters/Details/bab3/analisa/kebutuhan/ucdesc.tex [31]
+(tables/03c/kasus_penggunaan.tex) (tables/03c/kasus_penggunaan.tex)
 File: images/bab3/usecasediagram/ucd-main.png Graphic file (type QTm)
 
-<use  "images/bab3/usecasediagram/ucd-main.png" >
+<use  "images/bab3/usecasediagram/ucd-main.png" > [32]
 (Chapters/Details/bab3/3cxx/KP01.tex
 File: images/bab3/usecasediagram/ucd-01.png Graphic file (type QTm)
 
-<use  "images/bab3/usecasediagram/ucd-01.png" > [33]
+<use  "images/bab3/usecasediagram/ucd-01.png" >
 (Chapters/Details/bab3/3cxx/01/01.tex
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 5--38
  [][] 
  []
 
-) [34] (Chapters/Details/bab3/3cxx/01/02.tex
+) [33]
+Overfull \vbox (9.14182pt too high) has occurred while \output is active []
+
+
+[34] (Chapters/Details/bab3/3cxx/01/02.tex
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 5--37
  [][] 
  []
 
-) [35] (Chapters/Details/bab3/3cxx/01/03.tex
+) (Chapters/Details/bab3/3cxx/01/03.tex
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 5--33
  [][] 
  []
 
-)) [36] (Chapters/Details/bab3/3cxx/KP02.tex
+)) [35] (Chapters/Details/bab3/3cxx/KP02.tex [36]
 File: images/bab3/usecasediagram/ucd-02.png Graphic file (type QTm)
 
-<use  "images/bab3/usecasediagram/ucd-02.png" > [37]
+<use  "images/bab3/usecasediagram/ucd-02.png" >
 (Chapters/Details/bab3/3cxx/02/01.tex
 Overfull \hbox (28.67905pt too wide) in paragraph at lines 7--40
  [][] 
  []
 
-) [38] (Chapters/Details/bab3/3cxx/02/02.tex
+) [37] (Chapters/Details/bab3/3cxx/02/02.tex
 Overfull \hbox (28.67905pt too wide) in paragraph at lines 7--56
  [][] 
  []
 
-) [39]
+) [38]
 Overfull \vbox (36.34183pt too high) has occurred while \output is active []
 
 
-[40] (Chapters/Details/bab3/3cxx/02/03.tex
+[39] (Chapters/Details/bab3/3cxx/02/03.tex
 Overfull \hbox (28.67905pt too wide) in paragraph at lines 7--50
  [][] 
  []
@@ -1927,7 +1903,7 @@ Overfull \hbox (28.67905pt too wide) in paragraph at lines 7--50
  [][] 
  []
 
-)) [41] (Chapters/Details/bab3/3cxx/KP03.tex
+)) [40] (Chapters/Details/bab3/3cxx/KP03.tex [41]
 File: images/bab3/usecasediagram/ucd-03.png Graphic file (type QTm)
 
 <use  "images/bab3/usecasediagram/ucd-03.png" > [42]
@@ -1936,11 +1912,11 @@ Overfull \hbox (23.36862pt too wide) in paragraph at lines 7--43
  [][] 
  []
 
-) [43]
+)
 Overfull \vbox (36.34183pt too high) has occurred while \output is active []
 
 
-[44] (Chapters/Details/bab3/3cxx/03/02.tex
+[43] (Chapters/Details/bab3/3cxx/03/02.tex
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 7--54
  [][] 
  []
@@ -1950,30 +1926,30 @@ Overfull \hbox (23.36862pt too wide) in paragraph at lines 7--33
  [][] 
  []
 
-) [45] (Chapters/Details/bab3/3cxx/03/04.tex
+) [44] (Chapters/Details/bab3/3cxx/03/04.tex
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 7--37
  [][] 
  []
 
-)) [46] (Chapters/Details/bab3/3cxx/KP04.tex
+)) [45] (Chapters/Details/bab3/3cxx/KP04.tex [46]
 File: images/bab3/usecasediagram/ucd-04.png Graphic file (type QTm)
 
-<use  "images/bab3/usecasediagram/ucd-04.png" > [47]
+<use  "images/bab3/usecasediagram/ucd-04.png" >
 (Chapters/Details/bab3/3cxx/04/01.tex
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 7--49
  [][] 
  []
 
-) [48] (Chapters/Details/bab3/3cxx/04/02.tex
+) [47] (Chapters/Details/bab3/3cxx/04/02.tex
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 8--55
  [][] 
  []
 
-) [49]
+) [48]
 Overfull \vbox (0.94884pt too high) has occurred while \output is active []
 
 
-[50] (Chapters/Details/bab3/3cxx/04/04.tex
+[49] (Chapters/Details/bab3/3cxx/04/04.tex
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 8--50
  [][] 
  []
@@ -1983,25 +1959,25 @@ Overfull \hbox (23.36862pt too wide) in paragraph at lines 8--45
  [][] 
  []
 
-)) [51] (Chapters/Details/bab3/3cxx/KP06.tex
+)) [50] (Chapters/Details/bab3/3cxx/KP06.tex [51]
 File: images/bab3/usecasediagram/ucd-06.png Graphic file (type QTm)
 
-<use  "images/bab3/usecasediagram/ucd-06.png" > [52]
+<use  "images/bab3/usecasediagram/ucd-06.png" >
 (Chapters/Details/bab3/3cxx/06/01.tex
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 7--48
  [][] 
  []
 
-) [53] (Chapters/Details/bab3/3cxx/06/02.tex
+) [52] (Chapters/Details/bab3/3cxx/06/02.tex
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 7--53
  [][] 
  []
 
-) [54]
-Overfull \vbox (41.74886pt too high) has occurred while \output is active []
+) [53]
+Overfull \vbox (28.14885pt too high) has occurred while \output is active []
 
 
-[55] (Chapters/Details/bab3/3cxx/06/03.tex
+[54] (Chapters/Details/bab3/3cxx/06/03.tex
 Overfull \hbox (23.36862pt too wide) in paragraph at lines 7--46
  [][] 
  []
@@ -2011,19 +1987,19 @@ Overfull \hbox (23.36862pt too wide) in paragraph at lines 7--53
  [][] 
  []
 
-)) [56]
+)) [55]
 Overfull \vbox (41.74886pt too high) has occurred while \output is active []
 
 
-[57]) (Chapters/Details/bab3/analisa/teknis/req-to-system.tex
+[56]) (Chapters/Details/bab3/analisa/teknis/req-to-system.tex
 File: images/bab3/buku/basic_architecture.png Graphic file (type QTm)
 
 <use  "images/bab3/buku/basic_architecture.png" >)
-(Chapters/Details/bab3/analisa/teknis/tech-options.tex
+(Chapters/Details/bab3/analisa/teknis/tech-options.tex [57]
 LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/bx/sc' will be
 (Font)              scaled to size 11.27493pt on input line 7.
- [58] [59] [60] [61])
-(Chapters/Details/bab3/desain/app-arc.tex [62]
+ [58] [59] [60])
+(Chapters/Details/bab3/desain/app-arc.tex [61]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 6.
@@ -2037,28 +2013,28 @@ Overfull \hbox (32.37653pt too wide) in paragraph at lines 8--9
 
 LaTeX Warning: Float too large for page by 21.0pt on input line 11.
 
-[63]) (Chapters/Details/bab3/desain/app-structure.tex
+[62]) (Chapters/Details/bab3/desain/app-structure.tex
 File: images/bab3/apl/main-apl.png Graphic file (type QTm)
 
-<use  "images/bab3/apl/main-apl.png" > [64
+<use  "images/bab3/apl/main-apl.png" > [63
 
 
-] [65])
+] [64])
 (Chapters/Details/bab3/desain/database.tex
 File: images/bab3/db/cdm.png Graphic file (type QTm)
  <use  "images/bab3/db/cdm.png" >
-[66]
+[65]
 File: images/bab3/db/pdm.png Graphic file (type QTm)
- <use  "images/bab3/db/pdm.png" > [67])
-(Chapters/Details/bab3/desain/kamus-data-transaksional.tex
+ <use  "images/bab3/db/pdm.png" > [66])
+(Chapters/Details/bab3/desain/kamus-data-transaksional.tex [67]
 (Chapters/Details/bab3/desain/database/kamus_transaksional/administrators.tex
-[68] (tables/03b/tables/transactional/administrator.tex)
+(tables/03b/tables/transactional/administrator.tex)
 (tables/03b/tables/transactional/administrator.tex)
 (tables/03b/tables/transactional/administrator.tex))
 (Chapters/Details/bab3/desain/database/kamus_transaksional/bids.tex
 (tables/03b/tables/transactional/bid.tex)
 (tables/03b/tables/transactional/bid.tex)
-(tables/03b/tables/transactional/bid.tex [69]))
+(tables/03b/tables/transactional/bid.tex [68]))
 (Chapters/Details/bab3/desain/database/kamus_transaksional/categories.tex
 (tables/03b/tables/transactional/categories.tex)
 (tables/03b/tables/transactional/categories.tex)
@@ -2066,11 +2042,11 @@ File: images/bab3/db/pdm.png Graphic file (type QTm)
 (Chapters/Details/bab3/desain/database/kamus_transaksional/coupon.tex
 (tables/03b/tables/transactional/coupon.tex)
 (tables/03b/tables/transactional/coupon.tex)
-(tables/03b/tables/transactional/coupon.tex [70]))
+(tables/03b/tables/transactional/coupon.tex [69]))
 (Chapters/Details/bab3/desain/database/kamus_transaksional/coupon_usages.tex
 (tables/03b/tables/transactional/coupon_usages.tex)
 (tables/03b/tables/transactional/coupon_usages.tex)
-(tables/03b/tables/transactional/coupon_usages.tex [71]))
+(tables/03b/tables/transactional/coupon_usages.tex [70]))
 (Chapters/Details/bab3/desain/database/kamus_transaksional/favorites.tex
 (tables/03b/tables/transactional/favorites.tex)
 (tables/03b/tables/transactional/favorites.tex)
@@ -2078,7 +2054,7 @@ File: images/bab3/db/pdm.png Graphic file (type QTm)
 (Chapters/Details/bab3/desain/database/kamus_transaksional/issues.tex
 (tables/03b/tables/transactional/issues.tex)
 (tables/03b/tables/transactional/issues.tex)
-(tables/03b/tables/transactional/issues.tex [72]))
+(tables/03b/tables/transactional/issues.tex [71]))
 (Chapters/Details/bab3/desain/database/kamus_transaksional/issuetypes.tex
 (tables/03b/tables/transactional/issuetypes.tex)
 (tables/03b/tables/transactional/issuetypes.tex)
@@ -2091,15 +2067,15 @@ Overfull \hbox (2.10059pt too wide) in paragraph at lines 30--30
 []|\EU1/TimesNewRoman(0)/m/n/10.95 id_coupon_usage| 
  []
 
-[73]))
+[72] [73]))
 (Chapters/Details/bab3/desain/database/kamus_transaksional/ratingauctioneers.te
 x (tables/03b/tables/transactional/ratingauctioneers.tex)
 (tables/03b/tables/transactional/ratingauctioneers.tex)
-(tables/03b/tables/transactional/ratingauctioneers.tex [74]))
+(tables/03b/tables/transactional/ratingauctioneers.tex))
 (Chapters/Details/bab3/desain/database/kamus_transaksional/ratingbidders.tex
 (tables/03b/tables/transactional/ratingbidders.tex)
 (tables/03b/tables/transactional/ratingbidders.tex)
-(tables/03b/tables/transactional/ratingbidders.tex))
+(tables/03b/tables/transactional/ratingbidders.tex [74]))
 (Chapters/Details/bab3/desain/database/kamus_transaksional/ratinglogs.tex
 (tables/03b/tables/transactional/ratinglogs.tex)
 (tables/03b/tables/transactional/ratinglogs.tex)
@@ -2114,19 +2090,19 @@ Overfull \hbox (3.32819pt too wide) in paragraph at lines 19--19
  []
 
 
-Overfull \hbox (0.83463pt too wide) in paragraph at lines 20--20
-\EU1/TimesNewRoman(0)/m/n/10.95 ratingauctioneers| 
+Overfull \hbox (3.35558pt too wide) in paragraph at lines 20--20
+\EU1/TimesNewRoman(0)/m/it/10.95 ratingauctioneers| 
  []
 
 [75]))
 (Chapters/Details/bab3/desain/database/kamus_transaksional/user_verifications.t
 ex (tables/03b/tables/transactional/userverifications.tex)
 (tables/03b/tables/transactional/userverifications.tex)
-(tables/03b/tables/transactional/userverifications.tex [76]))
+(tables/03b/tables/transactional/userverifications.tex))
 (Chapters/Details/bab3/desain/database/kamus_transaksional/userissues.tex
 (tables/03b/tables/transactional/userissues.tex)
 (tables/03b/tables/transactional/userissues.tex)
-(tables/03b/tables/transactional/userissues.tex))
+(tables/03b/tables/transactional/userissues.tex [76]))
 (Chapters/Details/bab3/desain/database/kamus_transaksional/users.tex
 (tables/03b/tables/transactional/users.tex)
 (tables/03b/tables/transactional/users.tex)
@@ -2135,11 +2111,11 @@ ex (tables/03b/tables/transactional/userverifications.tex)
 (Chapters/Details/bab3/desain/database/kamus_nontransaksional/userchats.tex
 (tables/03b/tables/nontransactional/userchats.tex)
 (tables/03b/tables/nontransactional/userchats.tex)
-(tables/03b/tables/nontransactional/userchats.tex [78]))
+(tables/03b/tables/nontransactional/userchats.tex))
 (Chapters/Details/bab3/desain/database/kamus_nontransaksional/chatrooms.tex
 (tables/03b/tables/nontransactional/chatrooms.tex)
 (tables/03b/tables/nontransactional/chatrooms.tex)
-(tables/03b/tables/nontransactional/chatrooms.tex))
+(tables/03b/tables/nontransactional/chatrooms.tex [78]))
 (Chapters/Details/bab3/desain/database/kamus_nontransaksional/itemimages.tex
 (tables/03b/tables/nontransactional/itemimages.tex)
 (tables/03b/tables/nontransactional/itemimages.tex)
@@ -2161,8 +2137,9 @@ File: images/bab4/pl/madafaka_cors.png Graphic file (type QTm)
  <use  "images/bab4/pl/madafaka_cors.png" >
 [82]
 LaTeX Font Info:    Font shape `EU1/CourierNew(0)/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 26.
-) (Chapters/Details/bab4/4b/vue.tex [83] (sourceCode/04/vue/package.tex
+(Font)              scaled to size 9.85492pt on input line 25.
+) (Chapters/Details/bab4/4b/vue.tex [83] [84]
+(sourceCode/04/vue/package.tex
 LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 10.24994pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/CourierNew(0)/m/n' will be
@@ -2175,8 +2152,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 2.
-
-[84]) (sourceCode/04/vue/dependencies.tex
+) (sourceCode/04/vue/dependencies.tex
 ("C:\Users\rona\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.s
 ty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
@@ -2184,26 +2160,26 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 ("C:\Users\rona\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.st
 y"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-)
+) [85]
 LaTeX Font Info:    Font shape `EU1/CourierNew(0)/bx/n' will be
-(Font)              scaled to size 8.99994pt on input line 2.
-) (sourceCode/04/vue/webpack-opt.tex [85])
+(Font)              scaled to size 8.99994pt on input line 3.
+) (sourceCode/04/vue/webpack-opt.tex)
 (sourceCode/04/vue/html-include.tex)) (Chapters/Details/bab4/4b/sendgrid.tex
 [86]
 File: images/bab4/pl/whitelist-success.png Graphic file (type QTm)
- <use  "images/bab4/pl/whitelist-success.png" >
+ <use  "images/bab4/pl/whitelist-success.png" > [87]
 File: images/bab4/pl/detail-whitelist.png Graphic file (type QTm)
 
-<use  "images/bab4/pl/detail-whitelist.png" > [87]))
+<use  "images/bab4/pl/detail-whitelist.png" >))
 (Chapters/Details/bab4/4c-ImplementasiUI.tex
-(Chapters/Details/bab4/implementasiUI/01-01.tex
+(Chapters/Details/bab4/implementasiUI/01-01.tex [88]
 File: images/bab4/ui/01-01.png Graphic file (type QTm)
 
-<use  "images/bab4/ui/01-01.png" > [88] [89] [90])
-(Chapters/Details/bab4/implementasiUI/01-02.tex [91]
+<use  "images/bab4/ui/01-01.png" > [89] [90])
+(Chapters/Details/bab4/implementasiUI/01-02.tex
 File: images/bab4/ui/01-02.png Graphic file (type QTm)
 
-<use  "images/bab4/ui/01-02.png" >)
+<use  "images/bab4/ui/01-02.png" > [91])
 (Chapters/Details/bab4/implementasiUI/02-01.tex [92] [93] [94]
 File: images/bab4/ui/02-01.png Graphic file (type QTm)
 
@@ -2212,51 +2188,54 @@ File: images/bab4/ui/02-01.png Graphic file (type QTm)
 (Chapters/Details/bab4/implementasiUI/02-03.tex
 File: images/bab4/ui/02-03.png Graphic file (type QTm)
 
-<use  "images/bab4/ui/02-03.png" > [96] [97] [98] [99])
-(Chapters/Details/bab4/implementasiUI/03-01.tex [100]
+<use  "images/bab4/ui/02-03.png" >
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[96] [97] [98] [99]) (Chapters/Details/bab4/implementasiUI/03-01.tex [100]
 File: images/bab4/ui/03-01.png Graphic file (type QTm)
 
 <use  "images/bab4/ui/03-01.png" > [101] [102] [103] [104] [105])
 (Chapters/Details/bab4/implementasiUI/03-02.tex [106] [107] [108] [109]
 [110] [111] [112] [113] [114]) (Chapters/Details/bab4/implementasiUI/03-03.tex
-[115]
 File: images/bab4/ui/02-01.png Graphic file (type QTm)
- <use  "images/bab4/ui/02-01.png" >)
+
+<use  "images/bab4/ui/02-01.png" > [115])
 (Chapters/Details/bab4/implementasiUI/03-04.tex)
 (Chapters/Details/bab4/implementasiUI/04-01.tex)
-(Chapters/Details/bab4/implementasiUI/04-02.tex [116]
+(Chapters/Details/bab4/implementasiUI/04-02.tex
 File: images/bab4/ui/04-02a.png Graphic file (type QTm)
 
-<use  "images/bab4/ui/04-02a.png" >
+<use  "images/bab4/ui/04-02a.png" > [116]
 File: images/bab4/ui/04-02b.png Graphic file (type QTm)
  <use  "images/bab4/ui/04-02b.png" >
-[117] [118] [119] [120]) (Chapters/Details/bab4/implementasiUI/04-03.tex)
-(Chapters/Details/bab4/implementasiUI/04-04.tex
+[117] [118] [119]) (Chapters/Details/bab4/implementasiUI/04-03.tex)
+(Chapters/Details/bab4/implementasiUI/04-04.tex [120]
 File: images/bab4/ui/04-04.png Graphic file (type QTm)
 
 <use  "images/bab4/ui/04-04.png" > [121] [122] [123] [124] [125])
 (Chapters/Details/bab4/implementasiUI/04-05.tex [126]
 File: images/bab4/ui/04-05.png Graphic file (type QTm)
 
-<use  "images/bab4/ui/04-05.png" > [127] [128] [129] [130])
-(Chapters/Details/bab4/implementasiUI/04-06.tex [131]
+<use  "images/bab4/ui/04-05.png" > [127] [128] [129] [130] [131])
+(Chapters/Details/bab4/implementasiUI/04-06.tex
 File: images/bab4/ui/04-06.png Graphic file (type QTm)
 
 <use  "images/bab4/ui/04-06.png" > [132] [133] [134])
-(Chapters/Details/bab4/implementasiUI/05-01.tex [135]
+(Chapters/Details/bab4/implementasiUI/05-01.tex
 File: images/bab4/ui/05-01.png Graphic file (type QTm)
 
-<use  "images/bab4/ui/05-01.png" >)
+<use  "images/bab4/ui/05-01.png" > [135])
 (Chapters/Details/bab4/implementasiUI/05-02.tex)
 (Chapters/Details/bab4/implementasiUI/05-03.tex)
 (Chapters/Details/bab4/implementasiUI/06-01.tex [136] [137]
 File: images/bab4/ui/06-01.png Graphic file (type QTm)
 
 <use  "images/bab4/ui/06-01.png" >)
-(Chapters/Details/bab4/implementasiUI/06-02.tex [138]
+(Chapters/Details/bab4/implementasiUI/06-02.tex
 File: images/bab4/ui/06-02.png Graphic file (type QTm)
 
-<use  "images/bab4/ui/06-02.png" >)
+<use  "images/bab4/ui/06-02.png" > [138])
 (Chapters/Details/bab4/implementasiUI/06-03.tex [139] [140]))) [141]
 \openout2 = `Chapters/Main/Bab5-PengujianDanEvaluasi.aux'.
 
@@ -2285,16 +2264,12 @@ BAB V.
 (Chapters/Details/bab5/fungsionalitas/4-interaksi.tex
 (Chapters/Details/bab5/fungsionalitas/table/4-interaksi.tex)
 (Chapters/Details/bab5/fungsionalitas/table/4-interaksi.tex)
-(Chapters/Details/bab5/fungsionalitas/table/4-interaksi.tex
-
-LaTeX Warning: Reference `ss-kp04-01' on page 150 undefined on input line 39.
-
-[150] [151])) (Chapters/Details/bab5/fungsionalitas/6-kupon.tex
+(Chapters/Details/bab5/fungsionalitas/table/4-interaksi.tex [150] [151]))
+(Chapters/Details/bab5/fungsionalitas/6-kupon.tex
 (Chapters/Details/bab5/fungsionalitas/table/6-kupon.tex)
 (Chapters/Details/bab5/fungsionalitas/table/6-kupon.tex)
 (Chapters/Details/bab5/fungsionalitas/table/6-kupon.tex [152] [153] [154])))
-(Chapters/Details/bab5/performa.tex [155]
-(Chapters/Details/bab5/performa/hasil.tex)
+(Chapters/Details/bab5/performa.tex (Chapters/Details/bab5/performa/hasil.tex)
 (Chapters/Details/bab5/performa/hasil.tex)
 (Chapters/Details/bab5/performa/hasil.tex)
 (Chapters/Details/bab5/performa/hasil.tex
@@ -2337,12 +2312,46 @@ Overfull \hbox (0.72995pt too wide) in paragraph at lines 24--24
 []|\EU1/TimesNewRoman(0)/m/n/10.95 12,4MB| 
  []
 
-[156])) (Chapters/Details/bab5/userxperience.tex
-(Chapters/Details/bab5/ux/proses.tex) [157] (Chapters/Details/bab5/ux/hasil.tex
+[155] [156])) (Chapters/Details/bab5/userxperience.tex
+(Chapters/Details/bab5/ux/proses.tex) (Chapters/Details/bab5/ux/hasil.tex
 (table/05/pengguna/recap_all.tex) (table/05/pengguna/recap_all.tex)
-(table/05/pengguna/recap_all.tex [158])))
-(Chapters/Details/bab5/maintainabilty.tex
-(Chapters/Details/bab5/maintainability/proses.tex)
+(table/05/pengguna/recap_all.tex
+Overfull \hbox (1.96681pt too wide) in paragraph at lines 6--7
+[]|\EU1/TimesNewRoman(0)/bx/n/10.95 Parameter| 
+ []
+
+
+Overfull \hbox (1.96681pt too wide) in paragraph at lines 14--15
+[]|\EU1/TimesNewRoman(0)/bx/n/10.95 Parameter| 
+ []
+
+
+Overfull \hbox (0.76114pt too wide) in paragraph at lines 27--27
+\EU1/TimesNewRoman(0)/m/n/10.95 konsistensi
+ []
+
+
+Overfull \hbox (5.10155pt too wide) in paragraph at lines 28--28
+[]|\EU1/TimesNewRoman(0)/m/n/10.95 Kemudahan
+ []
+
+
+Overfull \hbox (5.10155pt too wide) in paragraph at lines 28--28
+\EU1/TimesNewRoman(0)/m/n/10.95 penggunaan| 
+ []
+
+
+Overfull \hbox (5.10155pt too wide) in paragraph at lines 32--32
+\EU1/TimesNewRoman(0)/m/n/10.95 keseluruhan| 
+ []
+
+
+Overfull \hbox (11.96837pt too wide) in paragraph at lines 33--33
+[]|\EU1/TimesNewRoman(0)/m/n/10.95 Rekomendasi
+ []
+
+[157]))) (Chapters/Details/bab5/maintainabilty.tex
+(Chapters/Details/bab5/maintainability/proses.tex [158])
 (Chapters/Details/bab5/maintainability/hasil.tex
 (table/05/maintainability/recap_all.tex)
 (table/05/maintainability/recap_all.tex)
@@ -2358,7 +2367,7 @@ Overfull \hbox (0.72995pt too wide) in paragraph at lines 24--24
 (table/05/pengguna/recap_sorted.tex [166])
 File: images/bab5/ujipengguna/chart.png Graphic file (type QTm)
 
-<use  "images/bab5/ujipengguna/chart.png" >) [167]
+<use  "images/bab5/ujipengguna/chart.png" > [167])
 (Chapters/Details/bab5/evaluasi/speed.tex
 File: images/bab5/speed/bar-chart.png Graphic file (type QTm)
 
@@ -2366,7 +2375,7 @@ File: images/bab5/speed/bar-chart.png Graphic file (type QTm)
 File: images/bab5/speed/circle-chart.png Graphic file (type QTm)
 
 <use  "images/bab5/speed/circle-chart.png" > [168])
-(Chapters/Details/bab5/evaluasi/maintainability.tex
+(Chapters/Details/bab5/evaluasi/maintainability.tex [169]
 (table/05/maintainability/recap_sorted.tex)
 (table/05/maintainability/recap_sorted.tex)
 (table/05/maintainability/recap_sorted.tex
@@ -2379,11 +2388,11 @@ Overfull \hbox (6.27657pt too wide) in paragraph at lines 13--13
 []|\EU1/TimesNewRoman(0)/bx/n/10.95 Dokumentasi| 
  []
 
-[169])
+)
 File: images/bab5/maintainability/maintainability-evaluation.png Graphic file (
 type QTm)
- <use  "images/bab5/maintainability/maintainability-evaluation.png" >)
-[170] (Chapters/Details/bab5/evaluasi/summary.tex
+ <use  "images/bab5/maintainability/maintainability-evaluation.png" > [170])
+(Chapters/Details/bab5/evaluasi/summary.tex
 (table/05/evaluation_all_summarized.tex)
 (table/05/evaluation_all_summarized.tex)
 (table/05/evaluation_all_summarized.tex
@@ -2604,9 +2613,6 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 97.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 97.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  )
@@ -2615,12 +2621,12 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 34473 strings out of 428410
- 623746 string characters out of 3156958
- 898462 words of memory out of 3000000
- 36735 multiletter control sequences out of 15000+200000
+ 34489 strings out of 428410
+ 623978 string characters out of 3156958
+ 904051 words of memory out of 3000000
+ 36751 multiletter control sequences out of 15000+200000
  7099 words of font info for 69 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 55i,13n,69p,10398b,19116s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,12n,69p,10398b,19126s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on main.pdf (237 pages).

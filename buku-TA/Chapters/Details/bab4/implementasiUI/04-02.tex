@@ -1,25 +1,21 @@
 \subsection{Menambahkan Review}
-    Halaman ini hanya dapat diakses oleh pengguna terdaftar yang sudah \textit{login}, dan hanya bisa menambahkan review kepada transaksi yang sudah selesai. Halaman ini menampilkan form \textit{modal} berisi \textit{input} data review, memberikan \textit{rating}. Pengguna dapat mengisi lalu mengklik tombol daftar, untuk kasus alternatif dapat dilihat pada Tabel \ref{uc04.02}.\\
-	\indent Terdapat \textit{view logic} khusus dalam halaman ini, karena adanya proses pengecekan terlebih dahulu apakah pengguna sudah pernah memberi \textit{review} sebelumnya. Kode sumber implementasi \textit{back-end} dapat dilihat pada Kode Sumber \ref{cdbe.01-01}.
-
-	\indent Tidak ada logika khusus, hanya logika \textit{back-end} ditulis menggunakan PHP yang dicantumkan dalam Kode Sumber \ref{cdbe.04-02};
+    Halaman ini hanya dapat diakses oleh pengguna terdaftar yang sudah \textit{login}, dan hanya bisa menambahkan review kepada transaksi yang sudah selesai. Halaman ini menampilkan form \textit{modal} berisi \textit{input} data \textit{review}, memberikan \textit{rating}. Pengguna dapat mengisi lalu mengklik tombol daftar, untuk kasus alternatif dapat dilihat pada Tabel \ref{uc04.02}. Logika \textit{back-end} ditulis menggunakan PHP yang dicantumkan dalam Kode Sumber \ref{cdbe.04-02};
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth]{images/bab4/ui/04-02a.png}
-\caption{Halaman Antarmuka Implementasi Menambahkan Review}
+\includegraphics[width=.85\textwidth]{images/bab4/ui/04-02a.png}
+\caption{Halaman Antarmuka Implementasi Menambahkan \textit{Review}}
 \label{ui.04-02a}
 \end{figure}
 
-
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth]{images/bab4/ui/04-02b.png}
-\caption{Halaman Antarmuka Implementasi Menambahkan Review}
+\includegraphics[width=.85\textwidth]{images/bab4/ui/04-02b.png}
+\caption{Halaman Antarmuka Implementasi Menambahkan \textit{Review}}
 \label{ui.04-02b}
 \end{figure}
 
-\begin{lstlisting}[label=cdbe.04-02,style=php,caption=Kode Sumber \textit{Back-end} Menambahkan Review]
+\begin{lstlisting}[label=cdbe.04-02,style=php,caption=Implementasi \textit{Back-end} Menambahkan Review]
 /*	file : app/Http/Controllers/ReviewController */
 /* fungsi ini dieksekusi saat review disubmit */
     

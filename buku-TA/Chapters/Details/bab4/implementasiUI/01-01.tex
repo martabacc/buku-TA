@@ -1,21 +1,19 @@
 \subsection{Antarmuka Halaman Registrasi}    
-    Halaman ini dapat diakses oleh semua pengguna, baik yang belum terdaftar maupun sudah. Halaman ini menampilkan form berisi elemen \textit{input} data diri, dan pengguna dapat mengisi lalu mengklik tombol daftar, dan untuk kasus alternatif dapat dilihat pada Tabel \ref{uc01.01}.\\
-	\indent Tidak ada \textit{view logic} ataupun logika \textit{UI} khusus dalam halaman ini. Kode sumber implementasi \textit{back-end} dapat dilihat pada Kode Sumber \ref{cdbe.01-01}.
+    Halaman ini dapat diakses oleh semua pengguna, baik yang belum terdaftar maupun sudah. Halaman ini menampilkan form berisi elemen \textit{input} data diri, dan pengguna dapat mengisi lalu mengklik tombol daftar, dan untuk kasus alternatif dapat dilihat pada Tabel \ref{uc01.01}. Tidak ada \textit{view logic} ataupun logika UI khusus dalam halaman ini. Kode sumber implementasi \textit{back-end} dapat dilihat pada Kode Sumber \ref{cdbe.01-01}.
 
   \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{images/bab4/ui/01-01.png}
-    \caption{Halaman antarmuka registrasi}
+    \includegraphics[width=.8\textwidth]{images/bab4/ui/01-01.png}
+    \caption{Halaman Antarmuka Registrasi}
     \label{ui.01-01}
   \end{figure}
   
-\begin{lstlisting}[label=cdbe.01-01,style=php,caption=Kode Sumber Antarmuka Registrasi]
+\begin{lstlisting}[label=cdbe.01-01,style=php,caption=Implementasi Antarmuka Registrasi]
 /* 
  * Menampilkan halaman register
  * method : GET 
  */
 public function showRegistrationForm(){
-	
 	return view('auth.register2');
 }
 
@@ -48,7 +46,7 @@ public function register(Request $request){
 	$this->guard()->login($user);
 
 	/* notify activationService 
-	to send activation mail to user's email */
+	to send activation mail to user's \textit{email} */
 	$this->activationService->sendActivationMail($user);
 
 	return $this->registered($request, $user) ?

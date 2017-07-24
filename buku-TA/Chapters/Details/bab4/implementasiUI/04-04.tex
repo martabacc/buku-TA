@@ -1,20 +1,21 @@
-\subsection{Mengirimkan pesan}
+\newpage
+\subsection{Mengirimkan Pesan}
 Halaman ini hanya dapat diakses oleh pengguna yang sudah terdaftar dan masuk/\textit{login} ke dalam sistem. Pada halaman ini terdapat elemen-elemen halaman \textit{chatting} pada umumnya, yaitu elemen \textit{input} pesan, tombol Kirim, dan riwayat beberapa pesan sebelumnya. Spesifikasi kasus penggunaan dapat dilihat pada Tabel \ref{uc04.04}.\\
 \indent Terdapat logika \textit{view} dan alur proses khusus dikarenakan sifat pengiriman dan penerimaan pesan yang realtime, sehingga dibangun diatas Node.js dan menggunakan Socket.io. Masing-masing logika tersebut dapat dijabarkan sebagai berikut:
 	\begin{enumerate}
 		\item Logika \textit{back-end} ditulis menggunakan PHP yang dicantumkan dalam Kode Sumber \ref{cdbe.04-04}; 
 		\item Logika \textit{view} ditulis menggunakan jQuery yang dicantumkan dalam Kode Sumber \ref{cdjq.04-04}; dan
-		\item Logika proses pengiriman \& penerimaan pesan, berjalan diatas socket yang berjalan diatas Node.js dengan bantuan Socket.io yang dicantumkan dalam Kode Sumber \ref{cdsoc.04-04}
+		\item Logika proses pengiriman \& penerimaan pesan, berjalan diatas \textit{runtime} Node.js dengan bantuan Socket.io yang dicantumkan dalam Kode Sumber \ref{cdsoc.04-04}
 	\end{enumerate}
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{images/bab4/ui/04-04.png}
-\caption{Halaman Antarmuka Implementasi Kasus Penggunaan Mengirimkan Pesan}
+\caption{Halaman Antarmuka Kasus Penggunaan Mengirimkan Pesan}
 \label{ui.04-04}
 \end{figure}
-
-\begin{lstlisting}[label=cdbe.04-04,style=php,caption=Kode Sumber \textit{Back-end} Mengirimkan Pesan]
+\newpage
+\begin{lstlisting}[label=cdbe.04-04,style=php,caption=Implementasi \textit{Back-end} Mengirimkan Pesan]
 /*	file : app/Http/Controllers/ChatController */
 public function chat($id_user)
 	/*	method : GET */
@@ -36,7 +37,7 @@ public function chat($id_user)
 }
 \end{lstlisting}
 
-\begin{lstlisting}[label=cdsoc.04-04,style=htmlcssjs,caption=Kode Sumber Logika View Lelang (menggunakan Node.js)]
+\begin{lstlisting}[label=cdsoc.04-04,style=htmlcssjs,caption=Implementasi Logika \textit{View} Lelang (menggunakan Node.js)]
 /*	
 	file : chatserver\_https.js 
 	menggunakan dependencies : socketio (ioServer), jwt, https, http, fs dan express
@@ -110,7 +111,7 @@ socket.on('send', function(data) {
 
 \end{lstlisting}
 
-\begin{lstlisting}[label=cdjq.04-04,style=htmlcssjs,caption=Kode Sumber Logika Pengiriman \& Penerimaan Pesan (menggunakan jQuery)]
+\begin{lstlisting}[label=cdjq.04-04,style=htmlcssjs,caption=Implementasi Logika Pengiriman \& Penerimaan Pesan (menggunakan jQuery)]
 var room = '{{ Auth::user()->id }}-{{ $user->id }}';
 var prepstat = '{ "room" : "' + room + '", "body" : "';
 var closetag ='"}';

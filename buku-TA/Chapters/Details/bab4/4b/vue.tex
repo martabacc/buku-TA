@@ -19,24 +19,18 @@
 	\ \\
   
   \textbf{\textit{Solution}} \\
-  Penulis lalu mengoreksi dan \textit{update package.json} dengan pendekatan \textit{trial and error}, dan bisa terselesaikan dengan script berikut :
-	\input{sourceCode/04/vue/package}	  	
+  Penulis lalu mengoreksi dan \textit{update package.json} dengan pendekatan \textit{trial and error}, dan bisa terselesaikan dengan mengkonfigurasi \textit{package.json} sesuai pada Kode Sumber \ref{kode-sumber-package}.\\
 
-			  	
-	\ \\		  
+				  
 \item 
 	\textbf{\textit{Dependencies Optimization}} \textbf{\textit{Problem}} \\
-	Setelah menulis beberapa \textit{script} Vue, penulis menganalisa bahwa setiap \textit{script} Vue ternyata mempunyai \textit{dependencies} yang sama, yaitu axios, Promise, toastr dan vue. Setiap file Vue meng\textit{include} sebuah \textit{script} yang berisi:
-	\input{sourceCode/04/vue/dependencies}
-
-	Hal ini mengakibatkan semua file vue yang di\textit{compile} ukurannya cukup besar (~400KB), padahal sebenarnya di dalam setiap file tersebut sebenarnya ada yang sama. Hal ini tentu tidak efektif, karna sebenarnya hal-hal yang sama tersebut bisa dipisahkan, dan dijadikan \textit{cache} sehingga \textit{loading} halaman bisa jauh lebih cepat.\\
+	Setelah menulis beberapa \textit{script} Vue, penulis menganalisa bahwa setiap \textit{script} Vue ternyata mempunyai \textit{dependencies} yang sama, yaitu axios, Promise, toastr dan vue. Setiap file Vue membutuhkan \textit{scripts} seperti pada Kode Sumber \ref{webpack}. Hal ini mengakibatkan semua \textit{file} vue yang di\textit{compile} ukurannya cukup besar (kurang lebih sebesar 400KB), padahal sebenarnya di dalam setiap \textit{file} tersebut sebenarnya ada yang sama. Hal ini tentu tidak efektif, karna sebenarnya hal-hal yang sama tersebut bisa dipisahkan, dan dijadikan \textit{cache} sehingga \textit{loading} halaman bisa jauh lebih cepat.\\
 		
 	\textbf{\textit{Insight \& Solution}} \\
-	Setelah penulis berdiskusi di forum Slack, beberapa pengguna Vue menyarankan untuk \textit{compile} keseluruhan \textit{dependencies} yang digunakan kedalam satu file terpisah, dan hanya menulis logika Vue untuk setiap file Vue.\\
-	Isi file webpack.mix.js (file yang di\textit{compile} oleh Webpack)	menjadi seperti berikut.
-	\input{sourceCode/04/vue/webpack-opt}
-		
-	Dan di HTML, untuk \textit{including} \textit{script} dituliskan seperti berikut:
-	\input{sourceCode/04/vue/html-include}
+	Setelah penulis berdiskusi di forum Slack, beberapa pengguna Vue menyarankan untuk \textit{compile} keseluruhan \textit{dependencies} yang digunakan kedalam satu \textit{file} terpisah, dan hanya menulis logika Vue untuk setiap file Vue, Isi \textit{file} webpack.mix.js (\textit{file} yang di\textit{compile} oleh Webpack) seperti pada Kode Sumber \ref{webpack-optimized}.
 
 \end{enumerate}
+\input{sourceCode/04/vue/package}
+\input{sourceCode/04/vue/dependencies}
+\input{sourceCode/04/vue/webpack-opt}
+\input{sourceCode/04/vue/html-include}

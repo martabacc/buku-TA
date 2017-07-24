@@ -33,7 +33,7 @@ Dari aspek \textit{software engineering} sendiri, \textit{software engineering} 
 	\item \textit{design}; \textit{and}
 	\item \textit{supporting program specification}
 \end{inlinelist}\cite{software-engineering}.
-Kebutuhan nonfungsional pada aplikasi ini didefinisikan pada Tabel 
+Kebutuhan nonfungsional pada aplikasi ini didefinisikan pada Tabel \ref{nonfung}.
 %\captionsetup[table]{position=top,labelfont={sc},textfont={sl}}
 
 \begin{table}[H]
@@ -93,7 +93,7 @@ Kebutuhan nonfungsional pada aplikasi ini didefinisikan pada Tabel
 	\end{figure}
 	
 		
-		Untuk mengakomodasi kebutuhan \textit{flexibility} dan \textit{maintainability}, maka penulis membangun aplikasi dengan menggunakan \textit{repository} pattern, dengan pembagian lingkup \textit{tiers} sebagai berikut:
+		Aplikasi ini tersusun atas 4 \textit{tiers}, yang dapat dilihat pada Gambar \ref{tiers}. \textit{Tiers} ini dibangun agar dapat mengakomodasi kebutuhan \textit{flexibility} dan \textit{maintainability}. \textit{Tiers} tersebut diklasifikasikan sebagai berikut:
 		\begin{enumerate}
 			\item \textit{Presentation tier}, bertanggungjawab terhadap tampilan dan \textit{view logic} di lingkup \textit{browser} pengguna;
 			\item \textit{Bussiness tier}, merupakan \textit{logic} dari proses bisnis aplikasi;

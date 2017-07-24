@@ -1,4 +1,4 @@
-\subsection{Menawar/melelang barang}
+\subsection{Menawar Barang}
 Halaman ini hanya dapat diakses oleh pengguna yang sudah terdaftar. Halaman ini menampilkan halaman informasi barang, dan sebuah elemen \textit{input} harga , dan pengguna dapat mengisi lalu mengklik tombol daftar, dan untuk kasus normal dan alternatif dapat dilihat pada Tabel \ref{uc02.03}.\\
 \indent Alur pemrosesan dan logika program pada kasus penggunaan ini dapat dijabarkan sebagai berikut:
 	\begin{enumerate}
@@ -7,14 +7,15 @@ Halaman ini hanya dapat diakses oleh pengguna yang sudah terdaftar. Halaman ini 
 		\item Logika proses lelang, berjalan diatas socket yang berjalan diatas Node.js dengan bantuan Socket.io yang dicantumkan dalam Kode Sumber \ref{cdsoc.02-03}
 	\end{enumerate}
 
-\begin{figure}[H]
+\begin{figure}[h]
     \centering
     \includegraphics[width=\textwidth]{images/bab4/ui/02-03.png}
-    \caption{Halaman Antarmuka  Implementasi Kasus Penggunaan Menawar/melelang barang}
+    \caption{Halaman Antarmuka Menawar Barang}
     \label{ui.02-03}
 \end{figure}
+\newpage
 
-\begin{lstlisting}[label=cdbe.02-03,style=php,caption=Kode Sumber \textit{Back-end} Menampilkan Halaman Lelang Barang]
+\begin{lstlisting}[label=cdbe.02-03,style=php,caption=Implementasi \textit{Back-end} Menampilkan Halaman Lelang Barang]
 /*	file : app/Http/Controllers/ItemController*/
 public function show($id){
 	/*	method : GET */
@@ -38,7 +39,7 @@ public function show($id){
 \end{lstlisting}
 
 
-\begin{lstlisting}[label=cdsoc.02-03,style=htmlcssjs,caption=Kode Sumber Logika Lelang (menggunakan Node.js)]
+\begin{lstlisting}[label=cdsoc.02-03,style=htmlcssjs,caption=Implementasi Logika Lelang (menggunakan Node.js)]
 /*	
 	file : bidserver_https.js 
 	menggunakan dependencies : socketio (ioServer), https, http, fs dan express
@@ -79,7 +80,7 @@ socket.on('submitbid', function(bidjson) {
 });
 \end{lstlisting}
 
-\begin{lstlisting}[label=cdjq.02-03,style=htmlcssjs,caption=Kode Sumber Logika UI (menggunakan jQuery)]
+\begin{lstlisting}[label=cdjq.02-03,style=htmlcssjs,caption=Implementasi Logika UI (menggunakan jQuery)]
 // script ini berjalan
 // saat tombol Tawar diklik
 

@@ -8,7 +8,7 @@ Halaman ini hanya dapat diakses oleh pengguna yang sudah terdaftar dan sudah log
     \label{ui.02-04}
 \end{figure}
 
-\begin{lstlisting}[label=cdbe.02-04,style=php,caption=Kode Sumber \textit{Back-end} Kasus Penggunaan: Melihat Riwayat Penawaran]
+\begin{lstlisting}[label=cdbe.02-04,style=php,caption=Implementasi \textit{Back-end} Kasus Penggunaan: Melihat Riwayat Penawaran]
 /*	file : app/Http/Controllers/BidController*/
 public function userHistory(Request $request)
 {
@@ -41,7 +41,7 @@ public function userHistory(Request $request)
 }
 \end{lstlisting}
 
-\begin{lstlisting}[label=cdrep.02-04,style=php,caption=Kode Sumber \textit{Repository}: Melihat Riwayat Penawaran]
+\begin{lstlisting}[label=cdrep.02-04,style=php,caption=Implementasi \textit{Repository}: Melihat Riwayat Penawaran]
 /*  file : app/Repositories/BidRepository.php */
 public function getHistoryBid($id){
 

@@ -2,20 +2,21 @@
 \subsection{Struktur Aplikasi}
 \label{software-structure}
 
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=.8\textwidth]{images/bab3/apl/main-apl.png}
-		\caption{Komponen Penyusun Struktur Aplikasi}
-		\label{software-structure-img}
-	\end{figure}
 	
 	\subsubsection{\textit{Presentation Tier}}
 		\textit{Presentation tier} adalah gabungan komponen yang bertanggung jawab terhadap \textit{user interface} ke secara keseluruhan. Dalam \textit{tier} ini  menjadi 2 komponen, yaitu:
 		\begin{enumerate}
 			\item \textbf{Komponen \textit{View Element}} bertanggungjawab terhadap dari elemen-elemen tampilan (HTML, CSS, JS), juga terkait dengan \textit{templating} (pada penerapannya menggunakan Blade \textit{templating}, yang sudah secara default masuk ke dalam \textit{package} Laravel).
-			\item \textbf{Komponen \textit{View Logic}} bertanggungjawab terhadap logika \textit{view}, misal pada halaman melelang barang, maka \textit{view logic} adalah logika program saat pengguna memasukkan penawaran harga, mengklik tombol "Tawar" hingga akhirnya penawaran tersebut diterima/diproses oleh aplikasi.
+			\item \textbf{Komponen \textit{View Logic}} bertanggungjawab terhadap logika \textit{view}, misal pada halaman melelang barang, maka \textit{view logic} adalah logika program saat pengguna memasukkan penawaran harga, mengklik tombol "Tawar" hingga akhirnya penawaran tersebut sditerima/diproses oleh aplikasi.
 		\end{enumerate}
 		
+		
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=.8\textwidth]{images/bab3/apl/main-apl.png}
+			\caption{Komponen Penyusun Struktur Aplikasi}
+			\label{software-structure-img}
+		\end{figure}
 		
 	\subsubsection{\textit{Bussiness Tier}}
 	\textit{Bussiness tier} adalah gabungan komponen yang bertanggung jawab kelangsungan proses bisnis. Dalam \textit{tier} ini, terdapat 2 komponen yaitu:

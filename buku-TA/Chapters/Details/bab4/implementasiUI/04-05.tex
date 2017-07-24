@@ -1,7 +1,7 @@
+\newpage
 \subsection{Melihat Kotak Pesan}
-
 Halaman ini hanya dapat diakses oleh pengguna yang sudah terdaftar dan masuk/\textit{login} ke dalam sistem. Pada halaman ini terdapat elemen-elemen halaman \textit{chatting} pada umumnya, yaitu elemen \textit{input} pesan, tombol Kirim, dan riwayat beberapa pesan sebelumnya. Spesifikasi kasus penggunaan dapat dilihat pada Tabel \ref{uc04.05}.\\
-\indent Terdapat logika \textit{view} dan alur proses khusus dikarenakan sifat pengiriman dan penerimaan pesan yang realtime, sehingga dibangun diatas Node.js dan menggunakan Socket.io. Masing-masing logika tersebut dapat dijabarkan sebagai berikut:
+\indent Terdapat logika \textit{view} dan alur proses khusus dikarenakan sifat pengiriman dan penerimaan pesan yang \textit{realtime}, sehingga dibangun diatas Node.js dan menggunakan Socket.io. Masing-masing logika tersebut dapat dijabarkan sebagai berikut:
 \begin{enumerate}
 	\item Logika \textit{back-end} ditulis menggunakan PHP yang dicantumkan dalam Kode Sumber \ref{cdbe.04-05}; dan
 	\item Logika \textit{view} ditulis menggunakan Vue.js yang dicantumkan dalam Kode Sumber \ref{cdve.04-05};
@@ -13,8 +13,8 @@ Halaman ini hanya dapat diakses oleh pengguna yang sudah terdaftar dan masuk/\te
 	\caption{Halaman Antarmuka Melihat Kotak Pesan}
 	\label{ui.04-05}
 \end{figure}
-
-\begin{lstlisting}[label=cdbe.04-05,style=php,caption=Kode Sumber \textit{Back-end} Melihat Kotak Pesan]
+\newpage
+\begin{lstlisting}[label=cdbe.04-05,style=php,caption=Implementasi \textit{Back-end} Melihat Kotak Pesan]
 /*	file : app/Http/Controllers/InboxController */
 /* fungsi ini dipanggil saat mengakses url inbox/data */
 public function retrieveInbox($id = false)
@@ -49,7 +49,6 @@ public static function getLastChatDetail(User $user, $room)
           ->where('room', $room)
           ->orderBy('sent','desc')
           ->first(['msg','sender','sent']);
-
   $partner = explode("-", $room);
   $partner = $partner[0] != $user->id ? $partner[0] : $partner[1];
   return ( [
@@ -67,7 +66,7 @@ public static function getLastChatDetail(User $user, $room)
 
 \end{lstlisting}
 
-\begin{lstlisting}[label=cdve.04-05,style=htmlcssjs,caption=Kode Sumber Logika View Lihat Kotak Pesan (menggunakan Node.js)]
+\begin{lstlisting}[label=cdve.04-05,style=htmlcssjs,caption=Implementasi Logika \textit{View} Lihat Kotak Pesan (menggunakan Node.js)]
 <template>
     <ul class="friend-list table-hover table-responsive" v-if="conversations.length>0 && loaded">
       <li  v-for="(conv, index) in conversations">
@@ -102,7 +101,7 @@ public static function getLastChatDetail(User $user, $room)
              No messages!
          </div>
       </li>
-    </ul>
+    </ul>w
 </template>
 
 <script>

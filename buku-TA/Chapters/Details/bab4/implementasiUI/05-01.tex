@@ -1,8 +1,14 @@
-\subsection{Melihat daftar pengguna}
-Halaman ini hanya dapat diakses oleh \textit{administrator} yang sebelumnya sudah login. Tidak ada \textit{view logic} ataupun logika \textit{UI} khusus dalam halaman ini. Kode sumber implementasi \textit{back-end} dapat dilihat pada Kode Sumber \ref{cdbe.05-01}.
+\subsection{Melihat Daftar Pengguna}
+Halaman ini hanya dapat diakses oleh \textit{administrator} yang sebelumnya sudah \textit{login}. Tidak ada \textit{view logic} ataupun logika \textit{UI} khusus dalam halaman ini. Kode sumber implementasi \textit{back-end} dapat dilihat pada Kode Sumber \ref{cdbe.05-01}.
 
-\begin{lstlisting}[label=cdbe.05-01,style=php,caption=Kode Sumber Antarmuka Registrasi]
-
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=.8\textwidth]{images/bab4/ui/05-01.png}
+	\caption{Halaman Antarmuka Kasus Penggunaan Melihat Daftar Pengguna}
+	\label{ui.05-01}
+\end{figure}
+\newpage
+\begin{lstlisting}[label=cdbe.05-01,style=php,caption=Implementasi Antarmuka Melihat Daftar Pengguna]
 /** 
  * File : app/Http/Controllers/UserController
  * Menampilkan halaman daftar pengguna
@@ -15,11 +21,6 @@ public function user()
     return view('pages.user.index', $data);
 }
 \end{lstlisting}
-      
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{images/bab4/ui/05-01.png}
-    \caption{Halaman Antarmuka Kasus Penggunaan Melihat Daftar Pengguna}
-    \label{ui.05-01}
-  \end{figure}
+
+
       

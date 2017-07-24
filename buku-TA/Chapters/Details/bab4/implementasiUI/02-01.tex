@@ -1,8 +1,9 @@
-\subsection{Melihat daftar barang yang dilelang}
-Halaman ini hanya dapat diakses oleh pengguna yang sudah terdaftar dan sudah login ke dalam sistem. Halaman ini menampilkan form berisi elemen \textit{input} data diri, dan pengguna dapat mengisi lalu mengklik tombol daftar, dan untuk kasus normal dan alternatif dapat dilihat pada Tabel \ref{uc02.01}.\\
-\indent Terdapat view logic khusus pada halaman ini yang ditulis menggunakan Vue dan di\textit{compile} dengan menggunakan webpack, yang akan dicantumkan dalam Kode Sumber \ref{cdv.02-01}. Kode sumber implementasi \textit{back-end} dapat dilihat pada Kode Sumber \ref{cdbe.02-01}.
+\newpage
+\subsection{Melihat Daftar Barang yang Dillang}
+Halaman ini hanya dapat diakses oleh pengguna yang sudah terdaftar dan sudah \textit{login} ke dalam sistem. Halaman ini menampilkan \textit{form} berisi elemen \textit{input} data diri, dan pengguna dapat mengisi lalu mengklik tombol daftar, dan untuk kasus normal dan alternatif dapat dilihat pada Tabel \ref{uc02.01}.\\
+\indent Terdapat \textit{view logic} khusus pada halaman ini yang ditulis menggunakan Vue dan di\textit{compile} dengan menggunakan webpack, yang akan dicantumkan dalam Kode Sumber \ref{cdv.02-01}. Kode sumber implementasi \textit{back-end} dapat dilihat pada Kode Sumber \ref{cdbe.02-01}.
 
-\begin{lstlisting}[label=cdbe.02-01,style=php,caption=Kode Sumber \textit{Back-end} Melihat Daftar Barang]
+\begin{lstlisting}[label=cdbe.02-01,style=php,caption=Implementasi \textit{Back-end} Melihat Daftar Barang]
 /*	file : app/Http/Controllers/HomeController*/
  public function index(){
 	 /*	method : GET */
@@ -22,7 +23,7 @@ Halaman ini hanya dapat diakses oleh pengguna yang sudah terdaftar dan sudah log
  }
 \end{lstlisting}
 
-\begin{lstlisting}[label=cdv.02-01,style=htmlcssjs,caption=Kode Sumber Vue Melihat Daftar Barang]
+\begin{lstlisting}[label=cdv.02-01,style=htmlcssjs,caption=Implementasi Vue Melihat Daftar Barang]
 <div>
 	 <img :src="imgUrl"  class="img-responsive" />
 	 
@@ -82,7 +83,7 @@ export default {
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{images/bab4/ui/02-01.png}
-	\caption{Halaman antarmuka Melihat Barang yang Dilelang }
+	\caption{Halaman Antarmuka Melihat Barang yang Dilelang }
 	\label{ui.02-01}
 \end{figure}
 
