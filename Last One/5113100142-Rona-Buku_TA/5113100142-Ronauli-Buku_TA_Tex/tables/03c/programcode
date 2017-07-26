@@ -1,0 +1,88 @@
+CTF - BLOD  ;Branch Leader On-Boarding Program ;BM/BME,AME;26;Certification;-;-;-;-
+CTF - COLL  ;Intro To Collection ;Collection Staff;26;Certification;-;-;-;-
+CTF - ROAP  ;RO Acceleration Program - Commba;Commba;26;Certification;-;-;-;-
+CTF - NTP  ;New Teller Program;New Teller;26;Certification;-;-;-;-
+CTF - SBO  ;SME Business Orientation;RM SME ;26;Certification;-;-;-;-
+CTF - PRM  ;Preferred Relationship Manager Acceleration Program;Sales Funding Promote to RM;26;Certification;-;-;-;-
+CTF - SFP  ;Sales Foundation Program;Sales Funding SnD new Joiner;26;Certification;-;-;-;-
+T&F - TRADE 100 ;Basic Trade Finance;All Staff;26;Technical & Functional;-;-;-;-
+T&F - ACC 100 ;Basic Bank Accounting;All Staff;26;Technical & Functional;-;-;-;-
+T&F - TAX 100 ;Basic Tax;All Staff;26;Technical & Functional;-;-;-;-
+T&F - LGL 100 ;Basic Legal;All Staff;26;Technical & Functional;-;-;-;-
+T&F - PBK  ;Prapurna Bakti;All Staff;26;Technical & Functional;-;-;-;-
+T&F - TRSY 100 ;Basic Treasury;All Staff;26;Technical & Functional;-;-;-;-
+T&F - LEAN 101 ;Basic Lean Six Sigma;All Staff;26;Technical & Functional;-;-;-;-
+T&F - FMP  ;Financial Modelling & Projection;CoBa;26;Technical & Functional;-;-;-;-
+T&F - COLL 100 ;Practical Basic Collection;Collection Staff;26;Technical & Functional;-;-;-;-
+T&F - COLL 200 ;Let's make a deal for Collection - Secured/Unsecured;Collector ( >6Mos);26;Technical & Functional;-;-;-;-
+T&F - COLL 300 ;Managing Collection as Organization;Collection Staff;26;Technical & Functional;-;-;-;-
+T&F - COLL 400 ;Leading Collection Team;Collection Staff;26;Technical & Functional;-;-;-;-
+T&F - VCH  ;Value Chain;Commba, CoBa, SME, Reviewer;26;Technical & Functional;-;-;-;-
+T&F - CMG  ;Cash Management;Commba, CoBa, SME, Rexiewer;26;Technical & Functional;-;-;-;-
+T&F - MTF  ;Marketing Trade Finance;Commba, CoBa, SME, Rexiewer;26;Technical & Functional;-;-;-;-
+T&F - LEAN 100 ;Lean Process Improxement tools;Operations Staff;26;Technical & Functional;-;-;-;-
+T&F - BSBA  ;Building Small Business Accumen;RM SME ;26;Technical & Functional;-;-;-;-
+T&F - HIPN  ;High Impact Prospecting & Networking;RM SME ;26;Technical & Functional;-;-;-;-
+T&F - BOP 100 Mod 1&2;Branch CBO LODS Operations Program Module 1 & 2;Operations Staff - Mgr;26;Continuing Professional Education (CPE);-;-;-;-
+T&F - BOP 100 Mod 3&4;Branch CBO LODS Operations Program Module 3 & 4;Operations Staff - Mgr;26;Continuing Professional Education (CPE);-;-;-;-
+T&F - BOP 100 Mod 5&6;Branch CBO LODS Operations Program Module 5 & 6;Operations Staff - Mgr;26;Continuing Professional Education (CPE);-;-;-;-
+T&F - FIT 100 Mod 1;Fundamental IT Program Module 1;IT Staff - Div Head;26;Continuing Professional Education (CPE);-;-;-;-
+T&F - FIT 100 Mod 2;Fundamental IT Program Module 2;IT Staff - Div Head;26;Sales & Service;-;-;-;-
+T&F - FIT 100 Mod 3;Fundamental IT Program Module 3;IT Staff - Div Head;26;Sales & Service;-;-;-;-
+T&F - FIT 100 Mod 4;Fundamental IT Program Module 4;IT Staff - Div Head;26;Sales & Service;-;-;-;-
+T&F - FIT 100 Mod 5;Fundamental IT Program Module 5;IT Staff - Div Head;26;Sales & Service;-;-;-;-
+CPE - WPD 100 ;WAPERD;Marketing Employee;26;Sales & Service;-;-;-;-
+CPE - WPD 101 ;PPL WAPERD;Marketing Employee;26;Sales & Service;-;-;-;-
+CPE - QIA 100 ;Qualified Internal Audit (QIA) Matrikulasi;Senior Auditor;26;Sales & Service;-;-;-;-
+CPE - QIA 101 ;Qualified Internal Audit (QIA) Manajerial;Senior Auditor;26;Sales & Service;-;-;-;-
+SS - BM 100 ;Sales Management Series;BM >1year moderate;26;Sales & Service;-;-;-;-
+SS - BME 200 ;Sales People Development Series;BME >1year moderate;26;Sales & Service;-;-;-;-
+SS - BM 300 ;Sales Coaching & Mentoring;Business Manager;26;Sales & Service;-;-;-;-
+SS - CALL 100 ;Phoning Skill and Etiquette for Call Center;Call Center Agent;26;Sales & Service;-;-;-;-
+SS - CALL 200 ;Business Writing for Call Center;Call Center Cust. Care + Admin;26;Sales & Service;-;-;-;-
+SS - CALL 300 ;Effective Call Center Quality Assurance;Call Center QA;26;Sales & Service;-;-;-;-
+SS - CALL 400 ;Leadership & Coaching Excellence for Call Center Supervisor;Call Center Supervisor;26;Islamic Banking;-;-;-;-
+SS - CS  ;Existing Customer Service Program;Customer Service;26;Islamic Banking;-;-;-;-
+SS - SLP 200 ;Service Leadership Program for Manager;FLM, BOSM;26;Islamic Banking;-;-;-;-
+SS - SLP 100 ;Service Leadership Program for Supervisor;Head Teller, Head CS, SBFLM;26;Islamic Banking;-;-;-;-
+SS - RM 100 ;Portofolio Asset Allocation ;New RM ;26;Islamic Banking;-;-;-;-
+SS - RM 200 ;Grow To Perform Program;Sales Consumer Banking under perform;26;Islamic Banking;-;-;-;-
+SS - RM 300 ;Crosselling Management Series;Sales FBS SnD;26;Islamic Banking;-;-;-;-
+SS - TELL  ;Existing Teller Program;Teller;26;Islamic Banking;-;-;-;-
+IB - SB 100 CONS;Syariah Banking for Consumer;AO Syariah;26;Islamic Banking;-;-;-;-
+IB - SB 100 ALL;Basic Syariah Banking;All employee;26;Islamic Banking;-;-;-;-
+IB - RAHN 100 ;Rahn For Assesor;Rahn Staff;26;Islamic Banking;-;-;-;-
+IB - RAHN 101 ;Rahn For DA Holder;Rahn DA holder;26;Islamic Banking;-;-;-;-
+IB - PKR  ;PKR iB – MMQ Training;Mortgage & Support Units;26;Islamic Banking;-;-;-;-
+IB - SB 100 SME;Syariah Banking for SME, Comba & Coba;RM SME, Comba & Coba;26;Islamic Banking;-;-;-;-
+IB - SB 100 CRED;Syariah Banking for Credam & Reviewer;All Credam & Rexiewer;26;Risk;-;-;-;-
+IB - LGL  ;Legal Aspect of Shariah Banking;Legal;26;Risk;-;-;-;-
+IB - IMBT  ;IMBT Training;All employee;26;Risk;-;-;-;-
+IB - RTO  ;Refinancing & Take Over Syariah;All employee;26;Risk;-;-;-;-
+IB - SISK  ;Sistem Siskohat ;OC Branchess Staff;26;Risk;-;-;-;-
+IB - HAJI  ;Business Haji;BM;26;Risk;-;-;-;-
+IB - HYB  ;Hybrid Contract;UUS;26;Risk;-;-;-;-
+IB - JUR  ;Jurisprudence ;UUS;26;Credit;-;-;-;-
+RISK - RMCP 101 ;RMCP Level 1;Min D4;26;Credit;-;-;-;-
+RISK - RMCP 102 ;RMCP Level 2;Min D3;26;Credit;-;-;-;-
+RISK - RMCP  ;RMCP Refreshment Program;Karyawan yang telah lulus certifikasi;26;Credit;-;-;-;-
+RISK - AFM  ;Anti Fraud Management (AFM);All Staff;26;Credit;-;-;-;-
+RISK - BCM  ;Business Continuity Management Awareness & Tindak Siaga Kejahatan dan Bencana;All Staff;26;Credit;-;-;-;-
+RISK - PI  ;Personal Integrity;All Staff;26;Credit;-;-;-;-
+RISK - CALP  ;Compliance, AML-KYC and Legal Program (CALP);All Staff;26;Credit;-;-;-;-
+CRD - TA  ;Technical Appraisal for Property;All Staff;26;Credit;-;-;-;-
+CRD - EFM  ;Effective Credit Write-up;CoBa, CommBa;26;Credit;-;-;-;-
+CRD - CREDIT 100 FAL;Financial Accounting for Lender (FAL);Coba, Credit, Comba, SME;26;Credit;-;-;-;-
+CRD - CREDIT 101 CLB;Commercial Loan to Business (CLB);Coba, Credit, Comba, SME;26;Credit;-;-;-;-
+CRD - CREDIT 102 MPL;Minimizing Problem Loan (MPL);Coba, Credit, Comba, SME;26;Credit;-;-;-;-
+CRD - CREDIT 103 SCW;Senior Credit Workshop (SCW);Coba, Credit, Comba, SME;26;Credit;-;-;-;-
+CRD - CREDIT 104 FSA;Financial Statement Analysis;Commba, CoBa, SME, Reviewer;26;Leadership & Management;-;-;-;-
+CRD - CREDIT  IU;Industrial Update;Commba, CoBa, SME, Rexiewer;26;Leadership & Management;-;-;-;-
+CRD - BCS  SYS;Business Credit System;"Credit Reviewer; Commercial & Corporate Banking; Operation & Legal ";26;Leadership & Management;-;-;-;-
+CRD - ACC  ;Analysing Consumer Credit;Credit Underwriting Manager;26;Leadership & Management;-;-;-;-
+CRD - WS  ;Workout Session & Basic Consumer Credit ;Credit Underwriting Staff  ;26;Leadership & Management;-;-;-;-
+CRD - SV  ;Signature Verification;Credit Underwriting Staff - Manager;26;Leadership & Management;-;-;-;-
+CRD - RCS  SYS;Retail Credit System;Credit Underwriting Staff - Manager;26;Leadership & Management;-;-;-;-
+CRD - BLF  ;Business Lending Fundamental (BLF);TCB/Program Development;26;Leadership & Management;-;-;-;-
+LM - MgrDP 300 ;CIMB Niaga Senior Manager Dev Program (CSMDP);U3-U2;26;Culture;-;-;-;-
+LM - MgrDP 200 ;CIMB Niaga Middle Manager Dev Program (CMMDP);U5-U4;26;Culture;-;-;-;-

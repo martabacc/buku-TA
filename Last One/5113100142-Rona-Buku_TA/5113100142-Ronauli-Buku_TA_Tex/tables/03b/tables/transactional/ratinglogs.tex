@@ -1,0 +1,23 @@
+ \begin{longtable}{|r|X|X|X|}
+ 	\caption{Kamus Data Tabel \textit{ratinglogs}}
+ 	\label{db-ratinglogs} \\ \hline
+ 	\textbf{No} & \textbf{Nama Atribut} & \textbf{Tipe Data} & \textbf{Keterangan} \\ \hline
+ 	\endfirsthead
+ 	
+ 	\multicolumn{4}{c}%
+ 	{\tablename\ \thetable{} -- lanjutan dari halaman sebelumnya} \\ \hline
+ 	\textbf{No} & \textbf{Nama Atribut} & \textbf{Tipe Data} & \textbf{Keterangan} \\ \hline
+ 	\endhead
+ 	
+ 	\hline
+ 	\endlastfoot
+\multicolumn{1}{|c|}{	1	}&	id	&	int	&	PK, \textit{Autoincrement}	\\ \hline
+\multicolumn{1}{|c|}{	2	}&	id\_user\_winner	&	varchar(50)	&	FK ID \textit{user} pemenang lelang	\\ \hline
+\multicolumn{1}{|c|}{	3	}&	id\_user\_auctioneer	&	int	&	FK ID \textit{user} penjual	\\ \hline
+\multicolumn{1}{|c|}{	4	}&	id\_item	&	int	&	FK ID barang yang diberi \textit{rating}	\\ \hline
+\multicolumn{1}{|c|}{	5	}&	\begin{tabular}[l]{@{}l@{}}status\_rating \\ \hline \_from\_winner\end{tabular}	&	int	&	\textit{Flag} apakah transaksi sudah diberi \textit{rating} oleh pemenang lelang	\\ \hline
+\multicolumn{1}{|c|}{	6	}&	\begin{tabular}[l]{@{}l@{}}status\_rating \\ \hline \_from\_auctioneer\end{tabular}	&	bigint	&	Flag apakah transaksi sudah diberi \textit{rating} oleh penjual barang	\\ \hline
+\multicolumn{1}{|c|}{	7	}&	id\_rating\_bidder	&	int	&	FK ID \textit{rating} di tabel \textit{ratingauctioneers}	\\ \hline
+\multicolumn{1}{|c|}{	8	}&	\begin{tabular}[l]{@{}l@{}}id\_rating \\ \hline \_auctioneer\end{tabular}	&	text	&	FK ID \textit{rating} di tabel \textit{ratingbidders}	\\ \hline
+
+ \end{longtable}

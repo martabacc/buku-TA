@@ -1,0 +1,91 @@
+\begin{longtable}{|X|X|}
+		\caption{Pengujian Fungsionalitas Fitur Manajemen Kupon}
+		\label{uji-fungsional-5-kupon}
+	\\
+	
+	\hline
+		\textbf{ID} & \textbf{UJ-1-KP05} \\ \hline
+	\endfirsthead
+	
+	\multicolumn{2}{r}%
+	{\tablename\ \thetable{} -- lanjutan dari halaman sebelumnya} \\
+	\hline 
+		\textbf{ID} & \textbf{UJ-1-KP05} \\ \hline
+	\endhead
+	
+	\hline \multicolumn{2}{|r|}{{Dilanjutkan ke halaman selanjutnya}} \\ \hline
+	\endfoot
+	
+	\hline
+	\endlastfoot
+	
+	\textbf{Referensi Kasus Penggunaan}
+		& KP05 \\ \hline
+	\textbf{Nama}
+		& Pengujian fitur manajemen kupon \\ \hline
+
+		
+	\textbf{Skenario 1}
+		& Menguji fitur melihat daftar kupon \\ \hline
+	Kondisi Awal
+		& Sistem menampilkan halaman yang menampilkan halaman daftar kupon\\ \hline
+	Data Uji
+		& - \\ \hline
+	Langkah pengujian
+		& Membuka halaman profil pengguna yang ingin dilihat \textit{review}nya. \\ \hline
+	Hasil yang Diharapkan
+		& Sistem berhasil menampilkan profil pengguna yang ingin dilihat \textit{review}nya. \\ \hline	
+	Hasil Pengujian
+		& 100\% berhasil \\ \hline	
+
+	\textbf{Skenario 2}
+		& Menguji fitur menambah kupon \\ \hline
+	Kondisi Awal
+		& Sistem menampilkan halaman tambah kupon beserta formnya\\ \hline
+	Data Uji
+		&  Data-data kupon yang ingin ditambahkan\\ \hline
+	Langkah pengujian
+		& \begin{enumerate}
+		\item Mengisi \textit{form} tambah kupon dengan informasi data uji
+		\item Setelah selesai mengisi, mengklik tombol ``Tambah''
+	\end{enumerate} \\ \hline
+	Hasil yang Diharapkan 
+		& Kupon berhasil ditambahkan, dan muncul di halaman daftar tambah kupon \\ \hline
+	Hasil Pengujian
+		& 100\% berhasil \\ \hline		
+		
+		
+	\textbf{Skenario 3}
+		& Menguji fitur memperbarui kupon \\ \hline
+	Kondisi Awal
+		& Sistem menampilkan halaman perbarui kupon\\ \hline
+	Data Uji
+		& Data ujinya adalah mengubah tanggal \textit{expiredate} kupon menjadi 1 minggu setelahnya \\ \hline
+	Langkah pengujian
+		& \begin{enumerate}
+		\item Memasukkan data uji ke dalam \textit{form}
+		\item Mengklik tombol ``Perbarui''
+	\end{enumerate} \\ \hline
+	Hasil yang Diharapkan
+		& Pesan berhasil terkirim dan di\textit{update} di halaman yang sedang dibuka secara \textit{realtime} \\ \hline
+	Hasil Pengujian
+		& 100\% berhasil \\ \hline		
+		
+		
+	\textbf{Skenario 4}
+		& Menguji fitur menggunakan kupon \\ \hline
+	Kondisi Awal
+		& Pengguna membuka halaman riwayat penawaran\\ \hline
+	Data Uji
+		& Kupon ``SKRIPSIBAHAGIA'' yang mendiskon harga sebesar 20\% dan ``AKULULUS'' yang merupakan kupon \textit{freeshipping}  \\ \hline
+	Langkah pengujian
+		& \begin{enumerate}
+		\item Memasukkan data uji ke dalam elemen \textit{input} nama kupon
+		\item Mengklik tombol ``Gunakan kupon''
+	\end{enumerate} \\ \hline
+	Hasil yang Diharapkan
+		& Kupon berhasil digunakan, dan muncul \textit{modal} yang menandakan kesuksesan penggunaan kupon \\ \hline
+	Hasil Pengujian
+		& 100\% berhasil \\ \hline	
+
+\end{longtable}

@@ -1,0 +1,22 @@
+ \begin{longtable}{|r|X|X|X|}
+ 	\caption{Kamus Data Tabel \textit{favorites}}
+ 	\label{db-favorites} \\ \hline
+ 	\textbf{No} & \textbf{Nama Atribut} & \textbf{Tipe Data} & \textbf{Keterangan} \\ \hline
+ 	\endfirsthead
+ 	
+ 	\multicolumn{4}{c}%
+ 	{\tablename\ \thetable{} -- lanjutan dari halaman sebelumnya} \\ \hline
+ 	\textbf{No} & \textbf{Nama Atribut} & \textbf{Tipe Data} & \textbf{Keterangan} \\ \hline
+ 	\endhead
+ 	
+ 	\hline
+ 	\endlastfoot
+ 	
+\multicolumn{1}{|c|}{	1	}&	id	&	bigint	&	PK, \textit{Autoincrement}	\\ \hline
+\multicolumn{1}{|c|}{	2	}&	id\_user	&	int	&	FK ID \textit{user}	\\ \hline
+\multicolumn{1}{|c|}{	3	}&	id\_item\_favorite	&	bigint	&	FK ID \textit{item}	\\ \hline
+\multicolumn{1}{|c|}{	4	}&	remove\_status	&	bool	&		\\ \hline
+\multicolumn{1}{|c|}{	5	}&	time\_listed	&	timestamp	&	Timestamp	\\ \hline
+
+
+ \end{longtable}

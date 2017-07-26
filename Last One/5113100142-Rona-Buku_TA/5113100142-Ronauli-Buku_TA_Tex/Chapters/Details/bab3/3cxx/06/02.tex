@@ -1,0 +1,53 @@
+	% Memasukkan kupon
+	
+	\begin{table}[H]
+		\centering
+		\caption{Spesifikasi Kasus Penggunaan: Mendaftarkan Barang Lelang}
+		\label{uc04.06}
+		\begin{tabular}{|r|p{8cm}|}
+			\hline
+			\textbf{Kode}
+			& UC-05.02
+			\\ \hline
+			\textbf{Nama}
+			& \textbf{Memasukkan Kupon pada Transaksi} 
+			\\ \hline
+			\textbf{Aktor}    
+			& Pengguna 
+			\\ \hline
+			\textbf{Deskripsi}
+			& Pengguna ingin menggunakan kupon/voucher yang ia miliki untuk pada sebuah transaksi
+			\\ \hline
+			\textbf{Tipe}
+			& Fungsional 
+			\\ \hline
+			\textbf{\textit{Precondition}}
+			& Pengguna belum berhasil melakukan \textit{submit} kode kupon ke dalam transaksi barang
+			\\ \hline
+			\textbf{\textit{Postcondition}} 
+			& Pengguna berhasil melakukan \textit{submit} kode kupon ke dalam transaksi barang
+			\\ \hline
+			\multicolumn{2}{|c|}
+			{\textbf{Alur Kejadian Normal}}
+			\\ \hline
+			\multicolumn{1}{|l|}{} & 
+			\begin{enumerate}
+				\item Pengguna membuka halaman 'Riwayat Transaksi Lelang'
+				\item Sistem menampilkan halaman Riwayat Transaksi Lelang pengguna
+				\item Pengguna mengklik tombol 'Masukkan Kupon' pada transaksi yang diinginkan
+				\item Sistem mengecek permintaan penggunaan kupon
+				\item Jika permintaan dapat diverifikasi dan valid, sistem menampilkan \textit{modal} berisi \textit{input field} kupon
+				\item Pengguna memasukkan kupon yang ingin dimasukkan, lalu mengklik tombol 'Submit'
+				\item Sistem memvalidasi kupon dan status barang
+				\item Jika valid, sistem menerapkan penggunaan kupon ke dalam transaksi barang
+				\item Sistem lalu menampilkan \textit{modal} yang berisi informasi sukses penggunaan kupon pada transaksi
+				% \item \label{uc0301-show1page}Sistem menampilkan halaman yang berisi form pendaftaran barang
+				% \item \label{al-0301-a} Sistem memvalidasi data yang dimasukkan pengguna
+			\end{enumerate}
+			\\ \hline
+			\multicolumn{2}{|c|}{\textbf{Alur Kejadian Alternatif}} \\ \hline
+			\multicolumn{1}{|l|}{}                   
+			& -
+			\\ \hline
+		\end{tabular}
+	\end{table}

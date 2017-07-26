@@ -1,0 +1,158 @@
+\select@language {bahasa}
+\contentsline {chapter}{ABSTRAK}{iii}{Doc-Start}
+\contentsline {chapter}{ABSTRACT}{v}{Doc-Start}
+\contentsline {chapter}{KATA PENGANTAR}{vii}{chapter*.1}
+\contentsline {chapter}{DAFTAR ISI}{ix}{chapter*.2}
+\contentsline {chapter}{DAFTAR TABEL}{xiii}{chapter*.3}
+\contentsline {chapter}{DAFTAR GAMBAR}{xvii}{chapter*.4}
+\contentsline {chapter}{DAFTAR KODE SUMBER}{xxi}{chapter*.5}
+\contentsline {chapter}{\numberline {I}PENDAHULUAN}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Latar Belakang}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Rumusan Masalah}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}Batasan Masalah}{2}{section.1.3}
+\contentsline {section}{\numberline {1.4}Tujuan}{2}{section.1.4}
+\contentsline {section}{\numberline {1.5}Metodologi}{3}{section.1.5}
+\contentsline {section}{\numberline {1.6}Sistematika Penulisan}{3}{section.1.6}
+\contentsline {chapter}{\numberline {II}LANDASAN TEORI}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Amazon Web Service}{5}{section.2.1}
+\contentsline {section}{\numberline {2.2} \textit {Concurrency}}{5}{section.2.2}
+\contentsline {section}{\numberline {2.3} \textit {Data Growth}}{6}{section.2.3}
+\contentsline {section}{\numberline {2.4} JSON \textit {Web Token}}{6}{section.2.4}
+\contentsline {section}{\numberline {2.5} Laravel}{7}{section.2.5}
+\contentsline {section}{\numberline {2.6} Laravel Dusk}{7}{section.2.6}
+\contentsline {section}{\numberline {2.7} Lelang}{8}{section.2.7}
+\contentsline {section}{\numberline {2.8} Lelang Daring/Lelang \textit {Online}}{8}{section.2.8}
+\contentsline {section}{\numberline {2.9} MongoDB}{9}{section.2.9}
+\contentsline {section}{\numberline {2.10}Node.js}{9}{section.2.10}
+\contentsline {section}{\numberline {2.11}NoSQL}{9}{section.2.11}
+\contentsline {section}{\numberline {2.12} npm / \textit {Node Package Manager}}{10}{section.2.12}
+\contentsline {section}{\numberline {2.13} PostgreSQL}{10}{section.2.13}
+\contentsline {section}{\numberline {2.14} \textit {Repository Pattern}}{11}{section.2.14}
+\contentsline {section}{\numberline {2.15} SendGrid}{11}{section.2.15}
+\contentsline {section}{\numberline {2.16} \textit {Service Worker}}{12}{section.2.16}
+\contentsline {section}{\numberline {2.17} SMTP / \textit {Simple Mail Transfer Protocol}}{12}{section.2.17}
+\contentsline {section}{\numberline {2.18} Socket.io}{12}{section.2.18}
+\contentsline {section}{\numberline {2.19} \textit {Test Script}}{13}{section.2.19}
+\contentsline {section}{\numberline {2.20} \textit {Vendu Reglement}}{13}{section.2.20}
+\contentsline {section}{\numberline {2.21} Vue.js / Vue}{13}{section.2.21}
+\contentsline {section}{\numberline {2.22} \textit {Whitelist}}{14}{section.2.22}
+\contentsline {chapter}{\numberline {III}ANALISA DAN PERANCANGAN SISTEM}{15}{chapter.3}
+\contentsline {section}{\numberline {3.1}Analisa Sistem}{15}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Deskripsi Umum Aplikasi}{15}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Analisa Paper Rujukan}{16}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}\textit {Bussiness Aspects of Software Engineering}}{18}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}\textit {Technical Analysis}}{20}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}Analisa Penulis}{21}{subsection.3.1.5}
+\contentsline {subsubsection}{\numberline {3.1.5.1}Analisa \textit {User Experience} dari \textit {E-Commerce} di Indonesia}{21}{subsubsection.3.1.5.1}
+\contentsline {subsubsection}{\numberline {3.1.5.2}Analisa Keamanan pada koneksi Soket}{22}{subsubsection.3.1.5.2}
+\contentsline {subsubsection}{\numberline {3.1.5.3}Analisa \textit {Best Practice} dalam Struktur Perangkat Lunak}{23}{subsubsection.3.1.5.3}
+\contentsline {subsubsection}{\numberline {3.1.5.4}Analisa Aplikasi Serupa}{24}{subsubsection.3.1.5.4}
+\contentsline {subsubsection}{\numberline {3.1.5.5}Analisa Aplikasi Serupa}{24}{subsubsection.3.1.5.5}
+\contentsline {subsubsection}{\numberline {3.1.5.6}Analisa Penyimpanan Data}{24}{subsubsection.3.1.5.6}
+\contentsline {subsubsection}{\numberline {3.1.5.7}Spesifikasi Kebutuhan Fungsional}{26}{subsubsection.3.1.5.7}
+\contentsline {subsection}{\numberline {3.1.6}Spesifikasi Kebutuhan Non-Fungsional}{28}{subsection.3.1.6}
+\contentsline {subsection}{\numberline {3.1.7}Tugas dan Hak Akses Aktor}{30}{subsection.3.1.7}
+\contentsline {section}{\numberline {3.2}Perancangan Sistem}{31}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Spesifikasi Kasus Penggunaan}{31}{subsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.1.1}KP01. Manajemen Autentikasi Pengguna}{33}{subsubsection.3.2.1.1}
+\contentsline {subsubsection}{\numberline {3.2.1.2}KP02. Manajemen Transaksi Lelang}{37}{subsubsection.3.2.1.2}
+\contentsline {subsubsection}{\numberline {3.2.1.3}KP03. Manajemen Barang Lelang}{42}{subsubsection.3.2.1.3}
+\contentsline {subsubsection}{\numberline {3.2.1.4}KP04. Manajemen Interaksi Antarpengguna}{47}{subsubsection.3.2.1.4}
+\contentsline {subsubsection}{\numberline {3.2.1.5}KP05. Manajemen Voucher}{52}{subsubsection.3.2.1.5}
+\contentsline {subsection}{\numberline {3.2.2}Identifikasi Komponen Fundamental}{57}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}\textit {Technology Options}}{57}{subsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.3.1}\textsc {Nginx} sebagai \textit {web} Server}{58}{subsubsection.3.2.3.1}
+\contentsline {subsubsection}{\numberline {3.2.3.2}\textsc {PostgreSQL} untuk Penyimpanan Data}{58}{subsubsection.3.2.3.2}
+\contentsline {subsubsection}{\numberline {3.2.3.3}\textsc {MongoDB} untuk Penyimpanan Data Nontansaksional}{58}{subsubsection.3.2.3.3}
+\contentsline {subsubsection}{\numberline {3.2.3.4}\textsc {CDN} sebagai \textit {Assets Sources}}{59}{subsubsection.3.2.3.4}
+\contentsline {subsubsection}{\numberline {3.2.3.5}\textsc {AWS S3} untuk \textit {Content Growth Scalability}}{59}{subsubsection.3.2.3.5}
+\contentsline {subsubsection}{\numberline {3.2.3.6}\textsc {SendGrid} untuk SMTP Relay}{60}{subsubsection.3.2.3.6}
+\contentsline {subsubsection}{\numberline {3.2.3.7}\textsc {Vue.js} untuk \textit {Workloads Sharing}}{60}{subsubsection.3.2.3.7}
+\contentsline {subsubsection}{\numberline {3.2.3.8}\textsc {Socket.io} untuk Mekanisme Asinkronus}{61}{subsubsection.3.2.3.8}
+\contentsline {subsubsection}{\numberline {3.2.3.9}\textsc {JWT} untuk Keamanan Soket}{61}{subsubsection.3.2.3.9}
+\contentsline {subsection}{\numberline {3.2.4}Arsitektur Perangkat Lunak}{61}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Struktur Aplikasi}{63}{subsection.3.2.5}
+\contentsline {subsubsection}{\numberline {3.2.5.1}\textit {Presentation Tier}}{63}{subsubsection.3.2.5.1}
+\contentsline {subsubsection}{\numberline {3.2.5.2}\textit {Bussiness Tier}}{64}{subsubsection.3.2.5.2}
+\contentsline {subsubsection}{\numberline {3.2.5.3}\textit {Integration Tier}}{64}{subsubsection.3.2.5.3}
+\contentsline {subsubsection}{\numberline {3.2.5.4}\textit {Resource/Data Access Tier}}{65}{subsubsection.3.2.5.4}
+\contentsline {subsection}{\numberline {3.2.6}Perancangan \textit {Database}}{65}{subsection.3.2.6}
+\contentsline {subsubsection}{\numberline {3.2.6.1}\textit {Conceptual Database Model}}{66}{subsubsection.3.2.6.1}
+\contentsline {subsubsection}{\numberline {3.2.6.2}\textit {Physical Database Model}}{67}{subsubsection.3.2.6.2}
+\contentsline {subsection}{\numberline {3.2.7}Kamus Data \textit {Database} Transaksional}{68}{subsection.3.2.7}
+\contentsline {subsubsection}{\numberline {3.2.7.1}Kamus data tabel \textit {administrator}}{68}{subsubsection.3.2.7.1}
+\contentsline {subsubsection}{\numberline {3.2.7.2}Kamus data tabel \textit {bids}}{68}{subsubsection.3.2.7.2}
+\contentsline {subsubsection}{\numberline {3.2.7.3}Kamus data tabel \textit {categories}}{69}{subsubsection.3.2.7.3}
+\contentsline {subsubsection}{\numberline {3.2.7.4}Kamus data tabel \textit {coupon}}{69}{subsubsection.3.2.7.4}
+\contentsline {subsubsection}{\numberline {3.2.7.5}Kamus data tabel \textit {coupon\_usages}}{70}{subsubsection.3.2.7.5}
+\contentsline {subsubsection}{\numberline {3.2.7.6}Kamus data tabel \textit {favorites}}{71}{subsubsection.3.2.7.6}
+\contentsline {subsubsection}{\numberline {3.2.7.7}Kamus data tabel \textit {issues}}{71}{subsubsection.3.2.7.7}
+\contentsline {subsubsection}{\numberline {3.2.7.8}Kamus data tabel \textit {issue\_types}}{72}{subsubsection.3.2.7.8}
+\contentsline {subsubsection}{\numberline {3.2.7.9}Kamus data tabel \textit {items}}{72}{subsubsection.3.2.7.9}
+\contentsline {subsubsection}{\numberline {3.2.7.10}Kamus data tabel \textit {rating\_auctioneers}}{74}{subsubsection.3.2.7.10}
+\contentsline {subsubsection}{\numberline {3.2.7.11}Kamus data tabel \textit {ratingbidders}}{74}{subsubsection.3.2.7.11}
+\contentsline {subsubsection}{\numberline {3.2.7.12}Kamus data tabel \textit {ratinglogs}}{75}{subsubsection.3.2.7.12}
+\contentsline {subsubsection}{\numberline {3.2.7.13}Kamus data tabel \textit {userverifications}}{76}{subsubsection.3.2.7.13}
+\contentsline {subsubsection}{\numberline {3.2.7.14}Kamus data tabel \textit {userissues}}{76}{subsubsection.3.2.7.14}
+\contentsline {subsubsection}{\numberline {3.2.7.15}Kamus data tabel \textit {users}}{77}{subsubsection.3.2.7.15}
+\contentsline {subsection}{\numberline {3.2.8}Kamus Data \textit {Database} Non-Transaksional}{78}{subsection.3.2.8}
+\contentsline {subsubsection}{\numberline {3.2.8.1}Kamus Data \textit {Collection} userchats}{78}{subsubsection.3.2.8.1}
+\contentsline {subsubsection}{\numberline {3.2.8.2}Kamus Data \textit {Collection} chatroom}{78}{subsubsection.3.2.8.2}
+\contentsline {subsubsection}{\numberline {3.2.8.3}Kamus Data \textit {Collection} itemimages}{79}{subsubsection.3.2.8.3}
+\contentsline {chapter}{\numberline {IV}IMPLEMENTASI}{81}{chapter.4}
+\contentsline {section}{\numberline {4.1}Implementasi Perangkat Keras/ \textit {Deployment}}{81}{section.4.1}
+\contentsline {section}{\numberline {4.2}Implementasi Perangkat Lunak}{82}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Strategi \textit {Deployment} \textsc {Nginx}}{82}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Strategi \textit {Deployment} \textsc {Vue.js}}{83}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Strategi \textit {Whitelisting} pada \textsc {SendGrid}}{87}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Implementasi Antarmuka / \textit {User Interface}}{89}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Antarmuka Halaman Registrasi}{89}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Implementasi Halaman \textit {Login}}{91}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Melihat Daftar Barang yang Dillang}{93}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Menawar Barang}{96}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Mendaftarkan Barang untuk Dilelang}{100}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.6}Memperbarui Barang}{106}{subsection.4.3.6}
+\contentsline {subsection}{\numberline {4.3.7}Melihat Barang yang Didaftarkan}{115}{subsection.4.3.7}
+\contentsline {subsection}{\numberline {4.3.8}Menambahkan Review}{116}{subsection.4.3.8}
+\contentsline {subsection}{\numberline {4.3.9}Mengirimkan Pesan}{121}{subsection.4.3.9}
+\contentsline {subsection}{\numberline {4.3.10}Melihat Kotak Pesan}{127}{subsection.4.3.10}
+\contentsline {subsection}{\numberline {4.3.11}Memasukkan Kupon}{132}{subsection.4.3.11}
+\contentsline {subsection}{\numberline {4.3.12}Melihat Daftar Pengguna}{135}{subsection.4.3.12}
+\contentsline {subsection}{\numberline {4.3.13}Menambahkan Kupon}{136}{subsection.4.3.13}
+\contentsline {subsection}{\numberline {4.3.14}Melihat Daftar Kupon}{138}{subsection.4.3.14}
+\contentsline {subsection}{\numberline {4.3.15}Memperbarui Kupon}{139}{subsection.4.3.15}
+\contentsline {chapter}{\numberline {V}PENGUJIAN DAN EVALUASI}{143}{chapter.5}
+\contentsline {section}{\numberline {5.1}Pengujian}{143}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Metode Pengujian}{143}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Pengujian Fungsionalitas}{144}{subsection.5.1.2}
+\contentsline {subsubsection}{\numberline {5.1.2.1}Pengujian Fungsionalitas Manajemen Autentikasi}{144}{subsubsection.5.1.2.1}
+\contentsline {subsubsection}{\numberline {5.1.2.2}Pengujian Fungsionalitas Manajemen Penawaran}{146}{subsubsection.5.1.2.2}
+\contentsline {subsubsection}{\numberline {5.1.2.3}Pengujian Fungsionalitas Manajemen Barang Lelang}{148}{subsubsection.5.1.2.3}
+\contentsline {subsubsection}{\numberline {5.1.2.4}Pengujian Fungsionalitas Manajemen Interaksi Antarpengguna}{150}{subsubsection.5.1.2.4}
+\contentsline {subsubsection}{\numberline {5.1.2.5}Pengujian Fungsionalitas Manajemen Kupon}{152}{subsubsection.5.1.2.5}
+\contentsline {subsection}{\numberline {5.1.3}Pengujian Kecepatan}{155}{subsection.5.1.3}
+\contentsline {subsubsection}{\numberline {5.1.3.1}Lingkungan Pengujian}{155}{subsubsection.5.1.3.1}
+\contentsline {subsubsection}{\numberline {5.1.3.2}Hasil Pengujian}{156}{subsubsection.5.1.3.2}
+\contentsline {subsection}{\numberline {5.1.4}\textit {User Experience Assesment}}{157}{subsection.5.1.4}
+\contentsline {subsubsection}{\numberline {5.1.4.1}Deskripsi Pengujian}{157}{subsubsection.5.1.4.1}
+\contentsline {subsubsection}{\numberline {5.1.4.2}Hasil Pengujian}{158}{subsubsection.5.1.4.2}
+\contentsline {subsection}{\numberline {5.1.5}\textit {Maintainability Assesment}}{159}{subsection.5.1.5}
+\contentsline {subsubsection}{\numberline {5.1.5.1}Deskripsi Pengujian}{159}{subsubsection.5.1.5.1}
+\contentsline {subsubsection}{\numberline {5.1.5.2}Hasil Pengujian}{159}{subsubsection.5.1.5.2}
+\contentsline {section}{\numberline {5.2}Evaluasi}{160}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Pendekatan Hukum Perlindungan Konsumen}{160}{subsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.1.1}Perlindungan Hukum Bagi Konsumen Belanja \textit {Online}}{161}{subsubsection.5.2.1.1}
+\contentsline {subsubsection}{\numberline {5.2.1.2}Kontrak Elektronik dan Perlindungan Konsumen berdasarkan UU ITE dan PP PSTE}{164}{subsubsection.5.2.1.2}
+\contentsline {subsubsection}{\numberline {5.2.1.3}Kesimpulan}{165}{subsubsection.5.2.1.3}
+\contentsline {subsection}{\numberline {5.2.2}Evaluasi Pengujian \textit {User Experience}}{166}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Evaluasi Pengujian Kecepatan}{168}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Evaluasi Pengujian \textit {Maintainability}}{169}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}\textit {Summary} Evaluasi}{171}{subsection.5.2.5}
+\contentsline {chapter}{\numberline {VI}PENUTUP}{173}{chapter.6}
+\contentsline {section}{\numberline {6.1}Kesimpulan}{173}{section.6.1}
+\contentsline {section}{\numberline {6.2}Saran}{173}{section.6.2}
+\contentsline {chapter}{DAFTAR PUSTAKA}{175}{chapter*.61}
+\contentsline {chapter}{\numberline {A}Kode Sumber}{179}{appendix.A}
+\contentsline {chapter}{\numberline {B}Kuisioner Pengujian \textit {User Experience}}{189}{appendix.B}
+\contentsline {chapter}{\numberline {C}Kuisioner Pengujian \textit {Maintainability}}{201}{appendix.C}
+\contentsline {chapter}{BIODATA PENULIS}{209}{appendix*.73}

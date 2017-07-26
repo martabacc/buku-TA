@@ -1,0 +1,47 @@
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2017.5.23)  10 JUN 2017 15:30
+entering extended mode
+**./sendgrid.tex
+(sendgrid.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+! Undefined control sequence.
+l.1 \subsubsection
+                  {\textit{Whitelisting} pada \textsc{SendGrid}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \subsubsection{\textit{Whitelisting}
+                                         pada \textsc{SendGrid}}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+)
+! Emergency stop.
+<*> ./sendgrid.tex
+                  
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 10 strings out of 428410
+ 101 string characters out of 3156958
+ 53073 words of memory out of 3000000
+ 3503 multiletter control sequences out of 15000+200000
+ 4287 words of font info for 16 fonts, out of 3000000 for 9000
+ 1328 hyphenation exceptions out of 8191
+ 13i,1n,10p,93b,79s stack positions out of 5000i,500n,10000p,200000b,50000s
+No pages of output.

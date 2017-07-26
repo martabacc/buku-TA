@@ -1,0 +1,78 @@
+\chapter{PENDAHULUAN}
+  Pada bab ini akan dipaparkan mengenai garis besar Tugas Akhir yang meliputi latar belakang, tujuan, rumusan dan batasan permasalahan, metodologi pembuatan Tugas Akhir, dan sistematika penulisan.
+  
+  \section{Latar Belakang}	
+	\indent Transaksi jual beli saat ini sudah dapat dilakukan lewat berbagai cara, antara lain menggunakan \textit{e-commerce}, atau lewat \textit{social media}, atau bisa dengan melelang di aplikasi lelang \textit{online}. Sedikit berbeda dengan teknik penjualan di lelang online, karena aplikasi ini dapat diakses oleh banyak orang, tentu saja pelelang (\textit{auctioneer}) tidak terbatas pada ruang lelang saja, tapi bisa berasal dari manapun selama mereka mengakses aplikasi tersebut.  Lelang \textit{online} ini tentu saja mendatangkan banyak manfaat, selain biaya yang lebih efisien dan hemat, dan juga tidak menguras waktu karena siapapun, kapanpun, dimanapun dapat mengajukan penawaran ataupun melelang barangnya tanpa harus pergi ke instansi tertentu dan melakukan lelang dengan cara konvensional.
+    \\
+    \indent Aplikasi serupa telah banyak, namun banyak aspek yang kurang dalam aplikasi tersebut, seperti informasi dari lelang tidak \textit{reliable} (misal: stok barang ternyata sudah habis), alur proses yang tidak jelas sehingga membingungkan pengguna aplikasi, informasi yang kurang jelas, dan produk yang didapatkan ternyata tidak sesuai dengan informasi pada saat produk dilelang (\textit{bad information}) \cite{ying-feng_kuo_online_2016}. Dan dari masalah teknis aplikasi, beberapa sumber menyatakan bahwa ketidakjelasan alur proses yang kurang diperhatikan oleh para developer aplikasi lelang \textit{online} menjadi beberapa alasan yang kuat mengapa lelang \textit{online} masih kurang diminati \cite{noauthor_sistem_nodate}.
+    \\
+	\indent Diharapkan, dengan adanya aplikasi ini, beberapa kelemahan yang masih ada pada aplikasi lelang \textit{online} saat ini dapat diperbaiki, dan juga dapat dapat membantu proses \textit{online} yang ada di Indonesia, dan juga mampu memperbaiki citra aplikasi lelang \textit{online} sehingga mampu meningkatkan minat masyarakat terhadap lelang \textit{online}.
+    
+  \section{Rumusan Masalah}
+    Rumusan masalah yang diangkat dalam tugas akhir ini adalah sebagai berikut: 
+    \begin{enumerate}
+      \item Bagaimana cara membangun aplikasi lelang \textit{online} berbasis web?
+      \item Bagaimana bentuk rancangan arsitektur aplikasi dan fitur yang sesuai dengan hasil analisa kelemahan aplikasi serupa dan strategi penyelesaian sesuai dengan paper acuan \cite{ying-feng_kuo_online_2016}?
+    \end{enumerate}
+
+  \section{Batasan Masalah}
+  	\label{batasan-masalah}
+    Dari permasalahan yang telah diuraikan di atas, terdapat beberapa batasan masalah pada tugas akhir ini, yaitu:
+    \begin{enumerate}
+      \item Aplikasi berbasis \textit{web} dengan bahasa pemrograman PHP.
+      \item Aplikasi berbasis kerangka kerja Laravel.
+      \item Basis data yang digunakan adalah PostgreSQL.
+      \item Aplikasi tidak mencakup proses pembayaran.
+    \end{enumerate}
+
+  \section{Tujuan}
+  \label{tujuan}
+    Tujuan dari pengerjaan Tugas Akhir ini adalah: 
+    \begin{enumerate}
+      \item Membangun aplikasi lelang \textit{online} berbasis \textit{web} yang lebih kredibel sesuai dengan paper yang dijadikan acuan pada tugas akhir ini. 
+    \end{enumerate}
+    
+    
+    \section{Metodologi}
+    \label{metodologi}
+	Langkah-langkah yang ditempuh dalam pengerjaan Tugas Akhir ini yaitu:
+    \begin{enumerate}
+    	\item \textbf{Studi Literatur \& Observasi} \\
+		       Pada tahap ini dilakukan pengumpulan dan penggalian informasi lewat literatur maupun artikel-artikel dari internet, yang diperlukan dalam proses perancangan dan implementasi sistem.
+    	\item \textbf{Analisa dan Perancangan Sistem}\\
+		    	Pada tahap ini, dilakukan analisa dan pendefinisian kebutuhan sistem yang digunakan untuk masalah yang dihadapi. Tahapan-tahapannya adalah sebagai berikut:
+		    	\begin{enumerate}[label=\alph*]
+		    		\item analisa aktor yang terlibat dalam sistem;
+		    		\item perancangan model kasus penggunaan;
+		    		\item perancangan bisnis proses dalam aplikasi;
+		    		\item analisa masalah-masalah yang sering muncul saat penulis membuat aplikasi sebelumnya;
+		    		\item perancangan dan desain arsitektur aplikasi; dan
+		    		\item perancangan antarmuka aplikasi.
+		    	\end{enumerate}
+    	\item \textbf{Implementasi}\\
+		    	Tahap ini merupakan implementasi dari rancangan yang telah dibuat pada tahap sebelumnya.
+    	\item \textbf{Pengujian dan Evaluasi}\\
+		    	Pada tahap ini, dilakukan pengujian terhadap aplikasi terhadap fungsionalitas dan non-fungsionalitas aplikasi. 
+	   	\end{enumerate}
+	   	
+    \section{Sistematika Penulisan}	
+	    Buku Tugas Akhir ini bertujuan untuk mendapatkan gambaran dari pengerjaan Tugas Akhir ini. Secara garis besar, buku Tugas Akhir terdiri atas beberapa bagian seperti berikut ini:
+	    \begin{labeling}{\textbf{Bab III}}
+	    	\item[\textbf{Bab I}] 
+		    	\textbf{Pendahuluan}\\
+				Bab ini berisi latar belakang masalah, tujuan dan manfaat pembuatan Tugas Akhir, permasalahan, batasan masalah, metodologi yang digunakan, dan sistematika penyusunan Tugas Akhir. 
+	    	\item[\textbf{Bab II}] \textbf{Dasar Teori} \\
+		    	Bab ini membahas beberapa teori penunjang yang berhubungan dengan pokok pembahasan dan mendasari pembuatan Tugas Akhir ini. 
+	    	\item[\textbf{Bab III}] \textbf{Analisa dan Perancangan Sistem} \\ 
+		    	Bab ini membahas mengenai analisa dan perancangan aplikasi. Perancangan aplikasi meliputi perancangan data, arsitektur, proses dan struktur program.
+	    	\item[\textbf{Bab IV}] \textbf{Implementasi} \\
+		    	Bab ini berisi deskripsi lengkap implementasi aplikasi.		    	
+	    	\item[\textbf{Bab V}] \textbf{Pengujian dan Evaluasi} \\
+		    	Bab ini membahas pengujian untuk menguji apakah aplikasi sudah tepat sasaran pada kebutuhan fungsional dan non-fungsional yang dirumuskan pada tahap Analisa dan Perancangan Sistem (Bab III).
+	    	\item[\textbf{Bab VI}] 	\textbf{Kesimpulan dan Saran}\\
+    	Bab ini berisi kesimpulan dari hasil pengujian yang dilakukan, dan membahas saran beserta \textit{further enchancements} untuk pengembangan sistem lebih lanjut. \\
+\textbf{Daftar Pustaka}\\
+Merupakan daftar referensi yang digunakan untuk mengembangkan Tugas Akhir.\\
+		\textbf{Lampiran}\\
+		Merupakan bab tambahan yang berisi hal-hal terkait yang penting dalam aplikasi ini.
+		\end{labeling}

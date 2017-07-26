@@ -1,0 +1,24 @@
+    
+\subsection{Perancangan \textit{Contents, Assets and Data Storages}}
+
+	\begin{enumerate}
+	    \item \textbf{Data Citra/Gambar disimpan di \textsc{Amazon \textit{web} Services}} \newline
+	    \indent Gambar-gambar barang yang didaftarkan untuk dilelang, disimpan di \textit{cloud} dengan menggunakan \textit{Amazon \textit{web} Services}. Alasan-alasan menggunakan AWS sebagai data storage untuk gambar adalah sebagai berikut :
+	        \begin{enumerate}[noitemsep,topsep=0pt]
+	        \item Skalabilitas aplikasi lebih terjaga. 
+	        \newline Dengan memisahkan penyimpanan antara gambar dan server sehingga lebih mudah me\textit{maintain} perkembangan aplikasi, dan lebih fokus terhadap pengembangan aplikasi.
+	        \item Menyediakan \textit{built-in} keamanan, fleksibel dan efisiensi \ref{wikipedia_amazon_2016}
+	        \item Mencoba belajar menggunakan Amazon \textit{web} Services
+	        \end{enumerate}
+	        
+	    \item \textbf{Data \textit{Assets} Website}
+	    \newline
+	    \indent Untuk data \textit{assets} yang dibutuhkan untuk website, terdapat beberapa kriteria penyimpanan berikut
+	    
+	      \begin{itemize}[noitemsep,topsep=0pt]
+	      \item Jika file tersebut sudah umum digunakan dan terdapat file CDNnya, maka akan akses CDNnya
+	      \newline
+	      Hal ini dimaksudkan agar \textit{loading} lebih cepat, sesuai dengan yang tercantum pada sumber \ref{sitepoint_7_2011}
+	      \item Jika file tersebut merupakan \textit{custom asset}, \textit{asset} yang dikustomisasi khusus untuk aplikasi ini, maka asset tersebut akan disimpan dalam server.
+	      \end{itemize}
+    \end{enumerate}

@@ -1,0 +1,51 @@
+	% Menawar/melelang barang
+	
+	\begin{table}[H]
+		\centering
+		\caption{Spesifikasi Kasus Penggunaan: Mencari Barang Lelang}
+		\label{uc02.03}
+		\begin{tabular}{|r|p{8cm}|}
+			\hline
+			\textbf{Kode}                                                    
+			& UC-02.03                                                     
+			\\ \hline
+			\textbf{Nama}                                                    
+			& \textbf{Mencari Barang Lelang}                                         
+			\\ \hline
+			\textbf{Aktor}                                                   
+			& Pengguna                                                    
+			\\ \hline
+			\textbf{Deskripsi}
+			& Pengguna ingin mencari barang lelang dengan kriteria nama tertentu
+			\\ \hline
+			\textbf{Tipe}                                                    
+			& Fungsional
+			\\ \hline
+			\textbf{\textit{Pre Condition}}
+			& Pengguna menemukan barang lelang yang ia cari dengan kriteria \textit{string}.
+			\\ \hline
+			\textbf{\textit{Post Condition}}
+			& Pengguna menemukan barang lelang yang ia cari dengan kriteria \textit{string} masukan.
+			\\ \hline
+			\multicolumn{2}{|c|}
+			{\textbf{Alur Kejadian Normal}}
+			\\ \hline
+			\multicolumn{1}{|l|}{} & 
+			\begin{enumerate}
+				\item Pengguna memasukkan kriteria \textit{string }pencarian di \textit{field} masukan di \textit{Header Bar}
+				\item Setelah selesai, pengguna mengklik tombol "Cari"
+				\item Sistem mencari barang terdaftar yang sesuai dengan kriteria masukan pengguna
+				\item \label{uc0202-a} Jika ketemu, sistem menampilkan halaman "Hasil Pencarian" beserta barang yang sesuai dengan kriteria pengguna.
+				\item Pengguna lalu mengklik barang yang sesuai dengan keinginan
+				\item Sistem menampilkan detail barang yang sesuai dengan keinginan pengguna
+			\end{enumerate}
+			\\ \hline
+			\multicolumn{2}{|c|}
+			{\textbf{Alur Kejadian Alternatif}} 
+			\\ \hline
+			\multicolumn{1}{|l|}{}                                           
+			& -
+			\\ \hline
+		\end{tabular}
+	\end{table}	
+	

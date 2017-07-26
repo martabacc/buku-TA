@@ -1,0 +1,71 @@
+\begin{longtable}{|X|X|}
+		\caption{Pengujian Fungsionalitas Fitur Manajemen Akun}
+		\label{uji-fungsional-1-akun}
+	\\
+	
+	\hline
+		\textbf{ID} & \textbf{UJ-1-KP01} \\ \hline
+	\endfirsthead
+	
+	\multicolumn{2}{r}%
+	{\tablename\ \thetable{} -- lanjutan dari halaman sebelumnya} \\
+	\hline 
+		\textbf{ID} & \textbf{UJ-1-KP01} \\ \hline
+	\endhead
+	
+	\hline \multicolumn{2}{|r|}{{Dilanjutkan ke halaman selanjutnya}} \\ \hline
+	\endfoot
+	
+	\hline
+	\endlastfoot
+	
+	\textbf{Referensi Kasus Penggunaan }
+		& KP01 \\ \hline
+	\textbf{Nama}
+		& Pengujian fitur manajemen autentikasi \\ \hline
+	\textbf{Skenario 1}
+		& Menguji fitur registrasi \\ \hline
+	Kondisi Awal
+		& Sistem menampilkan halaman registrasi beserta form registrasi\\ \hline
+	Data Uji
+		& Data uji menggunakan data penulis \\ \hline
+	Langkah pengujian
+		& \begin{enumerate}
+			\item Form registrasi diisi sesuai data uji
+			\item Setelah selesai mengisi, mengklik tombol "Registrasi"
+		\end{enumerate} \\ \hline
+	Hasil yang Diharapkan
+		& Sistem berhasil menyimpan data tersebut, \textit{email} konfirmasi terkirim ke \textit{mailbox} \textit{email} yang didaftarkan \\ \hline	
+	Hasil Pengujian
+		& 100\% berhasil \\ \hline	
+
+	\textbf{Skenario 2}
+		& Menguji fitur \textit{login} \\ \hline
+	Kondisi Awal
+		& Sistem menampilkan form \textit{login} \\ \hline
+	Data Uji
+		& Data uji menggunakan data penulis yang sudah diregistrasi sebelumnya \\ \hline
+	Langkah pengujian
+		& \begin{enumerate}
+		\item Form tersebut diisi sesuai data uji
+		\item Setelah selesai mengisi, mengklik tombol "\textit{Login}"
+	\end{enumerate} \\ \hline
+	Hasil yang Diharapkan
+		& Login berhasil  \\ \hline
+	Hasil Pengujian
+		& 100\% berhasil \\ \hline	
+		
+		
+	\textbf{Skenario 3}
+		& Menguji fitur konfirmasi \textit{email} \\ \hline
+	Kondisi Awal
+		& Pengguna sedang membuka \textit{email} dan mengklik \textit{link} yang dikirimkan oleh sistem \\ \hline
+	Data Uji
+		& Data uji menggunakan data penulis yang sudah diregistrasi sebelumnya \\ \hline
+	Langkah pengujian &
+		Mengklik URL dari URL konfirmasi \textit{email} yang dikirimkan oleh sistem \\ \hline
+	Hasil yang Diharapkan
+		& \textit{Email} berhasil dikonfirmasi \\ \hline
+	Hasil Pengujian
+		& 100\% berhasil \\ \hline	
+\end{longtable}

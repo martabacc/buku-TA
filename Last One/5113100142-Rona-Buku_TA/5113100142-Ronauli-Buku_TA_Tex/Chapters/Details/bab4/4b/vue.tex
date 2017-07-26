@@ -1,0 +1,36 @@
+\subsection{Strategi \textit{Deployment} \textsc{Vue.js}}
+	% todo inline numbering
+	
+\begin{enumerate}
+\item \textbf{\textit{Package Dependencies}} \\
+	Pada versi terbaru Laravel (5.4*), Laravel secara \textit{default} menyertakan \textit{package} Laravel Mix - yaitu fitur untuk \textit{compiling assets} dengan Webpack, dengan hasil akhir \textit{compiled assets} (terutama \textit{script} Javascript) yang eksekusinya jauh lebih cepat, karena menggunakan V8 -- sebuah \textit{engine} Javascript yang telah dioptimasi yang bersifat \textit{just-in-time} (JIT) yang memproduksi \textit{machine code} dari sebuah \textit{script} Javascript lalu dieksekusi.\\
+  
+  \textbf{\textit{Main Problem}} \\
+  Masalah muncul saat versi Laravel yang digunakan untuk membangun aplikasi adalah versi (5.3) -- dan jika Laravelnya di\textit{upgrade}, tidak ada jaminan bahwa \textit{deprecated dependencies} (keadaan dimana sebuah \textit{package} tidak di\textit{support} oleh versi terbaru) -- yang berarti harus \textit{refactoring code} yang pasti memakan waktu lama.\\			  
+
+	\textbf{\textit{Insights}} \\
+	Penulis menganalisa perbedaan mendasar package.json antara Laravel 5.3 dan 5.4 adalah sebagai berikut:
+	\begin{enumerate}[label={\alph*}.]
+  	  	\item Basis : Perubahan basis yang awalnya Gulp menjadi Webpack
+  	  	\item \textit{Dependencies} : Webpack ternyata menggunakan beberapa plugin tambahan yang tidak diakomodasi dalam package.json di versi 5.3
+  	  	\item \textit{Run Script} : Terdapat beberapa perubahan signifikan terhadap \textit{run script alias} di versi 5.4 - dibandingkan pada versi 5.3.
+  	  	\item \textit{Additional Files} : Terdapat beberapa file konfigurasi tambahan agar proses kompilasi aset dapat berjalan dengan baik.
+	\end{enumerate}
+	\ \\
+  
+  \textbf{\textit{Solution}} \\
+  Penulis lalu mengoreksi dan \textit{update package.json} dengan pendekatan \textit{trial and error}, dan bisa terselesaikan dengan mengkonfigurasi \textit{package.json} sesuai pada Kode Sumber \ref{kode-sumber-package}.\\
+
+				  
+\item 
+	\textbf{\textit{Dependencies Optimization}} \textbf{\textit{Problem}} \\
+	Setelah menulis beberapa \textit{script} Vue, penulis menganalisa bahwa setiap \textit{script} Vue ternyata mempunyai \textit{dependencies} yang sama, yaitu axios, Promise, toastr dan vue. Setiap file Vue membutuhkan \textit{scripts} seperti pada Kode Sumber \ref{webpack}. Hal ini mengakibatkan semua \textit{file} vue yang di\textit{compile} ukurannya cukup besar (kurang lebih sebesar 400KB), padahal sebenarnya di dalam setiap \textit{file} tersebut sebenarnya ada yang sama. Hal ini tentu tidak efektif, karna sebenarnya hal-hal yang sama tersebut bisa dipisahkan, dan dijadikan \textit{cache} sehingga \textit{loading} halaman bisa jauh lebih cepat.\\
+		
+	\textbf{\textit{Insight \& Solution}} \\
+	Setelah penulis berdiskusi di forum Slack, beberapa pengguna Vue menyarankan untuk \textit{compile} keseluruhan \textit{dependencies} yang digunakan kedalam satu \textit{file} terpisah, dan hanya menulis logika Vue untuk setiap file Vue, Isi \textit{file} webpack.mix.js (\textit{file} yang di\textit{compile} oleh Webpack) seperti pada Kode Sumber \ref{webpack-optimized}.
+
+\end{enumerate}
+\input{sourceCode/04/vue/package}
+\input{sourceCode/04/vue/dependencies}
+\input{sourceCode/04/vue/webpack-opt}
+\input{sourceCode/04/vue/html-include}
