@@ -3,13 +3,9 @@
 
 ## The Author
 
-*Ronauli Silva N.S. - 5113100142*
-
 *Informatics Engineering Department, Information Technology Faculty*
 
 *Institut Teknologi Sepuluh Nopember, Soerabadja*
-
-*contact at : ronayumik@gmail.com*
 
 ---
 ## TLDR
